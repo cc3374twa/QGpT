@@ -1,7 +1,8 @@
 # QGpT: Improving Table Retrieval with Question Generation from Partial Tables
 
 This repository contains the source code, corpora, and model prompts for the paper:  
-📄 **Improving Table Retrieval with Question Generation from Partial Tables** (TRL Workshop @ ACL 2025)
+📄 [**Improving Table Retrieval with Question Generation from Partial Tables**](https://openreview.net/forum?id=Q8HOV0UMwA) (TRL Workshop @ ACL 2025)
+
 
 > We propose **QGpT**, a simple yet effective framework that improves open-domain table retrieval by generating synthetic questions from partial tables.
 
