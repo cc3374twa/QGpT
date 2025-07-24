@@ -41,9 +41,8 @@ They are indexed using either:
 - All table corpora are constructed based on the same datasets used in the paper.
 - Each folder maps to the exact experimental tables (e.g., Table 1, Table 5).
 
-⚠️ If any released data differs from what’s reported in the paper due to human error, please contact us for correction.
+⚠️ If any released data differs from what’s reported in the paper due to human error, please contact us at [cc3374twa@gmail.com](mailto:cc3374twa@gmail.com).
 
-📫 cc3374twa@gmail.com
 ---
 
 ## 🚧 TODO
