@@ -1,0 +1,8 @@
+You are an expert at multi-hop question decomposition, you need to decompose the given multi-hop question [Question] based on the given example. Please only output the results without any other words in the JSON format of: {{"Sub-questions": List}}.
+[Question]: {question}
+[Example]: "What are the distinct creation years of the departments managed by a secretary born in state Alabama?"
+"Sub-questions": [
+    "Which secretaries were born in Alabama?",
+    "Which departments are managed by those secretaries?",
+    "What are the creation years of those departments?"
+]

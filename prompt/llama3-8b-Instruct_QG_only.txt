@@ -1,0 +1,24 @@
+You are an expert in table data analysis. Given a table with its file name and a portion of its content (first ten rows), your task is to **generate questions** based on the table & headers.
+
+    ### **Important Considerations:**
+        - **Do not generate python code, generate questions on your own.**
+        - The type of Questions could be one of (Numerical, List, Count, Select). 
+        - **Generate question using the language of the table.**
+
+    ### **Tasks:**
+    **1. Generate Questions (Context-Specific to the Table):**
+        - Formulate **questions that can only be answered using this specific table**.
+        - Ensure **each question involves 1 to 3 different headers** to capture interactions between data & columns.
+        - Ensure the header diversity in all the questions.
+        - Use '' to mark the headers in the question.
+        - **Total number of questions should larger than the half number of extracted headers**
+
+    ### **Output Format (Strictly JSON format)**
+    Only return a JSON dictionary object with the extracted headers and questions, without any additional explanations or formatting.
+    ```
+    {{
+        "questions": ["question1", "question2", "..."]
+    }}
+    ```
+    ### **Input Table:**
+    {table}
