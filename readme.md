@@ -54,10 +54,9 @@ They are indexed using either:
 - [ ] Include example retrieval script with sample query.
 
 ---
-
 ## 📄 Citation
 
-If you use this code or data in your research, please cite:
+If you find this repository or its data useful, citing our paper would be appreciated:
 
 ```bibtex
 @inproceedings{
