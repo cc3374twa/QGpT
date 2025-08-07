@@ -8,6 +8,23 @@ This repository contains the source code, corpora, and model prompts for the pap
 
 ---
 
+## 🆕 Updates (25/08/08)
+
+We have released a original Question to gold-table datasets that we used to test recall@k:
+
+➡️ **Hugging Face Dataset:** [cc3374twa/QGPT](https://huggingface.co/datasets/cc3374twa/QGPT)
+
+This dataset contains question-table pairs from the original datasets, and is structured into multiple subsets (e.g., `E2E-WTQ`).
+
+To load the dataset using `datasets`:
+
+```python
+from datasets import load_dataset
+
+# Load the E2E-WTQ subset
+dataset = load_dataset("cc3374twa/QGPT", name="E2E-WTQ", split="test")
+```
+
 ## 🗂️ Repository Contents
 
 - 📁 `Corpora/`  
