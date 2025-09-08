@@ -8,6 +8,9 @@ This repository contains the source code, corpora, and model prompts for the pap
 
 ---
 
+<img width="961" height="496" alt="image" src="https://github.com/user-attachments/assets/5cbf5a1f-0af7-48bb-976d-b3c086162117" />
+
+
 ## 🆕 Updates (25/08/08)
 
 We have released a original Question to gold-table datasets that we used to test recall@k:
