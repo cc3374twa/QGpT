@@ -11,13 +11,23 @@ This repository contains the source code, corpora, and model prompts for the pap
 <img width="961" height="496" alt="image" src="https://github.com/user-attachments/assets/5cbf5a1f-0af7-48bb-976d-b3c086162117" />
 
 
-## 🆕 Updates (25/08/08)
+## 🆕 Updates (25/09/08)
 
-We have released a original Question to gold-table datasets that we used to test recall@k:
+Question-to-Gold-Table datasets for recall@k evaluation is avaliable here:
 
 ➡️ **Hugging Face Dataset:** [cc3374twa/QGPT](https://huggingface.co/datasets/cc3374twa/QGPT)
 
 This dataset contains question-table pairs from the original datasets, and is structured into multiple subsets (e.g., `E2E-WTQ`).
+
+There are six datasets:
+- E2E-WTQ
+- FeTAQA
+- MMQA 2tables
+- MMQA 3tables
+- MimoTable Chinese
+- MimoTable English
+- OTTQA
+
 
 To load the dataset using `datasets`:
 
