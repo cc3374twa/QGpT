@@ -11,9 +11,17 @@ This repository contains the source code, corpora, and model prompts for the pap
 <img width="961" height="496" alt="image" src="https://github.com/user-attachments/assets/5cbf5a1f-0af7-48bb-976d-b3c086162117" />
 
 
-## 🆕 Updates (25/09/08)
+## 🆕 Latest Updates
 
-Question-to-Gold-Table datasets for recall@k evaluation is avaliable here:
+### 🔥 New (25/09/09)
+- **Complete System Refactor**: Modular architecture with improved code organization
+- **New Components**: Added `query_evaluator.py`, `utils.py`, and `demo_restructured.py`
+- **Enhanced Features**: Batch processing, intelligent database naming, comprehensive evaluation
+- **Better User Experience**: Interactive interfaces, detailed error messages, and auto-detection
+
+### 📊 Dataset Release (25/09/08)
+
+Question-to-Gold-Table datasets for recall@k evaluation is available here:
 
 ➡️ **Hugging Face Dataset:** [cc3374twa/QGPT](https://huggingface.co/datasets/cc3374twa/QGPT)
 
@@ -75,16 +83,135 @@ They are indexed using either:
 
 ---
 
-## 🚧 TODO
+## � Quick Start
 
-- [ ] Add setup instructions for:
-  - Milvus
-  - RAGatouille
-- [ ] Provide a `requirements.txt` file for dependencies.
-- [ ] Include example retrieval script with sample query.
+### Prerequisites
+
+```bash
+pip install -r requirements.txt
+```
+
+**Main Dependencies:**
+- `pymilvus[model]>=2.3.0` - Milvus vector database client
+- `numpy>=1.21.0` - Numerical computing support
+
+### Usage
+
+#### 1. Run Demo
+```bash
+python demo_restructured.py
+```
+This demonstrates the complete workflow including corpus listing, embedding generation, and sample queries.
+
+#### 2. Build Embeddings
+
+**List all available corpora:**
+```bash
+python corpus_embedding_builder.py --list
+```
+
+**Build embeddings for a specific corpus:**
+```bash
+python corpus_embedding_builder.py Corpora/Table1_mimo_table_length_variation/mimo_en/1k_token.json
+```
+
+**Build embeddings for all corpora:**
+```bash
+python corpus_embedding_builder.py --all
+```
+
+#### 3. Search Tables
+
+**Basic search (auto-detect database):**
+```bash
+python qgpt_search.py "financial statements"
+```
+
+**Advanced search with options:**
+```bash
+# Specify output format and limit
+python qgpt_search.py "construction project" -n 10 -f json
+
+# Use specific database
+python qgpt_search.py "student data" --db qgpt_Table1_mimo_en.db
+```
+
+**List available databases:**
+```bash
+python qgpt_search.py --list-dbs
+```
+
+#### 4. Query Evaluation
+
+**Single query evaluation:**
+```bash
+python query_evaluator.py "financial data" --db qgpt_Table5_Single_Table_Retrieval_QGpT.db
+```
+
+**Batch evaluation with test files:**
+```bash
+python query_evaluator.py --test-file Test_Query_and_GroundTruth_Table/E2E-WTQ_test.json --db qgpt_Table5_Single_Table_Retrieval_QGpT.db
+```
+
+**Batch evaluation for all test sets:**
+```bash
+python query_evaluator.py --batch-eval
+```
+
+## 🏗️ System Architecture
+
+### Database Naming Convention
+
+The system automatically generates database and collection names based on corpus paths:
+
+```
+Corpus Path → Database Name
+Corpora/Table1_mimo_table_length_variation/mimo_en/1k_token.json 
+→ qgpt_Table1_mimo_table_length_variation_mimo_en.db
+
+Collection Name
+Table1_mimo_table_length_variation_mimo_en 
+→ embeddings_Table1_mimo_table_length_variation_mimo_en
+```
+
+### Core Components
+
+1. **`corpus_embedding_builder.py`** - Corpus embedding generator
+2. **`qgpt_search.py`** - Command-line search interface  
+3. **`query_evaluator.py`** - Query evaluation and testing
+4. **`utils.py`** - Common utility functions
+5. **`demo_restructured.py`** - Complete system demonstration
 
 ---
-## 📄 Citation
+## � Supported Datasets
+
+The system supports the following experimental corpora from the paper:
+
+- **Table 1**: `Table1_mimo_table_length_variation/` - Table length variation experiments
+- **Table 3**: `Table3_mimo_en_table_representation/` - Table representation methods  
+- **Table 5**: `Table5_Single_Table_Retrieval/` - Single table retrieval experiments
+- **Table 6**: `Table6_Multi_Table_Retrieval/` - Multi-table retrieval experiments
+- **Table 7**: `Table7_OTTQA/` - OTTQA dataset experiments
+
+Each corpus can be processed independently with automatic database naming and collection management.
+
+## 🔧 Technical Features
+
+- **Vector Dimension**: 768D (configurable)
+- **Search Speed**: Millisecond-level response
+- **Similarity Range**: 0.0 - 1.0 (higher = more similar)
+- **Language Support**: Chinese, English, and mixed queries
+- **Database Format**: Milvus vector database (.db files)
+- **Batch Processing**: Support for processing all corpora at once
+- **Evaluation Support**: Built-in evaluation against ground truth
+
+## 📞 Contact
+
+For questions or issues, please contact: [cc3374twa@gmail.com](mailto:cc3374twa@gmail.com)
+
+---
+
+## �📄 Citation
 
 If you find this repository or its data useful, citing our paper would be appreciated:
 

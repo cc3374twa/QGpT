@@ -1,39 +1,162 @@
-# QGpT: Improving Table Retrieval with Question Generation from Partial Tables
+# QGpT: Implementation Code Documentation
 
-This directory contains the implementation code for the QGpT framework.
+This directory contains the complete implementation code for the QGpT framework with a modular architecture.
 
-## Files Description
+## 🏗️ Architecture Overview
+
+The system has been refactored into distinct modules with clear responsibilities:
+
+### Core Modules
+
+1. **`utils.py`** - Common utility functions
+   - Data loading and preprocessing
+   - Corpus name extraction and database naming
+   - Result formatting utilities
+   - Structure validation
+
+2. **`corpus_embedding_builder.py`** - Corpus embedding generator
+   - Build embedding databases for specified corpora
+   - Support batch processing for all corpora
+   - Automatic database naming based on corpus paths
+   - Force rebuild capabilities
+
+3. **`query_evaluator.py`** - Query evaluation engine
+   - Single query testing
+   - Batch evaluation with ground truth comparison
+   - Support for test file processing
+   - Performance metrics calculation
+
+4. **`qgpt_search.py`** - Command-line search interface (updated)
+   - Intelligent database detection
+   - Multi-database support
+   - Flexible search interface with multiple output formats
+
+5. **`demo_restructured.py`** - System demonstration
+   - Complete workflow demonstration
+   - Automated setup and testing
+
+## 📁 Files Description
 
 ### Core Implementation
 - `corpus_embedding_builder.py` - Main embedding generation script for table corpora
 - `qgpt_search.py` - Command-line search interface for querying embedded tables
-- `example_retrieval.py` - Example script demonstrating retrieval functionality
+- `query_evaluator.py` - Query evaluation and testing framework
+- `utils.py` - Shared utility functions and helpers
+- `demo_restructured.py` - Complete system demonstration
+- `example_retrieval.py` - Legacy example script
 
-### Database
-- `qgpt_*.db` - Milvus vector database files containing embedded table corpora
+### Database Files
+- `qgpt_*.db` - Milvus vector database files with corpus-specific naming
 
-## Usage
+### Configuration & Documentation
+- `requirements.txt` - Python dependencies
+- `使用指南.md` - Chinese user guide
+- `readme.md` - English documentation
+- `UPDATED_README.md` - Architecture update documentation
 
-### 1. Generate Embeddings
+## 🚀 Usage Examples
+
+### 1. Quick Demo
 ```bash
-python corpus_embedding_builder.py
+python demo_restructured.py
 ```
 
-### 2. Search Tables (Command Line)
-```bash
-# Basic search
-python qgpt_search.py "財務報表"
+### 2. Generate Embeddings
 
-# With options
-python qgpt_search.py "financial statements" -n 10 -f json
+**List available corpora:**
+```bash
+python corpus_embedding_builder.py --list
 ```
 
+**Build specific corpus:**
+```bash
+python corpus_embedding_builder.py Corpora/Table1_mimo_table_length_variation/mimo_ch/1k_token.json
+```
 
+**Build all corpora:**
+```bash
+python corpus_embedding_builder.py --all
+```
 
-## Dependencies
-- pymilvus[model]
-- numpy
-- json
+**Force rebuild:**
+```bash
+python corpus_embedding_builder.py --all --force
+```
 
-## Note
-This implementation corresponds to the table retrieval experiments described in the paper, particularly focusing on the Milvus-based indexing approach mentioned in the Dataset Construction section.
+### 3. Search Operations
+
+**Auto-detect database:**
+```bash
+python qgpt_search.py "financial statements"
+```
+
+**Specify database and format:**
+```bash
+python qgpt_search.py "財務報表" --db qgpt_Table1_mimo_ch.db --format json
+```
+
+**List available databases:**
+```bash
+python qgpt_search.py --list-dbs
+```
+
+### 4. Query Evaluation
+
+**Single query evaluation:**
+```bash
+python query_evaluator.py "test query" --db qgpt_Table1_mimo_en.db
+```
+
+**Batch evaluation:**
+```bash
+python query_evaluator.py --batch-eval --save
+```
+
+**Test file evaluation:**
+```bash
+python query_evaluator.py --test-file Test_Query_and_GroundTruth_Table/E2E-WTQ_test.json --db qgpt_specific.db
+```
+
+## 🔧 Database Naming Convention
+
+The system uses intelligent naming based on corpus paths:
+
+```
+Corpus Path → Database Name
+Corpora/Table1_mimo_table_length_variation/mimo_ch/1k_token.json
+→ qgpt_Table1_mimo_table_length_variation_mimo_ch.db
+
+Collection Name
+Table1_mimo_table_length_variation_mimo_ch
+→ embeddings_Table1_mimo_table_length_variation_mimo_ch
+```
+
+## 📋 Dependencies
+
+Core dependencies from `requirements.txt`:
+- `pymilvus[model]>=2.3.0` - Milvus vector database client
+- `numpy>=1.21.0` - Numerical computing
+
+Optional dependencies for development:
+- `transformers>=4.20.0` - For enhanced text processing
+- `torch>=1.12.0` - PyTorch backend
+- `jupyter>=1.0.0` - Notebook environment
+
+## 🎯 Key Improvements
+
+1. **Modular Design**: Clear separation of concerns across modules
+2. **Intelligent Naming**: Auto-generated database names prevent conflicts  
+3. **Batch Processing**: Support for processing all corpora at once
+4. **Comprehensive Evaluation**: Built-in evaluation framework with metrics
+5. **User-Friendly Interface**: Interactive selection and detailed error messages
+6. **Flexible Configuration**: Configurable vector dimensions and search parameters
+
+## 📝 Implementation Notes
+
+This implementation corresponds to the table retrieval experiments described in the paper, focusing on:
+- Milvus-based vector indexing for efficient similarity search
+- Corpus-specific database management for organized data handling
+- Comprehensive evaluation framework for reproducible results
+- Support for both Chinese and English text processing
+
+The modular architecture allows for easy extension and maintenance while preserving the experimental setup described in the research paper.
