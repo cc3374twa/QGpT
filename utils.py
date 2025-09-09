@@ -50,6 +50,7 @@ def preprocess_text(text):
 def extract_corpus_name_from_path(file_path):
     """
     從檔案路徑中提取語料庫名稱，用於資料庫命名
+    每個 JSON 檔案對應一個獨立的資料庫
     
     Args:
         file_path: 語料庫檔案路徑
@@ -62,16 +63,17 @@ def extract_corpus_name_from_path(file_path):
     # 如果是在 Corpora 目錄下
     if 'Corpora' in path_obj.parts:
         corpora_index = path_obj.parts.index('Corpora')
-        if corpora_index + 1 < len(path_obj.parts):
-            # 取得 Corpora 後的第一個目錄名稱
-            corpus_dir = path_obj.parts[corpora_index + 1]
-            
-            # 如果有子目錄，也加入名稱
-            if corpora_index + 2 < len(path_obj.parts):
-                sub_dir = path_obj.parts[corpora_index + 2]
-                return f"{corpus_dir}_{sub_dir}"
-            else:
-                return corpus_dir
+        name_parts = []
+        
+        # 收集 Corpora 後的所有目錄名稱和檔案名稱（不含副檔名）
+        for i in range(corpora_index + 1, len(path_obj.parts)):
+            part = path_obj.parts[i]
+            # 如果是最後一個部分（檔案名），去掉副檔名
+            if i == len(path_obj.parts) - 1:
+                part = Path(part).stem
+            name_parts.append(part)
+        
+        return '_'.join(name_parts)
     
     # 如果不在 Corpora 目錄下，使用檔案名（不含副檔名）
     return path_obj.stem

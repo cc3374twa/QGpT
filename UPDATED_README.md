@@ -28,19 +28,31 @@
 
 ## 資料庫命名規則
 
-資料庫檔案會根據語料庫路徑自動命名：
+⚠️ **重要更新 (2025/09/09)**: 資料庫命名邏輯已變更為**每個 JSON 檔案對應一個獨立的資料庫**
+
+資料庫檔案會根據完整的語料庫路徑自動命名（包含檔案名稱）：
 
 ```
-語料庫路徑 → 資料庫名稱
-Corpora/Table1_mimo_table_length_variation/mimo_ch/1k_token.json → qgpt_Table1_mimo_table_length_variation_mimo_ch.db
-Corpora/Table5_Single_Table_Retrieval/QGpT/E2EWTQ_QGpT.json → qgpt_Table5_Single_Table_Retrieval_QGpT.db
+語料庫路徑 → 資料庫名稱（新版本 - 包含檔案名）
+Corpora/Table1_mimo_table_length_variation/mimo_ch/1k_token.json → qgpt_T1_MTLV_mimo_ch_1k_token.db
+Corpora/Table1_mimo_table_length_variation/mimo_ch/2k_token.json → qgpt_T1_MTLV_mimo_ch_2k_token.db
+Corpora/Table5_Single_Table_Retrieval/QGpT/E2EWTQ_QGpT.json → qgpt_T5SingleTRetrievalQGpTE2E.db
 ```
 
 向量集合名稱規則：
 ```
 語料庫名稱 → 集合名稱
-Table1_mimo_table_length_variation_mimo_ch → embeddings_Table1_mimo_table_length_variation_mimo_ch
+Table1_mimo_table_length_variation_mimo_ch_1k_token → emb_T1_MTLV_mimo_ch_1k_token
+Table5_Single_Table_Retrieval_QGpT_E2EWTQ_QGpT → emb_T5SingleTRetrievalQGpTE2EWTQQG
 ```
+
+### 命名簡化規則
+為符合 Milvus 命名限制，系統會自動簡化常見詞彙：
+- `Table` → `T`
+- `mimo_table_length_variation` → `MTLV`
+- `Single_Table_Retrieval` → `STR`
+- `Multi_Table_Retrieval` → `MTR`
+- `table_representation` → `TR`
 
 ## 使用說明
 

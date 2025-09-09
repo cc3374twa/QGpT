@@ -16,7 +16,8 @@ This repository contains the source code, corpora, and model prompts for the pap
 ### 🔥 New (25/09/09)
 - **Complete System Refactor**: Modular architecture with improved code organization
 - **New Components**: Added `query_evaluator.py`, `utils.py`, and `demo_restructured.py`
-- **Enhanced Features**: Batch processing, intelligent database naming, comprehensive evaluation
+- **🎯 Important Update**: Changed database naming convention - **each JSON file now corresponds to an independent database**
+- **Enhanced Features**: Batch processing, intelligent database naming with path-based uniqueness, comprehensive evaluation
 - **Better User Experience**: Interactive interfaces, detailed error messages, and auto-detection
 
 ### 📊 Dataset Release (25/09/08)
@@ -162,17 +163,41 @@ python query_evaluator.py --batch-eval
 
 ### Database Naming Convention
 
-The system automatically generates database and collection names based on corpus paths:
+The system automatically generates database and collection names based on corpus paths, with **each JSON file corresponding to an independent database**:
 
 ```
-Corpus Path → Database Name
+Corpus Path → Database Name (includes complete file path)
 Corpora/Table1_mimo_table_length_variation/mimo_en/1k_token.json 
-→ qgpt_Table1_mimo_table_length_variation_mimo_en.db
+→ qgpt_T1_MTLV_mimo_en_1k_token.db
 
 Collection Name
-Table1_mimo_table_length_variation_mimo_en 
-→ embeddings_Table1_mimo_table_length_variation_mimo_en
+Table1_mimo_table_length_variation_mimo_en_1k_token 
+→ emb_T1_MTLV_mimo_en_1k_token
 ```
+
+#### Name Simplification Rules:
+- `Table` → `T` (simplify table numbers)
+- `mimo_table_length_variation` → `MTLV`
+- `Single_Table_Retrieval` → `STR`
+- `Multi_Table_Retrieval` → `MTR`
+- `table_representation` → `TR`
+
+#### Example Mappings:
+```
+File Name                                         Database Name
+1k_token.json                            → qgpt_T1_MTLV_mimo_en_1k_token.db
+2k_token.json                            → qgpt_T1_MTLV_mimo_en_2k_token.db
+5k_token.json                            → qgpt_T1_MTLV_mimo_en_5k_token.db
+Full-Table(8k).json                      → qgpt_T1_MTLV_mimo_en_Full-T(8k).db
+E2EWTQ_QGpT.json                         → qgpt_T5SingleTRetrievalQGpTE2E.db
+pT.json                                  → qgpt_T3_mimo_en_TR_pT.db
+```
+
+#### Database Isolation Benefits:
+- **Precise Control**: Each corpus file is managed and queried independently
+- **Avoid Confusion**: Data from different experimental conditions is completely isolated
+- **Flexible Operations**: Individual datasets can be rebuilt, queried, or deleted separately
+- **Version Management**: Different versions of the same concept (e.g., different token lengths) are independent
 
 ### Core Components
 

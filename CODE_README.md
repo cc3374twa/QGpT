@@ -123,17 +123,31 @@ python query_evaluator.py --test-file test_dataset/E2E-WTQ_test.json --db qgpt_s
 
 ## 🔧 Database Naming Convention
 
-The system uses intelligent naming based on corpus paths:
+⚠️ **Updated (2025/09/09)**: Each JSON file now corresponds to an independent database.
+
+The system uses intelligent naming based on complete corpus paths:
 
 ```
-Corpus Path → Database Name
+Corpus Path → Database Name (includes filename)
 Corpora/Table1_mimo_table_length_variation/mimo_ch/1k_token.json
-→ qgpt_Table1_mimo_table_length_variation_mimo_ch.db
+→ qgpt_T1_MTLV_mimo_ch_1k_token.db
 
-Collection Name
-Table1_mimo_table_length_variation_mimo_ch
-→ embeddings_Table1_mimo_table_length_variation_mimo_ch
+Corpora/Table1_mimo_table_length_variation/mimo_ch/2k_token.json
+→ qgpt_T1_MTLV_mimo_ch_2k_token.db
+
+Collection Names
+Table1_mimo_table_length_variation_mimo_ch_1k_token
+→ emb_T1_MTLV_mimo_ch_1k_token
 ```
+
+### Naming Simplification Rules
+- `Table` → `T` (simplify table identifiers)
+- `mimo_table_length_variation` → `MTLV`
+- `Single_Table_Retrieval` → `STR`
+- `Multi_Table_Retrieval` → `MTR`
+- `table_representation` → `TR`
+
+This ensures each corpus file has its own isolated database for precise control and management.
 
 ## 📋 Dependencies
 
