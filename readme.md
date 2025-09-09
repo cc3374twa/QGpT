@@ -21,40 +21,44 @@ This repository contains the source code, corpora, and model prompts for the pap
 
 ### 📊 Dataset Release (25/09/08)
 
-Question-to-Gold-Table datasets for recall@k evaluation is available here:
+Question-to-Gold-Table datasets for recall@k evaluation are available in the `test_dataset/` folder of this repository.
 
-➡️ **Hugging Face Dataset:** [cc3374twa/QGPT](https://huggingface.co/datasets/cc3374twa/QGPT)
+This dataset contains question-table pairs from the original datasets, and is structured into multiple test files:
 
-This dataset contains question-table pairs from the original datasets, and is structured into multiple subsets (e.g., `E2E-WTQ`).
+Available test datasets:
+- **E2E-WTQ**: `test_dataset/E2E-WTQ_test.json`
+- **FeTAQA**: `test_dataset/FetaQA_test.json`
+- **MMQA 2tables**: `test_dataset/MMQA-2tables_test.json`
+- **MMQA 3tables**: `test_dataset/MMQA-3tables_test.json`
+- **MimoTable Chinese**: `test_dataset/MimoTable-Chinese_test.json`
+- **MimoTable English**: `test_dataset/MimoTable-English_test.json`
+- **OTTQA**: `test_dataset/OTT-QA_test.json`
 
-There are six datasets:
-- E2E-WTQ
-- FeTAQA
-- MMQA 2tables
-- MMQA 3tables
-- MimoTable Chinese
-- MimoTable English
-- OTTQA
-
-
-To load the dataset using `datasets`:
+To load a test dataset:
 
 ```python
-from datasets import load_dataset
+import json
 
-# Load the E2E-WTQ subset
-dataset = load_dataset("cc3374twa/QGPT", name="E2E-WTQ", split="test")
+# Load the E2E-WTQ test dataset
+with open('test_dataset/E2E-WTQ_test.json', 'r') as f:
+    dataset = json.load(f)
 ```
+
+➡️ **Alternative Source:** [cc3374twa/QGPT](https://huggingface.co/datasets/cc3374twa/QGPT) (Hugging Face Dataset)
 
 ## 🗂️ Repository Contents
 
 - 📁 `Corpora/`  
-  Table corpora used in each experimental table in the paper. Each subfolder corresponds to one experiment section:
-  - `Table1_mimo_table_length_variation/`
-  - `Table3_mimo_en_table_representation/`
-  - `Table5_Single_Table_Retrieval/`
-  - `Table6_Multi_Table_Retrieval/`
-  - `Table7_OTTQA/`
+  Experimental datasets corresponding to the tables reported in the paper. Each subfolder contains the exact data used for specific experiments:
+  - `Table1_mimo_table_length_variation/` → **Table 1** experiments (table length variation analysis)
+  - `Table3_mimo_en_table_representation/` → **Table 3** experiments (table representation methods)
+  - `Table5_Single_Table_Retrieval/` → **Table 5** experiments (single table retrieval evaluation)
+  - `Table6_Multi_Table_Retrieval/` → **Table 6** experiments (multi-table retrieval evaluation)
+  - `Table7_OTTQA/` → **Table 7** experiments (OTTQA dataset evaluation)
+
+- 📁 `test_dataset/`  
+  Question-to-Gold-Table datasets for recall@k evaluation across different benchmarks:
+  - E2E-WTQ, FeTAQA, MMQA (2tables/3tables), MimoTable (Chinese/English), OTTQA
 
 - 📁 `prompt/`  
   Prompt templates for question generation and query decomposition (MMQA).
@@ -64,13 +68,18 @@ dataset = load_dataset("cc3374twa/QGPT", name="E2E-WTQ", split="test")
 
 ---
 
-## 📦 Dataset Construction
+## 📦 Embedding Model & Vector Database
 
-The table corpora under `Corpora/` are preprocessed and embedded based on our proposed method.  
-They are indexed using either:
+The table corpora under `Corpora/` are processed using our proposed QGpT method and converted into vector embeddings for efficient retrieval.
 
-- **Milvus** → [https://milvus.io](https://milvus.io)  
-- **RAGatouille** → [https://github.com/AnswerDotAI/RAGatouille](https://github.com/AnswerDotAI/RAGatouille)
+**Embedding Models Supported:**
+- Dense embeddings via **Milvus** vector database → [https://milvus.io](https://milvus.io)  
+- Sparse embeddings via **RAGatouille** (ColBERT) → [https://github.com/AnswerDotAI/RAGatouille](https://github.com/AnswerDotAI/RAGatouille)
+
+**Current Implementation:**
+- **Default Model**: Milvus with 768-dimensional dense vectors
+- **Embedding Generation**: Automated via `corpus_embedding_builder.py`
+- **Storage Format**: Local Milvus database files (`.db`)
 
 ---
 

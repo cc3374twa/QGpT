@@ -48,6 +48,10 @@ The system has been refactored into distinct modules with clear responsibilities
 ### Database Files
 - `qgpt_*.db` - Milvus vector database files with corpus-specific naming
 
+### Test Datasets
+- `test_dataset/` - Question-to-Gold-Table datasets for recall@k evaluation
+  - E2E-WTQ, FeTAQA, MMQA (2tables/3tables), MimoTable (Chinese/English), OTTQA
+
 ### Configuration & Documentation
 - `requirements.txt` - Python dependencies
 - `使用指南.md` - Chinese user guide
@@ -114,7 +118,7 @@ python query_evaluator.py --batch-eval --save
 
 **Test file evaluation:**
 ```bash
-python query_evaluator.py --test-file Test_Query_and_GroundTruth_Table/E2E-WTQ_test.json --db qgpt_specific.db
+python query_evaluator.py --test-file test_dataset/E2E-WTQ_test.json --db qgpt_specific.db
 ```
 
 ## 🔧 Database Naming Convention

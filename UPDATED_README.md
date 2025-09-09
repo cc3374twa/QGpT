@@ -101,7 +101,7 @@ python query_evaluator.py "財務報表" --db qgpt_Table1_mimo_ch.db
 
 #### 使用測試檔案評估：
 ```bash
-python query_evaluator.py --test-file Test_Query_and_GroundTruth_Table/MiMoTable-English_test.json --db qgpt_Table1_mimo_en.db
+python query_evaluator.py --test-file test_dataset/MimoTable-English_test.json --db qgpt_Table1_mimo_en.db
 ```
 
 #### 批次評估所有測試集：
