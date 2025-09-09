@@ -34,15 +34,6 @@ Available test datasets:
 - **MimoTable English**: `test_dataset/MimoTable-English_test.json`
 - **OTTQA**: `test_dataset/OTT-QA_test.json`
 
-To load a test dataset:
-
-```python
-import json
-
-# Load the E2E-WTQ test dataset
-with open('test_dataset/E2E-WTQ_test.json', 'r') as f:
-    dataset = json.load(f)
-```
 
 ➡️ **Alternative Source:** [cc3374twa/QGPT](https://huggingface.co/datasets/cc3374twa/QGPT) (Hugging Face Dataset)
 
