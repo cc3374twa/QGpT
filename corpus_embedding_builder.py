@@ -19,7 +19,8 @@ import argparse
 import sys
 from pathlib import Path
 from typing import List, Dict, Optional
-from pymilvus import MilvusClient, model
+from pymilvus import MilvusClient
+from FlagEmbedding import BGEM3FlagModel
 
 from utils import (
     load_json_dataset, 
@@ -35,15 +36,17 @@ from utils import (
 class CorpusEmbeddingBuilder:
     """語料庫嵌入向量建立器"""
     
-    def __init__(self, embedding_dim=768):
+    def __init__(self, embedding_dim=1024):
         """
         初始化建立器
         
         Args:
-            embedding_dim: 嵌入向量維度
+            embedding_dim: 嵌入向量維度 (BGE-M3 輸出 1024 維)
         """
         self.embedding_dim = embedding_dim
-        self.embedding_fn = model.DefaultEmbeddingFunction()
+        print("🔄 初始化 BGE-M3 模型...")
+        self.embedding_fn = BGEM3FlagModel("BAAI/bge-m3", use_fp16=True)
+        print("✅ BGE-M3 模型載入完成")
         
     def build_embeddings(self, corpus_path, force_rebuild=False):
         """
@@ -117,8 +120,8 @@ class CorpusEmbeddingBuilder:
             
             # 生成嵌入向量
             print("🔄 生成嵌入向量...")
-            vectors = self.embedding_fn.encode_documents(documents)
-            print(f"向量維度: {self.embedding_fn.dim}, 向量數量: {len(vectors)}")
+            vectors = self.embedding_fn.encode(documents)['dense_vecs']  # BGE-M3 使用 encode 方法
+            print(f"向量維度: {len(vectors[0])}, 向量數量: {len(vectors)}")
             
             # 準備插入資料
             print("🔄 準備插入資料...")
@@ -126,8 +129,8 @@ class CorpusEmbeddingBuilder:
             for i, (doc, vec, meta) in enumerate(zip(documents, vectors, metadata)):
                 insert_data.append({
                     "id": i,
-                    "vector": vec,
-                    "text": doc[:500] + "..." if len(doc) > 500 else doc,  # 限制文字長度以節省空間
+                    "vector": vec.astype('float32').tolist(),  # 轉換為 float32 並轉為 list
+                    "text": doc,  # 限制文字長度以節省空間
                     "original_id": meta['id'],
                     "filename": meta['filename'],
                     "sheet_name": meta['sheet_name']
@@ -210,7 +213,7 @@ def main():
     parser.add_argument('--list', action='store_true', help='列出所有可用語料庫')
     parser.add_argument('--all', action='store_true', help='為所有語料庫建立嵌入向量')
     parser.add_argument('--force', action='store_true', help='強制重建已存在的資料庫')
-    parser.add_argument('--dim', type=int, default=768, help='嵌入向量維度 (預設: 768)')
+    parser.add_argument('--dim', type=int, default=1024, help='嵌入向量維度 (預設: 1024)')
     
     args = parser.parse_args()
     

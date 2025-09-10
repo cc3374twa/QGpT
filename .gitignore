@@ -2,3 +2,7 @@
 qgpt_T1_MTLV_mimo_ch.db
 qgpt_T1_MTLV_mimo_en.db
 __pycache__/utils.cpython-311.pyc
+qgpt_T1_MTLV_mimo_ch_2k_token.db
+qgpt_T1_MTLV_mimo_ch_1k_token.db
+qgpt_T1_MTLV_mimo_en_1k_token.db
+__pycache__/query_evaluator.cpython-311.pyc

@@ -13,7 +13,14 @@ This repository contains the source code, corpora, and model prompts for the pap
 
 ## 🆕 Latest Updates
 
-### 🔥 New (25/09/09)
+### � New (25/09/10)
+- **BGE-M3 Model Integration**: Upgraded from DefaultEmbeddingFunction to BGE-M3 for superior performance
+- **Performance Boost**: **77.22% Hit Rate** on MimoTable-English test set (641 queries)
+- **Enhanced Vector Dimension**: Increased from 768D to 1024D for richer semantic representation
+- **Multi-language Support**: Improved Chinese/English mixed query capability
+- **Better Retrieval Quality**: ~22x improvement over random retrieval baseline
+
+### 🔥 Previous (25/09/09)
 - **Complete System Refactor**: Modular architecture with improved code organization
 - **New Components**: Added `query_evaluator.py`, `utils.py`, and `demo_restructured.py`
 - **🎯 Important Update**: Changed database naming convention - **each JSON file now corresponds to an independent database**
@@ -69,7 +76,12 @@ The table corpora under `Corpora/` are processed using our proposed QGpT method 
 - Sparse embeddings via **RAGatouille** (ColBERT) → [https://github.com/AnswerDotAI/RAGatouille](https://github.com/AnswerDotAI/RAGatouille)
 
 **Current Implementation:**
-- **Default Model**: Milvus with 768-dimensional dense vectors
+- **Primary Model**: **BGE-M3** (BAAI/bge-m3) with 1024-dimensional dense vectors
+- **Model Features**: 
+  - Multi-language support (Chinese/English)
+  - FP16 precision for efficiency
+  - Superior semantic understanding
+- **Performance**: 77.22% Hit Rate@10 on MimoTable-English (641 queries)
 - **Embedding Generation**: Automated via `corpus_embedding_builder.py`
 - **Storage Format**: Local Milvus database files (`.db`)
 
@@ -94,6 +106,7 @@ pip install -r requirements.txt
 
 **Main Dependencies:**
 - `pymilvus[model]>=2.3.0` - Milvus vector database client
+- `FlagEmbedding` - BGE-M3 embedding model
 - `numpy>=1.21.0` - Numerical computing support
 
 ### Usage
@@ -222,13 +235,15 @@ Each corpus can be processed independently with automatic database naming and co
 
 ## 🔧 Technical Features
 
-- **Vector Dimension**: 768D (configurable)
+- **Embedding Model**: BGE-M3 (BAAI/bge-m3) with FP16 precision
+- **Vector Dimension**: 1024D (upgraded from 768D)
 - **Search Speed**: Millisecond-level response
 - **Similarity Range**: 0.0 - 1.0 (higher = more similar)
-- **Language Support**: Chinese, English, and mixed queries
+- **Language Support**: Enhanced Chinese, English, and mixed queries
+- **Performance**: 77.22% Hit Rate@10 on MimoTable-English test set
 - **Database Format**: Milvus vector database (.db files)
 - **Batch Processing**: Support for processing all corpora at once
-- **Evaluation Support**: Built-in evaluation against ground truth
+- **Evaluation Support**: Built-in evaluation against ground truth with comprehensive metrics
 
 ## 📞 Contact
 

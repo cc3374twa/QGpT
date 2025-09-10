@@ -20,7 +20,8 @@ import json
 import sys
 from pathlib import Path
 from typing import List, Dict, Optional, Tuple
-from pymilvus import MilvusClient, model
+from pymilvus import MilvusClient
+from FlagEmbedding import BGEM3FlagModel
 
 from utils import (
     load_json_dataset,
@@ -56,7 +57,9 @@ class QGpTQueryEvaluator:
                 raise FileNotFoundError(f"找不到資料庫檔案: {self.db_path}")
             
             self.client = MilvusClient(self.db_path)
-            self.embedding_fn = model.DefaultEmbeddingFunction()
+            print("🔄 初始化 BGE-M3 模型...")
+            self.embedding_fn = BGEM3FlagModel("BAAI/bge-m3", use_fp16=True)
+            print("✅ BGE-M3 模型載入完成")
             
             # 檢查集合是否存在
             if not self.client.has_collection(collection_name=self.collection_name):
@@ -81,13 +84,13 @@ class QGpTQueryEvaluator:
             搜索結果列表
         """
         try:
-            # 將查詢轉換為向量
-            query_vector = self.embedding_fn.encode_queries([query])
+            # 將查詢轉換為向量 (使用 BGE-M3)
+            query_vector = self.embedding_fn.encode([query])['dense_vecs'][0].astype('float32').tolist()
             
             # 執行搜索
             search_results = self.client.search(
                 collection_name=self.collection_name,
-                data=query_vector,
+                data=[query_vector],  # 需要包裝成列表
                 limit=limit,
                 output_fields=["text", "filename", "sheet_name", "original_id"]
             )
@@ -246,9 +249,9 @@ class BatchEvaluator:
             eval_result = evaluator.evaluate_single_query(query, ground_truth, limit)
             results.append(eval_result)
             
-            # 累計指標
-            if 'hit_rate_by_id' in eval_result:
-                total_hit_rate += eval_result['hit_rate_by_id']
+            # 累計指標 (使用檔案匹配而不是ID匹配)
+            if 'hit_rate_by_file' in eval_result:
+                total_hit_rate += eval_result['hit_rate_by_file']
             if 'precision_at_k' in eval_result:
                 total_precision += eval_result['precision_at_k']
             

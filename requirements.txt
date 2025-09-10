@@ -2,6 +2,7 @@
 
 # Core dependencies for QGpT table retrieval system
 pymilvus[model]>=2.3.0
+FlagEmbedding
 numpy>=1.21.0
 
 # Optional: For enhanced text processing
