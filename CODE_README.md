@@ -38,7 +38,6 @@ The system has been refactored into distinct modules with clear responsibilities
 - `qgpt_search.py` - Command-line search interface for querying embedded tables
 - `query_evaluator.py` - Query evaluation and testing framework
 - `utils.py` - Shared utility functions and helpers
-- `example_retrieval.py` - Legacy example script
 
 ### Database Files
 - `qgpt_*.db` - Milvus vector database files with corpus-specific naming
