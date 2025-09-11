@@ -91,13 +91,7 @@ pip install -r requirements.txt
 
 ### Usage
 
-#### 1. Run Demo
-```bash
-python demo_restructured.py
-```
-This demonstrates the complete workflow including corpus listing, embedding generation, and sample queries.
-
-#### 2. Build Embeddings
+#### 1. Build Embeddings
 
 **List all available corpora:**
 ```bash
@@ -114,7 +108,7 @@ python corpus_embedding_builder.py Corpora/Table1_mimo_table_length_variation/mi
 python corpus_embedding_builder.py --all
 ```
 
-#### 3. Query Evaluation
+#### 2. Query Evaluation
 
 **Single query evaluation:**
 ```bash
@@ -187,7 +181,6 @@ Currently Available Databases (30+ total):
 2. **`qgpt_search.py`** - Command-line search interface  
 3. **`query_evaluator.py`** - Query evaluation and testing
 4. **`utils.py`** - Common utility functions
-5. **`demo_restructured.py`** - Complete system demonstration
 
 ---
 

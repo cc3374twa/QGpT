@@ -31,10 +31,6 @@ The system has been refactored into distinct modules with clear responsibilities
    - Multi-database support
    - Flexible search interface with multiple output formats
 
-5. **`demo_restructured.py`** - System demonstration
-   - Complete workflow demonstration
-   - Automated setup and testing
-
 ## 📁 Files Description
 
 ### Core Implementation
@@ -42,7 +38,6 @@ The system has been refactored into distinct modules with clear responsibilities
 - `qgpt_search.py` - Command-line search interface for querying embedded tables
 - `query_evaluator.py` - Query evaluation and testing framework
 - `utils.py` - Shared utility functions and helpers
-- `demo_restructured.py` - Complete system demonstration
 - `example_retrieval.py` - Legacy example script
 
 ### Database Files
@@ -60,12 +55,7 @@ The system has been refactored into distinct modules with clear responsibilities
 
 ## 🚀 Usage Examples
 
-### 1. Quick Demo
-```bash
-python demo_restructured.py
-```
-
-### 2. Generate Embeddings
+### 1. Generate Embeddings
 
 **List available corpora:**
 ```bash
@@ -87,7 +77,7 @@ python corpus_embedding_builder.py --all
 python corpus_embedding_builder.py --all --force
 ```
 
-### 3. Search Operations
+### 2. Search Operations
 
 **Auto-detect database:**
 ```bash
@@ -104,7 +94,7 @@ python qgpt_search.py "財務報表" --db qgpt_Table1_mimo_ch.db --format json
 python qgpt_search.py --list-dbs
 ```
 
-### 4. Query Evaluation
+### 3. Query Evaluation
 
 **Single query evaluation:**
 ```bash
