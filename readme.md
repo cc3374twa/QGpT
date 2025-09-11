@@ -3,29 +3,11 @@
 This repository contains the source code, corpora, and model prompts for the paper:  
 📄 [**Improving Table Retrieval with Question Generation from Partial Tables**](https://openreview.net/forum?id=Q8HOV0UMwA) (TRL Workshop @ ACL 2025)
 
-
 > We propose **QGpT**, a simple yet effective framework that improves open-domain table retrieval by generating synthetic questions from partial tables.
 
 ---
 
 <img width="961" height="496" alt="image" src="https://github.com/user-attachments/assets/5cbf5a1f-0af7-48bb-976d-b3c086162117" />
-
-
-## 🆕 Latest Updates
-
-### � New (25/09/10)
-- **BGE-M3 Model Integration**: Upgraded from DefaultEmbeddingFunction to BGE-M3 for superior performance
-- **Performance Boost**: **77.22% Hit Rate** on MimoTable-English test set (641 queries)
-- **Enhanced Vector Dimension**: Increased from 768D to 1024D for richer semantic representation
-- **Multi-language Support**: Improved Chinese/English mixed query capability
-- **Better Retrieval Quality**: ~22x improvement over random retrieval baseline
-
-### 🔥 Previous (25/09/09)
-- **Complete System Refactor**: Modular architecture with improved code organization
-- **New Components**: Added `query_evaluator.py`, `utils.py`, and `demo_restructured.py`
-- **🎯 Important Update**: Changed database naming convention - **each JSON file now corresponds to an independent database**
-- **Enhanced Features**: Batch processing, intelligent database naming with path-based uniqueness, comprehensive evaluation
-- **Better User Experience**: Interactive interfaces, detailed error messages, and auto-detection
 
 ### 📊 Dataset Release (25/09/08)
 
@@ -41,7 +23,6 @@ Available test datasets:
 - **MimoTable Chinese**: `test_dataset/MimoTable-Chinese_test.json`
 - **MimoTable English**: `test_dataset/MimoTable-English_test.json`
 - **OTTQA**: `test_dataset/OTT-QA_test.json`
-
 
 ➡️ **Alternative Source:** [cc3374twa/QGPT](https://huggingface.co/datasets/cc3374twa/QGPT) (Hugging Face Dataset)
 
@@ -81,9 +62,8 @@ The table corpora under `Corpora/` are processed using our proposed QGpT method 
   - Multi-language support (Chinese/English)
   - FP16 precision for efficiency
   - Superior semantic understanding
-- **Performance**: 77.22% Hit Rate@10 on MimoTable-English (641 queries)
 - **Embedding Generation**: Automated via `corpus_embedding_builder.py`
-- **Storage Format**: Local Milvus database files (`.db`)
+- **Storage Format**: Local Milvus database files (`.db`) with intelligent naming
 
 ---
 
@@ -92,11 +72,11 @@ The table corpora under `Corpora/` are processed using our proposed QGpT method 
 - All table corpora are constructed based on the same datasets used in the paper.
 - Each folder maps to the exact experimental tables (e.g., Table 1, Table 5).
 
-⚠️ If any released data differs from what’s reported in the paper due to human error, please contact us at [cc3374twa@gmail.com](mailto:cc3374twa@gmail.com).
+⚠️ If any released data differs from what's reported in the paper due to human error, please contact us at [cc3374twa@gmail.com](mailto:cc3374twa@gmail.com).
 
 ---
 
-## � Quick Start
+## 🚀 Quick Start
 
 ### Prerequisites
 
@@ -134,37 +114,19 @@ python corpus_embedding_builder.py Corpora/Table1_mimo_table_length_variation/mi
 python corpus_embedding_builder.py --all
 ```
 
-#### 3. Search Tables
-
-**Basic search (auto-detect database):**
-```bash
-python qgpt_search.py "financial statements"
-```
-
-**Advanced search with options:**
-```bash
-# Specify output format and limit
-python qgpt_search.py "construction project" -n 10 -f json
-
-# Use specific database
-python qgpt_search.py "student data" --db qgpt_Table1_mimo_en.db
-```
-
-**List available databases:**
-```bash
-python qgpt_search.py --list-dbs
-```
-
-#### 4. Query Evaluation
+#### 3. Query Evaluation
 
 **Single query evaluation:**
 ```bash
-python query_evaluator.py "financial data" --db qgpt_Table5_Single_Table_Retrieval_QGpT.db
+python query_evaluator.py "Q: who is the best performance user" --db qgpt_T5SingleTRetrievalQGpTE2E.db
 ```
 
 **Batch evaluation with test files:**
 ```bash
-python query_evaluator.py --test-file Test_Query_and_GroundTruth_Table/E2E-WTQ_test.json --db qgpt_Table5_Single_Table_Retrieval_QGpT.db
+python query_evaluator.py --test-file test_dataset/E2E-WTQ_test.json --db qgpt_T5SingleTRetrievalQGpTE2E.db
+
+# Chinese dataset evaluation
+python query_evaluator.py --test-file test_dataset/MimoTable-Chinese_test.json --db qgpt_T1_MTLV_mimo_ch_1k_token.db
 ```
 
 **Batch evaluation for all test sets:**
@@ -204,6 +166,13 @@ File Name                                         Database Name
 Full-Table(8k).json                      → qgpt_T1_MTLV_mimo_en_Full-T(8k).db
 E2EWTQ_QGpT.json                         → qgpt_T5SingleTRetrievalQGpTE2E.db
 pT.json                                  → qgpt_T3_mimo_en_TR_pT.db
+
+Currently Available Databases (30+ total):
+- Table 1 (Length Variation): qgpt_T1_MTLV_mimo_ch/en_*.db (8 databases)
+- Table 3 (Representation): qgpt_T3_mimo_en_TR_*.db (5 databases)
+- Table 5 (Single Retrieval): qgpt_T5SingleTRetrieval*.db (8 databases)
+- Table 6 (Multi Retrieval): qgpt_T6MultiTRetrieval*.db (2 databases)
+- Table 7 (OTTQA): qgpt_T7*.db (3 databases)
 ```
 
 #### Database Isolation Benefits:
@@ -221,7 +190,8 @@ pT.json                                  → qgpt_T3_mimo_en_TR_pT.db
 5. **`demo_restructured.py`** - Complete system demonstration
 
 ---
-## � Supported Datasets
+
+## 📊 Supported Datasets
 
 The system supports the following experimental corpora from the paper:
 
@@ -240,10 +210,12 @@ Each corpus can be processed independently with automatic database naming and co
 - **Search Speed**: Millisecond-level response
 - **Similarity Range**: 0.0 - 1.0 (higher = more similar)
 - **Language Support**: Enhanced Chinese, English, and mixed queries
-- **Performance**: 77.22% Hit Rate@10 on MimoTable-English test set
-- **Database Format**: Milvus vector database (.db files)
+- **Performance**: 77.22% Hit Rate@10 on MimoTable-English test set (641 queries)
+- **Database Coverage**: 30+ pre-built databases covering all experimental conditions
+- **Database Format**: Milvus vector database (.db files) with intelligent path-based naming
 - **Batch Processing**: Support for processing all corpora at once
 - **Evaluation Support**: Built-in evaluation against ground truth with comprehensive metrics
+- **Production Ready**: All experimental data pre-processed and immediately available
 
 ## 📞 Contact
 
@@ -251,7 +223,7 @@ For questions or issues, please contact: [cc3374twa@gmail.com](mailto:cc3374twa@
 
 ---
 
-## �📄 Citation
+## 📄 Citation
 
 If you find this repository or its data useful, citing our paper would be appreciated:
 
@@ -264,3 +236,4 @@ booktitle={The 4th Table Representation Learning Workshop at ACL 2025},
 year={2025},
 url={https://openreview.net/forum?id=Q8HOV0UMwA}
 }
+```

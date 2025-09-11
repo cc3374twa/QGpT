@@ -134,22 +134,38 @@ class QGpTQueryEvaluator:
             'results': results
         }
         
-        # 如果有正確答案，計算準確率指標
+        # 如果有正確答案，計算檢索評估指標
         if ground_truth:
             retrieved_ids = [r['original_id'] for r in results]
             retrieved_files = [r['filename'] for r in results]
             
-            # 計算命中率（Hit Rate）
-            hits_by_id = sum(1 for gt in ground_truth if gt in retrieved_ids)
-            hits_by_file = sum(1 for gt in ground_truth if gt in retrieved_files)
+            # 標準化檔案路徑以進行比較（移除路徑前綴，只比較檔名）
+            def normalize_filename(filepath):
+                if isinstance(filepath, str):
+                    # 移除路徑前綴，只保留檔名
+                    return filepath.split('/')[-1].strip()
+                return str(filepath)
+            
+            normalized_ground_truth = [normalize_filename(gt) for gt in ground_truth]
+            normalized_retrieved_files = [normalize_filename(rf) for rf in retrieved_files]
+            
+            # 計算 Recall@K (召回率)
+            hits_by_id = sum(1 for gt in ground_truth if str(gt) in [str(rid) for rid in retrieved_ids])
+            hits_by_file = sum(1 for gt in normalized_ground_truth if gt in normalized_retrieved_files)
+            
+            # 計算指標
+            recall_at_k = hits_by_file / len(ground_truth) if ground_truth else 0
+            precision_at_k = hits_by_file / len(results) if results else 0
             
             evaluation.update({
                 'ground_truth': ground_truth,
                 'hits_by_id': hits_by_id,
                 'hits_by_file': hits_by_file,
+                'recall_at_k': recall_at_k,  # 標準召回率指標
+                'precision_at_k': precision_at_k,  # 標準精確率指標
+                # 保留舊的指標名稱以向後兼容
                 'hit_rate_by_id': hits_by_id / len(ground_truth) if ground_truth else 0,
-                'hit_rate_by_file': hits_by_file / len(ground_truth) if ground_truth else 0,
-                'precision_at_k': hits_by_id / len(results) if results else 0
+                'hit_rate_by_file': recall_at_k
             })
         
         return evaluation
@@ -228,7 +244,7 @@ class BatchEvaluator:
         evaluator = QGpTQueryEvaluator(db_path, collection_name)
         
         results = []
-        total_hit_rate = 0
+        total_recall = 0
         total_precision = 0
         
         print(f"🔄 評估測試檔案: {Path(test_file).name}")
@@ -249,9 +265,9 @@ class BatchEvaluator:
             eval_result = evaluator.evaluate_single_query(query, ground_truth, limit)
             results.append(eval_result)
             
-            # 累計指標 (使用檔案匹配而不是ID匹配)
-            if 'hit_rate_by_file' in eval_result:
-                total_hit_rate += eval_result['hit_rate_by_file']
+            # 累計指標（使用標準的資訊檢索指標）
+            if 'recall_at_k' in eval_result:
+                total_recall += eval_result['recall_at_k']
             if 'precision_at_k' in eval_result:
                 total_precision += eval_result['precision_at_k']
             
@@ -260,14 +276,17 @@ class BatchEvaluator:
                 print(f"   處理進度: {i + 1}/{len(test_data)}")
         
         # 計算平均指標
-        avg_hit_rate = total_hit_rate / len(test_data) if test_data else 0
+        avg_recall = total_recall / len(test_data) if test_data else 0
         avg_precision = total_precision / len(test_data) if test_data else 0
         
         return {
             'test_file': test_file,
             'db_path': db_path,
             'total_queries': len(test_data),
-            'avg_hit_rate': avg_hit_rate,
+            'avg_recall_at_k': avg_recall,      # 標準召回率指標 (Recall@K)
+            'avg_precision_at_k': avg_precision, # 標準精確率指標 (Precision@K)
+            # 保留舊的指標名稱以向後兼容
+            'avg_hit_rate': avg_recall,
             'avg_precision': avg_precision,
             'detailed_results': results
         }
@@ -307,8 +326,8 @@ class BatchEvaluator:
                 batch_results[Path(test_file).stem] = result
                 
                 print(f"✅ 完成評估: {Path(test_file).name}")
-                print(f"   平均命中率: {result['avg_hit_rate']:.4f}")
-                print(f"   平均精確率: {result['avg_precision']:.4f}")
+                print(f"   平均召回率 (Recall@{limit}): {result['avg_recall_at_k']:.4f}")
+                print(f"   平均精確率 (Precision@{limit}): {result['avg_precision_at_k']:.4f}")
                 
             except Exception as e:
                 print(f"❌ 評估失敗: {Path(test_file).name} - {e}")
@@ -366,10 +385,11 @@ def main():
             print(f"\n{'='*60}")
             print("批次評估總結:")
             for test_name, result in results.items():
+                limit = 5  # 預設值，實際值應該從參數中取得
                 print(f"  {test_name}:")
                 print(f"    查詢數量: {result['total_queries']}")
-                print(f"    平均命中率: {result['avg_hit_rate']:.4f}")
-                print(f"    平均精確率: {result['avg_precision']:.4f}")
+                print(f"    平均召回率 (Recall@{limit}): {result['avg_recall_at_k']:.4f}")
+                print(f"    平均精確率 (Precision@{limit}): {result['avg_precision_at_k']:.4f}")
         
         return
     
@@ -400,8 +420,8 @@ def main():
         print(f"\n評估結果:")
         print(f"測試檔案: {result['test_file']}")
         print(f"查詢總數: {result['total_queries']}")
-        print(f"平均命中率: {result['avg_hit_rate']:.4f}")
-        print(f"平均精確率: {result['avg_precision']:.4f}")
+        print(f"平均召回率 (Recall@{args.limit}): {result['avg_recall_at_k']:.4f}")
+        print(f"平均精確率 (Precision@{args.limit}): {result['avg_precision_at_k']:.4f}")
         
         if args.save:
             results_file = f"evaluation_{Path(args.test_file).stem}.json"
