@@ -75,12 +75,23 @@ They are indexed using either:
 
 If you find this repository or its data useful, citing our paper would be appreciated:
 
+ACL :
+```
+Hsing-Ping Liang, Che-Wei Chang, and Yao-Chung Fan. 2025. Improving Table Retrieval with Question Generation from Partial Tables. In Proceedings of the 4th Table Representation Learning Workshop, pages 217–228, Vienna, Austria. Association for Computational Linguistics.
+```
+Bibtex :
 ```bibtex
-@inproceedings{
-liang2025improving,
-title={Improving Table Retrieval with Question Generation from Partial Tables},
-author={Hsing-Ping Liang and Che-Wei Chang and Yao-Chung Fan},
-booktitle={The 4th Table Representation Learning Workshop at ACL 2025},
-year={2025},
-url={https://openreview.net/forum?id=Q8HOV0UMwA}
+@inproceedings{liang-etal-2025-improving-table,
+    title = "Improving Table Retrieval with Question Generation from Partial Tables",
+    author = "Liang, Hsing-Ping  and
+      Chang, Che-Wei  and
+      Fan, Yao-Chung",
+    booktitle = "Proceedings of the 4th Table Representation Learning Workshop",
+    month = jul,
+    year = "2025",
+    address = "Vienna, Austria",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2025.trl-1.19/",
+    doi = "10.18653/v1/2025.trl-1.19",
+    pages = "217--228",
 }
