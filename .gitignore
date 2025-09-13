@@ -1,2 +1,11 @@
 /export_milvus.py
-/test_dataset
+/E2EWTQ_Milvus_search.ipynb
+/Milvus.ipynb
+
+/evaluation/evaluation_results/pymilvus/*
+!/evaluation/evaluation_results/pymilvus/evaluation_example.json
+
+/evaluation/search_results/pymilvus/*
+!/evaluation/search_results/pymilvus/search_results_example.json
+
+/embedding_db/pymilvus/QGPT.db
