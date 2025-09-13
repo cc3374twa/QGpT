@@ -1,0 +1,3920 @@
+[
+    {
+        "query": "Which type of paper has the largest specification among the application materials?",
+        "Answer_table": [
+            "./spreadsheet/MaterialsApplicationRegistrationForm1.xlsx"
+        ]
+    },
+    {
+        "query": "Which paper specification is used the most times for material applications?",
+        "Answer_table": [
+            "./spreadsheet/MaterialsApplicationRegistrationForm1.xlsx"
+        ]
+    },
+    {
+        "query": "Who is the applicant for the application material named \"Material Name 1\"?",
+        "Answer_table": [
+            "./spreadsheet/MaterialsApplicationRegistrationForm1.xlsx"
+        ]
+    },
+    {
+        "query": "Who is the applicant for the application material named \"Material Name 3\"?",
+        "Answer_table": [
+            "./spreadsheet/MaterialsApplicationRegistrationForm1.xlsx"
+        ]
+    },
+    {
+        "query": "What is the minimum value of the position salary in the table? ",
+        "Answer_table": [
+            "./spreadsheet/FinancialBudget.xlsx"
+        ]
+    },
+    {
+        "query": "Please interpret the important information in this chart. ",
+        "Answer_table": [
+            "./spreadsheet/FinancialBudget.xlsx"
+        ]
+    },
+    {
+        "query": "What is the average value of the position salary among all the entries that provide a position salary? ",
+        "Answer_table": [
+            "./spreadsheet/FinancialBudget.xlsx"
+        ]
+    },
+    {
+        "query": "What is the compensation category with the highest position salary, and what is the education requirement in the application conditions for that category? ",
+        "Answer_table": [
+            "./spreadsheet/FinancialBudget.xlsx"
+        ]
+    },
+    {
+        "query": "Which type of underground engineering machinery has the lowest depreciation cost in the table? ",
+        "Answer_table": [
+            "./spreadsheet/11UndergroundEngineeringMachinery.xlsx"
+        ]
+    },
+    {
+        "query": "What is the machinery name for number 11-1? ",
+        "Answer_table": [
+            "./spreadsheet/11UndergroundEngineeringMachinery.xlsx"
+        ]
+    },
+    {
+        "query": "Research and summarize this table, providing the main information.",
+        "Answer_table": [
+            "./spreadsheet/StoreSalesDataStatisticsAnalysisTable1.xlsx"
+        ]
+    },
+    {
+        "query": "Did Shop A's actual sales on April 6 exceed the sales target?",
+        "Answer_table": [
+            "./spreadsheet/StoreSalesDataStatisticsAnalysisTable1.xlsx"
+        ]
+    },
+    {
+        "query": "What is the name of the contact person for Bell Original Ecology?",
+        "Answer_table": [
+            "./spreadsheet/LoanDetailsRegistrationForm1.xlsx"
+        ]
+    },
+    {
+        "query": "What is the average loan amount for all loan projects?",
+        "Answer_table": [
+            "./spreadsheet/LoanDetailsRegistrationForm1.xlsx"
+        ]
+    },
+    {
+        "query": "Please analyze the relationship between loan term, monthly interest, and interest.",
+        "Answer_table": [
+            "./spreadsheet/LoanDetailsRegistrationForm1.xlsx"
+        ]
+    },
+    {
+        "query": "What is the total loan amount from April 1, 2019, to April 7, 2019?",
+        "Answer_table": [
+            "./spreadsheet/LoanDetailsRegistrationForm1.xlsx"
+        ]
+    },
+    {
+        "query": "What is the main purpose of this table?",
+        "Answer_table": [
+            "./spreadsheet/LoanDetailsRegistrationForm1.xlsx"
+        ]
+    },
+    {
+        "query": "Which customer has the highest loan amount?",
+        "Answer_table": [
+            "./spreadsheet/LoanDetailsRegistrationForm1.xlsx"
+        ]
+    },
+    {
+        "query": "What is the relationship between the order quantity and the production progress of the products? Does a larger order quantity mean slower production progress?",
+        "Answer_table": [
+            "./spreadsheet/ProductionManufacturingForm(531).xlsx"
+        ]
+    },
+    {
+        "query": "As of now, how many batteries have been produced for order number 1237?",
+        "Answer_table": [
+            "./spreadsheet/ProductionManufacturingForm(531).xlsx"
+        ]
+    },
+    {
+        "query": "Which order has the lowest production progress?",
+        "Answer_table": [
+            "./spreadsheet/ProductionManufacturingForm(531).xlsx"
+        ]
+    },
+    {
+        "query": "What is the product name for order number 1237?",
+        "Answer_table": [
+            "./spreadsheet/ProductionManufacturingForm(531).xlsx"
+        ]
+    },
+    {
+        "query": "If the daily production output remains constant, when is order number 1242 expected to complete production?",
+        "Answer_table": [
+            "./spreadsheet/ProductionManufacturingForm(531).xlsx"
+        ]
+    },
+    {
+        "query": "What is the average daily production output for all orders in the table?",
+        "Answer_table": [
+            "./spreadsheet/ProductionManufacturingForm(531).xlsx"
+        ]
+    },
+    {
+        "query": "What is the order quantity for order number 1235?",
+        "Answer_table": [
+            "./spreadsheet/ProductionManufacturingForm(531).xlsx"
+        ]
+    },
+    {
+        "query": "How many records are there in the table where the rescheduling was due to \"Not Feeling Well\"?",
+        "Answer_table": [
+            "./spreadsheet/Teacher'sClassReschedulingRecordForm1.xlsx"
+        ]
+    },
+    {
+        "query": "In all the rescheduling records, are there more rescheduling instances on Friday than on Monday?",
+        "Answer_table": [
+            "./spreadsheet/Teacher'sClassReschedulingRecordForm1.xlsx"
+        ]
+    },
+    {
+        "query": "In this Teacher Rescheduling Record, what is the date of the first rescheduling?",
+        "Answer_table": [
+            "./spreadsheet/Teacher'sClassReschedulingRecordForm1.xlsx"
+        ]
+    },
+    {
+        "query": "In the rescheduling that occurred on 2022-03-24, what is the name of the substitute teacher?",
+        "Answer_table": [
+            "./spreadsheet/Teacher'sClassReschedulingRecordForm1.xlsx"
+        ]
+    },
+    {
+        "query": "What is the building area of the 8th project? ",
+        "Answer_table": [
+            "./spreadsheet/PileSingleCalculation.xlsx"
+        ]
+    },
+    {
+        "query": "How much higher is the unit price (Yuan/m3) of the 9-Story Residential (Plot 08#) compared to the 7-Story Slab Residential? ",
+        "Answer_table": [
+            "./spreadsheet/PileSingleCalculation.xlsx"
+        ]
+    },
+    {
+        "query": "What is the core information of this table? ",
+        "Answer_table": [
+            "./spreadsheet/PileSingleCalculation.xlsx"
+        ]
+    },
+    {
+        "query": "What is the unit index (Yuan/m2) of the 9-Story Slab Residential? ",
+        "Answer_table": [
+            "./spreadsheet/PileSingleCalculation.xlsx"
+        ]
+    },
+    {
+        "query": "Which project has the highest unit index (Yuan/m2)? ",
+        "Answer_table": [
+            "./spreadsheet/PileSingleCalculation.xlsx"
+        ]
+    },
+    {
+        "query": "How many different project names are there in the table? ",
+        "Answer_table": [
+            "./spreadsheet/PileSingleCalculation.xlsx"
+        ]
+    },
+    {
+        "query": "What is the total number of compaction expansion piles for all projects? ",
+        "Answer_table": [
+            "./spreadsheet/PileSingleCalculation.xlsx"
+        ]
+    },
+    {
+        "query": "Number of Registered Customers?",
+        "Answer_table": [
+            "./spreadsheet/ClientInformationFollow-upStatisticsTable.xlsx"
+        ]
+    },
+    {
+        "query": "How many customer records are there in total in the table?",
+        "Answer_table": [
+            "./spreadsheet/ClientInformationFollow-upStatisticsTable.xlsx"
+        ]
+    },
+    {
+        "query": "Which is more, the number of closed customers or the number of customers in follow-up?",
+        "Answer_table": [
+            "./spreadsheet/ClientInformationFollow-upStatisticsTable.xlsx"
+        ]
+    },
+    {
+        "query": "In the table, what are the numbers of closed, in follow-up, and abandoned customers respectively? What are the proportions of these statuses in the total number of customers?",
+        "Answer_table": [
+            "./spreadsheet/ClientInformationFollow-upStatisticsTable.xlsx"
+        ]
+    },
+    {
+        "query": "What is the source of risk and opportunity for serial number 1? ",
+        "Answer_table": [
+            "./spreadsheet/ProductionandManufacturingForm(648).xlsx"
+        ]
+    },
+    {
+        "query": "Which risk has a higher RPN value, the risk for serial number 1 or the risk for serial number 2? ",
+        "Answer_table": [
+            "./spreadsheet/ProductionandManufacturingForm(648).xlsx"
+        ]
+    },
+    {
+        "query": "According to the table, what management measures are proposed to reduce the risks in the product trial production process? ",
+        "Answer_table": [
+            "./spreadsheet/ProductionandManufacturingForm(648).xlsx"
+        ]
+    },
+    {
+        "query": "How many risk and opportunity assessment cases are listed in the table? ",
+        "Answer_table": [
+            "./spreadsheet/ProductionandManufacturingForm(648).xlsx"
+        ]
+    },
+    {
+        "query": "What is the amount of today's balance for the product with No. 1?",
+        "Answer_table": [
+            "./spreadsheet/ProductionManufacturingForm(9).xlsx"
+        ]
+    },
+    {
+        "query": "Which products have a cumulative outbound quantity exceeding 500?",
+        "Answer_table": [
+            "./spreadsheet/ProductionManufacturingForm(9).xlsx"
+        ]
+    },
+    {
+        "query": "Based on the data in the table, predict which products may need \"Replenish in time\" in the future, and explain your prediction basis.",
+        "Answer_table": [
+            "./spreadsheet/ProductionManufacturingForm(9).xlsx"
+        ]
+    },
+    {
+        "query": "Which product numbers have an inventory status of \"Replenish in time\" today?",
+        "Answer_table": [
+            "./spreadsheet/ProductionManufacturingForm(9).xlsx"
+        ]
+    },
+    {
+        "query": "What is the average income of all records in the table? ",
+        "Answer_table": [
+            "./spreadsheet/1216(3).xlsx"
+        ]
+    },
+    {
+        "query": "Did the income show an upward trend from January 1, 2020, to January 5, 2020? ",
+        "Answer_table": [
+            "./spreadsheet/1216(3).xlsx"
+        ]
+    },
+    {
+        "query": "Interpret this table",
+        "Answer_table": [
+            "./spreadsheet/1216(3).xlsx"
+        ]
+    },
+    {
+        "query": "What was the income on January 3, 2020? ",
+        "Answer_table": [
+            "./spreadsheet/1216(3).xlsx"
+        ]
+    },
+    {
+        "query": "Did the expenditure on January 8, 2020, exceed the expenditure on January 4, 2020? ",
+        "Answer_table": [
+            "./spreadsheet/1216(3).xlsx"
+        ]
+    },
+    {
+        "query": "What is the core information of this table? ",
+        "Answer_table": [
+            "./spreadsheet/MaterialProcurement(44).xlsx"
+        ]
+    },
+    {
+        "query": "What is the item name in the 3rd row? ",
+        "Answer_table": [
+            "./spreadsheet/MaterialProcurement(44).xlsx"
+        ]
+    },
+    {
+        "query": "What is the specification model of the Mouse? ",
+        "Answer_table": [
+            "./spreadsheet/MaterialProcurement(44).xlsx"
+        ]
+    },
+    {
+        "query": "Considering the in-stock details, out-stock details, and inventory details comprehensively, analyze the item flow situation of Lenovo's items. Which item flows most frequently? Is there any inventory backlog? ",
+        "Answer_table": [
+            "./spreadsheet/MaterialProcurement(44).xlsx"
+        ]
+    },
+    {
+        "query": "Which item has the highest in-stock unit price? ",
+        "Answer_table": [
+            "./spreadsheet/MaterialProcurement(44).xlsx"
+        ]
+    },
+    {
+        "query": "What is the total in-stock amount of all items? ",
+        "Answer_table": [
+            "./spreadsheet/MaterialProcurement(44).xlsx"
+        ]
+    },
+    {
+        "query": "What is the in-stock unit price of the Mouse? ",
+        "Answer_table": [
+            "./spreadsheet/MaterialProcurement(44).xlsx"
+        ]
+    },
+    {
+        "query": "Which item has the highest difference between out-stock unit price and in-stock unit price? ",
+        "Answer_table": [
+            "./spreadsheet/MaterialProcurement(44).xlsx"
+        ]
+    },
+    {
+        "query": "What is the total of the shift basis price and depreciation cost for the Electric Single-stage Centrifugal Clean Water Pump with serial number 8-5?",
+        "Answer_table": [
+            "./spreadsheet/8PumpMachinery.xlsx"
+        ]
+    },
+    {
+        "query": "Which has a higher shift basis price, the Electric Single-stage Centrifugal Clean Water Pump or the Internal Combustion Single-stage Centrifugal Clean Water Pump with an outlet diameter of φ150mm?",
+        "Answer_table": [
+            "./spreadsheet/8PumpMachinery.xlsx"
+        ]
+    },
+    {
+        "query": "What is the machinery name for the serial number 8-1?",
+        "Answer_table": [
+            "./spreadsheet/8PumpMachinery.xlsx"
+        ]
+    },
+    {
+        "query": "How many different machinery names are there in the table?",
+        "Answer_table": [
+            "./spreadsheet/8PumpMachinery.xlsx"
+        ]
+    },
+    {
+        "query": "What is the shift basis price for the Electric Single-stage Centrifugal Clean Water Pump with serial number 8-1?",
+        "Answer_table": [
+            "./spreadsheet/8PumpMachinery.xlsx"
+        ]
+    },
+    {
+        "query": "What is the company name?",
+        "Answer_table": [
+            "./spreadsheet/ProcurementFundsMonthlyBudgetTable1.xlsx"
+        ]
+    },
+    {
+        "query": "What is the monthly planned funds for Name2?",
+        "Answer_table": [
+            "./spreadsheet/ProcurementFundsMonthlyBudgetTable1.xlsx"
+        ]
+    },
+    {
+        "query": "Which department's last month actual procurement amount is more than the monthly planned funds?",
+        "Answer_table": [
+            "./spreadsheet/ProcurementFundsMonthlyBudgetTable1.xlsx"
+        ]
+    },
+    {
+        "query": "What is the month-on-month growth rate for Name1, and does it indicate growth or decline?",
+        "Answer_table": [
+            "./spreadsheet/ProcurementFundsMonthlyBudgetTable1.xlsx"
+        ]
+    },
+    {
+        "query": "What is the average value of the monthly planned funds for all procurement items in the table?",
+        "Answer_table": [
+            "./spreadsheet/ProcurementFundsMonthlyBudgetTable1.xlsx"
+        ]
+    },
+    {
+        "query": "How many days of financial income and expenditure are recorded in the table? ",
+        "Answer_table": [
+            "./spreadsheet/1241(3).xlsx"
+        ]
+    },
+    {
+        "query": "Summarize the data in this table. ",
+        "Answer_table": [
+            "./spreadsheet/1241(3).xlsx"
+        ]
+    },
+    {
+        "query": "What is the operating income on November 1, 2019? ",
+        "Answer_table": [
+            "./spreadsheet/1241(3).xlsx"
+        ]
+    },
+    {
+        "query": "What is the total government appropriation income for November 2019? ",
+        "Answer_table": [
+            "./spreadsheet/1241(3).xlsx"
+        ]
+    },
+    {
+        "query": "Based on the income and expenditure situation in November 2019, can you predict the financial situation for the next few months, and will there be significant fluctuations? ",
+        "Answer_table": [
+            "./spreadsheet/1241(3).xlsx"
+        ]
+    },
+    {
+        "query": "What is the lowest actual cost for a single day in the table? ",
+        "Answer_table": [
+            "./spreadsheet/E-commerceMarketingData(1).xlsx"
+        ]
+    },
+    {
+        "query": "On which day did the actual completion performance exceed the performance target during this period? ",
+        "Answer_table": [
+            "./spreadsheet/E-commerceMarketingData(1).xlsx"
+        ]
+    },
+    {
+        "query": "What was the actual completion performance on October 6, 2020? ",
+        "Answer_table": [
+            "./spreadsheet/E-commerceMarketingData(1).xlsx"
+        ]
+    },
+    {
+        "query": "What was the actual completion performance on 2020-10-06? ",
+        "Answer_table": [
+            "./spreadsheet/E-commerceMarketingData(1).xlsx"
+        ]
+    },
+    {
+        "query": "What is Zhang Xiaoxiao 18's monthly income? ",
+        "Answer_table": [
+            "./spreadsheet/SalespersonMonthlySalesRevenueSummaryAnalysisTable1.xlsx"
+        ]
+    },
+    {
+        "query": "Which department has the highest average monthly income for salespersons? ",
+        "Answer_table": [
+            "./spreadsheet/SalespersonMonthlySalesRevenueSummaryAnalysisTable1.xlsx"
+        ]
+    },
+    {
+        "query": "How many salespersons are there in Sales Department 1 in the Salesperson Monthly Sales Income Summary Table? ",
+        "Answer_table": [
+            "./spreadsheet/SalespersonMonthlySalesRevenueSummaryAnalysisTable1.xlsx"
+        ]
+    },
+    {
+        "query": "What is the average monthly income of all salespersons? ",
+        "Answer_table": [
+            "./spreadsheet/SalespersonMonthlySalesRevenueSummaryAnalysisTable1.xlsx"
+        ]
+    },
+    {
+        "query": "What is the main purpose of this table? ",
+        "Answer_table": [
+            "./spreadsheet/CashJournal-IncomeandExpenditureTable3.xlsx"
+        ]
+    },
+    {
+        "query": "How many expenditures were made through bank cards? ",
+        "Answer_table": [
+            "./spreadsheet/CashJournal-IncomeandExpenditureTable3.xlsx"
+        ]
+    },
+    {
+        "query": "If the number of invoices for each expenditure project represents the number of times the project occurred, what is the average amount spent per occurrence? ",
+        "Answer_table": [
+            "./spreadsheet/CashJournal-IncomeandExpenditureTable3.xlsx"
+        ]
+    },
+    {
+        "query": "In this cash journal, what are the highest income project and the highest expenditure project? ",
+        "Answer_table": [
+            "./spreadsheet/CashJournal-IncomeandExpenditureTable3.xlsx"
+        ]
+    },
+    {
+        "query": "What is the total amount of all income projects according to the table? ",
+        "Answer_table": [
+            "./spreadsheet/CashJournal-IncomeandExpenditureTable3.xlsx"
+        ]
+    },
+    {
+        "query": "What is the name of the expenditure project in row 8? ",
+        "Answer_table": [
+            "./spreadsheet/CashJournal-IncomeandExpenditureTable3.xlsx"
+        ]
+    },
+    {
+        "query": "What is the quantity of \"Floor Tiles (1000×1000)\" on the first floor?",
+        "Answer_table": [
+            "./spreadsheet/1216(2).xlsx"
+        ]
+    },
+    {
+        "query": "What is the quantity of Floor and Wall Leveling?",
+        "Answer_table": [
+            "./spreadsheet/1216(2).xlsx"
+        ]
+    },
+    {
+        "query": "Summarize and analyze this table.",
+        "Answer_table": [
+            "./spreadsheet/1216(2).xlsx"
+        ]
+    },
+    {
+        "query": "What is the main material cost for the \"TV Background\" on the second floor?",
+        "Answer_table": [
+            "./spreadsheet/1216(2).xlsx"
+        ]
+    },
+    {
+        "query": "If the labor cost for all projects on the second floor increases by 10%, how much will the total renovation cost increase?",
+        "Answer_table": [
+            "./spreadsheet/1216(2).xlsx"
+        ]
+    },
+    {
+        "query": "What is the total labor cost for all projects?",
+        "Answer_table": [
+            "./spreadsheet/1216(2).xlsx"
+        ]
+    },
+    {
+        "query": "How does the main material cost for the TV Background change from the first floor to the third floor?",
+        "Answer_table": [
+            "./spreadsheet/1216(2).xlsx"
+        ]
+    },
+    {
+        "query": "What is the average number of sub-division engineering items under each division engineering item? ",
+        "Answer_table": [
+            "./spreadsheet/PanzhihuaMaintenanceWorkArea.xlsx"
+        ]
+    },
+    {
+        "query": "In Building Decoration and Finishing, which sub-item engineering has more inspection batches, Plastering or Doors and Windows? ",
+        "Answer_table": [
+            "./spreadsheet/PanzhihuaMaintenanceWorkArea.xlsx"
+        ]
+    },
+    {
+        "query": "What is the name of the contractor? ",
+        "Answer_table": [
+            "./spreadsheet/PanzhihuaMaintenanceWorkArea.xlsx"
+        ]
+    },
+    {
+        "query": "What is the sub-item engineering with serial number 2 under the division engineering items handled by Panzhihua Highway Construction Co., Ltd.? ",
+        "Answer_table": [
+            "./spreadsheet/PanzhihuaMaintenanceWorkArea.xlsx"
+        ]
+    },
+    {
+        "query": "Which unit has the highest current period total debt and has not settled the bill? ",
+        "Answer_table": [
+            "./spreadsheet/BillFundsStatisticsDetails1.xlsx"
+        ]
+    },
+    {
+        "query": "From March 2017 to May 2017, is there an increasing or decreasing trend in the number of units that settled their bills each month? ",
+        "Answer_table": [
+            "./spreadsheet/BillFundsStatisticsDetails1.xlsx"
+        ]
+    },
+    {
+        "query": "In 2020, which quarter's profit MoM growth rate increased, and provide the specific quarterly MoM growth rate values.",
+        "Answer_table": [
+            "./spreadsheet/CompanyProfitabilityAnalysisTable1.xlsx"
+        ]
+    },
+    {
+        "query": "Based on the sales revenue, cost expenses, total profit, and other data for 2020 and 2019, how would you evaluate the company's profitability for these two years?",
+        "Answer_table": [
+            "./spreadsheet/CompanyProfitabilityAnalysisTable1.xlsx"
+        ]
+    },
+    {
+        "query": "As of April 20, 2020, what is the total inventory quantity in Warehouse B? ",
+        "Answer_table": [
+            "./spreadsheet/GoodsLogisticsManagement(30).xlsx"
+        ]
+    },
+    {
+        "query": "What is the relationship between inventory location and inventory warning? In which warehouses does the situation of low inventory occur more frequently? ",
+        "Answer_table": [
+            "./spreadsheet/GoodsLogisticsManagement(30).xlsx"
+        ]
+    },
+    {
+        "query": "On April 15, 2020, what is the product name stored in Warehouse A? ",
+        "Answer_table": [
+            "./spreadsheet/GoodsLogisticsManagement(30).xlsx"
+        ]
+    },
+    {
+        "query": "How many employees does XX company have? ",
+        "Answer_table": [
+            "./spreadsheet/Sheet14.xlsx"
+        ]
+    },
+    {
+        "query": "What is the birth date of Liang Xueying? ",
+        "Answer_table": [
+            "./spreadsheet/Sheet14.xlsx"
+        ]
+    },
+    {
+        "query": "What is this table for? ",
+        "Answer_table": [
+            "./spreadsheet/Sheet14.xlsx"
+        ]
+    },
+    {
+        "query": "Which day does Grade 3 Class 1 have the fewest classes?",
+        "Answer_table": [
+            "./spreadsheet/Sheet35.xlsx"
+        ]
+    },
+    {
+        "query": "What are the differences in the Wednesday schedule between Grade 3 Class 1 and Grade 3 Class 2?",
+        "Answer_table": [
+            "./spreadsheet/Sheet35.xlsx"
+        ]
+    },
+    {
+        "query": "Interpret the statistical data of this table.",
+        "Answer_table": [
+            "./spreadsheet/Sheet35.xlsx"
+        ]
+    },
+    {
+        "query": "What is the first period on Monday for Grade 3 Class 1?",
+        "Answer_table": [
+            "./spreadsheet/Sheet35.xlsx"
+        ]
+    },
+    {
+        "query": "If each care session has a remark number, which is more, the number of odd-numbered care sessions or even-numbered care sessions?",
+        "Answer_table": [
+            "./spreadsheet/1257(4).xlsx"
+        ]
+    },
+    {
+        "query": "On which day is the highest number of care sessions recorded?",
+        "Answer_table": [
+            "./spreadsheet/1257(4).xlsx"
+        ]
+    },
+    {
+        "query": "What is the average value of the numbers in the remarks column in the Pet Daily Care Registration Form?",
+        "Answer_table": [
+            "./spreadsheet/1257(4).xlsx"
+        ]
+    },
+    {
+        "query": "How many pets received care services on March 25?",
+        "Answer_table": [
+            "./spreadsheet/1257(4).xlsx"
+        ]
+    },
+    {
+        "query": "How many pets received nail clipping care on March 26?",
+        "Answer_table": [
+            "./spreadsheet/1257(4).xlsx"
+        ]
+    },
+    {
+        "query": "How many times did employee Dao Xiaoke1 work overtime?",
+        "Answer_table": [
+            "./spreadsheet/EmployeeOvertimeExpenseStatisticsTable1.xlsx"
+        ]
+    },
+    {
+        "query": "What is the maximum single overtime cost in the table?",
+        "Answer_table": [
+            "./spreadsheet/EmployeeOvertimeExpenseStatisticsTable1.xlsx"
+        ]
+    },
+    {
+        "query": "According to the table, what is the calculation method for overtime costs?",
+        "Answer_table": [
+            "./spreadsheet/EmployeeOvertimeExpenseStatisticsTable1.xlsx"
+        ]
+    },
+    {
+        "query": "What is the total overtime cost for employee Dao Xiaoke1?",
+        "Answer_table": [
+            "./spreadsheet/EmployeeOvertimeExpenseStatisticsTable1.xlsx"
+        ]
+    },
+    {
+        "query": "Among all the listed projects, which one has the highest indirect cost? What is the relationship between this indirect cost and its direct cost?",
+        "Answer_table": [
+            "./spreadsheet/1706967909341.xlsx"
+        ]
+    },
+    {
+        "query": "What is the \"Direct Cost (Yuan)\" for the \"Excavation\" project in the table?",
+        "Answer_table": [
+            "./spreadsheet/1706967909341.xlsx"
+        ]
+    },
+    {
+        "query": "What is the average value of the \"Direct Cost (Yuan)\" for all projects in the table?",
+        "Answer_table": [
+            "./spreadsheet/1706967909341.xlsx"
+        ]
+    },
+    {
+        "query": "What is the name of the construction project?",
+        "Answer_table": [
+            "./spreadsheet/1706967909341.xlsx"
+        ]
+    },
+    {
+        "query": "What is the budget for direct materials in July?",
+        "Answer_table": [
+            "./spreadsheet/CostExpenseAnalysisTable1(2).xlsx"
+        ]
+    },
+    {
+        "query": "Which brand's product has the highest unit price?",
+        "Answer_table": [
+            "./spreadsheet/ImagetoText-20240205221356_73.xlsx"
+        ]
+    },
+    {
+        "query": "On which e-commerce platform were the jeans purchased in the Double Eleven purchase and return statistics table?",
+        "Answer_table": [
+            "./spreadsheet/ImagetoText-20240205221356_73.xlsx"
+        ]
+    },
+    {
+        "query": "Explain and simplify this table, emphasizing key data",
+        "Answer_table": [
+            "./spreadsheet/ImagetoText-20240205221356_73.xlsx"
+        ]
+    },
+    {
+        "query": "What is the total amount of all purchased products?",
+        "Answer_table": [
+            "./spreadsheet/ImagetoText-20240205221356_73.xlsx"
+        ]
+    },
+    {
+        "query": "What is the unit price of Xiaomi brand headphones?",
+        "Answer_table": [
+            "./spreadsheet/ImagetoText-20240205221356_73.xlsx"
+        ]
+    },
+    {
+        "query": "Which brand's product has the highest unit price in the Double Eleven purchase?",
+        "Answer_table": [
+            "./spreadsheet/ImagetoText-20240205221356_73.xlsx"
+        ]
+    },
+    {
+        "query": "Which month's material had the highest production quantity and the unit cost was below 3 yuan? ",
+        "Answer_table": [
+            "./spreadsheet/WorkplaceGeneral(3).xlsx"
+        ]
+    },
+    {
+        "query": "How many production records are there in 2023? ",
+        "Answer_table": [
+            "./spreadsheet/WorkplaceGeneral(3).xlsx"
+        ]
+    },
+    {
+        "query": "What is the total growth rate of management costs from January 2022 to May 2023? ",
+        "Answer_table": [
+            "./spreadsheet/WorkplaceGeneral(3).xlsx"
+        ]
+    },
+    {
+        "query": "Please analyze the relationship between raw material cost, labor cost, manufacturing cost, management cost, and unit cost. ",
+        "Answer_table": [
+            "./spreadsheet/WorkplaceGeneral(3).xlsx"
+        ]
+    },
+    {
+        "query": "What is the unit cost of Material 7 on July 1, 2022? ",
+        "Answer_table": [
+            "./spreadsheet/WorkplaceGeneral(3).xlsx"
+        ]
+    },
+    {
+        "query": "What is the name of the employee with Employee ID 1010103?",
+        "Answer_table": [
+            "./spreadsheet/Sheet12(1).xlsx"
+        ]
+    },
+    {
+        "query": "Which employees have performance salaries higher than the average performance salary and no business deductions?",
+        "Answer_table": [
+            "./spreadsheet/Sheet12(1).xlsx"
+        ]
+    },
+    {
+        "query": "What is the total basic salary of all employees?",
+        "Answer_table": [
+            "./spreadsheet/Sheet12(1).xlsx"
+        ]
+    },
+    {
+        "query": "Among the employees in the Sales Department, who has the highest gross salary?",
+        "Answer_table": [
+            "./spreadsheet/Sheet12(1).xlsx"
+        ]
+    },
+    {
+        "query": "Which department has the highest average pre-tax salary?",
+        "Answer_table": [
+            "./spreadsheet/Sheet12(1).xlsx"
+        ]
+    },
+    {
+        "query": "Is the reimbursement amount and attachment amount for the reimbursement person Xiaoxiao 1 consistent? If not, what is the difference?",
+        "Answer_table": [
+            "./spreadsheet/WorkplaceGeneral(39).xlsx"
+        ]
+    },
+    {
+        "query": "What is the reimbursement amount for the reimbursement date 2020/1/3?",
+        "Answer_table": [
+            "./spreadsheet/WorkplaceGeneral(39).xlsx"
+        ]
+    },
+    {
+        "query": "Which products have the payment method as online payment and the shipping status as signed?",
+        "Answer_table": [
+            "./spreadsheet/ProductionandManufacturingForm(97).xlsx"
+        ]
+    },
+    {
+        "query": "What does this table contain?",
+        "Answer_table": [
+            "./spreadsheet/ProductionandManufacturingForm(97).xlsx"
+        ]
+    },
+    {
+        "query": "What is the color of the product with the product number 201603002?",
+        "Answer_table": [
+            "./spreadsheet/ProductionandManufacturingForm(97).xlsx"
+        ]
+    },
+    {
+        "query": "Which product has a specification model greater than 'L'?",
+        "Answer_table": [
+            "./spreadsheet/ProductionandManufacturingForm(97).xlsx"
+        ]
+    },
+    {
+        "query": "Which product number has been signed for?",
+        "Answer_table": [
+            "./spreadsheet/ProductionandManufacturingForm(97).xlsx"
+        ]
+    },
+    {
+        "query": "What is the product name of the product with the product number 201603003?",
+        "Answer_table": [
+            "./spreadsheet/ProductionandManufacturingForm(97).xlsx"
+        ]
+    },
+    {
+        "query": "Which transferee participated in the transaction of more than one land parcel? ",
+        "Answer_table": [
+            "./spreadsheet/1706798903536.xlsx"
+        ]
+    },
+    {
+        "query": "What are the names of the land parcels transacted on October 28, 2015? ",
+        "Answer_table": [
+            "./spreadsheet/1706798903536.xlsx"
+        ]
+    },
+    {
+        "query": "On October 14, 2015, which land parcels had a transaction floor price exceeding 8,000 yuan? ",
+        "Answer_table": [
+            "./spreadsheet/1706798903536.xlsx"
+        ]
+    },
+    {
+        "query": "What is the average starting price of all the land parcels in the table? ",
+        "Answer_table": [
+            "./spreadsheet/1706798903536.xlsx"
+        ]
+    },
+    {
+        "query": "Which land parcel has a higher starting price than the transaction price? ",
+        "Answer_table": [
+            "./spreadsheet/1706798903536.xlsx"
+        ]
+    },
+    {
+        "query": "What is the average premium rate of all the land parcels? ",
+        "Answer_table": [
+            "./spreadsheet/1706798903536.xlsx"
+        ]
+    },
+    {
+        "query": "Please analyze the differences in the beginning balance (debit), current period amount (debit), cumulative amount for the year (debit), and ending balance (debit) between the fixed assets (subject code 1601.0) and intangible assets (subject code 1701.0), and explain the possible reasons.",
+        "Answer_table": [
+            "./spreadsheet/ComputerizedAccountingMeeting.xlsx"
+        ]
+    },
+    {
+        "query": "What is the average value of the ending balance (credit) for all subjects in the table?",
+        "Answer_table": [
+            "./spreadsheet/ComputerizedAccountingMeeting.xlsx"
+        ]
+    },
+    {
+        "query": "What is the subject name for the subject code 1601.0?",
+        "Answer_table": [
+            "./spreadsheet/ComputerizedAccountingMeeting.xlsx"
+        ]
+    },
+    {
+        "query": "What was the purchase price of Stock D in the first transaction? ",
+        "Answer_table": [
+            "./spreadsheet/StockSituation4.xlsx"
+        ]
+    },
+    {
+        "query": "What was the total amount in the first purchase of Stock D? ",
+        "Answer_table": [
+            "./spreadsheet/StockSituation4.xlsx"
+        ]
+    },
+    {
+        "query": "Which transaction had a cost per share (average) higher than 20 yuan? ",
+        "Answer_table": [
+            "./spreadsheet/StockSituation4.xlsx"
+        ]
+    },
+    {
+        "query": "How many shares were sold in the third transaction? ",
+        "Answer_table": [
+            "./spreadsheet/StockSituation4.xlsx"
+        ]
+    },
+    {
+        "query": "What is the highest price in a single transaction in the table? ",
+        "Answer_table": [
+            "./spreadsheet/StockSituation4.xlsx"
+        ]
+    },
+    {
+        "query": "How did the account shares of Stock D change with each transaction? ",
+        "Answer_table": [
+            "./spreadsheet/StockSituation4.xlsx"
+        ]
+    },
+    {
+        "query": "What are the revenue amount and expenditure amount of \"A_007 Project\"?",
+        "Answer_table": [
+            "./spreadsheet/WorkplaceGeneral(45).xlsx"
+        ]
+    },
+    {
+        "query": "What is the revenue amount of A_003 Project?",
+        "Answer_table": [
+            "./spreadsheet/WorkplaceGeneral(45).xlsx"
+        ]
+    },
+    {
+        "query": "How many projects have a revenue amount greater than 20000 in the table?",
+        "Answer_table": [
+            "./spreadsheet/WorkplaceGeneral(45).xlsx"
+        ]
+    },
+    {
+        "query": "What is the gross profit margin of A_004 Project? (Gross Profit Margin = Gross Profit Amount / Revenue Amount * 100%)",
+        "Answer_table": [
+            "./spreadsheet/WorkplaceGeneral(45).xlsx"
+        ]
+    },
+    {
+        "query": "Which project has the highest expenditure amount?",
+        "Answer_table": [
+            "./spreadsheet/WorkplaceGeneral(45).xlsx"
+        ]
+    },
+    {
+        "query": "Which student is the oldest?",
+        "Answer_table": [
+            "./spreadsheet/Workbook1(4).xlsx"
+        ]
+    },
+    {
+        "query": "What grade is the student with the student ID KJ25XXX5 in?",
+        "Answer_table": [
+            "./spreadsheet/Workbook1(4).xlsx"
+        ]
+    },
+    {
+        "query": "Is there a correlation between students' study status and their grade?",
+        "Answer_table": [
+            "./spreadsheet/Workbook1(4).xlsx"
+        ]
+    },
+    {
+        "query": "Who is the student with the student ID KJ25XXX3 in this table?",
+        "Answer_table": [
+            "./spreadsheet/Workbook1(4).xlsx"
+        ]
+    },
+    {
+        "query": "Who is the youngest student currently enrolled?",
+        "Answer_table": [
+            "./spreadsheet/Workbook1(4).xlsx"
+        ]
+    },
+    {
+        "query": "What is the average unreceived amount for all supply records in the table?",
+        "Answer_table": [
+            "./spreadsheet/WorkplaceGeneral(1).xlsx"
+        ]
+    },
+    {
+        "query": "What is the supply order number for July 1, 2022?",
+        "Answer_table": [
+            "./spreadsheet/WorkplaceGeneral(1).xlsx"
+        ]
+    },
+    {
+        "query": "In 2022 and 2023, which month had the highest supply amount?",
+        "Answer_table": [
+            "./spreadsheet/WorkplaceGeneral(1).xlsx"
+        ]
+    },
+    {
+        "query": "Among the employees with attendance deductions exceeding 200, which employee has the lowest pre-tax salary?",
+        "Answer_table": [
+            "./spreadsheet/Sheet10(1).xlsx"
+        ]
+    },
+    {
+        "query": "Which employee has the least attendance deduction?",
+        "Answer_table": [
+            "./spreadsheet/Sheet10(1).xlsx"
+        ]
+    },
+    {
+        "query": "What is the gross salary of Daoke8?",
+        "Answer_table": [
+            "./spreadsheet/Sheet10(1).xlsx"
+        ]
+    },
+    {
+        "query": "Which department has the highest average net salary?",
+        "Answer_table": [
+            "./spreadsheet/Sheet10(1).xlsx"
+        ]
+    },
+    {
+        "query": "What is the basic salary of the employee with the Employee ID 1010101?",
+        "Answer_table": [
+            "./spreadsheet/Sheet10(1).xlsx"
+        ]
+    },
+    {
+        "query": "What is the average quantity of all items in the table?",
+        "Answer_table": [
+            "./spreadsheet/BasementLevel2HeatExchangeRoom.xlsx"
+        ]
+    },
+    {
+        "query": "What is the total base price for all Hot Water Circulation Pump G=4.2m3/h H=240MH2O N=1.5kw?",
+        "Answer_table": [
+            "./spreadsheet/BasementLevel2HeatExchangeRoom.xlsx"
+        ]
+    },
+    {
+        "query": "What is the total equipment cost for Heat Exchanger (Office) SFL-1.5-1.6 V=1.5m3?",
+        "Answer_table": [
+            "./spreadsheet/BasementLevel2HeatExchangeRoom.xlsx"
+        ]
+    },
+    {
+        "query": "What is the equipment unit price for Heat Exchanger (Apartment) SFL-4.0-1.6 V=4.0m3?",
+        "Answer_table": [
+            "./spreadsheet/BasementLevel2HeatExchangeRoom.xlsx"
+        ]
+    },
+    {
+        "query": "What is the total equipment cost for Heat Exchanger (Apartment) SFL-4.0-1.6 V=4.0m3?",
+        "Answer_table": [
+            "./spreadsheet/BasementLevel2HeatExchangeRoom.xlsx"
+        ]
+    },
+    {
+        "query": "If we need to reduce the total cost, which factors should we focus on? Is it the equipment unit price, main material unit price, labor unit price, or other factors?",
+        "Answer_table": [
+            "./spreadsheet/BasementLevel2HeatExchangeRoom.xlsx"
+        ]
+    },
+    {
+        "query": "Which buildings were completed in 2008 and are located in Beijing?",
+        "Answer_table": [
+            "./spreadsheet/CostStatisticsofSuperHigh-RiseBuildings.xlsx"
+        ]
+    },
+    {
+        "query": "What is the average height of the buildings in the table?",
+        "Answer_table": [
+            "./spreadsheet/CostStatisticsofSuperHigh-RiseBuildings.xlsx"
+        ]
+    },
+    {
+        "query": "What is the height of the Beijing Television Center?",
+        "Answer_table": [
+            "./spreadsheet/CostStatisticsofSuperHigh-RiseBuildings.xlsx"
+        ]
+    },
+    {
+        "query": "Interpret this table",
+        "Answer_table": [
+            "./spreadsheet/CostStatisticsofSuperHigh-RiseBuildings.xlsx"
+        ]
+    },
+    {
+        "query": "How many companies in the table have addresses located in Beijing? ",
+        "Answer_table": [
+            "./spreadsheet/3333(87).xlsx"
+        ]
+    },
+    {
+        "query": "What is the contact number for Tmall? ",
+        "Answer_table": [
+            "./spreadsheet/3333(87).xlsx"
+        ]
+    },
+    {
+        "query": "Which company's contact number includes the area code 021, Nanjing Pharmaceutical Co., Ltd. or Shanghai Pharmaceuticals? ",
+        "Answer_table": [
+            "./spreadsheet/3333(87).xlsx"
+        ]
+    },
+    {
+        "query": "What is the product name of product number 201603003?",
+        "Answer_table": [
+            "./spreadsheet/ImagetoText-20240205221356_28.xlsx"
+        ]
+    },
+    {
+        "query": "Based on the delivery status of the salespersons, which salesperson is likely to have the highest sales?",
+        "Answer_table": [
+            "./spreadsheet/ImagetoText-20240205221356_28.xlsx"
+        ]
+    },
+    {
+        "query": "How many products have an order status of paid or pending payment?",
+        "Answer_table": [
+            "./spreadsheet/ImagetoText-20240205221356_28.xlsx"
+        ]
+    },
+    {
+        "query": "What is the color of the product with product number 201603002?",
+        "Answer_table": [
+            "./spreadsheet/ImagetoText-20240205221356_28.xlsx"
+        ]
+    },
+    {
+        "query": "Which products have a payment method of online or cash and a delivery status of signed or in transit?",
+        "Answer_table": [
+            "./spreadsheet/ImagetoText-20240205221356_28.xlsx"
+        ]
+    },
+    {
+        "query": "Which product has a specification model greater than L?",
+        "Answer_table": [
+            "./spreadsheet/ImagetoText-20240205221356_28.xlsx"
+        ]
+    },
+    {
+        "query": "On which day did the credit card expenditure exceed 1200 yuan and the housing expenditure exceed 2100 yuan?",
+        "Answer_table": [
+            "./spreadsheet/WorkplaceGeneral(41).xlsx"
+        ]
+    },
+    {
+        "query": "What is the minimum value of single-day entertainment expenditure in the table?",
+        "Answer_table": [
+            "./spreadsheet/WorkplaceGeneral(41).xlsx"
+        ]
+    },
+    {
+        "query": "What was the transportation expenditure on January 3, 2018?",
+        "Answer_table": [
+            "./spreadsheet/WorkplaceGeneral(41).xlsx"
+        ]
+    },
+    {
+        "query": "What is the entertainment expenditure in row 18?",
+        "Answer_table": [
+            "./spreadsheet/WorkplaceGeneral(41).xlsx"
+        ]
+    },
+    {
+        "query": "What is the average value of entertainment expenditure on recorded dates?",
+        "Answer_table": [
+            "./spreadsheet/WorkplaceGeneral(41).xlsx"
+        ]
+    },
+    {
+        "query": "What is the average math score of all students in the table?",
+        "Answer_table": [
+            "./spreadsheet/canuse6.xlsx"
+        ]
+    },
+    {
+        "query": "Who has the highest math score among all the candidates?",
+        "Answer_table": [
+            "./spreadsheet/canuse6.xlsx"
+        ]
+    },
+    {
+        "query": "What is the average math standard score of all students in the table?",
+        "Answer_table": [
+            "./spreadsheet/canuse6.xlsx"
+        ]
+    },
+    {
+        "query": "Which student ranks within the top 5 in both math and Chinese class ranks?",
+        "Answer_table": [
+            "./spreadsheet/canuse6.xlsx"
+        ]
+    },
+    {
+        "query": "What is the name of the student with exam number 2017010037?",
+        "Answer_table": [
+            "./spreadsheet/canuse6.xlsx"
+        ]
+    },
+    {
+        "query": "What is the income amount on January 1, 2023?",
+        "Answer_table": [
+            "./spreadsheet/WorkplaceGeneral(22).xlsx"
+        ]
+    },
+    {
+        "query": "Please elaborate on the key data of this table.",
+        "Answer_table": [
+            "./spreadsheet/WorkplaceGeneral(22).xlsx"
+        ]
+    },
+    {
+        "query": "Which subject has the smallest opening balance (credit) that is not zero?",
+        "Answer_table": [
+            "./spreadsheet/ComputerizedAccounting.xls.xlsx"
+        ]
+    },
+    {
+        "query": "What is the sum of the total weight of the components with serial numbers 3 and 4?",
+        "Answer_table": [
+            "./spreadsheet/BHComponent(2).xlsx"
+        ]
+    },
+    {
+        "query": "What is the total flange weight of the BH component with the lightest total flange weight in the table?",
+        "Answer_table": [
+            "./spreadsheet/BHComponent(2).xlsx"
+        ]
+    },
+    {
+        "query": "What are the total flange weight and total web weight of the component in row 7?",
+        "Answer_table": [
+            "./spreadsheet/BHComponent(2).xlsx"
+        ]
+    },
+    {
+        "query": "Does the average flange thickness Tf increase or decrease with the increase in serial number?",
+        "Answer_table": [
+            "./spreadsheet/BHComponent(2).xlsx"
+        ]
+    },
+    {
+        "query": "What is the total flange weight of the component with serial number 5?",
+        "Answer_table": [
+            "./spreadsheet/BHComponent(2).xlsx"
+        ]
+    },
+    {
+        "query": "Did the sales volume of Store 1 on April 26, 2022, exceed that of May 26, 2022?",
+        "Answer_table": [
+            "./spreadsheet/WeChatScreenshot_20240207205143.xlsx"
+        ]
+    },
+    {
+        "query": "What is the highest single sales amount in the table?",
+        "Answer_table": [
+            "./spreadsheet/WeChatScreenshot_20240207205143.xlsx"
+        ]
+    },
+    {
+        "query": "What was the sales amount of Store 1 on March 26, 2022?",
+        "Answer_table": [
+            "./spreadsheet/WeChatScreenshot_20240207205143.xlsx"
+        ]
+    },
+    {
+        "query": "What was the average sales amount of Store 1 in the 2nd quarter of 2022?",
+        "Answer_table": [
+            "./spreadsheet/WeChatScreenshot_20240207205143.xlsx"
+        ]
+    },
+    {
+        "query": "If all inventory products are sold at the activity price, how much total profit can be obtained? ",
+        "Answer_table": [
+            "./spreadsheet/64.xlsx"
+        ]
+    },
+    {
+        "query": "What is the average market price of all primary push products? ",
+        "Answer_table": [
+            "./spreadsheet/64.xlsx"
+        ]
+    },
+    {
+        "query": "What is the item number with the least inventory quantity in the table? ",
+        "Answer_table": [
+            "./spreadsheet/64.xlsx"
+        ]
+    },
+    {
+        "query": "What are the item numbers with the model number X98351200? ",
+        "Answer_table": [
+            "./spreadsheet/64.xlsx"
+        ]
+    },
+    {
+        "query": "What is the total quantity of all products?",
+        "Answer_table": [
+            "./spreadsheet/Sheet13(3).xlsx"
+        ]
+    },
+    {
+        "query": "Please analyze the main findings of this table",
+        "Answer_table": [
+            "./spreadsheet/Sheet13(3).xlsx"
+        ]
+    },
+    {
+        "query": "Which salesperson is responsible for the highest quantity of products in all records?",
+        "Answer_table": [
+            "./spreadsheet/Sheet13(3).xlsx"
+        ]
+    },
+    {
+        "query": "Which salesperson has the highest sales amount?",
+        "Answer_table": [
+            "./spreadsheet/Sheet13(3).xlsx"
+        ]
+    },
+    {
+        "query": "What is the average quantity of all products?",
+        "Answer_table": [
+            "./spreadsheet/Sheet13(3).xlsx"
+        ]
+    },
+    {
+        "query": "What are the product names sold on October 10, 2023?",
+        "Answer_table": [
+            "./spreadsheet/Sheet13(3).xlsx"
+        ]
+    },
+    {
+        "query": "What is Little Husk 7's English score and grade?",
+        "Answer_table": [
+            "./spreadsheet/Sheet59.xlsx"
+        ]
+    },
+    {
+        "query": "In the Math subject, is the number of students who received an A grade greater than the number of students who received a B grade?",
+        "Answer_table": [
+            "./spreadsheet/Sheet59.xlsx"
+        ]
+    },
+    {
+        "query": "What is the average Chemistry score of all students in the table?",
+        "Answer_table": [
+            "./spreadsheet/Sheet59.xlsx"
+        ]
+    },
+    {
+        "query": "Which student received an A grade in the English subject?",
+        "Answer_table": [
+            "./spreadsheet/Sheet59.xlsx"
+        ]
+    },
+    {
+        "query": "Which student received an A grade in the Chemistry subject in this table?",
+        "Answer_table": [
+            "./spreadsheet/Sheet59.xlsx"
+        ]
+    },
+    {
+        "query": "What is the product name for order code D10110?",
+        "Answer_table": [
+            "./spreadsheet/WorkplaceGeneral(33).xlsx"
+        ]
+    },
+    {
+        "query": "What is the core information of this table?",
+        "Answer_table": [
+            "./spreadsheet/WorkplaceGeneral(33).xlsx"
+        ]
+    },
+    {
+        "query": "Which product has the highest return amount among all returned products?",
+        "Answer_table": [
+            "./spreadsheet/WorkplaceGeneral(33).xlsx"
+        ]
+    },
+    {
+        "query": "What is the product name corresponding to order code D10107?",
+        "Answer_table": [
+            "./spreadsheet/WorkplaceGeneral(33).xlsx"
+        ]
+    },
+    {
+        "query": "Which product has the highest sales profit?",
+        "Answer_table": [
+            "./spreadsheet/WorkplaceGeneral(33).xlsx"
+        ]
+    },
+    {
+        "query": "What is the market price of the product with item number M983512062071?",
+        "Answer_table": [
+            "./spreadsheet/3333(62).xlsx"
+        ]
+    },
+    {
+        "query": "Which product has a higher suggested price, the one with item number M983512062071 or X983512000073?",
+        "Answer_table": [
+            "./spreadsheet/3333(62).xlsx"
+        ]
+    },
+    {
+        "query": "What is the average cost of all primary push products?",
+        "Answer_table": [
+            "./spreadsheet/3333(62).xlsx"
+        ]
+    },
+    {
+        "query": "Which third-level category of products has the highest average activity price, and what is the average activity price?",
+        "Answer_table": [
+            "./spreadsheet/3333(62).xlsx"
+        ]
+    },
+    {
+        "query": "What is the average market price of all \"Women's Pajamas/Homewear\"?",
+        "Answer_table": [
+            "./spreadsheet/3333(62).xlsx"
+        ]
+    },
+    {
+        "query": "How many different style numbers are there in the table?",
+        "Answer_table": [
+            "./spreadsheet/3333(62).xlsx"
+        ]
+    },
+    {
+        "query": "Which product's remaining inventory total price exceeds 500,000 but historical inventory is less than 500?",
+        "Answer_table": [
+            "./spreadsheet/ProductionManufacturingForm(155).xlsx"
+        ]
+    },
+    {
+        "query": "Which product has the highest unit price?",
+        "Answer_table": [
+            "./spreadsheet/ProductionManufacturingForm(155).xlsx"
+        ]
+    },
+    {
+        "query": "Which product has the highest current inventory efficiency, i.e., the ratio of annual outbound efficiency to current inventory efficiency is the largest?",
+        "Answer_table": [
+            "./spreadsheet/ProductionManufacturingForm(155).xlsx"
+        ]
+    },
+    {
+        "query": "What is the difference between the annual inbound efficiency and annual outbound efficiency of Product 2?",
+        "Answer_table": [
+            "./spreadsheet/ProductionManufacturingForm(155).xlsx"
+        ]
+    },
+    {
+        "query": "What is the current inventory efficiency of Product 3?",
+        "Answer_table": [
+            "./spreadsheet/ProductionManufacturingForm(155).xlsx"
+        ]
+    },
+    {
+        "query": "Which product has the highest annual inbound efficiency?",
+        "Answer_table": [
+            "./spreadsheet/ProductionManufacturingForm(155).xlsx"
+        ]
+    },
+    {
+        "query": "In the Unit 1 exam, whose score is higher, Daoke1 or Daoke7?",
+        "Answer_table": [
+            "./spreadsheet/Sheet57.xlsx"
+        ]
+    },
+    {
+        "query": "In Unit 6, which student ranked 9th?",
+        "Answer_table": [
+            "./spreadsheet/Sheet57.xlsx"
+        ]
+    },
+    {
+        "query": "What is the score of the student who ranked first in Unit 1 in Unit 2?",
+        "Answer_table": [
+            "./spreadsheet/Sheet57.xlsx"
+        ]
+    },
+    {
+        "query": "Summarize and analyze this table",
+        "Answer_table": [
+            "./spreadsheet/Sheet57.xlsx"
+        ]
+    },
+    {
+        "query": "What is the score of the student with Student ID 5123001 in the final exam?",
+        "Answer_table": [
+            "./spreadsheet/Sheet57.xlsx"
+        ]
+    },
+    {
+        "query": "What are the names of the top three students in the final exam?",
+        "Answer_table": [
+            "./spreadsheet/Sheet57.xlsx"
+        ]
+    },
+    {
+        "query": "Which customer unit has a negative order amount and has been paid?",
+        "Answer_table": [
+            "./spreadsheet/WorkplaceGeneral(20).xlsx"
+        ]
+    },
+    {
+        "query": "What is the product name for the order with the order number HTDW-10231?",
+        "Answer_table": [
+            "./spreadsheet/WorkplaceGeneral(20).xlsx"
+        ]
+    },
+    {
+        "query": "What is the amount of the smallest order in the table?",
+        "Answer_table": [
+            "./spreadsheet/WorkplaceGeneral(20).xlsx"
+        ]
+    },
+    {
+        "query": "What is the customer unit for the order with the order number HTDW-10240?",
+        "Answer_table": [
+            "./spreadsheet/WorkplaceGeneral(20).xlsx"
+        ]
+    },
+    {
+        "query": "What does the data in this table tell us?",
+        "Answer_table": [
+            "./spreadsheet/WorkplaceGeneral(20).xlsx"
+        ]
+    },
+    {
+        "query": "What is the total amount of all paid orders?",
+        "Answer_table": [
+            "./spreadsheet/WorkplaceGeneral(20).xlsx"
+        ]
+    },
+    {
+        "query": "What is the sum of the total flange weight and total web weight for the component with serial number 3?",
+        "Answer_table": [
+            "./spreadsheet/BHComponent.xlsx"
+        ]
+    },
+    {
+        "query": "What is the total flange weight of the BH component with serial number 3?",
+        "Answer_table": [
+            "./spreadsheet/BHComponent.xlsx"
+        ]
+    },
+    {
+        "query": "How many types of BH components have a single piece weight exceeding 500?",
+        "Answer_table": [
+            "./spreadsheet/BHComponent.xlsx"
+        ]
+    },
+    {
+        "query": "What is the average total weight of components with a flange thickness Tf of 8?",
+        "Answer_table": [
+            "./spreadsheet/BHComponent.xlsx"
+        ]
+    },
+    {
+        "query": "Between the components with serial numbers 1 and 2, which one has a heavier single piece weight?",
+        "Answer_table": [
+            "./spreadsheet/BHComponent.xlsx"
+        ]
+    },
+    {
+        "query": "What is the flange width B of the component with serial number 5?",
+        "Answer_table": [
+            "./spreadsheet/BHComponent.xlsx"
+        ]
+    },
+    {
+        "query": "What is the total main material cost for all SKFA Type Water Level Valve DN70 (Apartment)?",
+        "Answer_table": [
+            "./spreadsheet/BasementLevel2WaterPumpRoom.xlsx"
+        ]
+    },
+    {
+        "query": "What is the equipment unit price for High Zone Water Supply Equipment (Apartment)?",
+        "Answer_table": [
+            "./spreadsheet/BasementLevel2WaterPumpRoom.xlsx"
+        ]
+    },
+    {
+        "query": "Which has a higher equipment unit price, Middle Zone Reclaimed Water Supply Equipment (Apartment) or Low Zone Reclaimed Water Supply Equipment (Apartment)?",
+        "Answer_table": [
+            "./spreadsheet/BasementLevel2WaterPumpRoom.xlsx"
+        ]
+    },
+    {
+        "query": "What is the base price unit price for Intermittent Water Tank 7000*2000*2000 (Apartment), and how does it compare to the base price unit price for Intermittent Reclaimed Water Tank 4000*4000*2000 (Apartment)?",
+        "Answer_table": [
+            "./spreadsheet/BasementLevel2WaterPumpRoom.xlsx"
+        ]
+    },
+    {
+        "query": "How many different quota names are there in total in the table? ",
+        "Answer_table": [
+            "./spreadsheet/BasementLevel2WaterPumpRoom.xlsx"
+        ]
+    },
+    {
+        "query": "What is the equipment unit price for Middle Zone Reclaimed Water Supply Equipment (Apartment)?",
+        "Answer_table": [
+            "./spreadsheet/BasementLevel2WaterPumpRoom.xlsx"
+        ]
+    },
+    {
+        "query": "How many months have a Current Month Sales Revenue exceeding 5000?",
+        "Answer_table": [
+            "./spreadsheet/WorkplaceGeneral(51).xlsx"
+        ]
+    },
+    {
+        "query": "What is the average Current Month Sales Revenue for the first quarter (January to March)?",
+        "Answer_table": [
+            "./spreadsheet/WorkplaceGeneral(51).xlsx"
+        ]
+    },
+    {
+        "query": "Comparing the Current Month Sales Tax Amount of January and February, which month has a higher value?",
+        "Answer_table": [
+            "./spreadsheet/WorkplaceGeneral(51).xlsx"
+        ]
+    },
+    {
+        "query": "What is the Current Month Sales Revenue for June?",
+        "Answer_table": [
+            "./spreadsheet/WorkplaceGeneral(51).xlsx"
+        ]
+    },
+    {
+        "query": "Who has a higher math score, Student1 or Student3?",
+        "Answer_table": [
+            "./spreadsheet/Sheet56.xlsx"
+        ]
+    },
+    {
+        "query": "What is the total score of Student11?",
+        "Answer_table": [
+            "./spreadsheet/Sheet56.xlsx"
+        ]
+    },
+    {
+        "query": "Which student has a math score of 99 points?",
+        "Answer_table": [
+            "./spreadsheet/Sheet56.xlsx"
+        ]
+    },
+    {
+        "query": "What is the key point of this table?",
+        "Answer_table": [
+            "./spreadsheet/Sheet56.xlsx"
+        ]
+    },
+    {
+        "query": "Among all students, which class has the highest average total score? Does this mean that the students in that class perform the best overall?",
+        "Answer_table": [
+            "./spreadsheet/Sheet56.xlsx"
+        ]
+    },
+    {
+        "query": "How many students are there in total in the table?",
+        "Answer_table": [
+            "./spreadsheet/Sheet56.xlsx"
+        ]
+    },
+    {
+        "query": "What is the English score of the student with ID 10?",
+        "Answer_table": [
+            "./spreadsheet/Sheet56.xlsx"
+        ]
+    },
+    {
+        "query": "What is the invoice type for \"Contract B\"?",
+        "Answer_table": [
+            "./spreadsheet/WorkplaceGeneral(31).xlsx"
+        ]
+    },
+    {
+        "query": "What is the average invoice amount for all contracts in the table?",
+        "Answer_table": [
+            "./spreadsheet/WorkplaceGeneral(31).xlsx"
+        ]
+    },
+    {
+        "query": "What is the total settlement amount for all \"Invoiced\" contracts?",
+        "Answer_table": [
+            "./spreadsheet/WorkplaceGeneral(31).xlsx"
+        ]
+    },
+    {
+        "query": "Which asset has an original value of 4,000.00 yuan? ",
+        "Answer_table": [
+            "./spreadsheet/WorkplaceGeneral(48).xlsx"
+        ]
+    },
+    {
+        "query": "Please analyze the relationship between the original value of the asset and the monthly depreciation amount. Does a higher original value necessarily mean a higher monthly depreciation amount? ",
+        "Answer_table": [
+            "./spreadsheet/WorkplaceGeneral(48).xlsx"
+        ]
+    },
+    {
+        "query": "What is the average monthly depreciation amount for all assets? ",
+        "Answer_table": [
+            "./spreadsheet/WorkplaceGeneral(48).xlsx"
+        ]
+    },
+    {
+        "query": "How many new assets were added each year from 2016 to 2020? ",
+        "Answer_table": [
+            "./spreadsheet/WorkplaceGeneral(48).xlsx"
+        ]
+    },
+    {
+        "query": "Please summarize and analyze this table. ",
+        "Answer_table": [
+            "./spreadsheet/WorkplaceGeneral(48).xlsx"
+        ]
+    },
+    {
+        "query": "Which had a higher retail price index of fuel commodities in 2016, Beijing Municipality or Tianjin Municipality?",
+        "Answer_table": [
+            "./spreadsheet/3333(78).xlsx"
+        ]
+    },
+    {
+        "query": "In Grade 3 Class 2, who has a math grade of 92? ",
+        "Answer_table": [
+            "./spreadsheet/2231.xlsx"
+        ]
+    },
+    {
+        "query": "What is the average English grade of all students? ",
+        "Answer_table": [
+            "./spreadsheet/2231.xlsx"
+        ]
+    },
+    {
+        "query": "In Grade 3 Class 2, which student has the highest math grade? ",
+        "Answer_table": [
+            "./spreadsheet/2231.xlsx"
+        ]
+    },
+    {
+        "query": "What is the science grade of the student who participates in the Science Club? ",
+        "Answer_table": [
+            "./spreadsheet/2231.xlsx"
+        ]
+    },
+    {
+        "query": "Which student is in the Basketball Club? ",
+        "Answer_table": [
+            "./spreadsheet/2231.xlsx"
+        ]
+    },
+    {
+        "query": "Which students have a math grade higher than 90? ",
+        "Answer_table": [
+            "./spreadsheet/2231.xlsx"
+        ]
+    },
+    {
+        "query": "Which student has the highest English grade? ",
+        "Answer_table": [
+            "./spreadsheet/2231.xlsx"
+        ]
+    },
+    {
+        "query": "What is the total thickness of the pipe base and cushion for a pipe diameter of 600mm?",
+        "Answer_table": [
+            "./spreadsheet/BasicData.xlsx"
+        ]
+    },
+    {
+        "query": "What is the average drop shipping price of all products?",
+        "Answer_table": [
+            "./spreadsheet/FactoryProductQuotation.xlsx"
+        ]
+    },
+    {
+        "query": "How many different product names are there in total in the table?",
+        "Answer_table": [
+            "./spreadsheet/FactoryProductQuotation.xlsx"
+        ]
+    },
+    {
+        "query": "What is the member price gross profit of the 7th product?",
+        "Answer_table": [
+            "./spreadsheet/FactoryProductQuotation.xlsx"
+        ]
+    },
+    {
+        "query": "Which has a higher market price, the computer or the washing machine?",
+        "Answer_table": [
+            "./spreadsheet/FactoryProductQuotation.xlsx"
+        ]
+    },
+    {
+        "query": "In the table, over time, does the income amount of the husband's salary increase or decrease?",
+        "Answer_table": [
+            "./spreadsheet/WorkplaceGeneral(32).xlsx"
+        ]
+    },
+    {
+        "query": "How many records in the table have an income amount greater than 5,000?",
+        "Answer_table": [
+            "./spreadsheet/WorkplaceGeneral(32).xlsx"
+        ]
+    },
+    {
+        "query": "In the table, which has a higher income amount, the husband's salary or the wife's salary?",
+        "Answer_table": [
+            "./spreadsheet/WorkplaceGeneral(32).xlsx"
+        ]
+    },
+    {
+        "query": "What is the expenditure amount on January 1, 2022?",
+        "Answer_table": [
+            "./spreadsheet/WorkplaceGeneral(47).xlsx"
+        ]
+    },
+    {
+        "query": "How much did the expenditure amount increase on January 1, 2023, compared to January 1, 2022?",
+        "Answer_table": [
+            "./spreadsheet/WorkplaceGeneral(47).xlsx"
+        ]
+    },
+    {
+        "query": "Based on the data from 2022 and 2023, what changes can be predicted for the expenditure amounts of each expense type in 2024?",
+        "Answer_table": [
+            "./spreadsheet/WorkplaceGeneral(47).xlsx"
+        ]
+    },
+    {
+        "query": "What is the total expenditure amount for all Sales Expenses types in 2022?",
+        "Answer_table": [
+            "./spreadsheet/WorkplaceGeneral(47).xlsx"
+        ]
+    },
+    {
+        "query": "How many expenditure records are there in the table?",
+        "Answer_table": [
+            "./spreadsheet/WorkplaceGeneral(47).xlsx"
+        ]
+    },
+    {
+        "query": "On April 15, 2020, what was the income amount?",
+        "Answer_table": [
+            "./spreadsheet/WorkplaceGeneral(28).xlsx"
+        ]
+    },
+    {
+        "query": "On April 19, 2020, how does the expenditure amount for the employee bonus compare to the expenditure amount for treating guests to dinner on April 20, 2020? Which day had higher expenditure?",
+        "Answer_table": [
+            "./spreadsheet/WorkplaceGeneral(28).xlsx"
+        ]
+    },
+    {
+        "query": "What was the income amount on April 22, 2020?",
+        "Answer_table": [
+            "./spreadsheet/WorkplaceGeneral(28).xlsx"
+        ]
+    },
+    {
+        "query": "Which project had the lowest expenditure amount in the table?",
+        "Answer_table": [
+            "./spreadsheet/WorkplaceGeneral(28).xlsx"
+        ]
+    },
+    {
+        "query": "On which day was the remaining amount the highest in the table?",
+        "Answer_table": [
+            "./spreadsheet/WorkplaceGeneral(28).xlsx"
+        ]
+    },
+    {
+        "query": "What is the theme of this table?",
+        "Answer_table": [
+            "./spreadsheet/WorkplaceGeneral(28).xlsx"
+        ]
+    },
+    {
+        "query": "From April 15, 2020, to April 24, 2020, is the overall trend of the income amount rising or falling?",
+        "Answer_table": [
+            "./spreadsheet/WorkplaceGeneral(28).xlsx"
+        ]
+    },
+    {
+        "query": "How many subject codes are there in the table?",
+        "Answer_table": [
+            "./spreadsheet/ComputerizedAccountingAssociation(2).xls.xlsx"
+        ]
+    },
+    {
+        "query": "What is the highest transaction total price of the land in the table? ",
+        "Answer_table": [
+            "./spreadsheet/Beijing-LandTransferDetails.xlsx"
+        ]
+    },
+    {
+        "query": "What are the parcel names transacted in Fangshan District, Beijing on June 12, 2015? ",
+        "Answer_table": [
+            "./spreadsheet/Beijing-LandTransferDetails.xlsx"
+        ]
+    },
+    {
+        "query": "What is the starting bid total price of the land in Chaoyang District, Beijing on August 5, 2015? ",
+        "Answer_table": [
+            "./spreadsheet/Beijing-LandTransferDetails.xlsx"
+        ]
+    },
+    {
+        "query": "Which parcel name has the highest transaction total price among the parcels transacted in July 2015? ",
+        "Answer_table": [
+            "./spreadsheet/Beijing-LandTransferDetails.xlsx"
+        ]
+    },
+    {
+        "query": "Which land area is larger between Chaoyang District, Beijing on July 30, 2015 and Fengtai District, Beijing on July 28, 2015? ",
+        "Answer_table": [
+            "./spreadsheet/Beijing-LandTransferDetails.xlsx"
+        ]
+    },
+    {
+        "query": "How many units have a university admission rate exceeding 90%?",
+        "Answer_table": [
+            "./spreadsheet/Canuse43.xlsx"
+        ]
+    },
+    {
+        "query": "What is the total number of physics and history candidates in Zhangzhou No.1 High School?",
+        "Answer_table": [
+            "./spreadsheet/Canuse43.xlsx"
+        ]
+    },
+    {
+        "query": "How many schools in the table have a first-tier university admission rate exceeding 70%?",
+        "Answer_table": [
+            "./spreadsheet/Canuse43.xlsx"
+        ]
+    },
+    {
+        "query": "What is the total number of candidates in Xiamen University Affiliated High School?",
+        "Answer_table": [
+            "./spreadsheet/Canuse43.xlsx"
+        ]
+    },
+    {
+        "query": "What is the main content of this table?",
+        "Answer_table": [
+            "./spreadsheet/Canuse43.xlsx"
+        ]
+    },
+    {
+        "query": "Which school has a higher university admission rate, Zhangzhou Liren School or Zhangzhou Experimental High School?",
+        "Answer_table": [
+            "./spreadsheet/Canuse43.xlsx"
+        ]
+    },
+    {
+        "query": "What is the relationship between the number of physics candidates and the number of candidates admitted to universities?",
+        "Answer_table": [
+            "./spreadsheet/Canuse43.xlsx"
+        ]
+    },
+    {
+        "query": "What is the average university admission rate across all units?",
+        "Answer_table": [
+            "./spreadsheet/Canuse43.xlsx"
+        ]
+    },
+    {
+        "query": "How many subject codes have a balance direction of \"Debit\"?",
+        "Answer_table": [
+            "./spreadsheet/7777(10).xlsx"
+        ]
+    },
+    {
+        "query": "What is the subject name for the subject code \"19102\"?",
+        "Answer_table": [
+            "./spreadsheet/7777(10).xlsx"
+        ]
+    },
+    {
+        "query": "Whose Mathematics score is 94 points?",
+        "Answer_table": [
+            "./spreadsheet/Sheet61.xlsx"
+        ]
+    },
+    {
+        "query": "In the table, which student has a Mathematics score of 65 points?",
+        "Answer_table": [
+            "./spreadsheet/Sheet61.xlsx"
+        ]
+    },
+    {
+        "query": "What is Tang Wenyan's total score?",
+        "Answer_table": [
+            "./spreadsheet/Sheet61.xlsx"
+        ]
+    },
+    {
+        "query": "What is the average English score of all students?",
+        "Answer_table": [
+            "./spreadsheet/Sheet61.xlsx"
+        ]
+    },
+    {
+        "query": "Which students have a Mathematics score higher than 70 points?",
+        "Answer_table": [
+            "./spreadsheet/Sheet61.xlsx"
+        ]
+    },
+    {
+        "query": "Which student has at least one subject score below 50 points?",
+        "Answer_table": [
+            "./spreadsheet/Sheet61.xlsx"
+        ]
+    },
+    {
+        "query": "Analyze the data in this table",
+        "Answer_table": [
+            "./spreadsheet/Sheet0(2).xlsx"
+        ]
+    },
+    {
+        "query": "Which project has the lowest completion progress?",
+        "Answer_table": [
+            "./spreadsheet/Sheet0(2).xlsx"
+        ]
+    },
+    {
+        "query": "What is the name of the project with serial number 4?",
+        "Answer_table": [
+            "./spreadsheet/Sheet0(2).xlsx"
+        ]
+    },
+    {
+        "query": "Which project has the lowest paid amount?",
+        "Answer_table": [
+            "./spreadsheet/Sheet0(2).xlsx"
+        ]
+    },
+    {
+        "query": "What is the completion progress of Project 7?",
+        "Answer_table": [
+            "./spreadsheet/Sheet0(2).xlsx"
+        ]
+    },
+    {
+        "query": "What is the total contract amount for all projects?",
+        "Answer_table": [
+            "./spreadsheet/Sheet0(2).xlsx"
+        ]
+    },
+    {
+        "query": "Which projects have a confirmed payment amount lower than their settlement amount?",
+        "Answer_table": [
+            "./spreadsheet/Sheet0(2).xlsx"
+        ]
+    },
+    {
+        "query": "What is the average amount of records with an amount exceeding 500,000?",
+        "Answer_table": [
+            "./spreadsheet/ProductionManufacturingForm(521).xlsx"
+        ]
+    },
+    {
+        "query": "What is the highest amount among all records with \"Material 1\" in December 2020?",
+        "Answer_table": [
+            "./spreadsheet/ProductionManufacturingForm(521).xlsx"
+        ]
+    },
+    {
+        "query": "Analyze the information in this table.",
+        "Answer_table": [
+            "./spreadsheet/ProductionManufacturingForm(521).xlsx"
+        ]
+    },
+    {
+        "query": "Which supplier, Supplier 2 or Supplier 3, provides materials with a higher average unit price?",
+        "Answer_table": [
+            "./spreadsheet/ProductionManufacturingForm(521).xlsx"
+        ]
+    },
+    {
+        "query": "Based on the table data, is there an increasing trend in the total amount of Material 1 in December 2020?",
+        "Answer_table": [
+            "./spreadsheet/ProductionManufacturingForm(521).xlsx"
+        ]
+    },
+    {
+        "query": "How many records are there with \"Supplier 2\" in the \"Supplier\" column?",
+        "Answer_table": [
+            "./spreadsheet/ProductionManufacturingForm(521).xlsx"
+        ]
+    },
+    {
+        "query": "What is the Material Name in the 11th row?",
+        "Answer_table": [
+            "./spreadsheet/ProductionManufacturingForm(521).xlsx"
+        ]
+    },
+    {
+        "query": "What is the major with the highest number of applicants in the College of Agriculture at Xinjiang Agricultural University?",
+        "Answer_table": [
+            "./spreadsheet/Workbook50.xlsx"
+        ]
+    },
+    {
+        "query": "How many majors have more than 50 applicants?",
+        "Answer_table": [
+            "./spreadsheet/Workbook50.xlsx"
+        ]
+    },
+    {
+        "query": "Which majors in the College of Agriculture at Xinjiang Agricultural University have an application-admission ratio greater than 0.35?",
+        "Answer_table": [
+            "./spreadsheet/Workbook50.xlsx"
+        ]
+    },
+    {
+        "query": "Which major has the highest application-admission ratio and more than 50 applicants?",
+        "Answer_table": [
+            "./spreadsheet/Workbook50.xlsx"
+        ]
+    },
+    {
+        "query": "How many majors at Xinjiang Normal University have 0 applicants?",
+        "Answer_table": [
+            "./spreadsheet/Workbook50.xlsx"
+        ]
+    },
+    {
+        "query": "What is the project name for serial number (4)?",
+        "Answer_table": [
+            "./spreadsheet/3ListofStandards.xlsx"
+        ]
+    },
+    {
+        "query": "What are the main characteristics of this table?",
+        "Answer_table": [
+            "./spreadsheet/3ListofStandards.xlsx"
+        ]
+    },
+    {
+        "query": "What is the total of Groceries, Entertainment Expenses, and Transportation Fees/Fuel on October 3rd?",
+        "Answer_table": [
+            "./spreadsheet/WorkplaceGeneral(35).xlsx"
+        ]
+    },
+    {
+        "query": "What is the \"Others\" expense in row 18?",
+        "Answer_table": [
+            "./spreadsheet/WorkplaceGeneral(35).xlsx"
+        ]
+    },
+    {
+        "query": "What is the total expense on October 1st?",
+        "Answer_table": [
+            "./spreadsheet/WorkplaceGeneral(35).xlsx"
+        ]
+    },
+    {
+        "query": "How many records in the table have non-empty Mortgage expenses?",
+        "Answer_table": [
+            "./spreadsheet/WorkplaceGeneral(35).xlsx"
+        ]
+    },
+    {
+        "query": "Which project has the highest project completion rate?",
+        "Answer_table": [
+            "./spreadsheet/WorkplaceGeneral(56).xlsx"
+        ]
+    },
+    {
+        "query": "What is the project completion rate of Project_10?",
+        "Answer_table": [
+            "./spreadsheet/WorkplaceGeneral(56).xlsx"
+        ]
+    },
+    {
+        "query": "Which project has the lowest project completion rate?",
+        "Answer_table": [
+            "./spreadsheet/WorkplaceGeneral(56).xlsx"
+        ]
+    },
+    {
+        "query": "What are the main data points of this table?",
+        "Answer_table": [
+            "./spreadsheet/WorkplaceGeneral(56).xlsx"
+        ]
+    },
+    {
+        "query": "What is the sum of the project amount and subcontract amount for Project_3?",
+        "Answer_table": [
+            "./spreadsheet/WorkplaceGeneral(56).xlsx"
+        ]
+    },
+    {
+        "query": "What is the project name for the serial number 5?",
+        "Answer_table": [
+            "./spreadsheet/WorkplaceGeneral(56).xlsx"
+        ]
+    },
+    {
+        "query": "Among all materials with Order No. No-20120003, which material code has the highest unit price?",
+        "Answer_table": [
+            "./spreadsheet/ProductionManufacturingForm(628).xlsx"
+        ]
+    },
+    {
+        "query": "What is the quantity of the cold plate with a unit price of ¥210.00 entered on December 14, 2012?",
+        "Answer_table": [
+            "./spreadsheet/ProductionManufacturingForm(628).xlsx"
+        ]
+    },
+    {
+        "query": "How many different material codes are there in total in the table?",
+        "Answer_table": [
+            "./spreadsheet/ProductionManufacturingForm(628).xlsx"
+        ]
+    },
+    {
+        "query": "What is the material code with the highest unit price entered on December 14, 2012?",
+        "Answer_table": [
+            "./spreadsheet/ProductionManufacturingForm(628).xlsx"
+        ]
+    },
+    {
+        "query": "Which supplier provided the most total quantity of materials?",
+        "Answer_table": [
+            "./spreadsheet/ProductionManufacturingForm(628).xlsx"
+        ]
+    },
+    {
+        "query": "How many material records are there in total on December 1, 2012?",
+        "Answer_table": [
+            "./spreadsheet/ProductionManufacturingForm(628).xlsx"
+        ]
+    },
+    {
+        "query": "What is the actual bottom elevation of the beam for Pier Number 50?",
+        "Answer_table": [
+            "./spreadsheet/Sheet1(4).xlsx"
+        ]
+    },
+    {
+        "query": "What is the total of the elastic deformation of the support and the allowance for Pier Number 49?",
+        "Answer_table": [
+            "./spreadsheet/Sheet1(4).xlsx"
+        ]
+    },
+    {
+        "query": "What is the significance of the data in this table?",
+        "Answer_table": [
+            "./spreadsheet/Sheet1(4).xlsx"
+        ]
+    },
+    {
+        "query": "How many pier numbers are recorded in total in this table?",
+        "Answer_table": [
+            "./spreadsheet/Sheet1(4).xlsx"
+        ]
+    },
+    {
+        "query": "What is the main purpose of this table? ",
+        "Answer_table": [
+            "./spreadsheet/Workbook1(1).xlsx"
+        ]
+    },
+    {
+        "query": "What is the average score of all students in the Foreign Language subject? ",
+        "Answer_table": [
+            "./spreadsheet/Workbook1(1).xlsx"
+        ]
+    },
+    {
+        "query": "What is the score of the student with Student ID S-0008 in the Geography subject? ",
+        "Answer_table": [
+            "./spreadsheet/Workbook1(1).xlsx"
+        ]
+    },
+    {
+        "query": "What is the lowest score in any subject? ",
+        "Answer_table": [
+            "./spreadsheet/Workbook1(1).xlsx"
+        ]
+    },
+    {
+        "query": "Between the students with Student ID S-0001 and S-0002, who has a higher score in the Mathematics subject? ",
+        "Answer_table": [
+            "./spreadsheet/Workbook1(1).xlsx"
+        ]
+    },
+    {
+        "query": "Among the students who received a ★★★★★ rating, what is the highest score in the Mathematics subject? ",
+        "Answer_table": [
+            "./spreadsheet/Workbook1(1).xlsx"
+        ]
+    },
+    {
+        "query": "Which subject has the highest average score among all students? ",
+        "Answer_table": [
+            "./spreadsheet/Workbook1(1).xlsx"
+        ]
+    },
+    {
+        "query": "Summarize this table",
+        "Answer_table": [
+            "./spreadsheet/WorkplaceGeneral(17).xlsx"
+        ]
+    },
+    {
+        "query": "In the table, which month has an \"Income Amount.1\" of 200.0?",
+        "Answer_table": [
+            "./spreadsheet/WorkplaceGeneral(17).xlsx"
+        ]
+    },
+    {
+        "query": "What is Pan Chao's score in the English subject in Class 1301?",
+        "Answer_table": [
+            "./spreadsheet/Canuse20.xlsx"
+        ]
+    },
+    {
+        "query": "Which student has the lowest score in Math?",
+        "Answer_table": [
+            "./spreadsheet/Canuse20.xlsx"
+        ]
+    },
+    {
+        "query": "Who scored 100 points in Physics among all the students?",
+        "Answer_table": [
+            "./spreadsheet/Canuse20.xlsx"
+        ]
+    },
+    {
+        "query": "What is Tang Bin's average score in all subjects in Class 1301?",
+        "Answer_table": [
+            "./spreadsheet/Canuse20.xlsx"
+        ]
+    },
+    {
+        "query": "What is Sun Fangling's score in the English subject in this table?",
+        "Answer_table": [
+            "./spreadsheet/Canuse20.xlsx"
+        ]
+    },
+    {
+        "query": "Which city has the most buildings among these buildings?",
+        "Answer_table": [
+            "./spreadsheet/NationalSuperHigh-RiseBuildingCostStatistics(1999-2010).xlsx"
+        ]
+    },
+    {
+        "query": "What is the average number of floors of the buildings in the table?",
+        "Answer_table": [
+            "./spreadsheet/NationalSuperHigh-RiseBuildingCostStatistics(1999-2010).xlsx"
+        ]
+    },
+    {
+        "query": "Which transferee participated in the transaction of more than one land parcel?",
+        "Answer_table": [
+            "./spreadsheet/1706798909611.xlsx"
+        ]
+    },
+    {
+        "query": "Please provide a comprehensive analysis of the land parcel transactions in October 2015, including the number of transactions, the average transaction price, the highest and lowest prices, and the main transferees.",
+        "Answer_table": [
+            "./spreadsheet/1706798909611.xlsx"
+        ]
+    },
+    {
+        "query": "Which land parcels were transacted on 2015-10-28?",
+        "Answer_table": [
+            "./spreadsheet/1706798909611.xlsx"
+        ]
+    },
+    {
+        "query": "Which land parcels had planned uses that included residential on 2015-10-14?",
+        "Answer_table": [
+            "./spreadsheet/1706798909611.xlsx"
+        ]
+    },
+    {
+        "query": "Which land parcel had the highest transaction floor price?",
+        "Answer_table": [
+            "./spreadsheet/1706798909611.xlsx"
+        ]
+    },
+    {
+        "query": "What is the average starting price of all the land parcels in ten thousand yuan?",
+        "Answer_table": [
+            "./spreadsheet/1706798909611.xlsx"
+        ]
+    },
+    {
+        "query": "Which land parcel had the highest transaction price (in ten thousand yuan)?",
+        "Answer_table": [
+            "./spreadsheet/1706798909611.xlsx"
+        ]
+    },
+    {
+        "query": "Which supplier provided the most Cold Plates on December 14, 2012?",
+        "Answer_table": [
+            "./spreadsheet/ProductionManufacturingForm(627).xlsx"
+        ]
+    },
+    {
+        "query": "How many Cold Plates were entered into the system on December 1, 2012?",
+        "Answer_table": [
+            "./spreadsheet/ProductionManufacturingForm(627).xlsx"
+        ]
+    },
+    {
+        "query": "What is the material code of the item with the highest unit price entered on December 14, 2012?",
+        "Answer_table": [
+            "./spreadsheet/ProductionManufacturingForm(627).xlsx"
+        ]
+    },
+    {
+        "query": "What is the quantity of the item with the least quantity in the table?",
+        "Answer_table": [
+            "./spreadsheet/ProductionManufacturingForm(627).xlsx"
+        ]
+    },
+    {
+        "query": "What are the main characteristics of this table?",
+        "Answer_table": [
+            "./spreadsheet/ProductionManufacturingForm(627).xlsx"
+        ]
+    },
+    {
+        "query": "What is the material code in the 9th row?",
+        "Answer_table": [
+            "./spreadsheet/ProductionManufacturingForm(627).xlsx"
+        ]
+    },
+    {
+        "query": "Is the value of Rice Husk 2 in February higher than that of Rice Husk 3 in the same month?",
+        "Answer_table": [
+            "./spreadsheet/WorkplaceGeneral(30).xlsx"
+        ]
+    },
+    {
+        "query": "In which month does Rice Husk 1 have the highest income?",
+        "Answer_table": [
+            "./spreadsheet/WorkplaceGeneral(30).xlsx"
+        ]
+    },
+    {
+        "query": "What is the value of Rice Husk 1 in January?",
+        "Answer_table": [
+            "./spreadsheet/WorkplaceGeneral(30).xlsx"
+        ]
+    },
+    {
+        "query": "What is the average value of Rice Husk 4 from April to June?",
+        "Answer_table": [
+            "./spreadsheet/WorkplaceGeneral(30).xlsx"
+        ]
+    },
+    {
+        "query": "In which month does Rice Husk 5 reach its highest value?",
+        "Answer_table": [
+            "./spreadsheet/WorkplaceGeneral(30).xlsx"
+        ]
+    },
+    {
+        "query": "Which Rice Husk has the lowest income in any given month, and in which month?",
+        "Answer_table": [
+            "./spreadsheet/WorkplaceGeneral(30).xlsx"
+        ]
+    },
+    {
+        "query": "What are the incomes of Rice Husk 10 in June and July, respectively?",
+        "Answer_table": [
+            "./spreadsheet/WorkplaceGeneral(30).xlsx"
+        ]
+    },
+    {
+        "query": "What is the data for Shandong in 2004?",
+        "Answer_table": [
+            "./spreadsheet/ProvincesLandAcquisitionArea(SquareKilometers).xlsx"
+        ]
+    },
+    {
+        "query": "What is the average value of the data for all regions in 2003?",
+        "Answer_table": [
+            "./spreadsheet/ProvincesLandAcquisitionArea(SquareKilometers).xlsx"
+        ]
+    },
+    {
+        "query": "What is the data for Hebei in 2004?",
+        "Answer_table": [
+            "./spreadsheet/ProvincesLandAcquisitionArea(SquareKilometers).xlsx"
+        ]
+    },
+    {
+        "query": "Which month has the highest difference between income and expenditure amounts?",
+        "Answer_table": [
+            "./spreadsheet/WorkplaceGeneral(19).xlsx"
+        ]
+    },
+    {
+        "query": "Please interpret the important information from this chart.",
+        "Answer_table": [
+            "./spreadsheet/WorkplaceGeneral(19).xlsx"
+        ]
+    },
+    {
+        "query": "What is the income amount for January 2023?",
+        "Answer_table": [
+            "./spreadsheet/WorkplaceGeneral(19).xlsx"
+        ]
+    },
+    {
+        "query": "What is the income amount on September 1, 2023?",
+        "Answer_table": [
+            "./spreadsheet/WorkplaceGeneral(19).xlsx"
+        ]
+    },
+    {
+        "query": "On May 1, 2020, and May 2, 2020, which day had more inbound quantity?",
+        "Answer_table": [
+            "./spreadsheet/GoodsLogisticsManagement(60).xlsx"
+        ]
+    },
+    {
+        "query": "From May 1, 2020, to May 10, 2020, what was the total inbound quantity of Product 3?",
+        "Answer_table": [
+            "./spreadsheet/GoodsLogisticsManagement(60).xlsx"
+        ]
+    },
+    {
+        "query": "Among all products, which product's inventory quantity is below the safety stock quantity?",
+        "Answer_table": [
+            "./spreadsheet/GoodsLogisticsManagement(60).xlsx"
+        ]
+    },
+    {
+        "query": "In all worksheets, what is the product specification of \"Microvast PACK\"? What is the quantity of this specification? ",
+        "Answer_table": [
+            "./spreadsheet/ProductionMasterPlan.xlsx"
+        ]
+    },
+    {
+        "query": "In all worksheets, which has an earlier delivery date, the product of \"Microvast PACK\" or the product of \"X\"?",
+        "Answer_table": [
+            "./spreadsheet/ProductionMasterPlan.xlsx"
+        ]
+    },
+    {
+        "query": "In all worksheets, which customer's product has the highest quantity? What is this customer's product?",
+        "Answer_table": [
+            "./spreadsheet/ProductionMasterPlan.xlsx"
+        ]
+    },
+    {
+        "query": "In all worksheets, what is the total monthly plan for the 10403 Workface? ",
+        "Answer_table": [
+            "./spreadsheet/CoalMineProductionDailyReport.xlsx"
+        ]
+    },
+    {
+        "query": "In all worksheets, on which day is the daily completion amount for the 10403 Workface the highest? ",
+        "Answer_table": [
+            "./spreadsheet/CoalMineProductionDailyReport.xlsx"
+        ]
+    },
+    {
+        "query": "In all worksheets, what is the total monthly cumulative completion amount for the 10403 Workface? ",
+        "Answer_table": [
+            "./spreadsheet/CoalMineProductionDailyReport.xlsx"
+        ]
+    },
+    {
+        "query": "Please list the types of knowledge learning and explain the characteristics of each type? ",
+        "Answer_table": [
+            "./spreadsheet/EducationalPsychology.xlsx"
+        ]
+    },
+    {
+        "query": "Please explain what mental skills are and analyze the theoretical exploration of their formation? ",
+        "Answer_table": [
+            "./spreadsheet/EducationalPsychology.xlsx"
+        ]
+    },
+    {
+        "query": "Which month's \"Daily Average\" number of orders is the highest?",
+        "Answer_table": [
+            "./spreadsheet/E-commerceOrderAnalysis.xlsx"
+        ]
+    },
+    {
+        "query": "What is the total sum of \"Completed Orders/Person\" across all worksheets?",
+        "Answer_table": [
+            "./spreadsheet/E-commerceOrderAnalysis.xlsx"
+        ]
+    },
+    {
+        "query": "Please find all dates where the \"Total Number of Products\" exceeds 1000.",
+        "Answer_table": [
+            "./spreadsheet/E-commerceOrderAnalysis.xlsx"
+        ]
+    },
+    {
+        "query": "In all worksheets, which company's total budget is higher, Wuxi Company or Nantong Company?",
+        "Answer_table": [
+            "./spreadsheet/1237(2).xlsx"
+        ]
+    },
+    {
+        "query": "In all worksheets, what is the total budget for the Marketing department across all companies?",
+        "Answer_table": [
+            "./spreadsheet/1237(2).xlsx"
+        ]
+    },
+    {
+        "query": "In all worksheets, which department has the highest budget?",
+        "Answer_table": [
+            "./spreadsheet/1237(2).xlsx"
+        ]
+    },
+    {
+        "query": "What is the average selling price of all products among all the data? ",
+        "Answer_table": [
+            "./spreadsheet/GoodsSalesandInventoryDataStatisticsTable.xlsx"
+        ]
+    },
+    {
+        "query": "Which salesperson has the highest sales amount among all the data? ",
+        "Answer_table": [
+            "./spreadsheet/GoodsSalesandInventoryDataStatisticsTable.xlsx"
+        ]
+    },
+    {
+        "query": "In 2015 and 2016, in the science score segment of 400-396, which year had more people? ",
+        "Answer_table": [
+            "./spreadsheet/2015-2019JiangsuCollegeEntranceExaminationScienceandLiberalArtsScoreDistributionStatistics.xlsx"
+        ]
+    },
+    {
+        "query": "In all worksheets, if I want to find a stock with relatively low P/B and P/E ratios, which one should I choose?",
+        "Answer_table": [
+            "./spreadsheet/StockAnalysisTable.xlsx"
+        ]
+    },
+    {
+        "query": "In all worksheets, what is the highest point of Gree Electric Appliances?",
+        "Answer_table": [
+            "./spreadsheet/StockAnalysisTable.xlsx"
+        ]
+    },
+    {
+        "query": "According to the \"Compilation Instructions\" and \"Building Standards for Various Products\" worksheets, what is the total sales amount of the project, and what is the structural form of the commercial building? ",
+        "Answer_table": [
+            "./spreadsheet/BuildingCostBudgetTable.xlsx"
+        ]
+    },
+    {
+        "query": "According to the \"Planning Indicators\" and \"Building Standards for Various Products\" worksheets, is the building area of mid-rise residential buildings greater than that of high-rise residential buildings, and is the structural form of mid-rise residential buildings short-limb shear walls? ",
+        "Answer_table": [
+            "./spreadsheet/BuildingCostBudgetTable.xlsx"
+        ]
+    },
+    {
+        "query": "According to the \"Compilation Instructions\" and \"Planning Indicators\" worksheets, what is the total investment of the project, and what is the total building area of the project? ",
+        "Answer_table": [
+            "./spreadsheet/BuildingCostBudgetTable.xlsx"
+        ]
+    },
+    {
+        "query": "In all worksheets, which bookkeepers used WeChat as the expense settlement method?",
+        "Answer_table": [
+            "./spreadsheet/FinancialIncomeandExpenditureLedger-AutoCalculation1.xlsx"
+        ]
+    },
+    {
+        "query": "In all worksheets, which bookkeeper had the highest expenditure amount?",
+        "Answer_table": [
+            "./spreadsheet/FinancialIncomeandExpenditureLedger-AutoCalculation1.xlsx"
+        ]
+    },
+    {
+        "query": "In all worksheets, what is the total expenditure for all bookkeepers using WeChat as the settlement method?",
+        "Answer_table": [
+            "./spreadsheet/FinancialIncomeandExpenditureLedger-AutoCalculation1.xlsx"
+        ]
+    },
+    {
+        "query": "In all worksheets, which bookkeeper had the largest difference between income and expenditure?",
+        "Answer_table": [
+            "./spreadsheet/FinancialIncomeandExpenditureLedger-AutoCalculation1.xlsx"
+        ]
+    },
+    {
+        "query": "What is the total monthly repayment amount for each worksheet? ",
+        "Answer_table": [
+            "./spreadsheet/InterestTable.xlsx"
+        ]
+    },
+    {
+        "query": "In all worksheets, which worksheet has the highest total down payment? ",
+        "Answer_table": [
+            "./spreadsheet/InterestTable.xlsx"
+        ]
+    },
+    {
+        "query": "In all worksheets, which worksheet has the longest loan period and the highest loan amount? ",
+        "Answer_table": [
+            "./spreadsheet/InterestTable.xlsx"
+        ]
+    },
+    {
+        "query": "In all worksheets, what is the highest car price in yuan? ",
+        "Answer_table": [
+            "./spreadsheet/InterestTable.xlsx"
+        ]
+    },
+    {
+        "query": "In all worksheets, which questions' knowledge content involves \"motion of charged particles in a uniform magnetic field\"?",
+        "Answer_table": [
+            "./spreadsheet/NationalCollegeEntranceExaminationComprehensiveSciencePhysics.xlsx"
+        ]
+    },
+    {
+        "query": "In all worksheets, which questions involve the knowledge points of \"Compulsory 1\" and \"Compulsory 2\"?",
+        "Answer_table": [
+            "./spreadsheet/NationalCollegeEntranceExaminationComprehensiveSciencePhysics.xlsx"
+        ]
+    },
+    {
+        "query": "In the 2017 Guangdong Province early first batch undergraduate arts and science first round admissions, what is the total planned number for all schools?",
+        "Answer_table": [
+            "./spreadsheet/2017CollegeEntranceExaminationAdmissionScoreLine.xlsx"
+        ]
+    },
+    {
+        "query": "In the 2017 Guangdong Province early first batch undergraduate arts first round admissions, what is the planned number for Peking University?",
+        "Answer_table": [
+            "./spreadsheet/2017CollegeEntranceExaminationAdmissionScoreLine.xlsx"
+        ]
+    },
+    {
+        "query": "In the 2017 Guangdong Province early first batch undergraduate arts and science first round admissions, which has more admissions for Peking University?",
+        "Answer_table": [
+            "./spreadsheet/2017CollegeEntranceExaminationAdmissionScoreLine.xlsx"
+        ]
+    },
+    {
+        "query": "In the 2017 Guangdong Province early first batch undergraduate arts and science first round admissions, which school has the highest first choice admission minimum score?",
+        "Answer_table": [
+            "./spreadsheet/2017CollegeEntranceExaminationAdmissionScoreLine.xlsx"
+        ]
+    },
+    {
+        "query": "In the worksheet \"Production Plan Table,\" what are the totals of the monthly plan and plan adjustments for Assembly L002005 C60F and Assembly L002007 C61X, respectively? ",
+        "Answer_table": [
+            "./spreadsheet/ProductionandManufacturingForm(19).xlsx"
+        ]
+    },
+    {
+        "query": "According to the worksheet \"MES Export Data,\" if we need to increase the production of the fifth gear main tooth, but are limited by the in-process quantity of hard machining, can we increase production immediately? Why? ",
+        "Answer_table": [
+            "./spreadsheet/ProductionandManufacturingForm(19).xlsx"
+        ]
+    },
+    {
+        "query": "In the worksheet \"MES Export Data,\" which self-made part name has the highest in-process quantity in the soft machining stage, and how does it compare to the in-process quantity of the fifth gear main tooth? ",
+        "Answer_table": [
+            "./spreadsheet/ProductionandManufacturingForm(19).xlsx"
+        ]
+    },
+    {
+        "query": "In the 2011 New Curriculum Standard I Paper and New Curriculum Standard II Paper, which content has a question volume of 5 questions (4 multiple choice, 1 subjective question)?",
+        "Answer_table": [
+            "./spreadsheet/AnalysisoftheComprehensiveLiberalArtsExamPapersintheNationalCollegeEntranceExaminationinthePastFiveYears.xlsx"
+        ]
+    },
+    {
+        "query": "Please calculate the total score of the Economic Life and Political Life sections in the 2014 New Curriculum Standard I Paper?",
+        "Answer_table": [
+            "./spreadsheet/AnalysisoftheComprehensiveLiberalArtsExamPapersintheNationalCollegeEntranceExaminationinthePastFiveYears.xlsx"
+        ]
+    },
+    {
+        "query": "In the New Curriculum Standard I Paper, in which year did the Philosophy Life section have the most questions, and what was the total score of this section in that year?",
+        "Answer_table": [
+            "./spreadsheet/AnalysisoftheComprehensiveLiberalArtsExamPapersintheNationalCollegeEntranceExaminationinthePastFiveYears.xlsx"
+        ]
+    },
+    {
+        "query": "What is the inbound time for Product1? ",
+        "Answer_table": [
+            "./spreadsheet/InventoryManagement(26).xlsx"
+        ]
+    },
+    {
+        "query": "Who is the manufacturer of Product2? ",
+        "Answer_table": [
+            "./spreadsheet/InventoryManagement(26).xlsx"
+        ]
+    },
+    {
+        "query": "Who is the manufacturer of Product1? ",
+        "Answer_table": [
+            "./spreadsheet/InventoryManagement(26).xlsx"
+        ]
+    },
+    {
+        "query": "Interpret the statistical data of this table. ",
+        "Answer_table": [
+            "./spreadsheet/InventoryManagement(26).xlsx"
+        ]
+    },
+    {
+        "query": "In all worksheets, which worksheet has the highest five-year RMB deposit rate?",
+        "Answer_table": [
+            "./spreadsheet/BankDepositInterestRates.xlsx"
+        ]
+    },
+    {
+        "query": "In all worksheets, which is higher, the three-year RMB deposit rate or the five-year RMB deposit rate?",
+        "Answer_table": [
+            "./spreadsheet/BankDepositInterestRates.xlsx"
+        ]
+    },
+    {
+        "query": "What is the name of the product with code 10003?",
+        "Answer_table": [
+            "./spreadsheet/ChainSupermarketProductClassificationDetails.xlsx"
+        ]
+    },
+    {
+        "query": "What is the total sum of this month's storage and transfer quantity for the product with code 10004?",
+        "Answer_table": [
+            "./spreadsheet/ChainSupermarketProductClassificationDetails.xlsx"
+        ]
+    },
+    {
+        "query": "Which product has more last month inventory, the product with code 10001 or the product with code 10002?",
+        "Answer_table": [
+            "./spreadsheet/ChainSupermarketProductClassificationDetails.xlsx"
+        ]
+    },
+    {
+        "query": "After July 6, 2012, which bank has a higher annual interest rate for demand deposits, Nanjing Bank or Hangzhou Bank?",
+        "Answer_table": [
+            "./spreadsheet/ComparisonTableofPersonalDepositInterestRatesofVariousBanks(AdjustedonJuly6,2012).xlsx"
+        ]
+    },
+    {
+        "query": "After July 6, 2012, what is the annual interest rate for a one-year lump sum deposit at Nanjing Bank?",
+        "Answer_table": [
+            "./spreadsheet/ComparisonTableofPersonalDepositInterestRatesofVariousBanks(AdjustedonJuly6,2012).xlsx"
+        ]
+    },
+    {
+        "query": "If I deposit 10,000 yuan in a three-year lump sum deposit at Nanjing Bank after July 6, 2012, how much interest will I earn at maturity?",
+        "Answer_table": [
+            "./spreadsheet/ComparisonTableofPersonalDepositInterestRatesofVariousBanks(AdjustedonJuly6,2012).xlsx"
+        ]
+    },
+    {
+        "query": "If I deposit a fixed amount for one year at Nanjing Bank after July 6, 2012, will the interest earned after one year be higher than if I deposit the same amount for one year at Hangzhou Bank?",
+        "Answer_table": [
+            "./spreadsheet/ComparisonTableofPersonalDepositInterestRatesofVariousBanks(AdjustedonJuly6,2012).xlsx"
+        ]
+    },
+    {
+        "query": "If we want to reduce the usage of concrete, which component in which worksheet should we prioritize reducing?",
+        "Answer_table": [
+            "./spreadsheet/CalculateConstructionProjectQuantities.xlsx"
+        ]
+    },
+    {
+        "query": "Among all the worksheets, on which day was the store traffic information duration the longest?",
+        "Answer_table": [
+            "./spreadsheet/3333(80).xlsx"
+        ]
+    },
+    {
+        "query": "Among all the worksheets, on which day was the conversion rate the highest, and what was the weather like on that day?",
+        "Answer_table": [
+            "./spreadsheet/3333(80).xlsx"
+        ]
+    },
+    {
+        "query": "Please calculate the total inventory quantity and total inventory amount for all medicines.",
+        "Answer_table": [
+            "./spreadsheet/GoodsInventoryReport.xlsx"
+        ]
+    },
+    {
+        "query": "Which medicines have an inventory quantity of over 100?",
+        "Answer_table": [
+            "./spreadsheet/GoodsInventoryReport.xlsx"
+        ]
+    },
+    {
+        "query": "What percentage of the total number of students in Class 1-1 have not paid? ",
+        "Answer_table": [
+            "./spreadsheet/83.xlsx"
+        ]
+    },
+    {
+        "query": "Which class has the lowest total amount received? ",
+        "Answer_table": [
+            "./spreadsheet/83.xlsx"
+        ]
+    },
+    {
+        "query": "According to the table data, how many classes have fully paid and how many have not? ",
+        "Answer_table": [
+            "./spreadsheet/83.xlsx"
+        ]
+    },
+    {
+        "query": "Which room number has the most incomplete check-in status? ",
+        "Answer_table": [
+            "./spreadsheet/StudentDormitoryArrangementTable1.xlsx"
+        ]
+    },
+    {
+        "query": "Which room number has the smallest bed number? ",
+        "Answer_table": [
+            "./spreadsheet/StudentDormitoryArrangementTable1.xlsx"
+        ]
+    },
+    {
+        "query": "What is Zhang Zhize's student ID? ",
+        "Answer_table": [
+            "./spreadsheet/StudentDormitoryArrangementTable1.xlsx"
+        ]
+    },
+    {
+        "query": "Describe the main content of this table. ",
+        "Answer_table": [
+            "./spreadsheet/StudentDormitoryArrangementTable1.xlsx"
+        ]
+    },
+    {
+        "query": "How many students have collected their bedding? ",
+        "Answer_table": [
+            "./spreadsheet/StudentDormitoryArrangementTable1.xlsx"
+        ]
+    },
+    {
+        "query": "January 3, 2022, what are the inbound unit price and quantity of Product Name4?",
+        "Answer_table": [
+            "./spreadsheet/InventoryManagementSheetforInboundandOutbound.xlsx"
+        ]
+    },
+    {
+        "query": "What is the total main income for the 2nd and 3rd months? ",
+        "Answer_table": [
+            "./spreadsheet/FinancialProfitAnalysisTable.xlsx"
+        ]
+    },
+    {
+        "query": "What is the maximum value of the main cost this year in the table? ",
+        "Answer_table": [
+            "./spreadsheet/FinancialProfitAnalysisTable.xlsx"
+        ]
+    },
+    {
+        "query": "Which has the highest month-on-month growth rate in the 4th month among main income, main cost, tax, and period expenses? ",
+        "Answer_table": [
+            "./spreadsheet/FinancialProfitAnalysisTable.xlsx"
+        ]
+    },
+    {
+        "query": "What is the average score of all students? ",
+        "Answer_table": [
+            "./spreadsheet/StudentExamScoresIntelligentStatisticsTable1.xlsx"
+        ]
+    },
+    {
+        "query": "How many students have a math score lower than their Chinese score? ",
+        "Answer_table": [
+            "./spreadsheet/StudentExamScoresIntelligentStatisticsTable1.xlsx"
+        ]
+    },
+    {
+        "query": "Which student has the highest total score? ",
+        "Answer_table": [
+            "./spreadsheet/StudentExamScoresIntelligentStatisticsTable1.xlsx"
+        ]
+    },
+    {
+        "query": "What is the number of examinees? ",
+        "Answer_table": [
+            "./spreadsheet/StudentExamScoresIntelligentStatisticsTable1.xlsx"
+        ]
+    },
+    {
+        "query": "How many students have a math score above 80 points? ",
+        "Answer_table": [
+            "./spreadsheet/StudentExamScoresIntelligentStatisticsTable1.xlsx"
+        ]
+    },
+    {
+        "query": "Which project has the latest estimated end date?",
+        "Answer_table": [
+            "./spreadsheet/ProjectStatisticsTable1.xlsx"
+        ]
+    },
+    {
+        "query": "Which project has the highest quantity?",
+        "Answer_table": [
+            "./spreadsheet/ProjectStatisticsTable1.xlsx"
+        ]
+    },
+    {
+        "query": "Among the projects in progress, which one has the highest quantity?",
+        "Answer_table": [
+            "./spreadsheet/ProjectStatisticsTable1.xlsx"
+        ]
+    },
+    {
+        "query": "What is the client unit corresponding to contract number DH1029331?",
+        "Answer_table": [
+            "./spreadsheet/ProjectStatisticsTable1.xlsx"
+        ]
+    },
+    {
+        "query": "What is the total proposed duration for all completed projects?",
+        "Answer_table": [
+            "./spreadsheet/ProjectStatisticsTable1.xlsx"
+        ]
+    },
+    {
+        "query": "In 2021, which month had the highest balance?",
+        "Answer_table": [
+            "./spreadsheet/FinancialIncomeandExpenditureLedgerDetailsTable1(2).xlsx"
+        ]
+    },
+    {
+        "query": "Was the income in June 2021 higher than the income in July 2021?",
+        "Answer_table": [
+            "./spreadsheet/FinancialIncomeandExpenditureLedgerDetailsTable1(2).xlsx"
+        ]
+    },
+    {
+        "query": "What was the income amount in the financial income and expenditure ledger for July 2021?",
+        "Answer_table": [
+            "./spreadsheet/FinancialIncomeandExpenditureLedgerDetailsTable1(2).xlsx"
+        ]
+    },
+    {
+        "query": "Interpret the statistical data of this table.",
+        "Answer_table": [
+            "./spreadsheet/FinancialIncomeandExpenditureLedgerDetailsTable1(2).xlsx"
+        ]
+    },
+    {
+        "query": "How many months of financial income and expenditure records are there in total?",
+        "Answer_table": [
+            "./spreadsheet/FinancialIncomeandExpenditureLedgerDetailsTable1(2).xlsx"
+        ]
+    },
+    {
+        "query": "What is the average value of all sales amounts in the table?",
+        "Answer_table": [
+            "./spreadsheet/AnnualSalespersonPerformanceCalculationTable1.xlsx"
+        ]
+    },
+    {
+        "query": "What is the sales amount of salesperson XM3 in March 2020?",
+        "Answer_table": [
+            "./spreadsheet/AnnualSalespersonPerformanceCalculationTable1.xlsx"
+        ]
+    },
+    {
+        "query": "What are the sales quantity and sales unit price of XM10 in October 2020?",
+        "Answer_table": [
+            "./spreadsheet/AnnualSalespersonPerformanceCalculationTable1.xlsx"
+        ]
+    },
+    {
+        "query": "Which day in January 2020 had the highest income amount?",
+        "Answer_table": [
+            "./spreadsheet/FinancialAccountingSheet(AutoSummaryandQueryable)1.xlsx"
+        ]
+    },
+    {
+        "query": "What was the total income for January 2020 according to the table?",
+        "Answer_table": [
+            "./spreadsheet/FinancialAccountingSheet(AutoSummaryandQueryable)1.xlsx"
+        ]
+    },
+    {
+        "query": "What is the minimum value of a single expenditure amount in the table?",
+        "Answer_table": [
+            "./spreadsheet/FinancialAccountingSheet(AutoSummaryandQueryable)1.xlsx"
+        ]
+    },
+    {
+        "query": "Please tell me the total amount of Electronic General Invoices in \"Sheet1\" and \"Sheet3\"?",
+        "Answer_table": [
+            "./spreadsheet/ElectronicInvoiceRegistrationDetailStatisticsTable.xlsx"
+        ]
+    },
+    {
+        "query": "Please tell me the total amount of electronic invoices for Kingsoft Office Software Co., Ltd. 4 in \"Sheet1\" and \"Sheet3\"?",
+        "Answer_table": [
+            "./spreadsheet/ElectronicInvoiceRegistrationDetailStatisticsTable.xlsx"
+        ]
+    },
+    {
+        "query": "Please tell me which invoices for Kingsoft Office Software Co., Ltd. 4 were not sent to customers in \"Sheet1\" and \"Sheet3\"?",
+        "Answer_table": [
+            "./spreadsheet/ElectronicInvoiceRegistrationDetailStatisticsTable.xlsx"
+        ]
+    },
+    {
+        "query": "Please list all products' labor costs in descending order.",
+        "Answer_table": [
+            "./spreadsheet/OrderCostCalculationTable1.xlsx"
+        ]
+    },
+    {
+        "query": "What is the total material cost of Product 1 and Product 2?",
+        "Answer_table": [
+            "./spreadsheet/OrderCostCalculationTable1.xlsx"
+        ]
+    },
+    {
+        "query": "What is the total cost of the product corresponding to order number A101-5?",
+        "Answer_table": [
+            "./spreadsheet/OrderCostCalculationTable1.xlsx"
+        ]
+    },
+    {
+        "query": "Which has a higher processing cost, Product 3 or Product 4?",
+        "Answer_table": [
+            "./spreadsheet/OrderCostCalculationTable1.xlsx"
+        ]
+    },
+    {
+        "query": "What is the total price of all atlases in the \"Category 1 Comprehensive Projects\" in the \"Urban Road\" worksheet?",
+        "Answer_table": [
+            "./spreadsheet/DifferentArchitecturalSpecialtiesAtlasTable.xlsx"
+        ]
+    },
+    {
+        "query": "Which atlas has the highest price in the \"Urban Road\" worksheet?",
+        "Answer_table": [
+            "./spreadsheet/DifferentArchitecturalSpecialtiesAtlasTable.xlsx"
+        ]
+    },
+    {
+        "query": "What is the age of the youngest Young Pioneer in the \"Young Pioneers Registration Form\"?",
+        "Answer_table": [
+            "./spreadsheet/YoungPioneersRegistrationForm1.xlsx"
+        ]
+    },
+    {
+        "query": "In the table, what is the SGK value at the top of the column on the 4th floor?",
+        "Answer_table": [
+            "./spreadsheet/ColumnBInternalForceCombination2.xlsx"
+        ]
+    },
+    {
+        "query": "According to the notes in the table, what is the value of γRE when the axial compression ratio is less than 0.15, and which columns' calculation results will this affect?",
+        "Answer_table": [
+            "./spreadsheet/ColumnBInternalForceCombination2.xlsx"
+        ]
+    },
+    {
+        "query": "Among the students recorded in the table, what is the age of the oldest student?",
+        "Answer_table": [
+            "./spreadsheet/StudentRegistrationForm1.xlsx"
+        ]
+    },
+    {
+        "query": "Which students need to take the school bus but do not need to board?",
+        "Answer_table": [
+            "./spreadsheet/StudentRegistrationForm1.xlsx"
+        ]
+    },
+    {
+        "query": "What is the difference between the total number of students and the number of registered students?",
+        "Answer_table": [
+            "./spreadsheet/StudentRegistrationForm1.xlsx"
+        ]
+    },
+    {
+        "query": "May I ask what is the total amount of expenditure items settled using Alipay in all worksheets?",
+        "Answer_table": [
+            "./spreadsheet/IncomeandExpenditureLedger-DateQuery,ExpenseStatistics1.xlsx"
+        ]
+    },
+    {
+        "query": "In all worksheets, which expenditure item has the largest amount?",
+        "Answer_table": [
+            "./spreadsheet/IncomeandExpenditureLedger-DateQuery,ExpenseStatistics1.xlsx"
+        ]
+    },
+    {
+        "query": "How many records in the table have a repayment judgment of \"Repayment OK\"?",
+        "Answer_table": [
+            "./spreadsheet/Long-termLoanRepaymentPlan.xlsx"
+        ]
+    },
+    {
+        "query": "What is the borrowed amount for the purchased luxury goods? ",
+        "Answer_table": [
+            "./spreadsheet/Long-termLoanRepaymentPlan.xlsx"
+        ]
+    },
+    {
+        "query": "How does the total repayment amount and principal ratio change as the repayment term decreases? ",
+        "Answer_table": [
+            "./spreadsheet/Long-termLoanRepaymentPlan.xlsx"
+        ]
+    },
+    {
+        "query": "What is the inbound quantity of Material001 in January 2022?",
+        "Answer_table": [
+            "./spreadsheet/InboundandOutboundInventory(4).xlsx"
+        ]
+    },
+    {
+        "query": "What is the inbound quantity in July 2022?",
+        "Answer_table": [
+            "./spreadsheet/InboundandOutboundInventory(4).xlsx"
+        ]
+    },
+    {
+        "query": "Which month has the least outbound quantity?",
+        "Answer_table": [
+            "./spreadsheet/InboundandOutboundInventory(4).xlsx"
+        ]
+    },
+    {
+        "query": "What is the average monthly outbound amount in 2022?",
+        "Answer_table": [
+            "./spreadsheet/InboundandOutboundInventory(4).xlsx"
+        ]
+    },
+    {
+        "query": "What is the total inbound amount for the entire year of 2022?",
+        "Answer_table": [
+            "./spreadsheet/InboundandOutboundInventory(4).xlsx"
+        ]
+    },
+    {
+        "query": "Please find all models and values of Hot Rolled Channel Steel with the unit \"kg/m\".",
+        "Answer_table": [
+            "./spreadsheet/SteelMaterialsCapacityTable.xlsx"
+        ]
+    },
+    {
+        "query": "Please calculate the average value of all Hot Rolled Channel Steel.",
+        "Answer_table": [
+            "./spreadsheet/SteelMaterialsCapacityTable.xlsx"
+        ]
+    },
+    {
+        "query": "Please calculate the total value for the model \"0.055\" across all sheets.",
+        "Answer_table": [
+            "./spreadsheet/SteelConstructionCapacitySummary.xlsx"
+        ]
+    },
+    {
+        "query": "Which names have values greater than 1 across all sheets?",
+        "Answer_table": [
+            "./spreadsheet/SteelConstructionCapacitySummary.xlsx"
+        ]
+    },
+    {
+        "query": "What were the sales amount and commission amount for the Taobao affiliate with the nickname \"taobaoss137\" on March 14, 2013?",
+        "Answer_table": [
+            "./spreadsheet/TaobaoAffiliate-DataAnalysisToolTable-(1).xlsx"
+        ]
+    },
+    {
+        "query": "What was the total sum of Taobao affiliate traffic and shop traffic on March 14, 2013?",
+        "Answer_table": [
+            "./spreadsheet/TaobaoAffiliate-DataAnalysisToolTable-(1).xlsx"
+        ]
+    },
+    {
+        "query": "Which was higher on March 14, 2013, the Taobao affiliate sales amount or the Taobao affiliate item sales amount?",
+        "Answer_table": [
+            "./spreadsheet/TaobaoAffiliate-DataAnalysisToolTable-(1).xlsx"
+        ]
+    },
+    {
+        "query": "Which items had a Taobao affiliate sales share exceeding 0.05 on March 14, 2013?",
+        "Answer_table": [
+            "./spreadsheet/TaobaoAffiliate-DataAnalysisToolTable-(1).xlsx"
+        ]
+    },
+    {
+        "query": "Which month had the highest sales in the first quarter?",
+        "Answer_table": [
+            "./spreadsheet/FirstQuarterSalesTable.xlsx"
+        ]
+    },
+    {
+        "query": "How much did the planned sales amount in February increase compared to January?",
+        "Answer_table": [
+            "./spreadsheet/FirstQuarterSalesTable.xlsx"
+        ]
+    },
+    {
+        "query": "During the period from April 1, 2017, to April 7, 2017, which product had the highest total page views?",
+        "Answer_table": [
+            "./spreadsheet/E-commerceAnalysis(15).xlsx"
+        ]
+    },
+    {
+        "query": "On April 1, 2017, and April 2, 2017, which day had higher page views for Product 2?",
+        "Answer_table": [
+            "./spreadsheet/E-commerceAnalysis(15).xlsx"
+        ]
+    },
+    {
+        "query": "Please describe the product sales situation on April 1, 2017.",
+        "Answer_table": [
+            "./spreadsheet/E-commerceAnalysis(15).xlsx"
+        ]
+    },
+    {
+        "query": "Please calculate the total order quantity for Product 3 from April 1, 2017, to April 7, 2017.",
+        "Answer_table": [
+            "./spreadsheet/E-commerceAnalysis(15).xlsx"
+        ]
+    },
+    {
+        "query": "Please tell me the Q1 total amount for \"Vegetable Pancake\" in the \"Quarterly Sales Report\"?",
+        "Answer_table": [
+            "./spreadsheet/QuarterlySalesReport.xlsx"
+        ]
+    },
+    {
+        "query": "In the \"Quarterly Sales Report\", which has a higher Q1 total amount, \"Vegetable Pancake\" or \"French Camembert Cheese\"?",
+        "Answer_table": [
+            "./spreadsheet/QuarterlySalesReport.xlsx"
+        ]
+    },
+    {
+        "query": "Between the \"Quarterly Sales Report\" and the \"Red Star Appliance Store June Early Sales List\", which customer purchased the most product types?",
+        "Answer_table": [
+            "./spreadsheet/QuarterlySalesReport.xlsx"
+        ]
+    },
+    {
+        "query": "What is the status of the product with product number 2001 on September 1, 2021?",
+        "Answer_table": [
+            "./spreadsheet/WarehouseInventoryManagementAutomaticSettlementInventoryTable.xlsx"
+        ]
+    },
+    {
+        "query": "In Sheet2, if the cost of transporting and crushing limestone to the circular stack and the cost of raw material batching for the Southwest Comprehensive Price are added together, and compared with the same costs for the Conch Price, which is higher?",
+        "Answer_table": [
+            "./spreadsheet/EachCementPlantKeyProductionDataMonitoringandAnalysis.xlsx"
+        ]
+    },
+    {
+        "query": "Based on the data from Sheet2 and Sheet4, if we consider coal prices and actual coal consumption, which plant might have lower production costs?",
+        "Answer_table": [
+            "./spreadsheet/EachCementPlantKeyProductionDataMonitoringandAnalysis.xlsx"
+        ]
+    },
+    {
+        "query": "Comparing the \"Our Plant Data\" in Sheet1 with the data for \"Hongshi Cement\" and \"Conch Cement\" in Sheet4, which plant has lower actual coal consumption?",
+        "Answer_table": [
+            "./spreadsheet/EachCementPlantKeyProductionDataMonitoringandAnalysis.xlsx"
+        ]
+    },
+    {
+        "query": "How many models of Square Hollow Section Steel, Cold-formed Z-section Steel, Hot-rolled I-beam, and Cold-formed Unequal Channel Steel are there in all worksheets?",
+        "Answer_table": [
+            "./spreadsheet/SteelBuildingMaterialsCapacity.xlsx"
+        ]
+    },
+    {
+        "query": "What is the relationship between the \"Monetary Funds (10,000 yuan)\" and the \"Total Current Assets (10,000 yuan)\" in 2014?",
+        "Answer_table": [
+            "./spreadsheet/GreeFinancialStatementData.xlsx"
+        ]
+    },
+    {
+        "query": "Please find all records with a discount rate of 2.5 and discount days exceeding 50 days. What is the average actual discount amount for these records?",
+        "Answer_table": [
+            "./spreadsheet/DiscountInterestTable.xlsx"
+        ]
+    },
+    {
+        "query": "Please calculate the average discount interest for all records with discount days exceeding 50 days.",
+        "Answer_table": [
+            "./spreadsheet/DiscountInterestTable.xlsx"
+        ]
+    },
+    {
+        "query": "If the selling price of each item is 150% of the inbound price, how much revenue can be generated from selling \"Men's Trench Coat\"?",
+        "Answer_table": [
+            "./spreadsheet/ProductionManufacturingForm(580).xlsx",
+            "./spreadsheet/ProductionandManufacturingForm(245).xlsx"
+        ]
+    },
+    {
+        "query": "Please analyze and determine whether there is a correlation between the inbound quantity and the inbound amount. If so, is it a positive or negative correlation?",
+        "Answer_table": [
+            "./spreadsheet/ProductionManufacturingForm(580).xlsx",
+            "./spreadsheet/ProductionandManufacturingForm(245).xlsx"
+        ]
+    },
+    {
+        "query": "Which date has the highest inbound amount?",
+        "Answer_table": [
+            "./spreadsheet/ProductionManufacturingForm(580).xlsx",
+            "./spreadsheet/ProductionandManufacturingForm(245).xlsx"
+        ]
+    },
+    {
+        "query": "What changes occurred in the labor force plan for Surveyors in 2008 and 2009?",
+        "Answer_table": [
+            "./spreadsheet/Table6-5LaborForcePlanTable1.xlsx"
+        ]
+    },
+    {
+        "query": "Which types of work had labor force plans in 2008 Q2?",
+        "Answer_table": [
+            "./spreadsheet/Table6-5LaborForcePlanTable1.xlsx"
+        ]
+    },
+    {
+        "query": "According to the labor force plan for 2011, which quarter has the highest labor demand?",
+        "Answer_table": [
+            "./spreadsheet/Table6-5LaborForcePlanTable1.xlsx"
+        ]
+    },
+    {
+        "query": "Please find out the class name with the highest number of participants in all tables.",
+        "Answer_table": [
+            "./spreadsheet/AthleticsCompetitionScoreboard1.xlsx",
+            "./spreadsheet/canuse31.xlsx",
+            "./spreadsheet/Sheet57.xlsx"
+        ]
+    },
+    {
+        "query": "What is the average total points of all classes in all tables?",
+        "Answer_table": [
+            "./spreadsheet/AthleticsCompetitionScoreboard1.xlsx",
+            "./spreadsheet/canuse31.xlsx",
+            "./spreadsheet/Sheet57.xlsx"
+        ]
+    },
+    {
+        "query": "Which product has the highest actual inventory quantity?",
+        "Answer_table": [
+            "./spreadsheet/AccountsReceivableandPayableAnalysisTable1.xlsx",
+            "./spreadsheet/E-commerceOperationsDataAnalysisTable1.xlsx",
+            "./spreadsheet/InventoryCountStatisticalAnalysisTableAutomaticRedTextFill1.xlsx"
+        ]
+    },
+    {
+        "query": "Which customer has the highest uncollected amount and an overdue period exceeding 180 days?",
+        "Answer_table": [
+            "./spreadsheet/AccountsReceivableandPayableAnalysisTable1.xlsx",
+            "./spreadsheet/E-commerceOperationsDataAnalysisTable1.xlsx",
+            "./spreadsheet/InventoryCountStatisticalAnalysisTableAutomaticRedTextFill1.xlsx"
+        ]
+    },
+    {
+        "query": "Which week's actual sales amount is the highest, and the actual visits exceeded the expected visits?",
+        "Answer_table": [
+            "./spreadsheet/AccountsReceivableandPayableAnalysisTable1.xlsx",
+            "./spreadsheet/E-commerceOperationsDataAnalysisTable1.xlsx",
+            "./spreadsheet/InventoryCountStatisticalAnalysisTableAutomaticRedTextFill1.xlsx"
+        ]
+    },
+    {
+        "query": "Which company's land area (square meters) is greater than 100,000?",
+        "Answer_table": [
+            "./spreadsheet/1706800061649.xlsx",
+            "./spreadsheet/EngineeringSupervision.xlsx"
+        ]
+    },
+    {
+        "query": "Which company transacted a parcel on January 23, 2007?",
+        "Answer_table": [
+            "./spreadsheet/1706800061649.xlsx",
+            "./spreadsheet/EngineeringSupervision.xlsx"
+        ]
+    },
+    {
+        "query": "Which student won the first place in the text reading competition?",
+        "Answer_table": [
+            "./spreadsheet/Sheet50.xlsx",
+            "./spreadsheet/SummerStudyPlan1.xlsx",
+            "./spreadsheet/SouthwestPetroleumUniversityListofLaboratoryandEquipmentSupervisorsandEquipmentSecretariesofEachUnit-.xlsx",
+            "./spreadsheet/StudentTextReadingCompetitionScoreSheet1.xlsx"
+        ]
+    },
+    {
+        "query": "Among all the tables, which student scored the highest in the text reading competition, and on which day did he/she achieve this score?",
+        "Answer_table": [
+            "./spreadsheet/Sheet50.xlsx",
+            "./spreadsheet/SummerStudyPlan1.xlsx",
+            "./spreadsheet/SouthwestPetroleumUniversityListofLaboratoryandEquipmentSupervisorsandEquipmentSecretariesofEachUnit-.xlsx",
+            "./spreadsheet/StudentTextReadingCompetitionScoreSheet1.xlsx"
+        ]
+    },
+    {
+        "query": "During the summer study plan, how many days in total are planned for the student to do summer homework from 8:30 to 10:00?",
+        "Answer_table": [
+            "./spreadsheet/Sheet50.xlsx",
+            "./spreadsheet/SummerStudyPlan1.xlsx",
+            "./spreadsheet/SouthwestPetroleumUniversityListofLaboratoryandEquipmentSupervisorsandEquipmentSecretariesofEachUnit-.xlsx",
+            "./spreadsheet/StudentTextReadingCompetitionScoreSheet1.xlsx"
+        ]
+    },
+    {
+        "query": "Please compare all tables to determine which product has the highest purchase amount?",
+        "Answer_table": [
+            "./spreadsheet/RawMaterialsWarehouseLedger.xlsx",
+            "./spreadsheet/WeeklyProductionSchedule.xlsx",
+            "./spreadsheet/InventoryCountSheet(AutomaticCalculationofPurchasePlan).xlsx",
+            "./spreadsheet/ProductionManufacturingForm(591).xlsx"
+        ]
+    },
+    {
+        "query": "Based on all tables, infer which customer has the most production plans?",
+        "Answer_table": [
+            "./spreadsheet/RawMaterialsWarehouseLedger.xlsx",
+            "./spreadsheet/WeeklyProductionSchedule.xlsx",
+            "./spreadsheet/InventoryCountSheet(AutomaticCalculationofPurchasePlan).xlsx",
+            "./spreadsheet/ProductionManufacturingForm(591).xlsx"
+        ]
+    },
+    {
+        "query": "Please analyze which handler manages the most frequent inventory changes and provide possible reasons.",
+        "Answer_table": [
+            "./spreadsheet/InventoryManagement(16).xlsx",
+            "./spreadsheet/GoldenButterflyEAS-LatestModuleListandFunctionBrief.xlsx",
+            "./spreadsheet/ProductionManufacturingForm(609).xlsx",
+            "./spreadsheet/ProductionManufacturingForm(33).xlsx"
+        ]
+    },
+    {
+        "query": "Which product has the highest real-time inventory?",
+        "Answer_table": [
+            "./spreadsheet/InventoryManagement(16).xlsx",
+            "./spreadsheet/GoldenButterflyEAS-LatestModuleListandFunctionBrief.xlsx",
+            "./spreadsheet/ProductionManufacturingForm(609).xlsx",
+            "./spreadsheet/ProductionManufacturingForm(33).xlsx"
+        ]
+    },
+    {
+        "query": "Which student among all the driving school students has the longest total driving practice time, and which subjects did they take the exam for?",
+        "Answer_table": [
+            "./spreadsheet/SchoolLiteraryandArtPerformanceProgramScoreSheet1.xlsx",
+            "./spreadsheet/DrivingSchoolStudentPracticeSchedule1.xlsx"
+        ]
+    },
+    {
+        "query": "Which program has the highest total score among all the literary and artistic performance programs?",
+        "Answer_table": [
+            "./spreadsheet/SchoolLiteraryandArtPerformanceProgramScoreSheet1.xlsx",
+            "./spreadsheet/DrivingSchoolStudentPracticeSchedule1.xlsx"
+        ]
+    },
+    {
+        "query": "How many projects in all tables have a designed pile length greater than 7m?",
+        "Answer_table": [
+            "./spreadsheet/BasicDataAnalysis(2).xlsx",
+            "./spreadsheet/CementMixingPileConstructionRecordSummaryTable1.xlsx"
+        ]
+    },
+    {
+        "query": "Which project has the largest spray volume in all tables?",
+        "Answer_table": [
+            "./spreadsheet/BasicDataAnalysis(2).xlsx",
+            "./spreadsheet/CementMixingPileConstructionRecordSummaryTable1.xlsx"
+        ]
+    },
+    {
+        "query": "Between all records, which has higher sales, Tmall or JD.com?",
+        "Answer_table": [
+            "./spreadsheet/ProductSalesDataRecordStatisticsAnalysisTable1.xlsx",
+            "./spreadsheet/OperationalDataAnalysisReport1.xlsx"
+        ]
+    },
+    {
+        "query": "Which day's daily sales total is the highest?",
+        "Answer_table": [
+            "./spreadsheet/ProductSalesDataRecordStatisticsAnalysisTable1.xlsx",
+            "./spreadsheet/OperationalDataAnalysisReport1.xlsx"
+        ]
+    },
+    {
+        "query": "What is the total sales amount for all products this month? ",
+        "Answer_table": [
+            "./spreadsheet/FinancialStatements-AccountsReceivableAnalysisTable1(3).xlsx",
+            "./spreadsheet/Year-endStoreSalesAnalysisTable1.xlsx"
+        ]
+    },
+    {
+        "query": "Among all products, which product has the highest sales amount and the highest profit rate this month? ",
+        "Answer_table": [
+            "./spreadsheet/FinancialStatements-AccountsReceivableAnalysisTable1(3).xlsx",
+            "./spreadsheet/Year-endStoreSalesAnalysisTable1.xlsx"
+        ]
+    },
+    {
+        "query": "Which school has the most classes? ",
+        "Answer_table": [
+            "./spreadsheet/5555(1).xlsx",
+            "./spreadsheet/StudentHolidayHomeworkCompletionStatisticsTable1.xlsx"
+        ]
+    },
+    {
+        "query": "What is the contract amount for Project 1?",
+        "Answer_table": [
+            "./spreadsheet/EngineeringCostAccountingTable1.xlsx",
+            "./spreadsheet/LaserCuttingCostQuotationAnalysisTableTemplate1.xlsx"
+        ]
+    },
+    {
+        "query": "Please find the project with the highest gross profit margin and provide all its expense details.",
+        "Answer_table": [
+            "./spreadsheet/EngineeringCostAccountingTable1.xlsx",
+            "./spreadsheet/LaserCuttingCostQuotationAnalysisTableTemplate1.xlsx"
+        ]
+    },
+    {
+        "query": "In all the tables, which month had the highest increase in Weibo followers?",
+        "Answer_table": [
+            "./spreadsheet/FanSituationAnalysisTable1.xlsx",
+            "./spreadsheet/StockSituation7.xlsx",
+            "./spreadsheet/InsuranceCompanyFinancialExpenseDynamicAnalysisTable1(1).xlsx"
+        ]
+    },
+    {
+        "query": "Please tell me which book, between 《To Live》 and 《Walden》, has a longer reading duration?",
+        "Answer_table": [
+            "./spreadsheet/ReadingRecordTable1.xlsx",
+            "./spreadsheet/StudentDormitoryAccommodationVisualizationAllocationTable1.xlsx"
+        ]
+    },
+    {
+        "query": "In all the reading records, which book has the longest total reading duration, and who is the author of that book?",
+        "Answer_table": [
+            "./spreadsheet/ReadingRecordTable1.xlsx",
+            "./spreadsheet/StudentDormitoryAccommodationVisualizationAllocationTable1.xlsx"
+        ]
+    },
+    {
+        "query": "Please compare the price difference of concrete with strength grades C30 and C40 in ordinary concrete and ordinary pumping concrete.",
+        "Answer_table": [
+            "./spreadsheet/Concrete,AsphaltConcrete(2).xlsx",
+            "./spreadsheet/BuildingData.xlsx"
+        ]
+    },
+    {
+        "query": "Please find all comprehensive prices for concrete with strength grade C30.",
+        "Answer_table": [
+            "./spreadsheet/Concrete,AsphaltConcrete(2).xlsx",
+            "./spreadsheet/BuildingData.xlsx"
+        ]
+    },
+    {
+        "query": "What is the status of the order with order number 1177595?",
+        "Answer_table": [
+            "./spreadsheet/ProductionManufacturingForm(304).xlsx",
+            "./spreadsheet/ItemsPurchaseRegistrationDetails.xlsx"
+        ]
+    },
+    {
+        "query": "Which person in charge is responsible for the most orders?",
+        "Answer_table": [
+            "./spreadsheet/ProductionManufacturingForm(304).xlsx",
+            "./spreadsheet/ItemsPurchaseRegistrationDetails.xlsx"
+        ]
+    },
+    {
+        "query": "Among all the tables, which product has the highest \"Total Sales This Week\"?",
+        "Answer_table": [
+            "./spreadsheet/PriceAnalysisTable1.xlsx",
+            "./spreadsheet/E-commerceProductInventoryDetailAnalysisTable1.xlsx",
+            "./spreadsheet/SalesPerformanceAnalysisTable(withformulas)1.xlsx"
+        ]
+    },
+    {
+        "query": "In the Price Analysis Table, which material has the largest fluctuation in purchase price over the year?",
+        "Answer_table": [
+            "./spreadsheet/PriceAnalysisTable1.xlsx",
+            "./spreadsheet/E-commerceProductInventoryDetailAnalysisTable1.xlsx",
+            "./spreadsheet/SalesPerformanceAnalysisTable(withformulas)1.xlsx"
+        ]
+    },
+    {
+        "query": "Please compare and list the base prices of all lathes and drilling machines with a weight of 5t or less.",
+        "Answer_table": [
+            "./spreadsheet/ProjectPersonnelChangeTable1.xlsx"
+        ]
+    },
+    {
+        "query": "Please calculate the average base price of all vertical lathes with a weight of 10t or less.",
+        "Answer_table": [
+            "./spreadsheet/ProjectPersonnelChangeTable1.xlsx"
+        ]
+    },
+    {
+        "query": "Among all the repaired devices, which device has the highest repair cost, and which department reported this device? ",
+        "Answer_table": [
+            "./spreadsheet/DeviceRepairandMaintenanceRecordFollow-upForm.xlsx",
+            "./spreadsheet/ProductionandManufacturingForm(248).xlsx"
+        ]
+    },
+    {
+        "query": "Which device has the highest repair cost? ",
+        "Answer_table": [
+            "./spreadsheet/DeviceRepairandMaintenanceRecordFollow-upForm.xlsx",
+            "./spreadsheet/ProductionandManufacturingForm(248).xlsx"
+        ]
+    },
+    {
+        "query": "Please find the names and average scores of the top 5 students in total score among all students.",
+        "Answer_table": [
+            "./spreadsheet/Workbook1(2).xlsx",
+            "./spreadsheet/canuse55.xlsx"
+        ]
+    },
+    {
+        "query": "Please calculate the average score of all students in Physics.",
+        "Answer_table": [
+            "./spreadsheet/Workbook1(2).xlsx",
+            "./spreadsheet/canuse55.xlsx"
+        ]
+    },
+    {
+        "query": "Which projects have proposed credits for trainees of 10 points?",
+        "Answer_table": [
+            "./spreadsheet/Sheet17.xlsx",
+            "./spreadsheet/2231.xlsx"
+        ]
+    },
+    {
+        "query": "What is the average proposed enrollment for all projects?",
+        "Answer_table": [
+            "./spreadsheet/Sheet17.xlsx",
+            "./spreadsheet/2231.xlsx"
+        ]
+    },
+    {
+        "query": "Among all the students, which student's scores in all subjects exceeded 120 points, and the total score also exceeded 800 points?",
+        "Answer_table": [
+            "./spreadsheet/Youcanuse3.xlsx"
+        ]
+    },
+    {
+        "query": "Among all the students, which student has the highest total score?",
+        "Answer_table": [
+            "./spreadsheet/Youcanuse3.xlsx"
+        ]
+    },
+    {
+        "query": "Please compare and list the number of male and female students over the age of 20.",
+        "Answer_table": [
+            "./spreadsheet/StudentBasicInformationStatisticsTable1.xlsx",
+            "./spreadsheet/Sheet67.xlsx"
+        ]
+    },
+    {
+        "query": "Please calculate the average age of all students and list the names and ages of students older than the average age.",
+        "Answer_table": [
+            "./spreadsheet/StudentBasicInformationStatisticsTable1.xlsx",
+            "./spreadsheet/Sheet67.xlsx"
+        ]
+    },
+    {
+        "query": "Which department's employees have the highest total amount of possession articles? ",
+        "Answer_table": [
+            "./spreadsheet/ItemsIssuanceRegistrationForm.xlsx",
+            "./spreadsheet/ProductionManufacturingForm(421).xlsx"
+        ]
+    },
+    {
+        "query": "Which employee has the highest total overtime fee, and is his department also the one with the highest total amount of possession articles? ",
+        "Answer_table": [
+            "./spreadsheet/ItemsIssuanceRegistrationForm.xlsx",
+            "./spreadsheet/ProductionManufacturingForm(421).xlsx"
+        ]
+    },
+    {
+        "query": "Which has a higher unit price, Article1 or Article2? ",
+        "Answer_table": [
+            "./spreadsheet/ItemsIssuanceRegistrationForm.xlsx",
+            "./spreadsheet/ProductionManufacturingForm(421).xlsx"
+        ]
+    },
+    {
+        "query": "Which transferee obtained the largest total construction land area (m²) in October 2015?",
+        "Answer_table": [
+            "./spreadsheet/1706798903536.xlsx"
+        ]
+    },
+    {
+        "query": "Which land parcel has the largest construction land area (m²), and what is its planned building area (m²)?",
+        "Answer_table": [
+            "./spreadsheet/1706798903536.xlsx"
+        ]
+    },
+    {
+        "query": "Which employee has the highest overtime fee?",
+        "Answer_table": [
+            "./spreadsheet/ProductionManufacturingForm(420).xlsx",
+            "./spreadsheet/AnnualMeetingMaterialsList-ExpenseBudgetTable(2).xlsx"
+        ]
+    },
+    {
+        "query": "Among all types of overtime, which type has the highest total overtime fee, and in which department is this type of overtime mainly concentrated?",
+        "Answer_table": [
+            "./spreadsheet/ProductionManufacturingForm(420).xlsx",
+            "./spreadsheet/AnnualMeetingMaterialsList-ExpenseBudgetTable(2).xlsx"
+        ]
+    }
+]

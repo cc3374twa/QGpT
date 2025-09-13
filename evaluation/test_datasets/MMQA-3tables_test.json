@@ -1,0 +1,5846 @@
+[
+    {
+        "query": "What are the distinct creation years of the departments managed by a secretary born in state 'Alabama'?",
+        "Answer_table": [
+            "department__1",
+            "head",
+            "management"
+        ]
+    },
+    {
+        "query": "List the states where both the secretary of 'Treasury' department and the secretary of 'Homeland Security' were born.",
+        "Answer_table": [
+            "department__1",
+            "head",
+            "management"
+        ]
+    },
+    {
+        "query": "How many registed students do each course have? List course name and the number of their registered students?",
+        "Answer_table": [
+            "Students__1",
+            "Courses",
+            "Student_Course_Registrations"
+        ]
+    },
+    {
+        "query": "For each course id, how many students are registered and what are the course names?",
+        "Answer_table": [
+            "Students__1",
+            "Courses",
+            "Student_Course_Registrations"
+        ]
+    },
+    {
+        "query": "Find the cell mobile number of the candidates whose assessment code is \"Fail\"?",
+        "Answer_table": [
+            "People",
+            "Candidates",
+            "Candidate_Assessments"
+        ]
+    },
+    {
+        "query": "What are the cell phone numbers of the candidates that received an assessment code of \"Fail\"?",
+        "Answer_table": [
+            "People",
+            "Candidates",
+            "Candidate_Assessments"
+        ]
+    },
+    {
+        "query": "Find distinct cities of address of students?",
+        "Answer_table": [
+            "Addresses__1",
+            "Students__1",
+            "People_Addresses"
+        ]
+    },
+    {
+        "query": "What are the different cities where students live?",
+        "Answer_table": [
+            "Addresses__1",
+            "Students__1",
+            "People_Addresses"
+        ]
+    },
+    {
+        "query": "Show names for all aircrafts of which John Williams has certificates.",
+        "Answer_table": [
+            "aircraft__1",
+            "employee",
+            "certificate"
+        ]
+    },
+    {
+        "query": "What are the names of all aircrafts that John Williams have certificates to be able to fly?",
+        "Answer_table": [
+            "aircraft__1",
+            "employee",
+            "certificate"
+        ]
+    },
+    {
+        "query": "Show names for all employees who have certificate of Boeing 737-800.",
+        "Answer_table": [
+            "aircraft__1",
+            "employee",
+            "certificate"
+        ]
+    },
+    {
+        "query": "What are the names of all employees who have a certificate to fly Boeing 737-800?",
+        "Answer_table": [
+            "aircraft__1",
+            "employee",
+            "certificate"
+        ]
+    },
+    {
+        "query": "Show names for all employees who have certificates on both Boeing 737-800 and Airbus A340-300.",
+        "Answer_table": [
+            "aircraft__1",
+            "employee",
+            "certificate"
+        ]
+    },
+    {
+        "query": "What are the names of all employees who can fly both the Boeing 737-800 and the Airbus A340-300?",
+        "Answer_table": [
+            "aircraft__1",
+            "employee",
+            "certificate"
+        ]
+    },
+    {
+        "query": "Show names for all employees who do not have certificate of Boeing 737-800.",
+        "Answer_table": [
+            "aircraft__1",
+            "employee",
+            "certificate"
+        ]
+    },
+    {
+        "query": "What are the names of all employees who are not certified to fly Boeing 737-800s?",
+        "Answer_table": [
+            "aircraft__1",
+            "employee",
+            "certificate"
+        ]
+    },
+    {
+        "query": "What is the salary and name of the employee who has the most number of certificates on aircrafts with distance more than 5000?",
+        "Answer_table": [
+            "aircraft__1",
+            "employee",
+            "certificate"
+        ]
+    },
+    {
+        "query": "What is the salaray and name of the employee with the most certificates to fly planes more than 5000?",
+        "Answer_table": [
+            "aircraft__1",
+            "employee",
+            "certificate"
+        ]
+    },
+    {
+        "query": "What are the allergies and their types that the student with first name Lisa has? And order the result by name of allergies.",
+        "Answer_table": [
+            "Allergy_Type",
+            "Has_Allergy",
+            "Student"
+        ]
+    },
+    {
+        "query": "What are the allergies the girl named Lisa has? And what are the types of them? Order the result by allergy names.",
+        "Answer_table": [
+            "Allergy_Type",
+            "Has_Allergy",
+            "Student"
+        ]
+    },
+    {
+        "query": "Find the average age of the students who have allergies with food and animal types.",
+        "Answer_table": [
+            "Allergy_Type",
+            "Has_Allergy",
+            "Student"
+        ]
+    },
+    {
+        "query": "How old are the students with allergies to food and animal types on average?",
+        "Answer_table": [
+            "Allergy_Type",
+            "Has_Allergy",
+            "Student"
+        ]
+    },
+    {
+        "query": "List the first and last name of the students who do not have any food type allergy.",
+        "Answer_table": [
+            "Allergy_Type",
+            "Has_Allergy",
+            "Student"
+        ]
+    },
+    {
+        "query": "What is the full name of each student who is not allergic to any type of food.",
+        "Answer_table": [
+            "Allergy_Type",
+            "Has_Allergy",
+            "Student"
+        ]
+    },
+    {
+        "query": "Find the number of male (sex is 'M') students who have some food type allery.",
+        "Answer_table": [
+            "Allergy_Type",
+            "Has_Allergy",
+            "Student"
+        ]
+    },
+    {
+        "query": "How many male students (sex is 'M') are allergic to any type of food?",
+        "Answer_table": [
+            "Allergy_Type",
+            "Has_Allergy",
+            "Student"
+        ]
+    },
+    {
+        "query": "Find the number of students who are older than 18 and do not have allergy to either food or animal.",
+        "Answer_table": [
+            "Allergy_Type",
+            "Has_Allergy",
+            "Student"
+        ]
+    },
+    {
+        "query": "How many students are over 18 and do not have allergy to food type or animal type?",
+        "Answer_table": [
+            "Allergy_Type",
+            "Has_Allergy",
+            "Student"
+        ]
+    },
+    {
+        "query": "List the name of tracks belongs to genre Rock and whose media type is MPEG audio file.",
+        "Answer_table": [
+            "genres",
+            "media_types",
+            "tracks"
+        ]
+    },
+    {
+        "query": "What are the names of all Rock tracks that are stored on MPEG audio files?",
+        "Answer_table": [
+            "genres",
+            "media_types",
+            "tracks"
+        ]
+    },
+    {
+        "query": "List the name of tracks belongs to genre Rock or media type is MPEG audio file.",
+        "Answer_table": [
+            "genres",
+            "media_types",
+            "tracks"
+        ]
+    },
+    {
+        "query": "What are the names of all tracks that belong to the Rock genre and whose media type is MPEG?",
+        "Answer_table": [
+            "genres",
+            "media_types",
+            "tracks"
+        ]
+    },
+    {
+        "query": "List all tracks bought by customer Daan Peeters.",
+        "Answer_table": [
+            "customers",
+            "invoices",
+            "tracks",
+            "invoice_lines"
+        ]
+    },
+    {
+        "query": "What are the tracks that Dean Peeters bought?",
+        "Answer_table": [
+            "customers",
+            "invoices",
+            "tracks",
+            "invoice_lines"
+        ]
+    },
+    {
+        "query": "Show the names of editors and the theme of journals for which they serve on committees.",
+        "Answer_table": [
+            "journal",
+            "editor",
+            "journal_committee"
+        ]
+    },
+    {
+        "query": "For each journal_committee, find the editor name and the journal theme.",
+        "Answer_table": [
+            "journal",
+            "editor",
+            "journal_committee"
+        ]
+    },
+    {
+        "query": "Show the names and ages of editors and the theme of journals for which they serve on committees, in ascending alphabetical order of theme.",
+        "Answer_table": [
+            "journal",
+            "editor",
+            "journal_committee"
+        ]
+    },
+    {
+        "query": "Show the names of editors that are on the committee of journals with sales bigger than 3000.",
+        "Answer_table": [
+            "journal",
+            "editor",
+            "journal_committee"
+        ]
+    },
+    {
+        "query": "What are the album titles for albums containing both 'Reggae' and 'Rock' genre tracks?",
+        "Answer_table": [
+            "Album",
+            "Genre",
+            "Track"
+        ]
+    },
+    {
+        "query": "Find the titles of albums that contain tracks of both the Reggae and Rock genres.",
+        "Answer_table": [
+            "Album",
+            "Genre",
+            "Track"
+        ]
+    },
+    {
+        "query": "What are all the policy types of the customer named \"Dayana Robel\"?",
+        "Answer_table": [
+            "Customers__1",
+            "Available_Policies",
+            "Customers_Policies"
+        ]
+    },
+    {
+        "query": "Tell me the types of the policy used by the customer named \"Dayana Robel\".",
+        "Answer_table": [
+            "Customers__1",
+            "Available_Policies",
+            "Customers_Policies"
+        ]
+    },
+    {
+        "query": "What are all the policy types of the customer that has the most policies listed?",
+        "Answer_table": [
+            "Customers__1",
+            "Available_Policies",
+            "Customers_Policies"
+        ]
+    },
+    {
+        "query": "List all the policy types used by the customer enrolled in the most policies.",
+        "Answer_table": [
+            "Customers__1",
+            "Available_Policies",
+            "Customers_Policies"
+        ]
+    },
+    {
+        "query": "Find the names of customers who have used either the service \"Close a policy\" or the service \"Upgrade a policy\".",
+        "Answer_table": [
+            "Customers__1",
+            "Services__1",
+            "First_Notification_of_Loss"
+        ]
+    },
+    {
+        "query": "Which customers have used the service named \"Close a policy\" or \"Upgrade a policy\"? Give me the customer names.",
+        "Answer_table": [
+            "Customers__1",
+            "Services__1",
+            "First_Notification_of_Loss"
+        ]
+    },
+    {
+        "query": "What are the names of enzymes in the medicine named 'Amisulpride' that can serve as an 'inhibitor'?",
+        "Answer_table": [
+            "medicine",
+            "enzyme",
+            "medicine_enzyme_interaction"
+        ]
+    },
+    {
+        "query": "What are the names of the enzymes used in the medicine  Amisulpride that acts as inhibitors?",
+        "Answer_table": [
+            "medicine",
+            "enzyme",
+            "medicine_enzyme_interaction"
+        ]
+    },
+    {
+        "query": "What is the interaction type of the enzyme named 'ALA synthase' and the medicine named 'Aripiprazole'?",
+        "Answer_table": [
+            "medicine",
+            "enzyme",
+            "medicine_enzyme_interaction"
+        ]
+    },
+    {
+        "query": "What is the type of interaction for the enzyme named 'ALA synthase' and the medicine named 'Aripiprazole'?",
+        "Answer_table": [
+            "medicine",
+            "enzyme",
+            "medicine_enzyme_interaction"
+        ]
+    },
+    {
+        "query": "Show the medicine names and trade names that cannot interact with the enzyme with product 'Heme'.",
+        "Answer_table": [
+            "medicine",
+            "enzyme",
+            "medicine_enzyme_interaction"
+        ]
+    },
+    {
+        "query": "What are the medicine and trade names that cannot interact with the enzyme with the product 'Heme'?",
+        "Answer_table": [
+            "medicine",
+            "enzyme",
+            "medicine_enzyme_interaction"
+        ]
+    },
+    {
+        "query": "What are the chip model and screen mode of the phone with hardware model name \"LG-P760\"?",
+        "Answer_table": [
+            "chip_model",
+            "screen_mode",
+            "phone__1"
+        ]
+    },
+    {
+        "query": "What are the wifi and screen mode type of the hardware model named \"LG-P760\"?",
+        "Answer_table": [
+            "chip_model",
+            "screen_mode",
+            "phone__1"
+        ]
+    },
+    {
+        "query": "List the hardware model name for the phones that have screen mode type \"Text\" or RAM size greater than 32.",
+        "Answer_table": [
+            "chip_model",
+            "screen_mode",
+            "phone__1"
+        ]
+    },
+    {
+        "query": "What are the id and name of the stadium where the most injury accidents happened?",
+        "Answer_table": [
+            "stadium__1",
+            "game",
+            "injury_accident"
+        ]
+    },
+    {
+        "query": "Find the id and name of the stadium where the largest number of injury accidents occurred.",
+        "Answer_table": [
+            "stadium__1",
+            "game",
+            "injury_accident"
+        ]
+    },
+    {
+        "query": "In which season and which stadium did any player have an injury of 'Foot injury' or 'Knee problem'?",
+        "Answer_table": [
+            "stadium__1",
+            "game",
+            "injury_accident"
+        ]
+    },
+    {
+        "query": "List the name of the stadium where both the player 'Walter Samuel' and the player 'Thiago Motta' got injured.",
+        "Answer_table": [
+            "stadium__1",
+            "game",
+            "injury_accident"
+        ]
+    },
+    {
+        "query": "Show the name, average attendance, total attendance for stadiums where no accidents happened.",
+        "Answer_table": [
+            "stadium__1",
+            "game",
+            "injury_accident"
+        ]
+    },
+    {
+        "query": "Show the names of members and the location of the performances they attended.",
+        "Answer_table": [
+            "member__1",
+            "performance",
+            "member_attendance"
+        ]
+    },
+    {
+        "query": "Show the names of members and the location of performances they attended in ascending alphabetical order of their names.",
+        "Answer_table": [
+            "member__1",
+            "performance",
+            "member_attendance"
+        ]
+    },
+    {
+        "query": "Show the dates of performances with attending members whose roles are \"Violin\".",
+        "Answer_table": [
+            "member__1",
+            "performance",
+            "member_attendance"
+        ]
+    },
+    {
+        "query": "Show the names of members and the dates of performances they attended in descending order of attendance of the performances.",
+        "Answer_table": [
+            "member__1",
+            "performance",
+            "member_attendance"
+        ]
+    },
+    {
+        "query": "list in alphabetic order all course names and their instructors' names in year 2008.",
+        "Answer_table": [
+            "course__1",
+            "instructor",
+            "teaches"
+        ]
+    },
+    {
+        "query": "Show all titles and their instructors' names for courses in 2008, in alphabetical order by title.",
+        "Answer_table": [
+            "course__1",
+            "instructor",
+            "teaches"
+        ]
+    },
+    {
+        "query": "Find the name and salary of the instructors who are advisors of any student from History department?",
+        "Answer_table": [
+            "instructor",
+            "student",
+            "advisor"
+        ]
+    },
+    {
+        "query": "What are the names and salaries of instructors who advises students in the History department?",
+        "Answer_table": [
+            "instructor",
+            "student",
+            "advisor"
+        ]
+    },
+    {
+        "query": "Find the name and salary of instructors who are advisors of the students from the Math department.",
+        "Answer_table": [
+            "instructor",
+            "student",
+            "advisor"
+        ]
+    },
+    {
+        "query": "What are the names and salaries of instructors who advise students in the Math department?",
+        "Answer_table": [
+            "instructor",
+            "student",
+            "advisor"
+        ]
+    },
+    {
+        "query": "Find the name of instructors who are advisors of the students from the Math department, and sort the results by students' total credit.",
+        "Answer_table": [
+            "instructor",
+            "student",
+            "advisor"
+        ]
+    },
+    {
+        "query": "What are the names of all instructors who advise students in the math depart sorted by total credits of the student.",
+        "Answer_table": [
+            "instructor",
+            "student",
+            "advisor"
+        ]
+    },
+    {
+        "query": "Find the name of instructor who is the advisor of the student who has the highest number of total credits.",
+        "Answer_table": [
+            "instructor",
+            "student",
+            "advisor"
+        ]
+    },
+    {
+        "query": "What is the name of the instructor who advises the student with the greatest number of total credits?",
+        "Answer_table": [
+            "instructor",
+            "student",
+            "advisor"
+        ]
+    },
+    {
+        "query": "What is the title and credits of the course that is taught in the largest classroom (with the highest capacity)?",
+        "Answer_table": [
+            "classroom",
+            "course__1",
+            "section"
+        ]
+    },
+    {
+        "query": "Give the title and credits for the course that is taught in the classroom with the greatest capacity.",
+        "Answer_table": [
+            "classroom",
+            "course__1",
+            "section"
+        ]
+    },
+    {
+        "query": "Find the name of students who didn't take any course from Biology department.",
+        "Answer_table": [
+            "course__1",
+            "student",
+            "takes"
+        ]
+    },
+    {
+        "query": "What are the names of students who haven't taken any Biology courses?",
+        "Answer_table": [
+            "course__1",
+            "student",
+            "takes"
+        ]
+    },
+    {
+        "query": "Find the total number of students and total number of instructors for each department.",
+        "Answer_table": [
+            "department__2",
+            "instructor",
+            "student"
+        ]
+    },
+    {
+        "query": "How many students and instructors are in each department?",
+        "Answer_table": [
+            "department__2",
+            "instructor",
+            "student"
+        ]
+    },
+    {
+        "query": "Find the name of students who took some course offered by Statistics department.",
+        "Answer_table": [
+            "course__1",
+            "student",
+            "takes"
+        ]
+    },
+    {
+        "query": "What are the names of students who have taken Statistics courses?",
+        "Answer_table": [
+            "course__1",
+            "student",
+            "takes"
+        ]
+    },
+    {
+        "query": "Show the names of people, and dates and venues of debates they are on the affirmative side.",
+        "Answer_table": [
+            "people__1",
+            "debate",
+            "debate_people"
+        ]
+    },
+    {
+        "query": "Show the names of people, and dates and venues of debates they are on the negative side, ordered in ascending alphabetical order of name.",
+        "Answer_table": [
+            "people__1",
+            "debate",
+            "debate_people"
+        ]
+    },
+    {
+        "query": "Show the names of people that are on affirmative side of debates with number of audience bigger than 200.",
+        "Answer_table": [
+            "people__1",
+            "debate",
+            "debate_people"
+        ]
+    },
+    {
+        "query": "What is the name of the customer who has made the largest amount of claim in a single claim?",
+        "Answer_table": [
+            "Customers__2",
+            "Policies",
+            "Claim_Headers"
+        ]
+    },
+    {
+        "query": "Which customer made the largest amount of claim in a single claim? Return the customer details.",
+        "Answer_table": [
+            "Customers__2",
+            "Policies",
+            "Claim_Headers"
+        ]
+    },
+    {
+        "query": "What is the name of the customer who has made the minimum amount of payment in one claim?",
+        "Answer_table": [
+            "Customers__2",
+            "Policies",
+            "Claim_Headers"
+        ]
+    },
+    {
+        "query": "Which customer made the smallest amount of claim in one claim? Return the customer details.",
+        "Answer_table": [
+            "Customers__2",
+            "Policies",
+            "Claim_Headers"
+        ]
+    },
+    {
+        "query": "Show all product names and the number of customers having an order on each product.",
+        "Answer_table": [
+            "Orders__1",
+            "Products__1",
+            "Order_Items__1"
+        ]
+    },
+    {
+        "query": "What are teh names of the different products, as well as the number of customers who have ordered each product.",
+        "Answer_table": [
+            "Orders__1",
+            "Products__1",
+            "Order_Items__1"
+        ]
+    },
+    {
+        "query": "Show the church names for the weddings of all people older than 30.",
+        "Answer_table": [
+            "people__2",
+            "church",
+            "wedding"
+        ]
+    },
+    {
+        "query": "Show all artist names with an average exhibition attendance over 200.",
+        "Answer_table": [
+            "artist",
+            "exhibition",
+            "exhibition_record"
+        ]
+    },
+    {
+        "query": "What are the names of artist whose exhibitions draw over 200 attendees on average?",
+        "Answer_table": [
+            "artist",
+            "exhibition",
+            "exhibition_record"
+        ]
+    },
+    {
+        "query": "Show the names of players and names of their coaches.",
+        "Answer_table": [
+            "player__1",
+            "coach",
+            "player_coach"
+        ]
+    },
+    {
+        "query": "Show the names of players coached by the rank 1 coach.",
+        "Answer_table": [
+            "player__1",
+            "coach",
+            "player_coach"
+        ]
+    },
+    {
+        "query": "Show the names and genders of players with a coach starting after 2011.",
+        "Answer_table": [
+            "player__1",
+            "coach",
+            "player_coach"
+        ]
+    },
+    {
+        "query": "Show the names of players and names of their coaches in descending order of the votes of players.",
+        "Answer_table": [
+            "player__1",
+            "coach",
+            "player_coach"
+        ]
+    },
+    {
+        "query": "Find the checking balance and saving balance in the Brown’s account.",
+        "Answer_table": [
+            "ACCOUNTS",
+            "SAVINGS",
+            "CHECKING"
+        ]
+    },
+    {
+        "query": "What are the checking and savings balances in accounts belonging to Brown?",
+        "Answer_table": [
+            "ACCOUNTS",
+            "SAVINGS",
+            "CHECKING"
+        ]
+    },
+    {
+        "query": "Find the names of accounts whose checking balance is above the average checking balance, but savings balance is below the average savings balance.",
+        "Answer_table": [
+            "ACCOUNTS",
+            "SAVINGS",
+            "CHECKING"
+        ]
+    },
+    {
+        "query": "What are the names of accounts with checking balances greater than the average checking balance and savings balances below the average savings balance?",
+        "Answer_table": [
+            "ACCOUNTS",
+            "SAVINGS",
+            "CHECKING"
+        ]
+    },
+    {
+        "query": "Find the checking balance of the accounts whose savings balance is higher than the average savings balance.",
+        "Answer_table": [
+            "ACCOUNTS",
+            "SAVINGS",
+            "CHECKING"
+        ]
+    },
+    {
+        "query": "What are the balances of checking accounts belonging to people with savings balances greater than the average savings balance?",
+        "Answer_table": [
+            "ACCOUNTS",
+            "SAVINGS",
+            "CHECKING"
+        ]
+    },
+    {
+        "query": "Find the name of account that has the lowest total checking and saving balance.",
+        "Answer_table": [
+            "ACCOUNTS",
+            "SAVINGS",
+            "CHECKING"
+        ]
+    },
+    {
+        "query": "What is the name corresponding to the accoung with the lowest sum of checking and savings balances?",
+        "Answer_table": [
+            "ACCOUNTS",
+            "SAVINGS",
+            "CHECKING"
+        ]
+    },
+    {
+        "query": "Find the names and total checking and savings balances of accounts whose savings balance is higher than the average savings balance.",
+        "Answer_table": [
+            "ACCOUNTS",
+            "SAVINGS",
+            "CHECKING"
+        ]
+    },
+    {
+        "query": "What are the names and sum of checking and savings balances for accounts with savings balances higher than the average savings balance?",
+        "Answer_table": [
+            "ACCOUNTS",
+            "SAVINGS",
+            "CHECKING"
+        ]
+    },
+    {
+        "query": "Find the name and checking balance of the account with the lowest savings balance.",
+        "Answer_table": [
+            "ACCOUNTS",
+            "SAVINGS",
+            "CHECKING"
+        ]
+    },
+    {
+        "query": "What are the names and balances of checking accounts belonging to the customer with the lowest savings balance?",
+        "Answer_table": [
+            "ACCOUNTS",
+            "SAVINGS",
+            "CHECKING"
+        ]
+    },
+    {
+        "query": "Find the saving balance of the account with the highest checking balance.",
+        "Answer_table": [
+            "ACCOUNTS",
+            "SAVINGS",
+            "CHECKING"
+        ]
+    },
+    {
+        "query": "What is the savings balance of the account belonging to the customer with the highest checking balance?",
+        "Answer_table": [
+            "ACCOUNTS",
+            "SAVINGS",
+            "CHECKING"
+        ]
+    },
+    {
+        "query": "Find the name and checking balance of the account with the lowest saving balance.",
+        "Answer_table": [
+            "ACCOUNTS",
+            "SAVINGS",
+            "CHECKING"
+        ]
+    },
+    {
+        "query": "What is the name and checking balance of the account which has the lowest savings balance?",
+        "Answer_table": [
+            "ACCOUNTS",
+            "SAVINGS",
+            "CHECKING"
+        ]
+    },
+    {
+        "query": "Find the name, checking balance and saving balance of all accounts in the bank.",
+        "Answer_table": [
+            "ACCOUNTS",
+            "SAVINGS",
+            "CHECKING"
+        ]
+    },
+    {
+        "query": "What are the names, checking balances, and savings balances for all customers?",
+        "Answer_table": [
+            "ACCOUNTS",
+            "SAVINGS",
+            "CHECKING"
+        ]
+    },
+    {
+        "query": "Find the name, checking balance and savings balance of all accounts in the bank sorted by their total checking and savings balance in descending order.",
+        "Answer_table": [
+            "ACCOUNTS",
+            "SAVINGS",
+            "CHECKING"
+        ]
+    },
+    {
+        "query": "What are the names, checking balances, and savings balances of customers, ordered by the total of checking and savings balances descending?",
+        "Answer_table": [
+            "ACCOUNTS",
+            "SAVINGS",
+            "CHECKING"
+        ]
+    },
+    {
+        "query": "Find the name of accounts whose checking balance is higher than corresponding saving balance.",
+        "Answer_table": [
+            "ACCOUNTS",
+            "SAVINGS",
+            "CHECKING"
+        ]
+    },
+    {
+        "query": "What are the names of customers with a higher checking balance than savings balance?",
+        "Answer_table": [
+            "ACCOUNTS",
+            "SAVINGS",
+            "CHECKING"
+        ]
+    },
+    {
+        "query": "Find the name and total checking and savings balance of the accounts whose savings balance is lower than corresponding checking balance.",
+        "Answer_table": [
+            "ACCOUNTS",
+            "SAVINGS",
+            "CHECKING"
+        ]
+    },
+    {
+        "query": "What are the names of customers who have a savings balance lower than their checking balance, and what is the total of their checking and savings balances?",
+        "Answer_table": [
+            "ACCOUNTS",
+            "SAVINGS",
+            "CHECKING"
+        ]
+    },
+    {
+        "query": "What is the name of the browser that became compatible with the accelerator 'CProxy' after year 1998 ?",
+        "Answer_table": [
+            "Web_client_accelerator",
+            "browser",
+            "accelerator_compatible_browser"
+        ]
+    },
+    {
+        "query": "When did the web accelerator 'CACHEbox' and browser 'Internet Explorer' become compatible?",
+        "Answer_table": [
+            "Web_client_accelerator",
+            "browser",
+            "accelerator_compatible_browser"
+        ]
+    },
+    {
+        "query": "What distinct accelerator names are compatible with the browswers that have market share higher than 15?",
+        "Answer_table": [
+            "Web_client_accelerator",
+            "browser",
+            "accelerator_compatible_browser"
+        ]
+    },
+    {
+        "query": "List the names of the browser that are compatible with both 'CACHEbox' and 'Fasterfox'.",
+        "Answer_table": [
+            "Web_client_accelerator",
+            "browser",
+            "accelerator_compatible_browser"
+        ]
+    },
+    {
+        "query": "Show the accelerator names and supporting operating systems that are not compatible with the browser named 'Opera'.",
+        "Answer_table": [
+            "Web_client_accelerator",
+            "browser",
+            "accelerator_compatible_browser"
+        ]
+    },
+    {
+        "query": "give me names of all compatible browsers and accelerators in the descending order of compatible year",
+        "Answer_table": [
+            "Web_client_accelerator",
+            "browser",
+            "accelerator_compatible_browser"
+        ]
+    },
+    {
+        "query": "Show the names of schools with a total budget amount greater than 100 or a total endowment greater than 10.",
+        "Answer_table": [
+            "School",
+            "budget",
+            "endowment"
+        ]
+    },
+    {
+        "query": "How many proteins are associated with an institution in a building with at least 20 floors?",
+        "Answer_table": [
+            "building",
+            "Institution",
+            "protein"
+        ]
+    },
+    {
+        "query": "Show cinema name, film title, date, and price for each record in schedule.",
+        "Answer_table": [
+            "film__1",
+            "cinema",
+            "schedule"
+        ]
+    },
+    {
+        "query": "What are the start date and end date of the booking that has booked the product named 'Book collection A'?",
+        "Answer_table": [
+            "Bookings",
+            "Products_for_Hire",
+            "Products_Booked"
+        ]
+    },
+    {
+        "query": "Show the names of phones and the districts of markets they are on.",
+        "Answer_table": [
+            "phone__2",
+            "market__1",
+            "phone_market"
+        ]
+    },
+    {
+        "query": "Show the names of phones and the districts of markets they are on, in ascending order of the ranking of the market.",
+        "Answer_table": [
+            "phone__2",
+            "market__1",
+            "phone_market"
+        ]
+    },
+    {
+        "query": "Show the names of phones that are on market with number of shops greater than 50.",
+        "Answer_table": [
+            "phone__2",
+            "market__1",
+            "phone_market"
+        ]
+    },
+    {
+        "query": "Show the manager name for gas stations belonging to the ExxonMobil company.",
+        "Answer_table": [
+            "company__1",
+            "gas_station",
+            "station_company"
+        ]
+    },
+    {
+        "query": "What are the names of the managers for gas stations that are operated by the ExxonMobil company?",
+        "Answer_table": [
+            "company__1",
+            "gas_station",
+            "station_company"
+        ]
+    },
+    {
+        "query": "Show all locations where a gas station for company with market value greater than 100 is located.",
+        "Answer_table": [
+            "company__1",
+            "gas_station",
+            "station_company"
+        ]
+    },
+    {
+        "query": "What are the locations that have gas stations owned by a company with a market value greater than 100?",
+        "Answer_table": [
+            "company__1",
+            "gas_station",
+            "station_company"
+        ]
+    },
+    {
+        "query": "find the location and Representative name of the gas stations owned by the companies with top 3 Asset amounts.",
+        "Answer_table": [
+            "company__1",
+            "gas_station",
+            "station_company"
+        ]
+    },
+    {
+        "query": "What are the locations and representatives' names of the gas stations owned by the companies with the 3 largest amounts of assets?",
+        "Answer_table": [
+            "company__1",
+            "gas_station",
+            "station_company"
+        ]
+    },
+    {
+        "query": "How many Annual Meeting events happened in the United Kingdom region?",
+        "Answer_table": [
+            "region__1",
+            "party__1",
+            "party_events"
+        ]
+    },
+    {
+        "query": "Count the number of Annual Meeting events that took place in the region of the United Kingdom.",
+        "Answer_table": [
+            "region__1",
+            "party__1",
+            "party_events"
+        ]
+    },
+    {
+        "query": "Show the names of pilots and models of aircrafts they have flied with.",
+        "Answer_table": [
+            "aircraft__2",
+            "pilot",
+            "pilot_record"
+        ]
+    },
+    {
+        "query": "Show the names of pilots and fleet series of the aircrafts they have flied with in ascending order of the rank of the pilot.",
+        "Answer_table": [
+            "aircraft__2",
+            "pilot",
+            "pilot_record"
+        ]
+    },
+    {
+        "query": "Show the fleet series of the aircrafts flied by pilots younger than 34",
+        "Answer_table": [
+            "aircraft__2",
+            "pilot",
+            "pilot_record"
+        ]
+    },
+    {
+        "query": "Which service id and type has the least number of participants?",
+        "Answer_table": [
+            "Services__2",
+            "Participants",
+            "Events",
+            "Participants_in_Events"
+        ]
+    },
+    {
+        "query": "Which events id does not have any participant with detail 'Kenyatta Kuhn'?",
+        "Answer_table": [
+            "Participants",
+            "Events",
+            "Participants_in_Events"
+        ]
+    },
+    {
+        "query": "Give me a list of names and years of races that had any driver whose forename is Lewis?",
+        "Answer_table": [
+            "races",
+            "drivers",
+            "results"
+        ]
+    },
+    {
+        "query": "What are the names and years of all races that had a driver with the last name Lewis?",
+        "Answer_table": [
+            "races",
+            "drivers",
+            "results"
+        ]
+    },
+    {
+        "query": "Find the id and forenames of drivers who participated both the races with name Australian Grand Prix and the races with name Chinese Grand Prix?",
+        "Answer_table": [
+            "races",
+            "drivers",
+            "results"
+        ]
+    },
+    {
+        "query": "What is the id and first name of all the drivers who participated in the Australian Grand Prix and the Chinese Grand Prix?",
+        "Answer_table": [
+            "races",
+            "drivers",
+            "results"
+        ]
+    },
+    {
+        "query": "What are the forenames and surnames of drivers who participated in the races named Australian Grand Prix but not the races named Chinese Grand Prix?",
+        "Answer_table": [
+            "races",
+            "drivers",
+            "results"
+        ]
+    },
+    {
+        "query": "What are the first and last names of all drivers who participated in the Australian Grand Prix but not the Chinese Grand Prix?",
+        "Answer_table": [
+            "races",
+            "drivers",
+            "results"
+        ]
+    },
+    {
+        "query": "What is the id and last name of the driver who participated in the most races after 2010?",
+        "Answer_table": [
+            "races",
+            "drivers",
+            "results"
+        ]
+    },
+    {
+        "query": "What is the id and last name of the driver who participated in the most races after 2010?",
+        "Answer_table": [
+            "races",
+            "drivers",
+            "results"
+        ]
+    },
+    {
+        "query": "Find the id, forename and number of races of all drivers who have at least participated in two races?",
+        "Answer_table": [
+            "races",
+            "drivers",
+            "results"
+        ]
+    },
+    {
+        "query": "What is the id, forename, and number of races for all drivers that have participated in at least 2 races?",
+        "Answer_table": [
+            "races",
+            "drivers",
+            "results"
+        ]
+    },
+    {
+        "query": "Find the driver id and number of races of all drivers who have at most participated in 30 races?",
+        "Answer_table": [
+            "races",
+            "drivers",
+            "results"
+        ]
+    },
+    {
+        "query": "For each id of a driver who participated in at most 30 races, how many races did they participate in?",
+        "Answer_table": [
+            "races",
+            "drivers",
+            "results"
+        ]
+    },
+    {
+        "query": "Find the id and surname of the driver who participated the most number of races?",
+        "Answer_table": [
+            "races",
+            "drivers",
+            "results"
+        ]
+    },
+    {
+        "query": "What are the ids and last names of all drivers who participated in the most races?",
+        "Answer_table": [
+            "races",
+            "drivers",
+            "results"
+        ]
+    },
+    {
+        "query": "Show names of technicians and series of machines they are assigned to repair.",
+        "Answer_table": [
+            "machine",
+            "technician",
+            "repair_assignment"
+        ]
+    },
+    {
+        "query": "What are the names of technicians and the machine series that they repair?",
+        "Answer_table": [
+            "machine",
+            "technician",
+            "repair_assignment"
+        ]
+    },
+    {
+        "query": "Show names of technicians in ascending order of quality rank of the machine they are assigned.",
+        "Answer_table": [
+            "machine",
+            "technician",
+            "repair_assignment"
+        ]
+    },
+    {
+        "query": "What are the names of the technicians by ascending order of quality rank for the machine they are assigned?",
+        "Answer_table": [
+            "machine",
+            "technician",
+            "repair_assignment"
+        ]
+    },
+    {
+        "query": "Show names of technicians who are assigned to repair machines with value point more than 70.",
+        "Answer_table": [
+            "machine",
+            "technician",
+            "repair_assignment"
+        ]
+    },
+    {
+        "query": "What are the names of the technicians that are assigned to repair machines with more point values than 70?",
+        "Answer_table": [
+            "machine",
+            "technician",
+            "repair_assignment"
+        ]
+    },
+    {
+        "query": "How many faculty lines are there in the university that conferred the most number of degrees in year 2002?",
+        "Answer_table": [
+            "Campuses",
+            "degrees",
+            "faculty"
+        ]
+    },
+    {
+        "query": "How many faculty members did the university that conferred the most degrees in 2002 have?",
+        "Answer_table": [
+            "Campuses",
+            "degrees",
+            "faculty"
+        ]
+    },
+    {
+        "query": "Return reviewer name, movie title, stars, and ratingDate. And sort the data first by reviewer name, then by movie title, and lastly by number of stars.",
+        "Answer_table": [
+            "Movie",
+            "Reviewer",
+            "Rating"
+        ]
+    },
+    {
+        "query": "What is the reviewer name, film title, movie rating, and rating date  for every movie ordered by reviewer name, movie title, then finally rating?",
+        "Answer_table": [
+            "Movie",
+            "Reviewer",
+            "Rating"
+        ]
+    },
+    {
+        "query": "Find the names of all reviewers who rated Gone with the Wind.",
+        "Answer_table": [
+            "Movie",
+            "Reviewer",
+            "Rating"
+        ]
+    },
+    {
+        "query": "What are the names of all the different reviewers who rates Gone with the Wind?",
+        "Answer_table": [
+            "Movie",
+            "Reviewer",
+            "Rating"
+        ]
+    },
+    {
+        "query": "Find the names of all directors whose movies are rated by Sarah Martinez.",
+        "Answer_table": [
+            "Movie",
+            "Reviewer",
+            "Rating"
+        ]
+    },
+    {
+        "query": "What are the names of all directors whose movies have been reviewed by Sarah Martinez?",
+        "Answer_table": [
+            "Movie",
+            "Reviewer",
+            "Rating"
+        ]
+    },
+    {
+        "query": "For any rating where the name of reviewer is the same as the director of the movie, return the reviewer name, movie title, and number of stars.",
+        "Answer_table": [
+            "Movie",
+            "Reviewer",
+            "Rating"
+        ]
+    },
+    {
+        "query": "What are the different reviewer names, movie titles, and stars for every rating where the reviewer had the same name as the director?",
+        "Answer_table": [
+            "Movie",
+            "Reviewer",
+            "Rating"
+        ]
+    },
+    {
+        "query": "Find the titles of all movies not reviewed by Chris Jackson.",
+        "Answer_table": [
+            "Movie",
+            "Reviewer",
+            "Rating"
+        ]
+    },
+    {
+        "query": "What are the titles of all movies that were not reviewed by Chris Jackson?",
+        "Answer_table": [
+            "Movie",
+            "Reviewer",
+            "Rating"
+        ]
+    },
+    {
+        "query": "What are names of the movies that are either made after 2000 or reviewed by Brittany Harris?",
+        "Answer_table": [
+            "Movie",
+            "Reviewer",
+            "Rating"
+        ]
+    },
+    {
+        "query": "What are the names of all movies that were made after 2000 or reviewed by Brittany Harris?",
+        "Answer_table": [
+            "Movie",
+            "Reviewer",
+            "Rating"
+        ]
+    },
+    {
+        "query": "What are the renting arrears tax ids related to the customer master index whose detail is not 'Schmidt, Kertzmann and Lubowitz'?",
+        "Answer_table": [
+            "Customer_Master_Index",
+            "CMI_Cross_References",
+            "Rent_Arrears"
+        ]
+    },
+    {
+        "query": "Show the themes of parties and the names of the party hosts.",
+        "Answer_table": [
+            "party__2",
+            "host",
+            "party_host"
+        ]
+    },
+    {
+        "query": "For each party, return its theme and the name of its host.",
+        "Answer_table": [
+            "party__2",
+            "host",
+            "party_host"
+        ]
+    },
+    {
+        "query": "Show the locations of parties and the names of the party hosts in ascending order of the age of the host.",
+        "Answer_table": [
+            "party__2",
+            "host",
+            "party_host"
+        ]
+    },
+    {
+        "query": "For each party, find its location and the name of its host. Sort the result in ascending order of the age of the host.",
+        "Answer_table": [
+            "party__2",
+            "host",
+            "party_host"
+        ]
+    },
+    {
+        "query": "Show the locations of parties with hosts older than 50.",
+        "Answer_table": [
+            "party__2",
+            "host",
+            "party_host"
+        ]
+    },
+    {
+        "query": "Which parties have hosts of age above 50? Give me the party locations.",
+        "Answer_table": [
+            "party__2",
+            "host",
+            "party_host"
+        ]
+    },
+    {
+        "query": "Show the host names for parties with number of hosts greater than 20.",
+        "Answer_table": [
+            "party__2",
+            "host",
+            "party_host"
+        ]
+    },
+    {
+        "query": "Which parties have more than 20 hosts? Give me the host names for these parties.",
+        "Answer_table": [
+            "party__2",
+            "host",
+            "party_host"
+        ]
+    },
+    {
+        "query": "What are the region names affected by the storm with a number of deaths of least 10?",
+        "Answer_table": [
+            "storm",
+            "region__2",
+            "affected_region"
+        ]
+    },
+    {
+        "query": "Return the names of the regions affected by storms that had a death count of at least 10.",
+        "Answer_table": [
+            "storm",
+            "region__2",
+            "affected_region"
+        ]
+    },
+    {
+        "query": "Show all storm names affecting region \"Denmark\".",
+        "Answer_table": [
+            "storm",
+            "region__2",
+            "affected_region"
+        ]
+    },
+    {
+        "query": "What are the names of the storms that affected Denmark?",
+        "Answer_table": [
+            "storm",
+            "region__2",
+            "affected_region"
+        ]
+    },
+    {
+        "query": "Find the names of the regions which were affected by the storm that killed the greatest number of people.",
+        "Answer_table": [
+            "storm",
+            "region__2",
+            "affected_region"
+        ]
+    },
+    {
+        "query": "What are the names of regions that were affected by the storm in which the most people died?",
+        "Answer_table": [
+            "storm",
+            "region__2",
+            "affected_region"
+        ]
+    },
+    {
+        "query": "Find the name of the storm that affected both Afghanistan and Albania regions.",
+        "Answer_table": [
+            "storm",
+            "region__2",
+            "affected_region"
+        ]
+    },
+    {
+        "query": "What are the names of the storms that affected both the regions of Afghanistan and Albania?",
+        "Answer_table": [
+            "storm",
+            "region__2",
+            "affected_region"
+        ]
+    },
+    {
+        "query": "Show the names of journalists and the dates of the events they reported.",
+        "Answer_table": [
+            "event__1",
+            "journalist",
+            "news_report"
+        ]
+    },
+    {
+        "query": "Show the names of journalists and the names of the events they reported in ascending order",
+        "Answer_table": [
+            "event__1",
+            "journalist",
+            "news_report"
+        ]
+    },
+    {
+        "query": "Show the names of journalists and the number of events they reported.",
+        "Answer_table": [
+            "event__1",
+            "journalist",
+            "news_report"
+        ]
+    },
+    {
+        "query": "Show the names of journalists that have reported more than one event.",
+        "Answer_table": [
+            "event__1",
+            "journalist",
+            "news_report"
+        ]
+    },
+    {
+        "query": "How many restaurant is the Sandwich type restaurant?",
+        "Answer_table": [
+            "Restaurant",
+            "Type_Of_Restaurant",
+            "Restaurant_Type"
+        ]
+    },
+    {
+        "query": "How many times has the student Linda Smith visited Subway?",
+        "Answer_table": [
+            "Student",
+            "Restaurant",
+            "Visits_Restaurant"
+        ]
+    },
+    {
+        "query": "When did Linda Smith visit Subway?",
+        "Answer_table": [
+            "Student",
+            "Restaurant",
+            "Visits_Restaurant"
+        ]
+    },
+    {
+        "query": "Find the names of customers who are not living in the state of California.",
+        "Answer_table": [
+            "Addresses__2",
+            "Customers__3",
+            "Customer_Addresses__1"
+        ]
+    },
+    {
+        "query": "Find the names and phone numbers of customers living in California state.",
+        "Answer_table": [
+            "Addresses__2",
+            "Customers__3",
+            "Customer_Addresses__1"
+        ]
+    },
+    {
+        "query": "What are the titles of papers published by \"Jeremy Gibbons\"?",
+        "Answer_table": [
+            "Authors",
+            "Papers",
+            "Authorship"
+        ]
+    },
+    {
+        "query": "Find the titles of all the papers written by \"Jeremy Gibbons\"",
+        "Answer_table": [
+            "Authors",
+            "Papers",
+            "Authorship"
+        ]
+    },
+    {
+        "query": "Find all the papers published by \"Aaron Turon\".",
+        "Answer_table": [
+            "Authors",
+            "Papers",
+            "Authorship"
+        ]
+    },
+    {
+        "query": "Find the titles of all the papers written by \"Aaron Turon\".",
+        "Answer_table": [
+            "Authors",
+            "Papers",
+            "Authorship"
+        ]
+    },
+    {
+        "query": "How many papers have \"Atsushi Ohori\" published?",
+        "Answer_table": [
+            "Authors",
+            "Papers",
+            "Authorship"
+        ]
+    },
+    {
+        "query": "How many papers are \"Atsushi Ohori\" the author of?",
+        "Answer_table": [
+            "Authors",
+            "Papers",
+            "Authorship"
+        ]
+    },
+    {
+        "query": "What is the name of the institution that \"Matthias Blume\" belongs to?",
+        "Answer_table": [
+            "Inst",
+            "Authors",
+            "Authorship"
+        ]
+    },
+    {
+        "query": "Which institution is the author \"Matthias Blume\" belong to? Give me the name of the institution.",
+        "Answer_table": [
+            "Inst",
+            "Authors",
+            "Authorship"
+        ]
+    },
+    {
+        "query": "Which institution does \"Katsuhiro Ueno\" belong to?",
+        "Answer_table": [
+            "Inst",
+            "Authors",
+            "Authorship"
+        ]
+    },
+    {
+        "query": "What is the name of the institution the author \"Katsuhiro Ueno\" belongs to?",
+        "Answer_table": [
+            "Inst",
+            "Authors",
+            "Authorship"
+        ]
+    },
+    {
+        "query": "Who belong to the institution \"University of Oxford\"? Show the first names and last names.",
+        "Answer_table": [
+            "Inst",
+            "Authors",
+            "Authorship"
+        ]
+    },
+    {
+        "query": "Find the first names and last names of the authors whose institution affiliation is \"University of Oxford\".",
+        "Answer_table": [
+            "Inst",
+            "Authors",
+            "Authorship"
+        ]
+    },
+    {
+        "query": "Which authors belong to the institution \"Google\"? Show the first names and last names.",
+        "Answer_table": [
+            "Inst",
+            "Authors",
+            "Authorship"
+        ]
+    },
+    {
+        "query": "Find the first names and last names of the authors whose institution affiliation is \"Google\".",
+        "Answer_table": [
+            "Inst",
+            "Authors",
+            "Authorship"
+        ]
+    },
+    {
+        "query": "What are the last names of the author of the paper titled \"Binders Unbound\"?",
+        "Answer_table": [
+            "Authors",
+            "Papers",
+            "Authorship"
+        ]
+    },
+    {
+        "query": "Who is the author of the paper titled \"Binders Unbound\"? Give me the last name.",
+        "Answer_table": [
+            "Authors",
+            "Papers",
+            "Authorship"
+        ]
+    },
+    {
+        "query": "What are the papers published under the institution \"Indiana University\"?",
+        "Answer_table": [
+            "Inst",
+            "Papers",
+            "Authorship"
+        ]
+    },
+    {
+        "query": "List the titles of the papers whose authors are from the institution \"Indiana University\".",
+        "Answer_table": [
+            "Inst",
+            "Papers",
+            "Authorship"
+        ]
+    },
+    {
+        "query": "Find all the papers published by the institution \"Google\".",
+        "Answer_table": [
+            "Inst",
+            "Papers",
+            "Authorship"
+        ]
+    },
+    {
+        "query": "Which papers were written by authors from the institution \"Google\"?",
+        "Answer_table": [
+            "Inst",
+            "Papers",
+            "Authorship"
+        ]
+    },
+    {
+        "query": "How many papers are published by the institution \"Tokohu University\"?",
+        "Answer_table": [
+            "Inst",
+            "Papers",
+            "Authorship"
+        ]
+    },
+    {
+        "query": "Find the number of papers published by authors from the institution \"Tokohu University\".",
+        "Answer_table": [
+            "Inst",
+            "Papers",
+            "Authorship"
+        ]
+    },
+    {
+        "query": "Find the number of papers published by the institution \"University of Pennsylvania\".",
+        "Answer_table": [
+            "Inst",
+            "Papers",
+            "Authorship"
+        ]
+    },
+    {
+        "query": "How many papers are written by authors from the institution \"University of Pennsylvania\"?",
+        "Answer_table": [
+            "Inst",
+            "Papers",
+            "Authorship"
+        ]
+    },
+    {
+        "query": "Find the papers which have \"Olin Shivers\" as an author.",
+        "Answer_table": [
+            "Authors",
+            "Papers",
+            "Authorship"
+        ]
+    },
+    {
+        "query": "Which papers did the author \"Olin Shivers\" write? Give me the paper titles.",
+        "Answer_table": [
+            "Authors",
+            "Papers",
+            "Authorship"
+        ]
+    },
+    {
+        "query": "Which papers have \"Stephanie Weirich\" as an author?",
+        "Answer_table": [
+            "Authors",
+            "Papers",
+            "Authorship"
+        ]
+    },
+    {
+        "query": "Find the titles of the papers the author \"Stephanie Weirich\" wrote.",
+        "Answer_table": [
+            "Authors",
+            "Papers",
+            "Authorship"
+        ]
+    },
+    {
+        "query": "Which paper is published in an institution in \"USA\" and have \"Turon\" as its second author?",
+        "Answer_table": [
+            "Inst",
+            "Authors",
+            "Papers",
+            "Authorship"
+        ]
+    },
+    {
+        "query": "Find papers whose second author has last name \"Turon\" and is affiliated with an institution in the country \"USA\".",
+        "Answer_table": [
+            "Inst",
+            "Authors",
+            "Papers",
+            "Authorship"
+        ]
+    },
+    {
+        "query": "Find the titles of papers whose first author is affiliated with an institution in the country \"Japan\" and has last name \"Ohori\"?",
+        "Answer_table": [
+            "Inst",
+            "Authors",
+            "Papers",
+            "Authorship"
+        ]
+    },
+    {
+        "query": "Which papers' first author is affiliated with an institution in the country \"Japan\" and has last name \"Ohori\"? Give me the titles of the papers.",
+        "Answer_table": [
+            "Inst",
+            "Authors",
+            "Papers",
+            "Authorship"
+        ]
+    },
+    {
+        "query": "What is the last name of the author that has published the most papers?",
+        "Answer_table": [
+            "Authors",
+            "Papers",
+            "Authorship"
+        ]
+    },
+    {
+        "query": "Which author has written the most papers? Find his or her last name.",
+        "Answer_table": [
+            "Authors",
+            "Papers",
+            "Authorship"
+        ]
+    },
+    {
+        "query": "Retrieve the country that has published the most papers.",
+        "Answer_table": [
+            "Inst",
+            "Papers",
+            "Authorship"
+        ]
+    },
+    {
+        "query": "Find the country that the most papers are affiliated with.",
+        "Answer_table": [
+            "Inst",
+            "Papers",
+            "Authorship"
+        ]
+    },
+    {
+        "query": "Find the name of the organization that has published the largest number of papers.",
+        "Answer_table": [
+            "Inst",
+            "Papers",
+            "Authorship"
+        ]
+    },
+    {
+        "query": "Which institution has the most papers? Find the name of the institution.",
+        "Answer_table": [
+            "Inst",
+            "Papers",
+            "Authorship"
+        ]
+    },
+    {
+        "query": "Find the first names of all the authors who have written a paper with title containing the word \"Functional\".",
+        "Answer_table": [
+            "Authors",
+            "Papers",
+            "Authorship"
+        ]
+    },
+    {
+        "query": "Who has written a paper that has the word \"Functional\" in its title? Return the first names of the authors.",
+        "Answer_table": [
+            "Authors",
+            "Papers",
+            "Authorship"
+        ]
+    },
+    {
+        "query": "Find the last names of all the authors that have written a paper with title containing the word \"Monadic\".",
+        "Answer_table": [
+            "Authors",
+            "Papers",
+            "Authorship"
+        ]
+    },
+    {
+        "query": "Which authors have written a paper with title containing the word \"Monadic\"? Return their last names.",
+        "Answer_table": [
+            "Authors",
+            "Papers",
+            "Authorship"
+        ]
+    },
+    {
+        "query": "What is the genre name of the film HUNGER ROOF?",
+        "Answer_table": [
+            "category",
+            "film__2",
+            "film_category"
+        ]
+    },
+    {
+        "query": "Return the name of the category to which the film 'HUNGER ROOF' belongs.",
+        "Answer_table": [
+            "category",
+            "film__2",
+            "film_category"
+        ]
+    },
+    {
+        "query": "What is the film title and inventory id of the item in the inventory which was rented most frequently?",
+        "Answer_table": [
+            "film__2",
+            "inventory",
+            "rental"
+        ]
+    },
+    {
+        "query": "Return the title and inventory id of the film that is rented most often.",
+        "Answer_table": [
+            "film__2",
+            "inventory",
+            "rental"
+        ]
+    },
+    {
+        "query": "Find the name of bank branch that provided the greatest total amount of loans to customers with credit score is less than 100.",
+        "Answer_table": [
+            "bank",
+            "customer",
+            "loan"
+        ]
+    },
+    {
+        "query": "What is the name of the bank branch that has lended the largest total amount in loans, specifically to customers with credit scores below 100?",
+        "Answer_table": [
+            "bank",
+            "customer",
+            "loan"
+        ]
+    },
+    {
+        "query": "Find the names of bank branches that have provided a loan to any customer whose credit score is below 100.",
+        "Answer_table": [
+            "bank",
+            "customer",
+            "loan"
+        ]
+    },
+    {
+        "query": "What are the names of banks that have loaned money to customers with credit scores below 100?",
+        "Answer_table": [
+            "bank",
+            "customer",
+            "loan"
+        ]
+    },
+    {
+        "query": "What are the line 1 of addresses shared by some students and some teachers?",
+        "Answer_table": [
+            "Addresses__3",
+            "Students__2",
+            "Teachers"
+        ]
+    },
+    {
+        "query": "Which assets have 2 parts and have less than 2 fault logs? List the asset id and detail.",
+        "Answer_table": [
+            "Assets",
+            "Asset_Parts",
+            "Fault_Log"
+        ]
+    },
+    {
+        "query": "Which third party companies have at least 2 maintenance engineers or have at least 2 maintenance contracts? List the company id and name.",
+        "Answer_table": [
+            "Third_Party_Companies",
+            "Maintenance_Contracts",
+            "Maintenance_Engineers"
+        ]
+    },
+    {
+        "query": "What is the name and id of the staff who recorded the fault log but has not contacted any visiting engineers?",
+        "Answer_table": [
+            "Staff__1",
+            "Fault_Log",
+            "Engineer_Visits"
+        ]
+    },
+    {
+        "query": "List all every engineer's first name, last name, details and coresponding skill description.",
+        "Answer_table": [
+            "Skills",
+            "Maintenance_Engineers",
+            "Engineer_Skills"
+        ]
+    },
+    {
+        "query": "For all the faults of different parts, what are all the decriptions of the skills required to fix them? List the name of the faults and the skill description.",
+        "Answer_table": [
+            "Skills",
+            "Part_Faults",
+            "Skills_Required_To_Fix"
+        ]
+    },
+    {
+        "query": "Which part fault requires the most number of skills to fix? List part id and name.",
+        "Answer_table": [
+            "Parts",
+            "Part_Faults",
+            "Skills_Required_To_Fix"
+        ]
+    },
+    {
+        "query": "Which staff have contacted which engineers? List the staff name and the engineer first name and last name.",
+        "Answer_table": [
+            "Staff__1",
+            "Maintenance_Engineers",
+            "Engineer_Visits"
+        ]
+    },
+    {
+        "query": "Find names and times of trains that run through stations for the local authority Chiltern.",
+        "Answer_table": [
+            "train__1",
+            "station__1",
+            "route"
+        ]
+    },
+    {
+        "query": "What is the first and last name of the professor in biology department?",
+        "Answer_table": [
+            "DEPARTMENT",
+            "EMPLOYEE",
+            "PROFESSOR"
+        ]
+    },
+    {
+        "query": "What are the first and last name of all biology professors?",
+        "Answer_table": [
+            "DEPARTMENT",
+            "EMPLOYEE",
+            "PROFESSOR"
+        ]
+    },
+    {
+        "query": "Find the number of classes in each school.",
+        "Answer_table": [
+            "CLASS",
+            "COURSE",
+            "DEPARTMENT"
+        ]
+    },
+    {
+        "query": "How many classes exist for each school?",
+        "Answer_table": [
+            "CLASS",
+            "COURSE",
+            "DEPARTMENT"
+        ]
+    },
+    {
+        "query": "Find the name of the department that offers the largest number of credits of all classes.",
+        "Answer_table": [
+            "CLASS",
+            "COURSE",
+            "DEPARTMENT"
+        ]
+    },
+    {
+        "query": "Which department offers the most credits all together?",
+        "Answer_table": [
+            "CLASS",
+            "COURSE",
+            "DEPARTMENT"
+        ]
+    },
+    {
+        "query": "What is the first name of each student enrolled in class ACCT-211?",
+        "Answer_table": [
+            "CLASS",
+            "ENROLL",
+            "STUDENT"
+        ]
+    },
+    {
+        "query": "What are the first names of all students in course ACCT-211?",
+        "Answer_table": [
+            "CLASS",
+            "ENROLL",
+            "STUDENT"
+        ]
+    },
+    {
+        "query": "What is the first name of students enrolled in class ACCT-211 and got grade C?",
+        "Answer_table": [
+            "CLASS",
+            "ENROLL",
+            "STUDENT"
+        ]
+    },
+    {
+        "query": "What are the first names of all students who took ACCT-211 and received a C?",
+        "Answer_table": [
+            "CLASS",
+            "ENROLL",
+            "STUDENT"
+        ]
+    },
+    {
+        "query": "How many students are enrolled in the class taught by some professor from the accounting department?",
+        "Answer_table": [
+            "CLASS",
+            "COURSE",
+            "DEPARTMENT",
+            "ENROLL"
+        ]
+    },
+    {
+        "query": "How many students are enrolled in some classes that are taught by an accounting professor?",
+        "Answer_table": [
+            "CLASS",
+            "COURSE",
+            "DEPARTMENT",
+            "ENROLL"
+        ]
+    },
+    {
+        "query": "What is the name of the department that has the largest number of students enrolled?",
+        "Answer_table": [
+            "CLASS",
+            "COURSE",
+            "DEPARTMENT",
+            "ENROLL"
+        ]
+    },
+    {
+        "query": "What is the name of the department with the most students enrolled?",
+        "Answer_table": [
+            "CLASS",
+            "COURSE",
+            "DEPARTMENT",
+            "ENROLL"
+        ]
+    },
+    {
+        "query": "What is the first names of the professors from the history department who do not teach a class.",
+        "Answer_table": [
+            "CLASS",
+            "DEPARTMENT",
+            "EMPLOYEE",
+            "PROFESSOR"
+        ]
+    },
+    {
+        "query": "What are the first names of all history professors who do not teach?",
+        "Answer_table": [
+            "CLASS",
+            "DEPARTMENT",
+            "EMPLOYEE",
+            "PROFESSOR"
+        ]
+    },
+    {
+        "query": "What is the last name and office of the professor from the history department?",
+        "Answer_table": [
+            "DEPARTMENT",
+            "EMPLOYEE",
+            "PROFESSOR"
+        ]
+    },
+    {
+        "query": "What are the last name and office of all history professors?",
+        "Answer_table": [
+            "DEPARTMENT",
+            "EMPLOYEE",
+            "PROFESSOR"
+        ]
+    },
+    {
+        "query": "What is department name and office for the professor whose last name is Heffington?",
+        "Answer_table": [
+            "DEPARTMENT",
+            "EMPLOYEE",
+            "PROFESSOR"
+        ]
+    },
+    {
+        "query": "What is the name of the department and office location for the professor with the last name of Heffington?",
+        "Answer_table": [
+            "DEPARTMENT",
+            "EMPLOYEE",
+            "PROFESSOR"
+        ]
+    },
+    {
+        "query": "What is the code of the course which the student whose last name is Smithson took?",
+        "Answer_table": [
+            "CLASS",
+            "ENROLL",
+            "STUDENT"
+        ]
+    },
+    {
+        "query": "What are the course codes for every class that the student with the last name Smithson took?",
+        "Answer_table": [
+            "CLASS",
+            "ENROLL",
+            "STUDENT"
+        ]
+    },
+    {
+        "query": "What are the description and credit of the course which the student whose last name is Smithson took?",
+        "Answer_table": [
+            "CLASS",
+            "COURSE",
+            "ENROLL",
+            "STUDENT"
+        ]
+    },
+    {
+        "query": "How many credits is the course that the student with the last name Smithson took, and what is its description?",
+        "Answer_table": [
+            "CLASS",
+            "COURSE",
+            "ENROLL",
+            "STUDENT"
+        ]
+    },
+    {
+        "query": "Find the first name of student who is taking classes from accounting and Computer Info. Systems departments",
+        "Answer_table": [
+            "CLASS",
+            "COURSE",
+            "DEPARTMENT",
+            "ENROLL",
+            "STUDENT"
+        ]
+    },
+    {
+        "query": "What are the first names of all students taking accoutning and Computer Information Systems classes?",
+        "Answer_table": [
+            "CLASS",
+            "COURSE",
+            "DEPARTMENT",
+            "ENROLL",
+            "STUDENT"
+        ]
+    },
+    {
+        "query": "What is the average gpa of the students enrolled in the course with code ACCT-211?",
+        "Answer_table": [
+            "CLASS",
+            "ENROLL",
+            "STUDENT"
+        ]
+    },
+    {
+        "query": "What is the average GPA of students taking ACCT-211?",
+        "Answer_table": [
+            "CLASS",
+            "ENROLL",
+            "STUDENT"
+        ]
+    },
+    {
+        "query": "Find the first name and office of the professor who is in the history department and has a Ph.D. degree.",
+        "Answer_table": [
+            "DEPARTMENT",
+            "EMPLOYEE",
+            "PROFESSOR"
+        ]
+    },
+    {
+        "query": "What are the first names and office of the professors who are in the history department and have a Ph.D?",
+        "Answer_table": [
+            "DEPARTMENT",
+            "EMPLOYEE",
+            "PROFESSOR"
+        ]
+    },
+    {
+        "query": "Find the first names of all instructors who have taught some course and the course description.",
+        "Answer_table": [
+            "CLASS",
+            "COURSE",
+            "EMPLOYEE"
+        ]
+    },
+    {
+        "query": "What are the first names of all teachers who have taught a course and the corresponding descriptions?",
+        "Answer_table": [
+            "CLASS",
+            "COURSE",
+            "EMPLOYEE"
+        ]
+    },
+    {
+        "query": "Find the first names and offices of all instructors who have taught some course and also find the course description.",
+        "Answer_table": [
+            "CLASS",
+            "COURSE",
+            "EMPLOYEE",
+            "PROFESSOR"
+        ]
+    },
+    {
+        "query": "What are the first names, office locations of all lecturers who have taught some course?",
+        "Answer_table": [
+            "CLASS",
+            "COURSE",
+            "EMPLOYEE",
+            "PROFESSOR"
+        ]
+    },
+    {
+        "query": "Find the first names and offices of all instructors who have taught some course and the course description and the department name.",
+        "Answer_table": [
+            "CLASS",
+            "COURSE",
+            "DEPARTMENT",
+            "EMPLOYEE",
+            "PROFESSOR"
+        ]
+    },
+    {
+        "query": "What are the first names, office locations, and departments of all instructors, and also what are the descriptions of the courses they teach?",
+        "Answer_table": [
+            "CLASS",
+            "COURSE",
+            "DEPARTMENT",
+            "EMPLOYEE",
+            "PROFESSOR"
+        ]
+    },
+    {
+        "query": "Find names of all students who took some course and the course description.",
+        "Answer_table": [
+            "CLASS",
+            "COURSE",
+            "ENROLL",
+            "STUDENT"
+        ]
+    },
+    {
+        "query": "What are the names of all students who took a class and the corresponding course descriptions?",
+        "Answer_table": [
+            "CLASS",
+            "COURSE",
+            "ENROLL",
+            "STUDENT"
+        ]
+    },
+    {
+        "query": "Find the first names of all professors in the Accounting department who is teaching some course and the class room.",
+        "Answer_table": [
+            "CLASS",
+            "DEPARTMENT",
+            "EMPLOYEE",
+            "PROFESSOR"
+        ]
+    },
+    {
+        "query": "What are the first names of all Accounting professors who teach and what are the classrooms of the courses they teach?",
+        "Answer_table": [
+            "CLASS",
+            "DEPARTMENT",
+            "EMPLOYEE",
+            "PROFESSOR"
+        ]
+    },
+    {
+        "query": "Find the first names and degree of all professors who are teaching some class in Computer Info. Systems department.",
+        "Answer_table": [
+            "CLASS",
+            "DEPARTMENT",
+            "EMPLOYEE",
+            "PROFESSOR"
+        ]
+    },
+    {
+        "query": "What are the different first names and highest degree attained for professors teaching in the Computer Information Systems department?",
+        "Answer_table": [
+            "CLASS",
+            "DEPARTMENT",
+            "EMPLOYEE",
+            "PROFESSOR"
+        ]
+    },
+    {
+        "query": "Find the first name and office of history professor who did not get a Ph.D. degree.",
+        "Answer_table": [
+            "DEPARTMENT",
+            "EMPLOYEE",
+            "PROFESSOR"
+        ]
+    },
+    {
+        "query": "What are the first names and offices of history professors who don't have Ph.D.s?",
+        "Answer_table": [
+            "DEPARTMENT",
+            "EMPLOYEE",
+            "PROFESSOR"
+        ]
+    },
+    {
+        "query": "What is the first name of the student whose last name starting with the letter S and is taking ACCT-211 class?",
+        "Answer_table": [
+            "CLASS",
+            "ENROLL",
+            "STUDENT"
+        ]
+    },
+    {
+        "query": "What is the first name of the student whose last name starts with the letter S and is taking ACCT-211?",
+        "Answer_table": [
+            "CLASS",
+            "ENROLL",
+            "STUDENT"
+        ]
+    },
+    {
+        "query": "Find the name of the company that produces both furnitures with less than 6 components and furnitures with more than 10 components.",
+        "Answer_table": [
+            "manufacturer",
+            "furniture",
+            "furniture_manufacte"
+        ]
+    },
+    {
+        "query": "Find employee with ID and name of the country presently where (s)he is working.",
+        "Answer_table": [
+            "countries__1",
+            "departments",
+            "employees",
+            "locations"
+        ]
+    },
+    {
+        "query": "What are all the employee ids and the names of the countries in which they work?",
+        "Answer_table": [
+            "countries__1",
+            "departments",
+            "employees",
+            "locations"
+        ]
+    },
+    {
+        "query": "display the first and last name, department, city, and state province for each employee.",
+        "Answer_table": [
+            "departments",
+            "employees",
+            "locations"
+        ]
+    },
+    {
+        "query": "What are the full names, departments, cities, and state provinces for each employee?",
+        "Answer_table": [
+            "departments",
+            "employees",
+            "locations"
+        ]
+    },
+    {
+        "query": "display those employees who contain a letter z to their first name and also display their last name, city.",
+        "Answer_table": [
+            "departments",
+            "employees",
+            "locations"
+        ]
+    },
+    {
+        "query": "What are the full names and cities of employees who have the letter Z in their first names?",
+        "Answer_table": [
+            "departments",
+            "employees",
+            "locations"
+        ]
+    },
+    {
+        "query": "display the full name (first and last name ) of employee with ID and name of the country presently where (s)he is working.",
+        "Answer_table": [
+            "countries__1",
+            "departments",
+            "employees",
+            "locations"
+        ]
+    },
+    {
+        "query": "What the full names, ids of each employee and the name of the country they are in?",
+        "Answer_table": [
+            "countries__1",
+            "departments",
+            "employees",
+            "locations"
+        ]
+    },
+    {
+        "query": "display the full name (first and last name), and salary of those employees who working in any department located in London.",
+        "Answer_table": [
+            "departments",
+            "employees",
+            "locations"
+        ]
+    },
+    {
+        "query": "What are full names and salaries of employees working in the city of London?",
+        "Answer_table": [
+            "departments",
+            "employees",
+            "locations"
+        ]
+    },
+    {
+        "query": "What is the average height of the players from the college named 'Yale University'?",
+        "Answer_table": [
+            "player_college",
+            "player__2",
+            "college"
+        ]
+    },
+    {
+        "query": "Find the average height of the players who belong to the college called 'Yale University'.",
+        "Answer_table": [
+            "player_college",
+            "player__2",
+            "college"
+        ]
+    },
+    {
+        "query": "List players' first name and last name who received salary from team Washington Nationals in both 2005 and 2007.",
+        "Answer_table": [
+            "player__2",
+            "salary",
+            "team"
+        ]
+    },
+    {
+        "query": "What are the first name and last name of the players who were paid salary by team Washington Nationals in both 2005 and 2007?",
+        "Answer_table": [
+            "player__2",
+            "salary",
+            "team"
+        ]
+    },
+    {
+        "query": "List the brands of lenses that took both a picture of mountains with range 'Toubkal Atlas' and a picture of mountains with range 'Lasta Massif'",
+        "Answer_table": [
+            "mountain",
+            "camera_lens",
+            "photos"
+        ]
+    },
+    {
+        "query": "Show the name and prominence of the mountains whose picture is not taken by a lens of brand 'Sigma'.",
+        "Answer_table": [
+            "mountain",
+            "camera_lens",
+            "photos"
+        ]
+    },
+    {
+        "query": "Which customer had at least 2 policies but did not file any claims? List the customer details and id.",
+        "Answer_table": [
+            "Customers__2",
+            "Customer_Policies",
+            "Claims"
+        ]
+    },
+    {
+        "query": "Give me the the customer details and id for the customers who had two or more policies but did not file any claims.",
+        "Answer_table": [
+            "Customers__2",
+            "Customer_Policies",
+            "Claims"
+        ]
+    },
+    {
+        "query": "Find the names of all physicians and their primary affiliated departments' names.",
+        "Answer_table": [
+            "Physician",
+            "Department__1",
+            "Affiliated_With"
+        ]
+    },
+    {
+        "query": "What are the name and primarily affiliated department name of each physician?",
+        "Answer_table": [
+            "Physician",
+            "Department__1",
+            "Affiliated_With"
+        ]
+    },
+    {
+        "query": "How many patients' prescriptions are made by physician John Dorian?",
+        "Answer_table": [
+            "Physician",
+            "Patient",
+            "Prescribes"
+        ]
+    },
+    {
+        "query": "Find the number of patients' prescriptions physician John Dorian made.",
+        "Answer_table": [
+            "Physician",
+            "Patient",
+            "Prescribes"
+        ]
+    },
+    {
+        "query": "Find the name of medication used on the patient who stays in room 111?",
+        "Answer_table": [
+            "Patient",
+            "Medication",
+            "Prescribes",
+            "Room",
+            "Stay"
+        ]
+    },
+    {
+        "query": "What is the name of the medication used for the patient staying in room 111?",
+        "Answer_table": [
+            "Patient",
+            "Medication",
+            "Prescribes",
+            "Room",
+            "Stay"
+        ]
+    },
+    {
+        "query": "Find the patient who most recently stayed in room 111.",
+        "Answer_table": [
+            "Patient",
+            "Room",
+            "Stay"
+        ]
+    },
+    {
+        "query": "What is the id of the patient who stayed in room 111 most recently?",
+        "Answer_table": [
+            "Patient",
+            "Room",
+            "Stay"
+        ]
+    },
+    {
+        "query": "What is the names of the physicians who prescribe medication Thesisin?",
+        "Answer_table": [
+            "Physician",
+            "Medication",
+            "Prescribes"
+        ]
+    },
+    {
+        "query": "List the names of all the physicians who prescribe Thesisin as medication.",
+        "Answer_table": [
+            "Physician",
+            "Medication",
+            "Prescribes"
+        ]
+    },
+    {
+        "query": "Find the name and position of physicians who prescribe some medication whose brand is X?",
+        "Answer_table": [
+            "Physician",
+            "Medication",
+            "Prescribes"
+        ]
+    },
+    {
+        "query": "Which physicians prescribe a medication of brand X? Tell me the name and position of those physicians.",
+        "Answer_table": [
+            "Physician",
+            "Medication",
+            "Prescribes"
+        ]
+    },
+    {
+        "query": "Find the names of all patients who have an undergoing treatment and are staying in room 111.",
+        "Answer_table": [
+            "Patient",
+            "Stay",
+            "Undergoes"
+        ]
+    },
+    {
+        "query": "What are the names of patients who are staying in room 111 and have an undergoing treatment?",
+        "Answer_table": [
+            "Patient",
+            "Stay",
+            "Undergoes"
+        ]
+    },
+    {
+        "query": "List the physicians' employee ids together with their primary affiliation departments' ids.",
+        "Answer_table": [
+            "Physician",
+            "Department__1",
+            "Affiliated_With"
+        ]
+    },
+    {
+        "query": "What are each physician's employee id and department id primarily affiliated.",
+        "Answer_table": [
+            "Physician",
+            "Department__1",
+            "Affiliated_With"
+        ]
+    },
+    {
+        "query": "Find the physicians who are trained in a procedure that costs more than 5000.",
+        "Answer_table": [
+            "Physician",
+            "Procedures",
+            "Trained_In"
+        ]
+    },
+    {
+        "query": "Which physicians are trained in procedures that are more expensive than 5000?",
+        "Answer_table": [
+            "Physician",
+            "Procedures",
+            "Trained_In"
+        ]
+    },
+    {
+        "query": "Find the physician who was trained in the most expensive procedure?",
+        "Answer_table": [
+            "Physician",
+            "Procedures",
+            "Trained_In"
+        ]
+    },
+    {
+        "query": "Which physician was trained in the procedure that costs the most.",
+        "Answer_table": [
+            "Physician",
+            "Procedures",
+            "Trained_In"
+        ]
+    },
+    {
+        "query": "What is the average cost of procedures that physician John Wen was trained in?",
+        "Answer_table": [
+            "Physician",
+            "Procedures",
+            "Trained_In"
+        ]
+    },
+    {
+        "query": "Compute the mean price of procedures physician John Wen was trained in.",
+        "Answer_table": [
+            "Physician",
+            "Procedures",
+            "Trained_In"
+        ]
+    },
+    {
+        "query": "Find the names of procedures which physician John Wen was trained in.",
+        "Answer_table": [
+            "Physician",
+            "Procedures",
+            "Trained_In"
+        ]
+    },
+    {
+        "query": "What are the names of procedures physician John Wen was trained in?",
+        "Answer_table": [
+            "Physician",
+            "Procedures",
+            "Trained_In"
+        ]
+    },
+    {
+        "query": "Find all procedures which cost more than 1000 or which physician John Wen was trained in.",
+        "Answer_table": [
+            "Physician",
+            "Procedures",
+            "Trained_In"
+        ]
+    },
+    {
+        "query": "What are the procedures that cost more than 1000 or are specialized in by physician John Wen?",
+        "Answer_table": [
+            "Physician",
+            "Procedures",
+            "Trained_In"
+        ]
+    },
+    {
+        "query": "Find the names of all procedures such that the cost is less than 5000 and physician John Wen was trained in.",
+        "Answer_table": [
+            "Physician",
+            "Procedures",
+            "Trained_In"
+        ]
+    },
+    {
+        "query": "What procedures cost less than 5000 and have John Wen as a trained physician?",
+        "Answer_table": [
+            "Physician",
+            "Procedures",
+            "Trained_In"
+        ]
+    },
+    {
+        "query": "Find the name of physicians who are affiliated with Surgery or Psychiatry department.",
+        "Answer_table": [
+            "Physician",
+            "Department__1",
+            "Affiliated_With"
+        ]
+    },
+    {
+        "query": "Which physicians are affiliated with either Surgery or Psychiatry department? Give me their names.",
+        "Answer_table": [
+            "Physician",
+            "Department__1",
+            "Affiliated_With"
+        ]
+    },
+    {
+        "query": "Find the names of patients who are not using the medication of Procrastin-X.",
+        "Answer_table": [
+            "Patient",
+            "Medication",
+            "Prescribes"
+        ]
+    },
+    {
+        "query": "What are the names of patients who are not taking the medication of Procrastin-X.",
+        "Answer_table": [
+            "Patient",
+            "Medication",
+            "Prescribes"
+        ]
+    },
+    {
+        "query": "Find the number of patients who are not using the medication of Procrastin-X.",
+        "Answer_table": [
+            "Patient",
+            "Medication",
+            "Prescribes"
+        ]
+    },
+    {
+        "query": "How many patients are not using Procrastin-X as medication?",
+        "Answer_table": [
+            "Patient",
+            "Medication",
+            "Prescribes"
+        ]
+    },
+    {
+        "query": "Show the names of companies and of employees.",
+        "Answer_table": [
+            "people__3",
+            "company__2",
+            "employment"
+        ]
+    },
+    {
+        "query": "Show names of companies and that of employees in descending order of number of years working for that employee.",
+        "Answer_table": [
+            "people__3",
+            "company__2",
+            "employment"
+        ]
+    },
+    {
+        "query": "Show the names of employees that work for companies with sales bigger than 200.",
+        "Answer_table": [
+            "people__3",
+            "company__2",
+            "employment"
+        ]
+    },
+    {
+        "query": "Show the names of companies and the number of employees they have",
+        "Answer_table": [
+            "people__3",
+            "company__2",
+            "employment"
+        ]
+    },
+    {
+        "query": "What are the titles and directors of the films were never presented in China?",
+        "Answer_table": [
+            "film__3",
+            "market__2",
+            "film_market_estimation"
+        ]
+    },
+    {
+        "query": "Return the titles and directors of films that were never in the market of China.",
+        "Answer_table": [
+            "film__3",
+            "market__2",
+            "film_market_estimation"
+        ]
+    },
+    {
+        "query": "Show the location name for document \"Robin CV\".",
+        "Answer_table": [
+            "Ref_Locations",
+            "All_Documents",
+            "Document_Locations"
+        ]
+    },
+    {
+        "query": "What is the location name of the document \"Robin CV\"?",
+        "Answer_table": [
+            "Ref_Locations",
+            "All_Documents",
+            "Document_Locations"
+        ]
+    },
+    {
+        "query": "Find the last names of the members of the club \"Bootup Baltimore\".",
+        "Answer_table": [
+            "Student",
+            "Club",
+            "Member_of_club"
+        ]
+    },
+    {
+        "query": "Who are the members of the club named \"Bootup Baltimore\"? Give me their last names.",
+        "Answer_table": [
+            "Student",
+            "Club",
+            "Member_of_club"
+        ]
+    },
+    {
+        "query": "Who are the members of the club named \"Hopkins Student Enterprises\"? Show the last name.",
+        "Answer_table": [
+            "Student",
+            "Club",
+            "Member_of_club"
+        ]
+    },
+    {
+        "query": "Return the last name for the members of the club named \"Hopkins Student Enterprises\".",
+        "Answer_table": [
+            "Student",
+            "Club",
+            "Member_of_club"
+        ]
+    },
+    {
+        "query": "How many members does the club \"Tennis Club\" has?",
+        "Answer_table": [
+            "Student",
+            "Club",
+            "Member_of_club"
+        ]
+    },
+    {
+        "query": "Count the members of the club \"Tennis Club\".",
+        "Answer_table": [
+            "Student",
+            "Club",
+            "Member_of_club"
+        ]
+    },
+    {
+        "query": "Find the number of members of club \"Pen and Paper Gaming\".",
+        "Answer_table": [
+            "Student",
+            "Club",
+            "Member_of_club"
+        ]
+    },
+    {
+        "query": "How many people have membership in the club \"Pen and Paper Gaming\"?",
+        "Answer_table": [
+            "Student",
+            "Club",
+            "Member_of_club"
+        ]
+    },
+    {
+        "query": "How many clubs does \"Linda Smith\" belong to?",
+        "Answer_table": [
+            "Student",
+            "Club",
+            "Member_of_club"
+        ]
+    },
+    {
+        "query": "How many clubs does \"Linda Smith\" have membership for?",
+        "Answer_table": [
+            "Student",
+            "Club",
+            "Member_of_club"
+        ]
+    },
+    {
+        "query": "Find the number of clubs where \"Tracy Kim\" is a member.",
+        "Answer_table": [
+            "Student",
+            "Club",
+            "Member_of_club"
+        ]
+    },
+    {
+        "query": "For how many clubs is \"Tracy Kim\" a member?",
+        "Answer_table": [
+            "Student",
+            "Club",
+            "Member_of_club"
+        ]
+    },
+    {
+        "query": "Find all the female members of club \"Bootup Baltimore\". Show the first name and last name.",
+        "Answer_table": [
+            "Student",
+            "Club",
+            "Member_of_club"
+        ]
+    },
+    {
+        "query": "Give me the first name and last name for all the female members of the club \"Bootup Baltimore\".",
+        "Answer_table": [
+            "Student",
+            "Club",
+            "Member_of_club"
+        ]
+    },
+    {
+        "query": "Find all members of \"Bootup Baltimore\" whose major is \"600\". Show the first name and last name.",
+        "Answer_table": [
+            "Student",
+            "Club",
+            "Member_of_club"
+        ]
+    },
+    {
+        "query": "Which members of \"Bootup Baltimore\" major in \"600\"? Give me their first names and last names.",
+        "Answer_table": [
+            "Student",
+            "Club",
+            "Member_of_club"
+        ]
+    },
+    {
+        "query": "Which club has the most members majoring in \"600\"?",
+        "Answer_table": [
+            "Student",
+            "Club",
+            "Member_of_club"
+        ]
+    },
+    {
+        "query": "Find the club which has the largest number of members majoring in \"600\".",
+        "Answer_table": [
+            "Student",
+            "Club",
+            "Member_of_club"
+        ]
+    },
+    {
+        "query": "Find the name of the club that has the most female students.",
+        "Answer_table": [
+            "Student",
+            "Club",
+            "Member_of_club"
+        ]
+    },
+    {
+        "query": "Which club has the most female students as their members? Give me the name of the club.",
+        "Answer_table": [
+            "Student",
+            "Club",
+            "Member_of_club"
+        ]
+    },
+    {
+        "query": "What are the first and last name of the president of the club \"Bootup Baltimore\"?",
+        "Answer_table": [
+            "Student",
+            "Club",
+            "Member_of_club"
+        ]
+    },
+    {
+        "query": "Who is the president of the club \"Bootup Baltimore\"? Give me the first and last name.",
+        "Answer_table": [
+            "Student",
+            "Club",
+            "Member_of_club"
+        ]
+    },
+    {
+        "query": "Who is the \"CTO\" of club \"Hopkins Student Enterprises\"? Show the first name and last name.",
+        "Answer_table": [
+            "Student",
+            "Club",
+            "Member_of_club"
+        ]
+    },
+    {
+        "query": "Find the first name and last name for the \"CTO\" of the club \"Hopkins Student Enterprises\"?",
+        "Answer_table": [
+            "Student",
+            "Club",
+            "Member_of_club"
+        ]
+    },
+    {
+        "query": "How many members of \"Bootup Baltimore\" are older than 18?",
+        "Answer_table": [
+            "Student",
+            "Club",
+            "Member_of_club"
+        ]
+    },
+    {
+        "query": "Count the number of members in club \"Bootup Baltimore\" whose age is above 18.",
+        "Answer_table": [
+            "Student",
+            "Club",
+            "Member_of_club"
+        ]
+    },
+    {
+        "query": "How many members of club \"Bootup Baltimore\" are younger than 18?",
+        "Answer_table": [
+            "Student",
+            "Club",
+            "Member_of_club"
+        ]
+    },
+    {
+        "query": "Count the number of members in club \"Bootup Baltimore\" whose age is below 18.",
+        "Answer_table": [
+            "Student",
+            "Club",
+            "Member_of_club"
+        ]
+    },
+    {
+        "query": "Find the names of all the clubs that have at least a member from the city with city code \"BAL\".",
+        "Answer_table": [
+            "Student",
+            "Club",
+            "Member_of_club"
+        ]
+    },
+    {
+        "query": "Which clubs have one or more members from the city with code \"BAL\"? Give me the names of the clubs.",
+        "Answer_table": [
+            "Student",
+            "Club",
+            "Member_of_club"
+        ]
+    },
+    {
+        "query": "Find the names of the clubs that have at least a member from the city with city code \"HOU\".",
+        "Answer_table": [
+            "Student",
+            "Club",
+            "Member_of_club"
+        ]
+    },
+    {
+        "query": "Which clubs have one or more members from the city with code \"HOU\"? Give me the names of the clubs.",
+        "Answer_table": [
+            "Student",
+            "Club",
+            "Member_of_club"
+        ]
+    },
+    {
+        "query": "How many clubs does the student named \"Eric Tai\" belong to?",
+        "Answer_table": [
+            "Student",
+            "Club",
+            "Member_of_club"
+        ]
+    },
+    {
+        "query": "Count the number of clubs for which the student named \"Eric Tai\" is a member.",
+        "Answer_table": [
+            "Student",
+            "Club",
+            "Member_of_club"
+        ]
+    },
+    {
+        "query": "List the clubs that have at least a member with advisor \"1121\".",
+        "Answer_table": [
+            "Student",
+            "Club",
+            "Member_of_club"
+        ]
+    },
+    {
+        "query": "Which clubs have one or more members whose advisor is \"1121\"?",
+        "Answer_table": [
+            "Student",
+            "Club",
+            "Member_of_club"
+        ]
+    },
+    {
+        "query": "What is the average age of the members of the club \"Bootup Baltimore\"?",
+        "Answer_table": [
+            "Student",
+            "Club",
+            "Member_of_club"
+        ]
+    },
+    {
+        "query": "Find the average age of the members in the club \"Bootup Baltimore\".",
+        "Answer_table": [
+            "Student",
+            "Club",
+            "Member_of_club"
+        ]
+    },
+    {
+        "query": "Find the average age of members of the club \"Hopkins Student Enterprises\".",
+        "Answer_table": [
+            "Student",
+            "Club",
+            "Member_of_club"
+        ]
+    },
+    {
+        "query": "On average, how old are the members in the club \"Hopkins Student Enterprises\"?",
+        "Answer_table": [
+            "Student",
+            "Club",
+            "Member_of_club"
+        ]
+    },
+    {
+        "query": "Retrieve the average age of members of the club \"Tennis Club\".",
+        "Answer_table": [
+            "Student",
+            "Club",
+            "Member_of_club"
+        ]
+    },
+    {
+        "query": "Compute the average age of the members in the club \"Tennis Club\".",
+        "Answer_table": [
+            "Student",
+            "Club",
+            "Member_of_club"
+        ]
+    },
+    {
+        "query": "What is the total grant amount of the organisations described as research?",
+        "Answer_table": [
+            "Grants",
+            "Organisation_Types",
+            "Organisations"
+        ]
+    },
+    {
+        "query": "What is the total amount of grant money for research?",
+        "Answer_table": [
+            "Grants",
+            "Organisation_Types",
+            "Organisations"
+        ]
+    },
+    {
+        "query": "Find out the send dates of the documents with the grant amount of more than 5000 were granted by organisation type described",
+        "Answer_table": [
+            "Documents__1",
+            "Grants",
+            "Organisation_Types",
+            "Organisations"
+        ]
+    },
+    {
+        "query": "What are the send dates for all documents that have a grant amount of more than 5000 and are involved in research?",
+        "Answer_table": [
+            "Documents__1",
+            "Grants",
+            "Organisation_Types",
+            "Organisations"
+        ]
+    },
+    {
+        "query": "What are the response received dates for the documents described as 'Regular' or granted with more than 100?",
+        "Answer_table": [
+            "Document_Types",
+            "Documents__1",
+            "Grants"
+        ]
+    },
+    {
+        "query": "What is the response received date for the document described as Regular that was granted more than 100 dollars?",
+        "Answer_table": [
+            "Document_Types",
+            "Documents__1",
+            "Grants"
+        ]
+    },
+    {
+        "query": "What are the task details, task id and project id for the projects which are detailed as 'omnis' or  have more than 2 outcomes?",
+        "Answer_table": [
+            "Project_Outcomes",
+            "Projects__1",
+            "Tasks"
+        ]
+    },
+    {
+        "query": "What are the task details, task ids, and project ids for the progrects that are detailed as 'omnis' or have at least 3 outcomes?",
+        "Answer_table": [
+            "Project_Outcomes",
+            "Projects__1",
+            "Tasks"
+        ]
+    },
+    {
+        "query": "List the project details of the projects with the research outcome described with the substring 'Published'.",
+        "Answer_table": [
+            "Project_Outcomes",
+            "Projects__1",
+            "Research_Outcomes"
+        ]
+    },
+    {
+        "query": "What are the details for the project whose research has been published?",
+        "Answer_table": [
+            "Project_Outcomes",
+            "Projects__1",
+            "Research_Outcomes"
+        ]
+    },
+    {
+        "query": "Show the role description and the id of the project staff involved in most number of project outcomes?",
+        "Answer_table": [
+            "Project_Outcomes",
+            "Project_Staff",
+            "Staff_Roles"
+        ]
+    },
+    {
+        "query": "For each staff id, what is the description of the role that is involved with the most number of projects?",
+        "Answer_table": [
+            "Project_Outcomes",
+            "Project_Staff",
+            "Staff_Roles"
+        ]
+    },
+    {
+        "query": "For grants with both documents described as 'Regular' and documents described as 'Initial Application', list its start date.",
+        "Answer_table": [
+            "Document_Types",
+            "Documents__1",
+            "Grants"
+        ]
+    },
+    {
+        "query": "For grants that have descriptions of Regular and Initial Applications, what are their start dates?",
+        "Answer_table": [
+            "Document_Types",
+            "Documents__1",
+            "Grants"
+        ]
+    },
+    {
+        "query": "What are the result description of the project whose detail is 'sint'?",
+        "Answer_table": [
+            "Project_Outcomes",
+            "Projects__1",
+            "Research_Outcomes"
+        ]
+    },
+    {
+        "query": "What is the description for the results whose project detail is 'sint'?",
+        "Answer_table": [
+            "Project_Outcomes",
+            "Projects__1",
+            "Research_Outcomes"
+        ]
+    },
+    {
+        "query": "Find the average access counts of documents with functional area \"Acknowledgement\".",
+        "Answer_table": [
+            "Functional_Areas",
+            "Documents__2",
+            "Document_Functional_Areas"
+        ]
+    },
+    {
+        "query": "What are the average access counts of documents that have the functional area description \"Acknowledgement\"?",
+        "Answer_table": [
+            "Functional_Areas",
+            "Documents__2",
+            "Document_Functional_Areas"
+        ]
+    },
+    {
+        "query": "Find names of the document without any images.",
+        "Answer_table": [
+            "Documents__2",
+            "Document_Sections",
+            "Document_Sections_Images"
+        ]
+    },
+    {
+        "query": "What are the names of documents that do not have any images?",
+        "Answer_table": [
+            "Documents__2",
+            "Document_Sections",
+            "Document_Sections_Images"
+        ]
+    },
+    {
+        "query": "List the name of a building along with the name of a company whose office is in the building.",
+        "Answer_table": [
+            "buildings",
+            "Companies",
+            "Office_locations"
+        ]
+    },
+    {
+        "query": "For each company, return the company name and the name of the building its office is located in.",
+        "Answer_table": [
+            "buildings",
+            "Companies",
+            "Office_locations"
+        ]
+    },
+    {
+        "query": "Show the names of the buildings that have more than one company offices.",
+        "Answer_table": [
+            "buildings",
+            "Companies",
+            "Office_locations"
+        ]
+    },
+    {
+        "query": "Which buildings have more than one company offices? Give me the building names.",
+        "Answer_table": [
+            "buildings",
+            "Companies",
+            "Office_locations"
+        ]
+    },
+    {
+        "query": "Show the name of the building that has the most company offices.",
+        "Answer_table": [
+            "buildings",
+            "Companies",
+            "Office_locations"
+        ]
+    },
+    {
+        "query": "Which building has the largest number of company offices? Give me the building name.",
+        "Answer_table": [
+            "buildings",
+            "Companies",
+            "Office_locations"
+        ]
+    },
+    {
+        "query": "For each nomination, show the name of the artwork and name of the festival where it is nominated.",
+        "Answer_table": [
+            "festival_detail",
+            "artwork",
+            "nomination"
+        ]
+    },
+    {
+        "query": "Show distinct types of artworks that are nominated in festivals in 2007.",
+        "Answer_table": [
+            "festival_detail",
+            "artwork",
+            "nomination"
+        ]
+    },
+    {
+        "query": "Show the names of artworks in ascending order of the year they are nominated in.",
+        "Answer_table": [
+            "festival_detail",
+            "artwork",
+            "nomination"
+        ]
+    },
+    {
+        "query": "Show the names of festivals that have nominated artworks of type \"Program Talent Show\".",
+        "Answer_table": [
+            "festival_detail",
+            "artwork",
+            "nomination"
+        ]
+    },
+    {
+        "query": "Show the ids and names of festivals that have at least two nominations for artworks.",
+        "Answer_table": [
+            "festival_detail",
+            "artwork",
+            "nomination"
+        ]
+    },
+    {
+        "query": "Show the id, name of each festival and the number of artworks it has nominated.",
+        "Answer_table": [
+            "festival_detail",
+            "artwork",
+            "nomination"
+        ]
+    },
+    {
+        "query": "Find the student first and last names and grade points of all enrollments.",
+        "Answer_table": [
+            "Student",
+            "Enrolled_in",
+            "Gradeconversion"
+        ]
+    },
+    {
+        "query": "What are the full names and gradepoints for all enrollments?",
+        "Answer_table": [
+            "Student",
+            "Enrolled_in",
+            "Gradeconversion"
+        ]
+    },
+    {
+        "query": "Find the distinct student first names of all students that have grade point at least 3.8 in one course.",
+        "Answer_table": [
+            "Student",
+            "Enrolled_in",
+            "Gradeconversion"
+        ]
+    },
+    {
+        "query": "What are the distinct first names for students with a grade point of 3.8 or above in at least one course?",
+        "Answer_table": [
+            "Student",
+            "Enrolled_in",
+            "Gradeconversion"
+        ]
+    },
+    {
+        "query": "Find the last names of faculties who are members of computer science department.",
+        "Answer_table": [
+            "Faculty",
+            "Department__2",
+            "Member_of"
+        ]
+    },
+    {
+        "query": "What are the last names of faculty who are part of the computer science department?",
+        "Answer_table": [
+            "Faculty",
+            "Department__2",
+            "Member_of"
+        ]
+    },
+    {
+        "query": "Find the average grade point of student whose last name is Smith.",
+        "Answer_table": [
+            "Student",
+            "Enrolled_in",
+            "Gradeconversion"
+        ]
+    },
+    {
+        "query": "What is the average gradepoint for students with the last name Smith?",
+        "Answer_table": [
+            "Student",
+            "Enrolled_in",
+            "Gradeconversion"
+        ]
+    },
+    {
+        "query": "What is the maximum and minimum grade point of students who live in NYC?",
+        "Answer_table": [
+            "Student",
+            "Enrolled_in",
+            "Gradeconversion"
+        ]
+    },
+    {
+        "query": "Give the maximum and minimum gradepoints for students living in NYC?",
+        "Answer_table": [
+            "Student",
+            "Enrolled_in",
+            "Gradeconversion"
+        ]
+    },
+    {
+        "query": "List the name and phone number of all suppliers in the alphabetical order of their addresses.",
+        "Answer_table": [
+            "Addresses__4",
+            "Suppliers",
+            "Supplier_Addresses"
+        ]
+    },
+    {
+        "query": "What are the names and phone numbers for all suppliers, sorted in alphabetical order of their addressed?",
+        "Answer_table": [
+            "Addresses__4",
+            "Suppliers",
+            "Supplier_Addresses"
+        ]
+    },
+    {
+        "query": "List the names of all the distinct customers who bought a keyboard.",
+        "Answer_table": [
+            "Customers__4",
+            "Products__2",
+            "Customer_Orders__1",
+            "Order_Items__2"
+        ]
+    },
+    {
+        "query": "What are the distinct names of customers who have purchased a keyboard?",
+        "Answer_table": [
+            "Customers__4",
+            "Products__2",
+            "Customer_Orders__1",
+            "Order_Items__2"
+        ]
+    },
+    {
+        "query": "List the names and phone numbers of all the distinct suppliers who supply red jeans.",
+        "Answer_table": [
+            "Suppliers",
+            "Products__2",
+            "Product_Suppliers"
+        ]
+    },
+    {
+        "query": "What are the distinct names and phone numbers for suppliers who have red jeans?",
+        "Answer_table": [
+            "Suppliers",
+            "Products__2",
+            "Product_Suppliers"
+        ]
+    },
+    {
+        "query": "Find the names of products that were bought by at least two distinct customers.",
+        "Answer_table": [
+            "Products__2",
+            "Customer_Orders__1",
+            "Order_Items__2"
+        ]
+    },
+    {
+        "query": "What are the distinct names of products purchased by at least two different customers?",
+        "Answer_table": [
+            "Products__2",
+            "Customer_Orders__1",
+            "Order_Items__2"
+        ]
+    },
+    {
+        "query": "Find the names of customers who have bought by at least three distinct products.",
+        "Answer_table": [
+            "Customers__4",
+            "Customer_Orders__1",
+            "Order_Items__2"
+        ]
+    },
+    {
+        "query": "What are the distinct names of customers who have purchased at least three different products?",
+        "Answer_table": [
+            "Customers__4",
+            "Customer_Orders__1",
+            "Order_Items__2"
+        ]
+    },
+    {
+        "query": "Please show the names of aircrafts associated with airport with name \"London Gatwick\".",
+        "Answer_table": [
+            "aircraft__3",
+            "airport__1",
+            "airport_aircraft"
+        ]
+    },
+    {
+        "query": "What are the names of all the aircrafts associated with London Gatwick airport?",
+        "Answer_table": [
+            "aircraft__3",
+            "airport__1",
+            "airport_aircraft"
+        ]
+    },
+    {
+        "query": "Please show the names and descriptions of aircrafts associated with airports that have a total number of passengers bigger than 10000000.",
+        "Answer_table": [
+            "aircraft__3",
+            "airport__1",
+            "airport_aircraft"
+        ]
+    },
+    {
+        "query": "What are the names and descriptions of aircrafts associated with an airport that has more total passengers than 10000000?",
+        "Answer_table": [
+            "aircraft__3",
+            "airport__1",
+            "airport_aircraft"
+        ]
+    },
+    {
+        "query": "What is the average total number of passengers of airports that are associated with aircraft \"Robinson R-22\"?",
+        "Answer_table": [
+            "aircraft__3",
+            "airport__1",
+            "airport_aircraft"
+        ]
+    },
+    {
+        "query": "What is the average total number of passengers for all airports that the aircraft \"Robinson R-22\" visits?",
+        "Answer_table": [
+            "aircraft__3",
+            "airport__1",
+            "airport_aircraft"
+        ]
+    },
+    {
+        "query": "Find the names of all stores in Khanewal District.",
+        "Answer_table": [
+            "store",
+            "district",
+            "store_district"
+        ]
+    },
+    {
+        "query": "What are the names of all the stores located in Khanewal District?",
+        "Answer_table": [
+            "store",
+            "district",
+            "store_district"
+        ]
+    },
+    {
+        "query": "Which city is the headquarter of the store named \"Blackville\" in?",
+        "Answer_table": [
+            "store",
+            "district",
+            "store_district"
+        ]
+    },
+    {
+        "query": "What city is the headquarter of the store Blackville?",
+        "Answer_table": [
+            "store",
+            "district",
+            "store_district"
+        ]
+    },
+    {
+        "query": "Find the number of stores in each city.",
+        "Answer_table": [
+            "store",
+            "district",
+            "store_district"
+        ]
+    },
+    {
+        "query": "How many stores are headquarted in each city?",
+        "Answer_table": [
+            "store",
+            "district",
+            "store_district"
+        ]
+    },
+    {
+        "query": "Find the city with the most number of stores.",
+        "Answer_table": [
+            "store",
+            "district",
+            "store_district"
+        ]
+    },
+    {
+        "query": "What is the city with the most number of flagship stores?",
+        "Answer_table": [
+            "store",
+            "district",
+            "store_district"
+        ]
+    },
+    {
+        "query": "What products are available at store named \"Miramichi\"?",
+        "Answer_table": [
+            "product",
+            "store",
+            "store_product"
+        ]
+    },
+    {
+        "query": "What products are sold at the store named Miramichi?",
+        "Answer_table": [
+            "product",
+            "store",
+            "store_product"
+        ]
+    },
+    {
+        "query": "Find the names of districts where have both city mall and village store type stores.",
+        "Answer_table": [
+            "store",
+            "district",
+            "store_district"
+        ]
+    },
+    {
+        "query": "What are the names of the districts that have both mall and village store style shops?",
+        "Answer_table": [
+            "store",
+            "district",
+            "store_district"
+        ]
+    },
+    {
+        "query": "Find the state of the college which player Charles is attending.",
+        "Answer_table": [
+            "College",
+            "Player",
+            "Tryout"
+        ]
+    },
+    {
+        "query": "In which state is the college that Charles attends?",
+        "Answer_table": [
+            "College",
+            "Player",
+            "Tryout"
+        ]
+    },
+    {
+        "query": "Find the name of the tryout players who are from the college with largest size.",
+        "Answer_table": [
+            "College",
+            "Player",
+            "Tryout"
+        ]
+    },
+    {
+        "query": "What are the names of all tryout participants who are from the largest college?",
+        "Answer_table": [
+            "College",
+            "Player",
+            "Tryout"
+        ]
+    },
+    {
+        "query": "Show names of shops and the carriers of devices they have in stock.",
+        "Answer_table": [
+            "device",
+            "shop",
+            "stock"
+        ]
+    },
+    {
+        "query": "What are the names of device shops, and what are the carriers that they carry devices in stock for?",
+        "Answer_table": [
+            "device",
+            "shop",
+            "stock"
+        ]
+    },
+    {
+        "query": "What are the order dates of orders with price higher than 1000?",
+        "Answer_table": [
+            "Products__3",
+            "Customer_Orders__2",
+            "Order_Items__3"
+        ]
+    },
+    {
+        "query": "Find the order dates of the orders with price above 1000.",
+        "Answer_table": [
+            "Products__3",
+            "Customer_Orders__2",
+            "Order_Items__3"
+        ]
+    },
+    {
+        "query": "Show all cities where at least one customer lives in but no performer lives in.",
+        "Answer_table": [
+            "Addresses__5",
+            "Performers",
+            "Customers__5"
+        ]
+    },
+    {
+        "query": "Which cities have at least one customer but no performer?",
+        "Answer_table": [
+            "Addresses__5",
+            "Performers",
+            "Customers__5"
+        ]
+    },
+    {
+        "query": "Find the products which have problems reported by both Lacey Bosco and Kenton Champlin?",
+        "Answer_table": [
+            "Product",
+            "Staff__2",
+            "Problems"
+        ]
+    },
+    {
+        "query": "Which products have problems reported by both the staff named Lacey Bosco and the staff named Kenton Champlin?",
+        "Answer_table": [
+            "Product",
+            "Staff__2",
+            "Problems"
+        ]
+    },
+    {
+        "query": "Show all member names and registered branch names sorted by register year.",
+        "Answer_table": [
+            "member__2",
+            "branch",
+            "membership_register_branch"
+        ]
+    },
+    {
+        "query": "What are the names of the members and branches at which they are registered sorted by year of registration?",
+        "Answer_table": [
+            "member__2",
+            "branch",
+            "membership_register_branch"
+        ]
+    },
+    {
+        "query": "Find the id and color description of the products with at least 2 characteristics.",
+        "Answer_table": [
+            "Ref_Colors",
+            "Products__4",
+            "Product_Characteristics"
+        ]
+    },
+    {
+        "query": "What are the product ids and color descriptions for products with two or more characteristics?",
+        "Answer_table": [
+            "Ref_Colors",
+            "Products__4",
+            "Product_Characteristics"
+        ]
+    },
+    {
+        "query": "How many distinct characteristic names does the product \"cumin\" have?",
+        "Answer_table": [
+            "Characteristics",
+            "Products__4",
+            "Product_Characteristics"
+        ]
+    },
+    {
+        "query": "Count the number of different characteristic names the product 'cumin' has.",
+        "Answer_table": [
+            "Characteristics",
+            "Products__4",
+            "Product_Characteristics"
+        ]
+    },
+    {
+        "query": "What are all the characteristic names of product \"sesame\"?",
+        "Answer_table": [
+            "Characteristics",
+            "Products__4",
+            "Product_Characteristics"
+        ]
+    },
+    {
+        "query": "Return the characteristic names of the 'sesame' product.",
+        "Answer_table": [
+            "Characteristics",
+            "Products__4",
+            "Product_Characteristics"
+        ]
+    },
+    {
+        "query": "List all the characteristic names and data types of product \"cumin\".",
+        "Answer_table": [
+            "Characteristics",
+            "Products__4",
+            "Product_Characteristics"
+        ]
+    },
+    {
+        "query": "What are the names and data types of the characteristics of the 'cumin' product?",
+        "Answer_table": [
+            "Characteristics",
+            "Products__4",
+            "Product_Characteristics"
+        ]
+    },
+    {
+        "query": "List all characteristics of product named \"sesame\" with type code \"Grade\".",
+        "Answer_table": [
+            "Characteristics",
+            "Products__4",
+            "Product_Characteristics"
+        ]
+    },
+    {
+        "query": "What are the names of the characteristics of the product 'sesame' that have the characteristic type code 'Grade'?",
+        "Answer_table": [
+            "Characteristics",
+            "Products__4",
+            "Product_Characteristics"
+        ]
+    },
+    {
+        "query": "How many characteristics does the product named \"laurel\" have?",
+        "Answer_table": [
+            "Characteristics",
+            "Products__4",
+            "Product_Characteristics"
+        ]
+    },
+    {
+        "query": "Count the number of characteristics of the product named 'laurel'.",
+        "Answer_table": [
+            "Characteristics",
+            "Products__4",
+            "Product_Characteristics"
+        ]
+    },
+    {
+        "query": "Find the number of characteristics that the product \"flax\" has.",
+        "Answer_table": [
+            "Characteristics",
+            "Products__4",
+            "Product_Characteristics"
+        ]
+    },
+    {
+        "query": "Count the number of characteristics of the 'flax' product.",
+        "Answer_table": [
+            "Characteristics",
+            "Products__4",
+            "Product_Characteristics"
+        ]
+    },
+    {
+        "query": "Find the name of the products that have the color description \"red\" and have the characteristic name \"fast\".",
+        "Answer_table": [
+            "Ref_Colors",
+            "Characteristics",
+            "Products__4",
+            "Product_Characteristics"
+        ]
+    },
+    {
+        "query": "What are the names of the products that have a color description of 'red' and the 'fast' characteristic?",
+        "Answer_table": [
+            "Ref_Colors",
+            "Characteristics",
+            "Products__4",
+            "Product_Characteristics"
+        ]
+    },
+    {
+        "query": "How many products have the characteristic named \"hot\"?",
+        "Answer_table": [
+            "Characteristics",
+            "Products__4",
+            "Product_Characteristics"
+        ]
+    },
+    {
+        "query": "Count the number of products with the 'hot' charactersitic.",
+        "Answer_table": [
+            "Characteristics",
+            "Products__4",
+            "Product_Characteristics"
+        ]
+    },
+    {
+        "query": "List the all the distinct names of the products with the characteristic name 'warm'.",
+        "Answer_table": [
+            "Characteristics",
+            "Products__4",
+            "Product_Characteristics"
+        ]
+    },
+    {
+        "query": "What are the different product names for products that have the 'warm' characteristic:?",
+        "Answer_table": [
+            "Characteristics",
+            "Products__4",
+            "Product_Characteristics"
+        ]
+    },
+    {
+        "query": "Find the number of the products that have their color described as \"red\" and have a characteristic named \"slow\".",
+        "Answer_table": [
+            "Ref_Colors",
+            "Characteristics",
+            "Products__4",
+            "Product_Characteristics"
+        ]
+    },
+    {
+        "query": "How many products have the color description 'red' and the characteristic name 'slow'?",
+        "Answer_table": [
+            "Ref_Colors",
+            "Characteristics",
+            "Products__4",
+            "Product_Characteristics"
+        ]
+    },
+    {
+        "query": "Count the products that have the color description \"white\" or have the characteristic name \"hot\".",
+        "Answer_table": [
+            "Ref_Colors",
+            "Characteristics",
+            "Products__4",
+            "Product_Characteristics"
+        ]
+    },
+    {
+        "query": "How many products have their color described as 'white' or have a characteristic with the name 'hot'?",
+        "Answer_table": [
+            "Ref_Colors",
+            "Characteristics",
+            "Products__4",
+            "Product_Characteristics"
+        ]
+    },
+    {
+        "query": "Find the product names that are colored 'white' but do not have unit of measurement \"Handful\".",
+        "Answer_table": [
+            "Ref_Colors",
+            "Ref_Product_Categories",
+            "Products__4"
+        ]
+    },
+    {
+        "query": "What are the names of products that are not 'white' in color and are not measured by the unit 'Handful'?",
+        "Answer_table": [
+            "Ref_Colors",
+            "Ref_Product_Categories",
+            "Products__4"
+        ]
+    },
+    {
+        "query": "What is the characteristic name used by most number of the products?",
+        "Answer_table": [
+            "Characteristics",
+            "Products__4",
+            "Product_Characteristics"
+        ]
+    },
+    {
+        "query": "Return the name of the characteristic that is most common across all products.",
+        "Answer_table": [
+            "Characteristics",
+            "Products__4",
+            "Product_Characteristics"
+        ]
+    },
+    {
+        "query": "What are characteristic names used at least twice across all products?",
+        "Answer_table": [
+            "Characteristics",
+            "Products__4",
+            "Product_Characteristics"
+        ]
+    },
+    {
+        "query": "Give the names of characteristics that are in two or more products?",
+        "Answer_table": [
+            "Characteristics",
+            "Products__4",
+            "Product_Characteristics"
+        ]
+    },
+    {
+        "query": "Find the names of stadiums that some Australian swimmers have been to.",
+        "Answer_table": [
+            "swimmer",
+            "stadium__2",
+            "event__2",
+            "record"
+        ]
+    },
+    {
+        "query": "Find the names of stadiums that the most swimmers have been to.",
+        "Answer_table": [
+            "stadium__2",
+            "event__2",
+            "record"
+        ]
+    },
+    {
+        "query": "Show the customer name, customer address city, date from, and date to for each customer address history.",
+        "Answer_table": [
+            "Addresses__6",
+            "Customers__6",
+            "Customer_Address_History"
+        ]
+    },
+    {
+        "query": "What are the name and phone of the customer with the most ordered product quantity?",
+        "Answer_table": [
+            "Customers__6",
+            "Customer_Orders__3",
+            "Order_Items__4"
+        ]
+    },
+    {
+        "query": "Find the name of dorms which have both TV Lounge and Study Room as amenities.",
+        "Answer_table": [
+            "Dorm",
+            "Dorm_amenity",
+            "Has_amenity"
+        ]
+    },
+    {
+        "query": "What is the name of the dorm with both a TV Lounge and Study Room listed as amenities?",
+        "Answer_table": [
+            "Dorm",
+            "Dorm_amenity",
+            "Has_amenity"
+        ]
+    },
+    {
+        "query": "Find the name of dorms which have TV Lounge but no Study Room as amenity.",
+        "Answer_table": [
+            "Dorm",
+            "Dorm_amenity",
+            "Has_amenity"
+        ]
+    },
+    {
+        "query": "What is the name of each dorm that has a TV Lounge but no study rooms?",
+        "Answer_table": [
+            "Dorm",
+            "Dorm_amenity",
+            "Has_amenity"
+        ]
+    },
+    {
+        "query": "List name of all amenities which Anonymous Donor Hall has, and sort the results in alphabetic order.",
+        "Answer_table": [
+            "Dorm",
+            "Dorm_amenity",
+            "Has_amenity"
+        ]
+    },
+    {
+        "query": "What are the amenities in alphabetical order that Anonymous Donor Hall has?",
+        "Answer_table": [
+            "Dorm",
+            "Dorm_amenity",
+            "Has_amenity"
+        ]
+    },
+    {
+        "query": "Find the average age of students living in each dorm and the name of dorm.",
+        "Answer_table": [
+            "Student",
+            "Dorm",
+            "Lives_in"
+        ]
+    },
+    {
+        "query": "What is the average age for each dorm and what are the names of each dorm?",
+        "Answer_table": [
+            "Student",
+            "Dorm",
+            "Lives_in"
+        ]
+    },
+    {
+        "query": "Find the number of students who is older than 20 in each dorm.",
+        "Answer_table": [
+            "Student",
+            "Dorm",
+            "Lives_in"
+        ]
+    },
+    {
+        "query": "How many students are older than 20 in each dorm?",
+        "Answer_table": [
+            "Student",
+            "Dorm",
+            "Lives_in"
+        ]
+    },
+    {
+        "query": "Find the first name of students who are living in the Smith Hall.",
+        "Answer_table": [
+            "Student",
+            "Dorm",
+            "Lives_in"
+        ]
+    },
+    {
+        "query": "What are the first names of all students in Smith Hall?",
+        "Answer_table": [
+            "Student",
+            "Dorm",
+            "Lives_in"
+        ]
+    },
+    {
+        "query": "Find the average age of students who are living in the dorm with the largest capacity.",
+        "Answer_table": [
+            "Student",
+            "Dorm",
+            "Lives_in"
+        ]
+    },
+    {
+        "query": "What is the average age of students who are living in the dorm with the largest capacity?",
+        "Answer_table": [
+            "Student",
+            "Dorm",
+            "Lives_in"
+        ]
+    },
+    {
+        "query": "Find the total number of students living in the male dorm (with gender M).",
+        "Answer_table": [
+            "Student",
+            "Dorm",
+            "Lives_in"
+        ]
+    },
+    {
+        "query": "What are the total number of students who are living in a male dorm?",
+        "Answer_table": [
+            "Student",
+            "Dorm",
+            "Lives_in"
+        ]
+    },
+    {
+        "query": "Find the number of female students (with F sex) living in Smith Hall",
+        "Answer_table": [
+            "Student",
+            "Dorm",
+            "Lives_in"
+        ]
+    },
+    {
+        "query": "How many female students live in Smith Hall?",
+        "Answer_table": [
+            "Student",
+            "Dorm",
+            "Lives_in"
+        ]
+    },
+    {
+        "query": "Find the name of amenities Smith Hall dorm have.",
+        "Answer_table": [
+            "Dorm",
+            "Dorm_amenity",
+            "Has_amenity"
+        ]
+    },
+    {
+        "query": "What are the names of the amenities that Smith Hall has?",
+        "Answer_table": [
+            "Dorm",
+            "Dorm_amenity",
+            "Has_amenity"
+        ]
+    },
+    {
+        "query": "Find the name of amenities Smith Hall dorm have. ordered the results by amenity names.",
+        "Answer_table": [
+            "Dorm",
+            "Dorm_amenity",
+            "Has_amenity"
+        ]
+    },
+    {
+        "query": "What amenities does Smith Hall have in alphabetical order?",
+        "Answer_table": [
+            "Dorm",
+            "Dorm_amenity",
+            "Has_amenity"
+        ]
+    },
+    {
+        "query": "Find the first name of students who are living in the dorm that has most number of amenities.",
+        "Answer_table": [
+            "Student",
+            "Dorm",
+            "Dorm_amenity",
+            "Has_amenity",
+            "Lives_in"
+        ]
+    },
+    {
+        "query": "What are the first names of all students who live in the dorm with the most amenities?",
+        "Answer_table": [
+            "Student",
+            "Dorm",
+            "Dorm_amenity",
+            "Has_amenity",
+            "Lives_in"
+        ]
+    },
+    {
+        "query": "Find the name and capacity of the dorm with least number of amenities.",
+        "Answer_table": [
+            "Dorm",
+            "Dorm_amenity",
+            "Has_amenity"
+        ]
+    },
+    {
+        "query": "What is the name and capacity of the dorm with the fewest amount of amenities?",
+        "Answer_table": [
+            "Dorm",
+            "Dorm_amenity",
+            "Has_amenity"
+        ]
+    },
+    {
+        "query": "Find the name of dorms that do not have amenity TV Lounge.",
+        "Answer_table": [
+            "Dorm",
+            "Dorm_amenity",
+            "Has_amenity"
+        ]
+    },
+    {
+        "query": "What are the names of the dorm that does not have a TV Lounge?",
+        "Answer_table": [
+            "Dorm",
+            "Dorm_amenity",
+            "Has_amenity"
+        ]
+    },
+    {
+        "query": "Find the first and last name of students who are living in the dorms that have amenity TV Lounge.",
+        "Answer_table": [
+            "Student",
+            "Dorm_amenity",
+            "Has_amenity",
+            "Lives_in"
+        ]
+    },
+    {
+        "query": "What are the first and last names of all students who are living in a dorm with a TV Lounge?",
+        "Answer_table": [
+            "Student",
+            "Dorm_amenity",
+            "Has_amenity",
+            "Lives_in"
+        ]
+    },
+    {
+        "query": "Find the first name and age of students who are living in the dorms that do not have amenity TV Lounge.",
+        "Answer_table": [
+            "Student",
+            "Dorm_amenity",
+            "Has_amenity",
+            "Lives_in"
+        ]
+    },
+    {
+        "query": "What is the first name and age of every student who lives in a dorm with a TV Lounge?",
+        "Answer_table": [
+            "Student",
+            "Dorm_amenity",
+            "Has_amenity",
+            "Lives_in"
+        ]
+    },
+    {
+        "query": "Find the name of amenities of the dorm where the student with last name Smith is living in.",
+        "Answer_table": [
+            "Student",
+            "Dorm",
+            "Dorm_amenity",
+            "Has_amenity",
+            "Lives_in"
+        ]
+    },
+    {
+        "query": "What are the amenities in the dorm that a student who has the last name of Smith lives in?",
+        "Answer_table": [
+            "Student",
+            "Dorm",
+            "Dorm_amenity",
+            "Has_amenity",
+            "Lives_in"
+        ]
+    },
+    {
+        "query": "Which products has been complained by the customer who has filed least amount of complaints?",
+        "Answer_table": [
+            "Customers__7",
+            "Products__5",
+            "Complaints"
+        ]
+    },
+    {
+        "query": "Return the names of products that have had complaints filed by the customer who has filed the fewest complaints.",
+        "Answer_table": [
+            "Customers__7",
+            "Products__5",
+            "Complaints"
+        ]
+    },
+    {
+        "query": "Find the last name of the staff member who processed the complaint of the cheapest product.",
+        "Answer_table": [
+            "Staff__3",
+            "Products__5",
+            "Complaints"
+        ]
+    },
+    {
+        "query": "What is the last name of the staff member in charge of the complaint on the product with the lowest price?",
+        "Answer_table": [
+            "Staff__3",
+            "Products__5",
+            "Complaints"
+        ]
+    },
+    {
+        "query": "What are the lot details of lots associated with transactions with share count smaller than 50?",
+        "Answer_table": [
+            "Lots",
+            "Transactions",
+            "Transactions_Lots"
+        ]
+    },
+    {
+        "query": "What are the lot details of lots associated with transactions whose share count is bigger than 100 and whose type code is \"PUR\"?",
+        "Answer_table": [
+            "Lots",
+            "Transactions",
+            "Transactions_Lots"
+        ]
+    },
+    {
+        "query": "Which tourist attractions does the visitor with detail 'Vincent' visit?",
+        "Answer_table": [
+            "Visitors",
+            "Tourist_Attractions",
+            "Visits"
+        ]
+    },
+    {
+        "query": "Show the tourist attractions visited by the tourist whose detail is 'Vincent'.",
+        "Answer_table": [
+            "Visitors",
+            "Tourist_Attractions",
+            "Visits"
+        ]
+    },
+    {
+        "query": "What are the names of the tourist attractions and the dates when the tourists named Vincent or Vivian visited there?",
+        "Answer_table": [
+            "Visitors",
+            "Tourist_Attractions",
+            "Visits"
+        ]
+    },
+    {
+        "query": "For each tourist attraction, return its name and the date when the tourists named Vincent or Vivian visited there.",
+        "Answer_table": [
+            "Visitors",
+            "Tourist_Attractions",
+            "Visits"
+        ]
+    },
+    {
+        "query": "What are the names of the tourist attractions that have parking or shopping as their feature details?",
+        "Answer_table": [
+            "Features",
+            "Tourist_Attractions",
+            "Tourist_Attraction_Features"
+        ]
+    },
+    {
+        "query": "Find the tourist attractions that have parking or shopping as their feature details. What are the names of the attractions?",
+        "Answer_table": [
+            "Features",
+            "Tourist_Attractions",
+            "Tourist_Attraction_Features"
+        ]
+    },
+    {
+        "query": "What are the names of the tourist attractions Vincent and Marcelle visit?",
+        "Answer_table": [
+            "Visitors",
+            "Tourist_Attractions",
+            "Visits"
+        ]
+    },
+    {
+        "query": "Which tourist attractions do the tourists Vincent and Marcelle visit? Tell me the names of the attractions.",
+        "Answer_table": [
+            "Visitors",
+            "Tourist_Attractions",
+            "Visits"
+        ]
+    },
+    {
+        "query": "What are the names of tourist attraction that Alison visited but Rosalind did not visit?",
+        "Answer_table": [
+            "Visitors",
+            "Tourist_Attractions",
+            "Visits"
+        ]
+    },
+    {
+        "query": "Find the the names of the tourist attractions that the tourist named Alison visited but Rosalind did not visit.",
+        "Answer_table": [
+            "Visitors",
+            "Tourist_Attractions",
+            "Visits"
+        ]
+    },
+    {
+        "query": "Show all game names played by Linda Smith",
+        "Answer_table": [
+            "Student",
+            "Video_Games",
+            "Plays_Games"
+        ]
+    },
+    {
+        "query": "What are the names of all games played by Linda Smith?",
+        "Answer_table": [
+            "Student",
+            "Video_Games",
+            "Plays_Games"
+        ]
+    },
+    {
+        "query": "What is the address content of the customer named \"Maudie Kertzmann\"?",
+        "Answer_table": [
+            "Addresses__7",
+            "Customers__8",
+            "Customer_Addresses__2"
+        ]
+    },
+    {
+        "query": "Return the address content for the customer whose name is \"Maudie Kertzmann\".",
+        "Answer_table": [
+            "Addresses__7",
+            "Customers__8",
+            "Customer_Addresses__2"
+        ]
+    },
+    {
+        "query": "How many customers are living in city \"Lake Geovannyton\"?",
+        "Answer_table": [
+            "Addresses__7",
+            "Customers__8",
+            "Customer_Addresses__2"
+        ]
+    },
+    {
+        "query": "Find the number of customers who live in the city called Lake Geovannyton.",
+        "Answer_table": [
+            "Addresses__7",
+            "Customers__8",
+            "Customer_Addresses__2"
+        ]
+    },
+    {
+        "query": "Find the name of customers who are living in Colorado?",
+        "Answer_table": [
+            "Addresses__7",
+            "Customers__8",
+            "Customer_Addresses__2"
+        ]
+    },
+    {
+        "query": "What are the names of customers who live in Colorado state?",
+        "Answer_table": [
+            "Addresses__7",
+            "Customers__8",
+            "Customer_Addresses__2"
+        ]
+    },
+    {
+        "query": "Find the list of cities that no customer is living in.",
+        "Answer_table": [
+            "Addresses__7",
+            "Customers__8",
+            "Customer_Addresses__2"
+        ]
+    },
+    {
+        "query": "What are the cities no customers live in?",
+        "Answer_table": [
+            "Addresses__7",
+            "Customers__8",
+            "Customer_Addresses__2"
+        ]
+    },
+    {
+        "query": "Which city has the most customers living in?",
+        "Answer_table": [
+            "Addresses__7",
+            "Customers__8",
+            "Customer_Addresses__2"
+        ]
+    },
+    {
+        "query": "Find the city where the most customers live.",
+        "Answer_table": [
+            "Addresses__7",
+            "Customers__8",
+            "Customer_Addresses__2"
+        ]
+    },
+    {
+        "query": "What is the name of the customer that made the order with the largest quantity?",
+        "Answer_table": [
+            "Customers__8",
+            "Customer_Orders__4",
+            "Order_Items__5"
+        ]
+    },
+    {
+        "query": "Find the name of the customer who made the order of the largest amount of goods.",
+        "Answer_table": [
+            "Customers__8",
+            "Customer_Orders__4",
+            "Order_Items__5"
+        ]
+    },
+    {
+        "query": "What is the name of the customer that has purchased the most items?",
+        "Answer_table": [
+            "Customers__8",
+            "Customer_Orders__4",
+            "Order_Items__5"
+        ]
+    },
+    {
+        "query": "Give me the name of the customer who ordered the most items in total.",
+        "Answer_table": [
+            "Customers__8",
+            "Customer_Orders__4",
+            "Order_Items__5"
+        ]
+    },
+    {
+        "query": "What is the payment method of the customer that has purchased the least quantity of items?",
+        "Answer_table": [
+            "Customers__8",
+            "Customer_Orders__4",
+            "Order_Items__5"
+        ]
+    },
+    {
+        "query": "Tell me the payment method used by the customer who ordered the least amount of goods in total.",
+        "Answer_table": [
+            "Customers__8",
+            "Customer_Orders__4",
+            "Order_Items__5"
+        ]
+    },
+    {
+        "query": "How many types of products have Rodrick Heaney bought in total?",
+        "Answer_table": [
+            "Customers__8",
+            "Customer_Orders__4",
+            "Order_Items__5"
+        ]
+    },
+    {
+        "query": "Find the number of distinct products Rodrick Heaney has bought so far.",
+        "Answer_table": [
+            "Customers__8",
+            "Customer_Orders__4",
+            "Order_Items__5"
+        ]
+    },
+    {
+        "query": "What is the total quantity of products purchased by \"Rodrick Heaney\"?",
+        "Answer_table": [
+            "Customers__8",
+            "Customer_Orders__4",
+            "Order_Items__5"
+        ]
+    },
+    {
+        "query": "Tell me the total quantity of products bought by the customer called \"Rodrick Heaney\".",
+        "Answer_table": [
+            "Customers__8",
+            "Customer_Orders__4",
+            "Order_Items__5"
+        ]
+    },
+    {
+        "query": "Find the names of customers who never ordered product Latte.",
+        "Answer_table": [
+            "Products__6",
+            "Customers__8",
+            "Customer_Orders__4",
+            "Order_Items__5"
+        ]
+    },
+    {
+        "query": "What are names of customers who never ordered product Latte.",
+        "Answer_table": [
+            "Products__6",
+            "Customers__8",
+            "Customer_Orders__4",
+            "Order_Items__5"
+        ]
+    },
+    {
+        "query": "Find the names of customers who ordered both products Latte and Americano.",
+        "Answer_table": [
+            "Products__6",
+            "Customers__8",
+            "Customer_Orders__4",
+            "Order_Items__5"
+        ]
+    },
+    {
+        "query": "What are the names of customers who have purchased both products Latte and Americano?",
+        "Answer_table": [
+            "Products__6",
+            "Customers__8",
+            "Customer_Orders__4",
+            "Order_Items__5"
+        ]
+    },
+    {
+        "query": "What is the venue of the competition \"1994 FIFA World Cup qualification\" hosted by \"Nanjing ( Jiangsu )\"?",
+        "Answer_table": [
+            "city__1",
+            "match",
+            "hosting_city"
+        ]
+    },
+    {
+        "query": "Find the venue of the competition \"1994 FIFA World Cup qualification\" which was hosted by \"Nanjing ( Jiangsu )\".",
+        "Answer_table": [
+            "city__1",
+            "match",
+            "hosting_city"
+        ]
+    },
+    {
+        "query": "Give me a list of cities whose temperature in Mar is lower than that in July and which have also served as host cities?",
+        "Answer_table": [
+            "city__1",
+            "temperature",
+            "hosting_city"
+        ]
+    },
+    {
+        "query": "Which cities have lower temperature in March than in July and have been once host cities?",
+        "Answer_table": [
+            "city__1",
+            "temperature",
+            "hosting_city"
+        ]
+    },
+    {
+        "query": "Give me a list of cities whose temperature in Mar is lower than that in Dec and which have never been host cities.",
+        "Answer_table": [
+            "city__1",
+            "temperature",
+            "hosting_city"
+        ]
+    },
+    {
+        "query": "Which cities have lower temperature in March than in Dec and have never served as host cities?",
+        "Answer_table": [
+            "city__1",
+            "temperature",
+            "hosting_city"
+        ]
+    },
+    {
+        "query": "Give me a list of cities whose temperature in Feb is higher than that in Jun or cities that were once host cities?",
+        "Answer_table": [
+            "city__1",
+            "temperature",
+            "hosting_city"
+        ]
+    },
+    {
+        "query": "Which cities have higher temperature in Feb than in Jun or have once served as host cities?",
+        "Answer_table": [
+            "city__1",
+            "temperature",
+            "hosting_city"
+        ]
+    },
+    {
+        "query": "Find the last name of the latest contact individual of the organization \"Labour Party\".",
+        "Answer_table": [
+            "Individuals",
+            "Organizations",
+            "Organization_Contact_Individuals"
+        ]
+    },
+    {
+        "query": "What is the last name of the contact individual from the Labour party organization who was contacted most recently?",
+        "Answer_table": [
+            "Individuals",
+            "Organizations",
+            "Organization_Contact_Individuals"
+        ]
+    },
+    {
+        "query": "Find the last name of the first ever contact person of the organization with the highest UK Vat number.",
+        "Answer_table": [
+            "Individuals",
+            "Organizations",
+            "Organization_Contact_Individuals"
+        ]
+    },
+    {
+        "query": "What is the last name of the first individual contacted from the organization with the maximum UK Vat number across all organizations?",
+        "Answer_table": [
+            "Individuals",
+            "Organizations",
+            "Organization_Contact_Individuals"
+        ]
+    },
+    {
+        "query": "Show the school name and driver name for all school buses.",
+        "Answer_table": [
+            "driver",
+            "school",
+            "school_bus"
+        ]
+    },
+    {
+        "query": "How many companies operates airlines in each airport?",
+        "Answer_table": [
+            "airport__2",
+            "operate_company",
+            "flight"
+        ]
+    },
+    {
+        "query": "Find the name of the project for which a scientist whose name contains ‘Smith’ is assigned to.",
+        "Answer_table": [
+            "Scientists",
+            "Projects__2",
+            "AssignedTo"
+        ]
+    },
+    {
+        "query": "What is the name of the project that has a scientist assigned to it whose name contains 'Smith'?",
+        "Answer_table": [
+            "Scientists",
+            "Projects__2",
+            "AssignedTo"
+        ]
+    },
+    {
+        "query": "Find the total hours of the projects that scientists named Michael Rogers or Carol Smith are assigned to.",
+        "Answer_table": [
+            "Scientists",
+            "Projects__2",
+            "AssignedTo"
+        ]
+    },
+    {
+        "query": "What is the sum of hours for projects that scientists with the name Michael Rogers or Carol Smith are assigned to?",
+        "Answer_table": [
+            "Scientists",
+            "Projects__2",
+            "AssignedTo"
+        ]
+    },
+    {
+        "query": "Find the names of scientists who are not working on the project with the highest hours.",
+        "Answer_table": [
+            "Scientists",
+            "Projects__2",
+            "AssignedTo"
+        ]
+    },
+    {
+        "query": "What are the names of scientists who are not working on the project with the most hours?",
+        "Answer_table": [
+            "Scientists",
+            "Projects__2",
+            "AssignedTo"
+        ]
+    },
+    {
+        "query": "List all the scientists' names, their projects' names, and the hours worked by that scientist on each project, in alphabetical order of project name, and then scientist name.",
+        "Answer_table": [
+            "Scientists",
+            "Projects__2",
+            "AssignedTo"
+        ]
+    },
+    {
+        "query": "What are the names of each scientist, the names of the projects that they work on, and the hours for each of those projects, listed in alphabetical order by project name, then scientist name.",
+        "Answer_table": [
+            "Scientists",
+            "Projects__2",
+            "AssignedTo"
+        ]
+    },
+    {
+        "query": "show the train name and station name for each train.",
+        "Answer_table": [
+            "station__2",
+            "train__2",
+            "train_station"
+        ]
+    },
+    {
+        "query": "Show all train names and times in stations in London in descending order by train time.",
+        "Answer_table": [
+            "station__2",
+            "train__2",
+            "train_station"
+        ]
+    },
+    {
+        "query": "What are the names of the stations which serve both \"Ananthapuri Express\" and \"Guruvayur Express\" trains?",
+        "Answer_table": [
+            "station__2",
+            "train__2",
+            "train_station"
+        ]
+    },
+    {
+        "query": "Find the names of the trains that do not pass any station located in London.",
+        "Answer_table": [
+            "station__2",
+            "train__2",
+            "train_station"
+        ]
+    },
+    {
+        "query": "Show the names of all the activities Mark Giuliano participates in.",
+        "Answer_table": [
+            "Activity",
+            "Faculty_Participates_in",
+            "Faculty"
+        ]
+    },
+    {
+        "query": "What are the names of the activities Mark Giuliano is involved in",
+        "Answer_table": [
+            "Activity",
+            "Faculty_Participates_in",
+            "Faculty"
+        ]
+    },
+    {
+        "query": "Find the first names of the faculty members who are playing Canoeing or Kayaking.",
+        "Answer_table": [
+            "Activity",
+            "Faculty_Participates_in",
+            "Faculty"
+        ]
+    },
+    {
+        "query": "Which faculty members are playing either Canoeing or Kayaking? Tell me their first names.",
+        "Answer_table": [
+            "Activity",
+            "Faculty_Participates_in",
+            "Faculty"
+        ]
+    },
+    {
+        "query": "Find the first names of professors who are not playing Canoeing or Kayaking.",
+        "Answer_table": [
+            "Activity",
+            "Faculty_Participates_in",
+            "Faculty"
+        ]
+    },
+    {
+        "query": "What are the first names of the professors who do not play Canoeing or Kayaking as activities?",
+        "Answer_table": [
+            "Activity",
+            "Faculty_Participates_in",
+            "Faculty"
+        ]
+    },
+    {
+        "query": "Find the first names of the faculty members who participate in Canoeing and Kayaking.",
+        "Answer_table": [
+            "Activity",
+            "Faculty_Participates_in",
+            "Faculty"
+        ]
+    },
+    {
+        "query": "What are the first names of the faculty members playing both Canoeing and Kayaking?",
+        "Answer_table": [
+            "Activity",
+            "Faculty_Participates_in",
+            "Faculty"
+        ]
+    },
+    {
+        "query": "Return the number of routes with destination airport in Italy operated by the airline with name 'American Airlines'.",
+        "Answer_table": [
+            "routes",
+            "airports__1",
+            "airlines__1"
+        ]
+    },
+    {
+        "query": "What is the number of routes operated by the airline American Airlines whose destinations are in Italy?",
+        "Answer_table": [
+            "routes",
+            "airports__1",
+            "airlines__1"
+        ]
+    },
+    {
+        "query": "List the count and id of each product in all the orders.",
+        "Answer_table": [
+            "Orders__2",
+            "Products__7",
+            "Order_Items__6"
+        ]
+    },
+    {
+        "query": "For each product, return its id and the number of times it was ordered.",
+        "Answer_table": [
+            "Orders__2",
+            "Products__7",
+            "Order_Items__6"
+        ]
+    },
+    {
+        "query": "List the name and count of each product in all orders.",
+        "Answer_table": [
+            "Orders__2",
+            "Products__7",
+            "Order_Items__6"
+        ]
+    },
+    {
+        "query": "For each product, show its name and the number of times it was ordered.",
+        "Answer_table": [
+            "Orders__2",
+            "Products__7",
+            "Order_Items__6"
+        ]
+    },
+    {
+        "query": "List the names of the customers who have once bought product \"food\".",
+        "Answer_table": [
+            "Customers__9",
+            "Orders__2",
+            "Products__7",
+            "Order_Items__6"
+        ]
+    },
+    {
+        "query": "What are the names of the customers who bought product \"food\" at least once?",
+        "Answer_table": [
+            "Customers__9",
+            "Orders__2",
+            "Products__7",
+            "Order_Items__6"
+        ]
+    },
+    {
+        "query": "List the names of customers who have once canceled the purchase of the product \"food\" (the item status is \"Cancel\").",
+        "Answer_table": [
+            "Customers__9",
+            "Orders__2",
+            "Products__7",
+            "Order_Items__6"
+        ]
+    },
+    {
+        "query": "Which customers have ever canceled the purchase of the product \"food\" (the item status is \"Cancel\")?",
+        "Answer_table": [
+            "Customers__9",
+            "Orders__2",
+            "Products__7",
+            "Order_Items__6"
+        ]
+    },
+    {
+        "query": "What are the ids, names and genders of the architects who built two bridges or one mill?",
+        "Answer_table": [
+            "architect",
+            "bridge",
+            "mill"
+        ]
+    },
+    {
+        "query": "What are the distinct name of the mills built by the architects who have also built a bridge longer than 80 meters?",
+        "Answer_table": [
+            "architect",
+            "bridge",
+            "mill"
+        ]
+    },
+    {
+        "query": "Show the movie titles and book titles for all companies in China.",
+        "Answer_table": [
+            "book_club",
+            "movie",
+            "culture_company"
+        ]
+    },
+    {
+        "query": "What are the titles of movies and books corresponding to companies incorporated in China?",
+        "Answer_table": [
+            "book_club",
+            "movie",
+            "culture_company"
+        ]
+    },
+    {
+        "query": "List all singer names in concerts in year 2014.",
+        "Answer_table": [
+            "singer",
+            "concert",
+            "singer_in_concert"
+        ]
+    },
+    {
+        "query": "What are the names of the singers who performed in a concert in 2014?",
+        "Answer_table": [
+            "singer",
+            "concert",
+            "singer_in_concert"
+        ]
+    },
+    {
+        "query": "Find the number of dog pets that are raised by female students (with sex F).",
+        "Answer_table": [
+            "Student",
+            "Has_Pet",
+            "Pets"
+        ]
+    },
+    {
+        "query": "How many dog pets are raised by female students?",
+        "Answer_table": [
+            "Student",
+            "Has_Pet",
+            "Pets"
+        ]
+    },
+    {
+        "query": "Find the first name of students who have cat or dog pet.",
+        "Answer_table": [
+            "Student",
+            "Has_Pet",
+            "Pets"
+        ]
+    },
+    {
+        "query": "What are the first names of every student who has a cat or dog as a pet?",
+        "Answer_table": [
+            "Student",
+            "Has_Pet",
+            "Pets"
+        ]
+    },
+    {
+        "query": "Find the major and age of students who do not have a cat pet.",
+        "Answer_table": [
+            "Student",
+            "Has_Pet",
+            "Pets"
+        ]
+    },
+    {
+        "query": "What major is every student who does not own a cat as a pet, and also how old are they?",
+        "Answer_table": [
+            "Student",
+            "Has_Pet",
+            "Pets"
+        ]
+    },
+    {
+        "query": "Find the id of students who do not have a cat pet.",
+        "Answer_table": [
+            "Student",
+            "Has_Pet",
+            "Pets"
+        ]
+    },
+    {
+        "query": "What are the ids of the students who do not own cats as pets?",
+        "Answer_table": [
+            "Student",
+            "Has_Pet",
+            "Pets"
+        ]
+    },
+    {
+        "query": "Find the first name and age of students who have a dog but do not have a cat as a pet.",
+        "Answer_table": [
+            "Student",
+            "Has_Pet",
+            "Pets"
+        ]
+    },
+    {
+        "query": "What is the first name of every student who has a dog but does not have a cat?",
+        "Answer_table": [
+            "Student",
+            "Has_Pet",
+            "Pets"
+        ]
+    },
+    {
+        "query": "Find the last name of the student who has a cat that is age 3.",
+        "Answer_table": [
+            "Student",
+            "Has_Pet",
+            "Pets"
+        ]
+    },
+    {
+        "query": "What is the last name of the student who has a cat that is 3 years old?",
+        "Answer_table": [
+            "Student",
+            "Has_Pet",
+            "Pets"
+        ]
+    },
+    {
+        "query": "Find the name of the makers that produced some cars in the year of 1970?",
+        "Answer_table": [
+            "car_makers",
+            "model_list",
+            "car_names",
+            "cars_data"
+        ]
+    },
+    {
+        "query": "What is the name of the different car makers who produced a car in 1970?",
+        "Answer_table": [
+            "car_makers",
+            "model_list",
+            "car_names",
+            "cars_data"
+        ]
+    },
+    {
+        "query": "Which distinct car models are the produced after 1980?",
+        "Answer_table": [
+            "model_list",
+            "car_names",
+            "cars_data"
+        ]
+    },
+    {
+        "query": "What are the different models for the cards produced after 1980?",
+        "Answer_table": [
+            "model_list",
+            "car_names",
+            "cars_data"
+        ]
+    },
+    {
+        "query": "How many car makers are there in each continents? List the continent name and the count.",
+        "Answer_table": [
+            "continents",
+            "countries__2",
+            "car_makers"
+        ]
+    },
+    {
+        "query": "What is the name of each continent and how many car makers are there in each one?",
+        "Answer_table": [
+            "continents",
+            "countries__2",
+            "car_makers"
+        ]
+    },
+    {
+        "query": "How many car models are produced in the usa?",
+        "Answer_table": [
+            "countries__2",
+            "car_makers",
+            "model_list"
+        ]
+    },
+    {
+        "query": "What is the count of the car models produced in the United States?",
+        "Answer_table": [
+            "countries__2",
+            "car_makers",
+            "model_list"
+        ]
+    },
+    {
+        "query": "Which countries in europe have at least 3 car manufacturers?",
+        "Answer_table": [
+            "continents",
+            "countries__2",
+            "car_makers"
+        ]
+    },
+    {
+        "query": "What are the names of all European countries with at least 3 manufacturers?",
+        "Answer_table": [
+            "continents",
+            "countries__2",
+            "car_makers"
+        ]
+    },
+    {
+        "query": "Which distinctive models are produced by maker with the full name General Motors or weighing more than 3500?",
+        "Answer_table": [
+            "car_makers",
+            "model_list",
+            "car_names",
+            "cars_data"
+        ]
+    },
+    {
+        "query": "What are the different models created by either the car maker General Motors or weighed more than 3500?",
+        "Answer_table": [
+            "car_makers",
+            "model_list",
+            "car_names",
+            "cars_data"
+        ]
+    },
+    {
+        "query": "Which models are lighter than 3500 but not built by the 'Ford Motor Company'?",
+        "Answer_table": [
+            "car_makers",
+            "model_list",
+            "car_names",
+            "cars_data"
+        ]
+    },
+    {
+        "query": "What are the different models wthat are lighter than 3500 but were not built by the Ford Motor Company?",
+        "Answer_table": [
+            "car_makers",
+            "model_list",
+            "car_names",
+            "cars_data"
+        ]
+    },
+    {
+        "query": "Which are the car makers which produce at least 2 models and more than 3 car makers ? List the id and the maker .",
+        "Answer_table": [
+            "car_makers",
+            "model_list",
+            "car_names"
+        ]
+    },
+    {
+        "query": "What are the ids and makers of all car makers that produce at least 2 models and make more than 3 cars?",
+        "Answer_table": [
+            "car_makers",
+            "model_list",
+            "car_names"
+        ]
+    },
+    {
+        "query": "What are the id and names of the countries which have more than 3 car makers or produce the 'fiat' model?",
+        "Answer_table": [
+            "countries__2",
+            "car_makers",
+            "model_list"
+        ]
+    },
+    {
+        "query": "What are the ids and names of all countries that either have more than 3 car makers or produce fiat model ?",
+        "Answer_table": [
+            "countries__2",
+            "car_makers",
+            "model_list"
+        ]
+    },
+    {
+        "query": "How many United Airlines flights go to City 'Aberdeen'?",
+        "Answer_table": [
+            "airlines__2",
+            "airports__2",
+            "flights"
+        ]
+    },
+    {
+        "query": "Count the number of United Airlines flights that arrive in Aberdeen.",
+        "Answer_table": [
+            "airlines__2",
+            "airports__2",
+            "flights"
+        ]
+    },
+    {
+        "query": "What are the distinct template type descriptions for the templates ever used by any document?",
+        "Answer_table": [
+            "Ref_Template_Types",
+            "Templates",
+            "Documents__3"
+        ]
+    },
+    {
+        "query": "Return the different descriptions for templates that have been used in a document.",
+        "Answer_table": [
+            "Ref_Template_Types",
+            "Templates",
+            "Documents__3"
+        ]
+    },
+    {
+        "query": "Show names of teachers and the courses they are arranged to teach.",
+        "Answer_table": [
+            "course__2",
+            "teacher",
+            "course_arrange"
+        ]
+    },
+    {
+        "query": "What is the name of each teacher and what course they teach?",
+        "Answer_table": [
+            "course__2",
+            "teacher",
+            "course_arrange"
+        ]
+    },
+    {
+        "query": "Show names of teachers and the courses they are arranged to teach in ascending alphabetical order of the teacher's name.",
+        "Answer_table": [
+            "course__2",
+            "teacher",
+            "course_arrange"
+        ]
+    },
+    {
+        "query": "What are the names of the teachers and the courses they teach in ascending alphabetical order by the name of the teacher?",
+        "Answer_table": [
+            "course__2",
+            "teacher",
+            "course_arrange"
+        ]
+    },
+    {
+        "query": "Show the name of the teacher for the math course.",
+        "Answer_table": [
+            "course__2",
+            "teacher",
+            "course_arrange"
+        ]
+    },
+    {
+        "query": "What are the names of the people who teach math courses?",
+        "Answer_table": [
+            "course__2",
+            "teacher",
+            "course_arrange"
+        ]
+    },
+    {
+        "query": "What is the name of the visitor who visited both a museum opened before 2009 and a museum opened after 2011?",
+        "Answer_table": [
+            "museum",
+            "visitor",
+            "visit"
+        ]
+    },
+    {
+        "query": "Find the number of visitors who did not visit any museum opened after 2010.",
+        "Answer_table": [
+            "museum",
+            "visitor",
+            "visit"
+        ]
+    },
+    {
+        "query": "What are the ids and names of the battles that led to more than 10 people killed in total.",
+        "Answer_table": [
+            "battle",
+            "ship",
+            "death"
+        ]
+    },
+    {
+        "query": "Who is enrolled in a Bachelor degree program? List the first name, middle name, last name.",
+        "Answer_table": [
+            "Degree_Programs",
+            "Students__3",
+            "Student_Enrolment"
+        ]
+    },
+    {
+        "query": "What are the first, middle, and last names for everybody enrolled in a Bachelors program?",
+        "Answer_table": [
+            "Degree_Programs",
+            "Students__3",
+            "Student_Enrolment"
+        ]
+    },
+    {
+        "query": "Find the last name of the students who currently live in the state of North Carolina but have not registered in any degree program.",
+        "Answer_table": [
+            "Addresses__3",
+            "Students__3",
+            "Student_Enrolment"
+        ]
+    },
+    {
+        "query": "What are the last name of the students who live in North Carolina but have not registered in any degree programs?",
+        "Answer_table": [
+            "Addresses__3",
+            "Students__3",
+            "Student_Enrolment"
+        ]
+    },
+    {
+        "query": "List the area codes in which voters voted both for the contestant 'Tabatha Gehling' and the contestant 'Kelly Clauss'.",
+        "Answer_table": [
+            "AREA_CODE_STATE",
+            "CONTESTANTS",
+            "VOTES"
+        ]
+    },
+    {
+        "query": "Which cities are in European countries where English is not the official language?",
+        "Answer_table": [
+            "city__2",
+            "country",
+            "countrylanguage"
+        ]
+    },
+    {
+        "query": "What are the names of cities in Europe for which English is not the official language?",
+        "Answer_table": [
+            "city__2",
+            "country",
+            "countrylanguage"
+        ]
+    },
+    {
+        "query": "Return the different names of cities that are in Asia and for which Chinese is the official language.",
+        "Answer_table": [
+            "city__2",
+            "country",
+            "countrylanguage"
+        ]
+    },
+    {
+        "query": "Show name of all students who have some friends and also are liked by someone else.",
+        "Answer_table": [
+            "Highschooler",
+            "Friend",
+            "Likes"
+        ]
+    },
+    {
+        "query": "What are the names of high schoolers who both have friends and are liked?",
+        "Answer_table": [
+            "Highschooler",
+            "Friend",
+            "Likes"
+        ]
+    },
+    {
+        "query": "Which first names are used for professionals or owners but are not used as dog names?",
+        "Answer_table": [
+            "Owners",
+            "Dogs",
+            "Professionals"
+        ]
+    },
+    {
+        "query": "Find the first names that are used for professionals or owners but are not used as dog names.",
+        "Answer_table": [
+            "Owners",
+            "Dogs",
+            "Professionals"
+        ]
+    },
+    {
+        "query": "Which owner has paid for the most treatments on his or her dogs? List the owner id and last name.",
+        "Answer_table": [
+            "Owners",
+            "Dogs",
+            "Treatments"
+        ]
+    },
+    {
+        "query": "Tell me the owner id and last name of the owner who spent the most on treatments of his or her dogs.",
+        "Answer_table": [
+            "Owners",
+            "Dogs",
+            "Treatments"
+        ]
+    },
+    {
+        "query": "Which owner has paid the largest amount of money in total for their dogs? Show the owner id and zip code.",
+        "Answer_table": [
+            "Owners",
+            "Dogs",
+            "Treatments"
+        ]
+    },
+    {
+        "query": "Find the owner id and zip code of the owner who spent the most money in total for his or her dogs.",
+        "Answer_table": [
+            "Owners",
+            "Dogs",
+            "Treatments"
+        ]
+    },
+    {
+        "query": "List the first name of all the professionals along with the description of the treatment they have done.",
+        "Answer_table": [
+            "Treatment_Types",
+            "Professionals",
+            "Treatments"
+        ]
+    },
+    {
+        "query": "What are each professional's first name and description of the treatment they have performed?",
+        "Answer_table": [
+            "Treatment_Types",
+            "Professionals",
+            "Treatments"
+        ]
+    }
+]

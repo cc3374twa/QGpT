@@ -1,0 +1,6092 @@
+[
+    {
+        "query": "哪个子目的综合单价最高？",
+        "Answer_table": [
+            "./spreadsheet/生产制造 表格 (594).xlsx"
+        ]
+    },
+    {
+        "query": "序号为5的项目，人工费和材料费的总和是多少？",
+        "Answer_table": [
+            "./spreadsheet/生产制造 表格 (594).xlsx"
+        ]
+    },
+    {
+        "query": "请问序号为4的项目编码是什么？",
+        "Answer_table": [
+            "./spreadsheet/生产制造 表格 (594).xlsx"
+        ]
+    },
+    {
+        "query": "分析这个表格，提炼关键信息",
+        "Answer_table": [
+            "./spreadsheet/生产制造 表格 (594).xlsx"
+        ]
+    },
+    {
+        "query": "工程名称是什么？",
+        "Answer_table": [
+            "./spreadsheet/生产制造 表格 (594).xlsx"
+        ]
+    },
+    {
+        "query": "如果现浇混凝土钢筋的数量增加到0.234吨，那么总费用将是多少？",
+        "Answer_table": [
+            "./spreadsheet/生产制造 表格 (594).xlsx"
+        ]
+    },
+    {
+        "query": "请绘制一个散点图，展示子目名称的综合单价与合计成本之间的关系。",
+        "Answer_table": [
+            "./spreadsheet/生产制造 表格 (594).xlsx"
+        ]
+    },
+    {
+        "query": "在所有列出的工序中，直接人工成本超过2000的有哪些？",
+        "Answer_table": [
+            "./spreadsheet/材料成本.xlsx"
+        ]
+    },
+    {
+        "query": "YP-U357A的总间接费用分配（小计）与直接材料成本之和是多少？",
+        "Answer_table": [
+            "./spreadsheet/材料成本.xlsx"
+        ]
+    },
+    {
+        "query": "YP-U356A的直接人工成本是多少？",
+        "Answer_table": [
+            "./spreadsheet/材料成本.xlsx"
+        ]
+    },
+    {
+        "query": "YP-U358A和YP-U385A哪个工序的直接折旧成本更高？",
+        "Answer_table": [
+            "./spreadsheet/材料成本.xlsx"
+        ]
+    },
+    {
+        "query": "这个表格的主要特点是什么",
+        "Answer_table": [
+            "./spreadsheet/材料成本.xlsx"
+        ]
+    },
+    {
+        "query": "表格中所有项目的“直接折旧”成本的平均值是多少？",
+        "Answer_table": [
+            "./spreadsheet/材料成本.xlsx"
+        ]
+    },
+    {
+        "query": "根据原始表格内容生成一个柱状图，显示“明细科目”与“直接人工”的关系，并将该图插入到原始表格的sheet中，放置在表格下方。",
+        "Answer_table": [
+            "./spreadsheet/材料成本.xlsx"
+        ]
+    },
+    {
+        "query": "一楼的\"地砖(1000×1000)\"的工程量是多少？",
+        "Answer_table": [
+            "./spreadsheet/1216 (2).xlsx"
+        ]
+    },
+    {
+        "query": "地墙找平的工程量是多少？",
+        "Answer_table": [
+            "./spreadsheet/1216 (2).xlsx"
+        ]
+    },
+    {
+        "query": "对这个表进行总结分析",
+        "Answer_table": [
+            "./spreadsheet/1216 (2).xlsx"
+        ]
+    },
+    {
+        "query": "第二楼的\"电视背景\"的主材费用是多少？",
+        "Answer_table": [
+            "./spreadsheet/1216 (2).xlsx"
+        ]
+    },
+    {
+        "query": "如果在二楼的装修中，所有项目的人工费用增加10%，那么二楼的总装修费用将会增加多少？",
+        "Answer_table": [
+            "./spreadsheet/1216 (2).xlsx"
+        ]
+    },
+    {
+        "query": "所有项目的人工费总和是多少？",
+        "Answer_table": [
+            "./spreadsheet/1216 (2).xlsx"
+        ]
+    },
+    {
+        "query": "从一楼到三楼，电视背景的主材费用有什么变化？",
+        "Answer_table": [
+            "./spreadsheet/1216 (2).xlsx"
+        ]
+    },
+    {
+        "query": "根据原始表格内容生成一个柱状图，显示每个区域的故障数和已排除数，并将该图插入到原始表格的sheet中。",
+        "Answer_table": [
+            "./spreadsheet/建筑消防设施故障维修记录表1.xlsx"
+        ]
+    },
+    {
+        "query": "第3区的故障维修情况是什么？",
+        "Answer_table": [
+            "./spreadsheet/建筑消防设施故障维修记录表1.xlsx"
+        ]
+    },
+    {
+        "query": "发现登记故障数和已排除数之间的差值是多少？",
+        "Answer_table": [
+            "./spreadsheet/建筑消防设施故障维修记录表1.xlsx"
+        ]
+    },
+    {
+        "query": "根据故障情况和维修情况，能否推断出哪些设备的故障更容易被排除？",
+        "Answer_table": [
+            "./spreadsheet/建筑消防设施故障维修记录表1.xlsx"
+        ]
+    },
+    {
+        "query": "阐述一下这个表格的主要内容。",
+        "Answer_table": [
+            "./spreadsheet/建筑消防设施故障维修记录表1.xlsx"
+        ]
+    },
+    {
+        "query": "记录表中有多少条故障已经排除的记录？",
+        "Answer_table": [
+            "./spreadsheet/建筑消防设施故障维修记录表1.xlsx"
+        ]
+    },
+    {
+        "query": "截止到2020年4月20日，B仓的总库存数量是多少？",
+        "Answer_table": [
+            "./spreadsheet/商品物流管理 (30).xlsx"
+        ]
+    },
+    {
+        "query": "库存位置和库存预警之间有什么关系？库存过低的情况在哪些仓库中出现的频率较高？",
+        "Answer_table": [
+            "./spreadsheet/商品物流管理 (30).xlsx"
+        ]
+    },
+    {
+        "query": "表格中哪一条记录的入库数量最少？",
+        "Answer_table": [
+            "./spreadsheet/商品物流管理 (30).xlsx"
+        ]
+    },
+    {
+        "query": "在2020年4月15日，A仓存放的货品名称是什么？",
+        "Answer_table": [
+            "./spreadsheet/商品物流管理 (30).xlsx"
+        ]
+    },
+    {
+        "query": "将“库存明细”列中的“数量”单元格字体加粗。",
+        "Answer_table": [
+            "./spreadsheet/物资采购 (44).xlsx"
+        ]
+    },
+    {
+        "query": "这个表格的核心信息是什么？",
+        "Answer_table": [
+            "./spreadsheet/物资采购 (44).xlsx"
+        ]
+    },
+    {
+        "query": "第3行的物品名称是什么？",
+        "Answer_table": [
+            "./spreadsheet/物资采购 (44).xlsx"
+        ]
+    },
+    {
+        "query": "鼠标的规格型号是什么？",
+        "Answer_table": [
+            "./spreadsheet/物资采购 (44).xlsx"
+        ]
+    },
+    {
+        "query": "综合考虑入库明细、出库明细和库存明细，分析联想公司的物品流动情况，哪种物品的流动最频繁？是否存在库存积压的情况？",
+        "Answer_table": [
+            "./spreadsheet/物资采购 (44).xlsx"
+        ]
+    },
+    {
+        "query": "哪种物品的入库单价是最高的？",
+        "Answer_table": [
+            "./spreadsheet/物资采购 (44).xlsx"
+        ]
+    },
+    {
+        "query": "所有物品的入库金额总和是多少？",
+        "Answer_table": [
+            "./spreadsheet/物资采购 (44).xlsx"
+        ]
+    },
+    {
+        "query": "鼠标的入库单价是多少？",
+        "Answer_table": [
+            "./spreadsheet/物资采购 (44).xlsx"
+        ]
+    },
+    {
+        "query": "请绘制一个雷达图，对比每种物品名称的入库数量、入库单价、出库数量、出库单价和库存数量的多维数据。",
+        "Answer_table": [
+            "./spreadsheet/物资采购 (44).xlsx"
+        ]
+    },
+    {
+        "query": "哪个物品的出库单价比入库单价高出最多？",
+        "Answer_table": [
+            "./spreadsheet/物资采购 (44).xlsx"
+        ]
+    },
+    {
+        "query": "员工稻小壳1的加班次数是多少？",
+        "Answer_table": [
+            "./spreadsheet/员工加班费用统计表1.xlsx"
+        ]
+    },
+    {
+        "query": "表格中单次加班费用的最大值是多少？",
+        "Answer_table": [
+            "./spreadsheet/员工加班费用统计表1.xlsx"
+        ]
+    },
+    {
+        "query": "根据表格，加班费用的计算方式是什么？",
+        "Answer_table": [
+            "./spreadsheet/员工加班费用统计表1.xlsx"
+        ]
+    },
+    {
+        "query": "员工稻小壳1的加班总费用是多少？",
+        "Answer_table": [
+            "./spreadsheet/员工加班费用统计表1.xlsx"
+        ]
+    },
+    {
+        "query": "8号项目的楼座建筑面积是多少？",
+        "Answer_table": [
+            "./spreadsheet/桩单方计算.xlsx"
+        ]
+    },
+    {
+        "query": "9层住宅(08#地块)的单价(元/m3)与7层板楼住宅相比，高了多少？",
+        "Answer_table": [
+            "./spreadsheet/桩单方计算.xlsx"
+        ]
+    },
+    {
+        "query": "这个表格的核心信息是什么？",
+        "Answer_table": [
+            "./spreadsheet/桩单方计算.xlsx"
+        ]
+    },
+    {
+        "query": "9层板楼住宅的单方指标(元/m2)是多少？",
+        "Answer_table": [
+            "./spreadsheet/桩单方计算.xlsx"
+        ]
+    },
+    {
+        "query": "哪个项目的单方指标（元/m2）最高？",
+        "Answer_table": [
+            "./spreadsheet/桩单方计算.xlsx"
+        ]
+    },
+    {
+        "query": "表格中共有多少个不同的项目名称？",
+        "Answer_table": [
+            "./spreadsheet/桩单方计算.xlsx"
+        ]
+    },
+    {
+        "query": "所有项目的夯扩桩工程量合计是多少根？",
+        "Answer_table": [
+            "./spreadsheet/桩单方计算.xlsx"
+        ]
+    },
+    {
+        "query": "哪一天三年级一班有最少节课？",
+        "Answer_table": [
+            "./spreadsheet/Sheet35.xlsx"
+        ]
+    },
+    {
+        "query": "将所有“英语”课程的单元格字体标红，并加粗显示。",
+        "Answer_table": [
+            "./spreadsheet/Sheet35.xlsx"
+        ]
+    },
+    {
+        "query": "绘制一个圆环图来展示一周内体育课与其他课程的比例关系。",
+        "Answer_table": [
+            "./spreadsheet/Sheet35.xlsx"
+        ]
+    },
+    {
+        "query": "三年级一班和三年级二班在星期三的课程安排有什么不同？",
+        "Answer_table": [
+            "./spreadsheet/Sheet35.xlsx"
+        ]
+    },
+    {
+        "query": "解读一下这个表的统计数据。",
+        "Answer_table": [
+            "./spreadsheet/Sheet35.xlsx"
+        ]
+    },
+    {
+        "query": "三年级一班星期一第一节有什么课？",
+        "Answer_table": [
+            "./spreadsheet/Sheet35.xlsx"
+        ]
+    },
+    {
+        "query": "申请材料中，规格最大的是哪种纸张？",
+        "Answer_table": [
+            "./spreadsheet/材料申请登记表1.xlsx"
+        ]
+    },
+    {
+        "query": "哪种规格的纸张被用于材料申请最多次？",
+        "Answer_table": [
+            "./spreadsheet/材料申请登记表1.xlsx"
+        ]
+    },
+    {
+        "query": "申请材料名称为\"材料名称1\"的申请人是谁？",
+        "Answer_table": [
+            "./spreadsheet/材料申请登记表1.xlsx"
+        ]
+    },
+    {
+        "query": "申请材料名称为\"材料名称3\"的申请人是谁？",
+        "Answer_table": [
+            "./spreadsheet/材料申请登记表1.xlsx"
+        ]
+    },
+    {
+        "query": "记录表中因为\"身体不舒服情况\"而调课的记录有多少条？",
+        "Answer_table": [
+            "./spreadsheet/教师调课记录表1.xlsx"
+        ]
+    },
+    {
+        "query": "在所有记录的调课中，星期五的调课次数是否多于星期一的调课次数？",
+        "Answer_table": [
+            "./spreadsheet/教师调课记录表1.xlsx"
+        ]
+    },
+    {
+        "query": "在这张教师调课记录表中，第一次调课的日期是什么时候？",
+        "Answer_table": [
+            "./spreadsheet/教师调课记录表1.xlsx"
+        ]
+    },
+    {
+        "query": "在2022-03-24发生的调课中，代课老师的姓名是什么？",
+        "Answer_table": [
+            "./spreadsheet/教师调课记录表1.xlsx"
+        ]
+    },
+    {
+        "query": "在表格中，哪位教师的核准工作年限最长？",
+        "Answer_table": [
+            "./spreadsheet/Sheet14.xlsx"
+        ]
+    },
+    {
+        "query": "谁的核准工作年限比黄世海多？",
+        "Answer_table": [
+            "./spreadsheet/Sheet14.xlsx"
+        ]
+    },
+    {
+        "query": "请绘制一个气泡图，以出生年月（YYYY-MM）为X轴，核准工作年限为Y轴，气泡大小表示证明人数量，展示原代课教师的相关数据。",
+        "Answer_table": [
+            "./spreadsheet/Sheet14.xlsx"
+        ]
+    },
+    {
+        "query": "根据原始表格内容生成一个新的表格，包含“姓名”、“性别”、“出生年月(YYYY-MM)”、“原任教学校”四列，并保存为一个新的文件。",
+        "Answer_table": [
+            "./spreadsheet/Sheet14.xlsx"
+        ]
+    },
+    {
+        "query": "表格中记录的最长核准工作年限是多少？",
+        "Answer_table": [
+            "./spreadsheet/Sheet14.xlsx"
+        ]
+    },
+    {
+        "query": "XX公司有多少名员工？",
+        "Answer_table": [
+            "./spreadsheet/Sheet14.xlsx"
+        ]
+    },
+    {
+        "query": "有多少人的原任教学校包含“合江镇结社小学”？",
+        "Answer_table": [
+            "./spreadsheet/Sheet14.xlsx"
+        ]
+    },
+    {
+        "query": "梁雪影的出生年月是什么？",
+        "Answer_table": [
+            "./spreadsheet/Sheet14.xlsx"
+        ]
+    },
+    {
+        "query": "这个表是干什么的",
+        "Answer_table": [
+            "./spreadsheet/Sheet14.xlsx"
+        ]
+    },
+    {
+        "query": "研究并概述这个表格，提供主要信息。",
+        "Answer_table": [
+            "./spreadsheet/店铺销售数据统计分析表1.xlsx"
+        ]
+    },
+    {
+        "query": "店铺A在4月6号的实绩销售额是否超过了销售目标？",
+        "Answer_table": [
+            "./spreadsheet/店铺销售数据统计分析表1.xlsx"
+        ]
+    },
+    {
+        "query": "编号为1的产品的本日结存金额是多少？",
+        "Answer_table": [
+            "./spreadsheet/生产制造 表格 (9).xlsx"
+        ]
+    },
+    {
+        "query": "请绘制一个饼图，表示各种库存状态（及时补货、正常、存货太多）的产品数量比例。",
+        "Answer_table": [
+            "./spreadsheet/生产制造 表格 (9).xlsx"
+        ]
+    },
+    {
+        "query": "哪些产品的累计出库数量超过了500？",
+        "Answer_table": [
+            "./spreadsheet/生产制造 表格 (9).xlsx"
+        ]
+    },
+    {
+        "query": "根据表格中的数据，预测哪些产品在未来可能需要“及时补货”，并解释你的预测依据。",
+        "Answer_table": [
+            "./spreadsheet/生产制造 表格 (9).xlsx"
+        ]
+    },
+    {
+        "query": "哪个编号的产品今天的库存状态是“及时补货”？",
+        "Answer_table": [
+            "./spreadsheet/生产制造 表格 (9).xlsx"
+        ]
+    },
+    {
+        "query": "平均每个分部工程下有多少个子分部工程？",
+        "Answer_table": [
+            "./spreadsheet/攀枝花养护工区.xlsx"
+        ]
+    },
+    {
+        "query": "建筑装饰装修中，抹灰和门窗哪个分项工程的检验批数量更多？",
+        "Answer_table": [
+            "./spreadsheet/攀枝花养护工区.xlsx"
+        ]
+    },
+    {
+        "query": "承包单位的名称是什么？",
+        "Answer_table": [
+            "./spreadsheet/攀枝花养护工区.xlsx"
+        ]
+    },
+    {
+        "query": "承包单位攀枝花公路建设有限公司负责的分部工程中，序号为2的分项工程是什么？",
+        "Answer_table": [
+            "./spreadsheet/攀枝花养护工区.xlsx"
+        ]
+    },
+    {
+        "query": "表格中总共记录了多少天的财务收支情况？",
+        "Answer_table": [
+            "./spreadsheet/1241 (3).xlsx"
+        ]
+    },
+    {
+        "query": "对这个表格的数据进行总结。",
+        "Answer_table": [
+            "./spreadsheet/1241 (3).xlsx"
+        ]
+    },
+    {
+        "query": "2019年11月1日的营业收入是多少？",
+        "Answer_table": [
+            "./spreadsheet/1241 (3).xlsx"
+        ]
+    },
+    {
+        "query": "2019年11月的总财政拨款收入是多少？",
+        "Answer_table": [
+            "./spreadsheet/1241 (3).xlsx"
+        ]
+    },
+    {
+        "query": "根据2019年11月的收支情况，能否预测出接下来几个月的财务状况，是否会有大的波动？",
+        "Answer_table": [
+            "./spreadsheet/1241 (3).xlsx"
+        ]
+    },
+    {
+        "query": "这个表格的主要目的是什么？",
+        "Answer_table": [
+            "./spreadsheet/现金日记账-收支表3.xlsx"
+        ]
+    },
+    {
+        "query": "有多少笔支出是通过银行卡进行的？",
+        "Answer_table": [
+            "./spreadsheet/现金日记账-收支表3.xlsx"
+        ]
+    },
+    {
+        "query": "如果每个支出项目的发票张数代表了该项目的次数，那么平均每次支出的金额是多少？",
+        "Answer_table": [
+            "./spreadsheet/现金日记账-收支表3.xlsx"
+        ]
+    },
+    {
+        "query": "在这个现金日记账表中，收入金额最高的项目和支出金额最高的项目分别是什么？",
+        "Answer_table": [
+            "./spreadsheet/现金日记账-收支表3.xlsx"
+        ]
+    },
+    {
+        "query": "根据表格，所有收入项目的总金额是多少？",
+        "Answer_table": [
+            "./spreadsheet/现金日记账-收支表3.xlsx"
+        ]
+    },
+    {
+        "query": "第8行的支出项目名称是什么？",
+        "Answer_table": [
+            "./spreadsheet/现金日记账-收支表3.xlsx"
+        ]
+    },
+    {
+        "query": "请绘制一个箱形图，展示所有机械的台班基价（台班基价）的分布情况。",
+        "Answer_table": [
+            "./spreadsheet/8泵类机械.xlsx"
+        ]
+    },
+    {
+        "query": "编号为8-5的电动单级离心清水泵的台班基价和折旧费总和是多少？",
+        "Answer_table": [
+            "./spreadsheet/8泵类机械.xlsx"
+        ]
+    },
+    {
+        "query": "出口直径为φ150mm的电动单级离心清水泵和内燃单级离心清水泵的台班基价哪个更高？",
+        "Answer_table": [
+            "./spreadsheet/8泵类机械.xlsx"
+        ]
+    },
+    {
+        "query": "编号为8-1的机械名称是什么？",
+        "Answer_table": [
+            "./spreadsheet/8泵类机械.xlsx"
+        ]
+    },
+    {
+        "query": "表格中总共有多少种不同的机械名称？",
+        "Answer_table": [
+            "./spreadsheet/8泵类机械.xlsx"
+        ]
+    },
+    {
+        "query": "编号为8-1的电动单级离心清水泵的台班基价是多少？",
+        "Answer_table": [
+            "./spreadsheet/8泵类机械.xlsx"
+        ]
+    },
+    {
+        "query": "如果每次护理都有一个备注编号，那么编号为奇数的护理次数与编号为偶数的护理次数哪个更多？",
+        "Answer_table": [
+            "./spreadsheet/1257 (4).xlsx"
+        ]
+    },
+    {
+        "query": "在所有记录中，哪一天的护理次数最多？",
+        "Answer_table": [
+            "./spreadsheet/1257 (4).xlsx"
+        ]
+    },
+    {
+        "query": "宠物日常护理登记表中，备注栏中数字的平均值是多少？",
+        "Answer_table": [
+            "./spreadsheet/1257 (4).xlsx"
+        ]
+    },
+    {
+        "query": "在3月25日有多少只宠物接受了护理服务？",
+        "Answer_table": [
+            "./spreadsheet/1257 (4).xlsx"
+        ]
+    },
+    {
+        "query": "一共有多少只宠物在3月26日进行了剪指甲的护理？",
+        "Answer_table": [
+            "./spreadsheet/1257 (4).xlsx"
+        ]
+    },
+    {
+        "query": "表格中单日最低的实际花费是多少？",
+        "Answer_table": [
+            "./spreadsheet/电商营销数据 (1).xlsx"
+        ]
+    },
+    {
+        "query": "在这个时间段内，哪一天的实际完成业绩超过了业绩目标？",
+        "Answer_table": [
+            "./spreadsheet/电商营销数据 (1).xlsx"
+        ]
+    },
+    {
+        "query": "2020年10月06日的实际完成业绩是多少？",
+        "Answer_table": [
+            "./spreadsheet/电商营销数据 (1).xlsx"
+        ]
+    },
+    {
+        "query": "在2020-10-06那天，实际完成的业绩是多少？",
+        "Answer_table": [
+            "./spreadsheet/电商营销数据 (1).xlsx"
+        ]
+    },
+    {
+        "query": "在2020年，哪个季度的利润环比增长率是增长的，并且提供具体的季度环比增长率数值。",
+        "Answer_table": [
+            "./spreadsheet/公司盈利能力分析表1.xlsx"
+        ]
+    },
+    {
+        "query": "根据2020年和2019年的销售收入、成本费用、利润总额等数据，如何评价这两年的公司盈利能力？",
+        "Answer_table": [
+            "./spreadsheet/公司盈利能力分析表1.xlsx"
+        ]
+    },
+    {
+        "query": "哪个单位的本期欠款合计最高，并且尚未结清账单？",
+        "Answer_table": [
+            "./spreadsheet/账单资金统计明细1.xlsx"
+        ]
+    },
+    {
+        "query": "从2017年3月到5月，每个月结清账单的单位数量有增加还是减少的趋势？",
+        "Answer_table": [
+            "./spreadsheet/账单资金统计明细1.xlsx"
+        ]
+    },
+    {
+        "query": "将“是否结清”列中值为“否”的行的背景色标为黄色。",
+        "Answer_table": [
+            "./spreadsheet/账单资金统计明细1.xlsx"
+        ]
+    },
+    {
+        "query": "公司名称是什么？",
+        "Answer_table": [
+            "./spreadsheet/采购资金月度预算表1.xlsx"
+        ]
+    },
+    {
+        "query": "名称2的月度计划资金是多少？",
+        "Answer_table": [
+            "./spreadsheet/采购资金月度预算表1.xlsx"
+        ]
+    },
+    {
+        "query": "哪个部门的上月实际采购金额比月度计划资金多？",
+        "Answer_table": [
+            "./spreadsheet/采购资金月度预算表1.xlsx"
+        ]
+    },
+    {
+        "query": "名称1的环比增幅是多少，它表示的是增长还是下降？",
+        "Answer_table": [
+            "./spreadsheet/采购资金月度预算表1.xlsx"
+        ]
+    },
+    {
+        "query": "表格中所有采购项目的月度计划资金的平均值是多少？",
+        "Answer_table": [
+            "./spreadsheet/采购资金月度预算表1.xlsx"
+        ]
+    },
+    {
+        "query": "分析并总结这个表格",
+        "Answer_table": [
+            "./spreadsheet/图片转文字-20240205221356_94.xlsx"
+        ]
+    },
+    {
+        "query": "教师姓名为\"稻壳5\"的教师所在的部门是哪个？",
+        "Answer_table": [
+            "./spreadsheet/图片转文字-20240205221356_94.xlsx"
+        ]
+    },
+    {
+        "query": "在“考察结果”中，哪位教师的评价最低？",
+        "Answer_table": [
+            "./spreadsheet/图片转文字-20240205221356_94.xlsx"
+        ]
+    },
+    {
+        "query": "有多少教师在“执行授课计划情况”一栏中被评为“执行”？",
+        "Answer_table": [
+            "./spreadsheet/图片转文字-20240205221356_94.xlsx"
+        ]
+    },
+    {
+        "query": "将“考富情况记录”列中的“按时上课\\n情况”单元格标红。",
+        "Answer_table": [
+            "./spreadsheet/图片转文字-20240205221356_94.xlsx"
+        ]
+    },
+    {
+        "query": "稻壳1和稻壳7的职称是否相同？",
+        "Answer_table": [
+            "./spreadsheet/图片转文字-20240205221356_94.xlsx"
+        ]
+    },
+    {
+        "query": "序号为4的教师姓名是什么？",
+        "Answer_table": [
+            "./spreadsheet/图片转文字-20240205221356_94.xlsx"
+        ]
+    },
+    {
+        "query": "根据整个表格的数据，能否总结出哪些因素可能影响到\"考察结果\"列的评价结果？例如，\"按时上课情况\"、\"教案/课件准备情况\"、\"执行授课计划情况\"等因素的表现如何，可能会影响到教师的考察结果。",
+        "Answer_table": [
+            "./spreadsheet/图片转文字-20240205221356_94.xlsx"
+        ]
+    },
+    {
+        "query": "贝尔原生态的联系人姓名是什么？",
+        "Answer_table": [
+            "./spreadsheet/借款详情登记表1.xlsx"
+        ]
+    },
+    {
+        "query": "所有借款项目的平均借款额是多少？",
+        "Answer_table": [
+            "./spreadsheet/借款详情登记表1.xlsx"
+        ]
+    },
+    {
+        "query": "请分析借款期限、月息和利息之间的关系。",
+        "Answer_table": [
+            "./spreadsheet/借款详情登记表1.xlsx"
+        ]
+    },
+    {
+        "query": "将表格中所有“借款额”大于5000的单元格字体标红。",
+        "Answer_table": [
+            "./spreadsheet/借款详情登记表1.xlsx"
+        ]
+    },
+    {
+        "query": "从2019年4月1日到2019年4月7日，借款额的总和是多少？",
+        "Answer_table": [
+            "./spreadsheet/借款详情登记表1.xlsx"
+        ]
+    },
+    {
+        "query": "这个表格的主要目的是什么？",
+        "Answer_table": [
+            "./spreadsheet/借款详情登记表1.xlsx"
+        ]
+    },
+    {
+        "query": "哪个客户的借款额最高？",
+        "Answer_table": [
+            "./spreadsheet/借款详情登记表1.xlsx"
+        ]
+    },
+    {
+        "query": "请绘制一个雷达图，对比不同客户名称在借款额、借款期限、月息等指标上的表现。",
+        "Answer_table": [
+            "./spreadsheet/借款详情登记表1.xlsx"
+        ]
+    },
+    {
+        "query": "表格中岗位工资的最低值是多少？",
+        "Answer_table": [
+            "./spreadsheet/财务预算.xlsx"
+        ]
+    },
+    {
+        "query": "请解读这个图表的重要信息。",
+        "Answer_table": [
+            "./spreadsheet/财务预算.xlsx"
+        ]
+    },
+    {
+        "query": "所有提供岗位工资的条目中，岗位工资的平均值是多少？",
+        "Answer_table": [
+            "./spreadsheet/财务预算.xlsx"
+        ]
+    },
+    {
+        "query": "具有最高岗位工资的薪酬类别是什么，并且该类别的申报条件中学历要求是什么？",
+        "Answer_table": [
+            "./spreadsheet/财务预算.xlsx"
+        ]
+    },
+    {
+        "query": "将“申报条件”列中所有单元格的字体设置为斜体。",
+        "Answer_table": [
+            "./spreadsheet/财务预算.xlsx"
+        ]
+    },
+    {
+        "query": "表格中所有记录的平均收入是多少？",
+        "Answer_table": [
+            "./spreadsheet/1216 (3).xlsx"
+        ]
+    },
+    {
+        "query": "从2020年1月1日到2020年1月5日，收入是否呈现上升趋势？",
+        "Answer_table": [
+            "./spreadsheet/1216 (3).xlsx"
+        ]
+    },
+    {
+        "query": "解读这个表格",
+        "Answer_table": [
+            "./spreadsheet/1216 (3).xlsx"
+        ]
+    },
+    {
+        "query": "2020年1月3日的收入是多少？",
+        "Answer_table": [
+            "./spreadsheet/1216 (3).xlsx"
+        ]
+    },
+    {
+        "query": "2020年1月8日的支出是否超过了2020年1月4日的支出？",
+        "Answer_table": [
+            "./spreadsheet/1216 (3).xlsx"
+        ]
+    },
+    {
+        "query": "哪个品牌的商品单价最高？",
+        "Answer_table": [
+            "./spreadsheet/图片转文字-20240205221356_73.xlsx"
+        ]
+    },
+    {
+        "query": "在双十一购货、退货统计表中，购买了牛仔裤的电商平台是哪家？",
+        "Answer_table": [
+            "./spreadsheet/图片转文字-20240205221356_73.xlsx"
+        ]
+    },
+    {
+        "query": "解释并简化这个表格，强调关键数据",
+        "Answer_table": [
+            "./spreadsheet/图片转文字-20240205221356_73.xlsx"
+        ]
+    },
+    {
+        "query": "所有购买的商品总金额是多少？",
+        "Answer_table": [
+            "./spreadsheet/图片转文字-20240205221356_73.xlsx"
+        ]
+    },
+    {
+        "query": "小米品牌的耳机单价是多少？",
+        "Answer_table": [
+            "./spreadsheet/图片转文字-20240205221356_73.xlsx"
+        ]
+    },
+    {
+        "query": "请绘制一个圆环图来表示各个电商平台在总购货数量中的占比。",
+        "Answer_table": [
+            "./spreadsheet/图片转文字-20240205221356_73.xlsx"
+        ]
+    },
+    {
+        "query": "在双十一购货中，哪个品牌的商品单价最高？",
+        "Answer_table": [
+            "./spreadsheet/图片转文字-20240205221356_73.xlsx"
+        ]
+    },
+    {
+        "query": "根据原始表格内容，生成一个新的表格，展示每个月的“生成成本”和“期间费用”的预算和实际支出总和。",
+        "Answer_table": [
+            "./spreadsheet/成本费用支出分析表1 (2).xlsx"
+        ]
+    },
+    {
+        "query": "7月份的直接材料预算是多少？",
+        "Answer_table": [
+            "./spreadsheet/成本费用支出分析表1 (2).xlsx"
+        ]
+    },
+    {
+        "query": "请绘制一个柱状图来展示不同物资名称的结存数量。",
+        "Answer_table": [
+            "./spreadsheet/财务税负分析报表1(1).xlsx"
+        ]
+    },
+    {
+        "query": "表格中有多少条记录的实际盈亏比例是负数？",
+        "Answer_table": [
+            "./spreadsheet/财务税负分析报表1(1).xlsx"
+        ]
+    },
+    {
+        "query": "结构工程和临时工程中，哪个工程的盈亏量总和更高？",
+        "Answer_table": [
+            "./spreadsheet/财务税负分析报表1(1).xlsx"
+        ]
+    },
+    {
+        "query": "所有物资的平均实际盈亏比例是多少？",
+        "Answer_table": [
+            "./spreadsheet/财务税负分析报表1(1).xlsx"
+        ]
+    },
+    {
+        "query": "总结分析下这个表格",
+        "Answer_table": [
+            "./spreadsheet/财务税负分析报表1(1).xlsx"
+        ]
+    },
+    {
+        "query": "截止日期是多少？",
+        "Answer_table": [
+            "./spreadsheet/财务税负分析报表1(1).xlsx"
+        ]
+    },
+    {
+        "query": "张小小18的月收入是多少？",
+        "Answer_table": [
+            "./spreadsheet/业务员月度销售收入汇总分析表1.xlsx"
+        ]
+    },
+    {
+        "query": "请绘制一个圆环图来表示各个部门业务员的销售额占比。",
+        "Answer_table": [
+            "./spreadsheet/业务员月度销售收入汇总分析表1.xlsx"
+        ]
+    },
+    {
+        "query": "哪个部门的业务员平均月收入最高？",
+        "Answer_table": [
+            "./spreadsheet/业务员月度销售收入汇总分析表1.xlsx"
+        ]
+    },
+    {
+        "query": "业务员月度销售收入汇总表中销售1部的业务员有多少位？",
+        "Answer_table": [
+            "./spreadsheet/业务员月度销售收入汇总分析表1.xlsx"
+        ]
+    },
+    {
+        "query": "所有业务员的平均月收入是多少？",
+        "Answer_table": [
+            "./spreadsheet/业务员月度销售收入汇总分析表1.xlsx"
+        ]
+    },
+    {
+        "query": "根据原始表格内容生成一个新的表格，包含“订单编号”、“产品名称”、“订单数量”、“已生产”、“生产进度”五列，并将其保存为一个新的Excel文件。",
+        "Answer_table": [
+            "./spreadsheet/生产制造 表格 (531).xlsx"
+        ]
+    },
+    {
+        "query": "产品的订单数量和生产进度之间有什么关系？订单数量越大，生产进度是否就越慢？",
+        "Answer_table": [
+            "./spreadsheet/生产制造 表格 (531).xlsx"
+        ]
+    },
+    {
+        "query": "截至目前，订单编号1237的电池生产了多少个？",
+        "Answer_table": [
+            "./spreadsheet/生产制造 表格 (531).xlsx"
+        ]
+    },
+    {
+        "query": "哪个订单的生产进度最低？",
+        "Answer_table": [
+            "./spreadsheet/生产制造 表格 (531).xlsx"
+        ]
+    },
+    {
+        "query": "订单编号1237的产品名称是什么？",
+        "Answer_table": [
+            "./spreadsheet/生产制造 表格 (531).xlsx"
+        ]
+    },
+    {
+        "query": "如果每天的生产量保持不变，订单编号1242预计何时能完成生产？",
+        "Answer_table": [
+            "./spreadsheet/生产制造 表格 (531).xlsx"
+        ]
+    },
+    {
+        "query": "表格中所有订单的平均日产量是多少？",
+        "Answer_table": [
+            "./spreadsheet/生产制造 表格 (531).xlsx"
+        ]
+    },
+    {
+        "query": "订单编号1235的订单数量是多少？",
+        "Answer_table": [
+            "./spreadsheet/生产制造 表格 (531).xlsx"
+        ]
+    },
+    {
+        "query": "请绘制一个气泡图，用以展示订单编号、订单数量和生产进度三者之间的关系。",
+        "Answer_table": [
+            "./spreadsheet/生产制造 表格 (531).xlsx"
+        ]
+    },
+    {
+        "query": "总结这个表格",
+        "Answer_table": [
+            "./spreadsheet/1266.xlsx"
+        ]
+    },
+    {
+        "query": "合同编号BM8803的供应商是哪家？",
+        "Answer_table": [
+            "./spreadsheet/1266.xlsx"
+        ]
+    },
+    {
+        "query": "根据原始表格内容生成一个透视表，统计每个供应商的“合同金额”总和，并插入到一个名为“透视表”的新sheet中。",
+        "Answer_table": [
+            "./spreadsheet/1266.xlsx"
+        ]
+    },
+    {
+        "query": "所有合同中已付款金额的总和是多少？",
+        "Answer_table": [
+            "./spreadsheet/1266.xlsx"
+        ]
+    },
+    {
+        "query": "合同管理台账中总共有多少个工程项目？",
+        "Answer_table": [
+            "./spreadsheet/1266.xlsx"
+        ]
+    },
+    {
+        "query": "哪个合同的质保金比例最高？",
+        "Answer_table": [
+            "./spreadsheet/1266.xlsx"
+        ]
+    },
+    {
+        "query": "登记客户数是多少？",
+        "Answer_table": [
+            "./spreadsheet/客户信息跟进统计表.xlsx"
+        ]
+    },
+    {
+        "query": "表格中总共有多少个客户记录？",
+        "Answer_table": [
+            "./spreadsheet/客户信息跟进统计表.xlsx"
+        ]
+    },
+    {
+        "query": "已成交的客户数量和跟进中的客户数量哪个更多？",
+        "Answer_table": [
+            "./spreadsheet/客户信息跟进统计表.xlsx"
+        ]
+    },
+    {
+        "query": "在表格中，已成交、跟进中和已放弃的客户数量分别是多少？这些状态的客户在总客户中的比例是多少？",
+        "Answer_table": [
+            "./spreadsheet/客户信息跟进统计表.xlsx"
+        ]
+    },
+    {
+        "query": "项目1的合同类型是什么？",
+        "Answer_table": [
+            "./spreadsheet/项目收支报表（带提成）1.xlsx"
+        ]
+    },
+    {
+        "query": "表格中有多少个项目的合同类型是“工程合同”？",
+        "Answer_table": [
+            "./spreadsheet/项目收支报表（带提成）1.xlsx"
+        ]
+    },
+    {
+        "query": "哪个项目的设计组长提成金额最高？",
+        "Answer_table": [
+            "./spreadsheet/项目收支报表（带提成）1.xlsx"
+        ]
+    },
+    {
+        "query": "所有项目的合同总额加起来是多少？",
+        "Answer_table": [
+            "./spreadsheet/项目收支报表（带提成）1.xlsx"
+        ]
+    },
+    {
+        "query": "请绘制一个圆环图来展示各项目提成汇总金额的占比。",
+        "Answer_table": [
+            "./spreadsheet/项目收支报表（带提成）1.xlsx"
+        ]
+    },
+    {
+        "query": "表格中折旧费最低的地下工程机械是哪一种？",
+        "Answer_table": [
+            "./spreadsheet/11地下工程机械.xlsx"
+        ]
+    },
+    {
+        "query": "所有干式出土盾构掘进机的台班基价（含机上人工）总和是多少？",
+        "Answer_table": [
+            "./spreadsheet/11地下工程机械.xlsx"
+        ]
+    },
+    {
+        "query": "编号11-1的机械名称是什么？",
+        "Answer_table": [
+            "./spreadsheet/11地下工程机械.xlsx"
+        ]
+    },
+    {
+        "query": "在所有列出的工程项目中，哪一个的间接费用最高？这个间接费用与其直接费用有什么关系？",
+        "Answer_table": [
+            "./spreadsheet/1706967909341.xlsx"
+        ]
+    },
+    {
+        "query": "请问表格中\"挖土方\"工程的\"直接费(元)\"是多少？",
+        "Answer_table": [
+            "./spreadsheet/1706967909341.xlsx"
+        ]
+    },
+    {
+        "query": "表格中所有工程的直接费(元)的平均值是多少？",
+        "Answer_table": [
+            "./spreadsheet/1706967909341.xlsx"
+        ]
+    },
+    {
+        "query": "请绘制一个面积图，展示各工程名称的直接费、间接费和利润随序号的累积变化。",
+        "Answer_table": [
+            "./spreadsheet/1706967909341.xlsx"
+        ]
+    },
+    {
+        "query": "建设项目名称是什么？",
+        "Answer_table": [
+            "./spreadsheet/1706967909341.xlsx"
+        ]
+    },
+    {
+        "query": "在原始表格中新建一个sheet，生成一个透视表，透视表按“项目名称”汇总“综合单价”的总和。",
+        "Answer_table": [
+            "./spreadsheet/工程项目单价构成分析表.xlsx"
+        ]
+    },
+    {
+        "query": "请绘制一个饼图来展示各个风险级别（一般风险、高风险等）的占比情况。",
+        "Answer_table": [
+            "./spreadsheet/生产制造 表格 (648).xlsx"
+        ]
+    },
+    {
+        "query": "序号为1的风险和机遇来源是什么？",
+        "Answer_table": [
+            "./spreadsheet/生产制造 表格 (648).xlsx"
+        ]
+    },
+    {
+        "query": "哪个风险的RPN值更高，序号1的风险还是序号2的风险？",
+        "Answer_table": [
+            "./spreadsheet/生产制造 表格 (648).xlsx"
+        ]
+    },
+    {
+        "query": "根据表格，哪些管理措施被提出来降低产品试制过程中的风险？",
+        "Answer_table": [
+            "./spreadsheet/生产制造 表格 (648).xlsx"
+        ]
+    },
+    {
+        "query": "表格中总共列出了多少个风险和机遇评估案例？",
+        "Answer_table": [
+            "./spreadsheet/生产制造 表格 (648).xlsx"
+        ]
+    },
+    {
+        "query": "根据原始表格内容生成一个透视表，按“风险和机遇来源内容”进行分类汇总，并插入到一个新的sheet中。",
+        "Answer_table": [
+            "./spreadsheet/生产制造 表格 (648).xlsx"
+        ]
+    },
+    {
+        "query": "在表格中，哪个产品的预算成本最高？",
+        "Answer_table": [
+            "./spreadsheet/生产制造 表格 (321).xlsx"
+        ]
+    },
+    {
+        "query": "第14行的单位成本和总产量分别是多少？",
+        "Answer_table": [
+            "./spreadsheet/生产制造 表格 (321).xlsx"
+        ]
+    },
+    {
+        "query": "原材料的实环成本是否高于预算成本？",
+        "Answer_table": [
+            "./spreadsheet/生产制造 表格 (321).xlsx"
+        ]
+    },
+    {
+        "query": "表格中所有产品的预算成本单位成本的平均值是多少？",
+        "Answer_table": [
+            "./spreadsheet/生产制造 表格 (321).xlsx"
+        ]
+    },
+    {
+        "query": "直撞材料的预算成本是多少？",
+        "Answer_table": [
+            "./spreadsheet/生产制造 表格 (321).xlsx"
+        ]
+    },
+    {
+        "query": "哪个产品的成本理降（塑异率J=(F-B)/B*100%）最高？",
+        "Answer_table": [
+            "./spreadsheet/生产制造 表格 (321).xlsx"
+        ]
+    },
+    {
+        "query": "理解并总结这个表格，提供关键数据",
+        "Answer_table": [
+            "./spreadsheet/生产制造 表格 (321).xlsx"
+        ]
+    },
+    {
+        "query": "生成一个圆环图来表示各个沟头地点保道的订单分布比例。",
+        "Answer_table": [
+            "./spreadsheet/生产制造 表格 (97).xlsx"
+        ]
+    },
+    {
+        "query": "哪些产品的支付方式是网络支付且发货状态为已签收？",
+        "Answer_table": [
+            "./spreadsheet/生产制造 表格 (97).xlsx"
+        ]
+    },
+    {
+        "query": "这个表包含哪些内容",
+        "Answer_table": [
+            "./spreadsheet/生产制造 表格 (97).xlsx"
+        ]
+    },
+    {
+        "query": "产品编号为201603002的产品颜色是什么？",
+        "Answer_table": [
+            "./spreadsheet/生产制造 表格 (97).xlsx"
+        ]
+    },
+    {
+        "query": "哪个产品的规格型号大于'L'？",
+        "Answer_table": [
+            "./spreadsheet/生产制造 表格 (97).xlsx"
+        ]
+    },
+    {
+        "query": "哪个产品编号的产品已经被签收？",
+        "Answer_table": [
+            "./spreadsheet/生产制造 表格 (97).xlsx"
+        ]
+    },
+    {
+        "query": "产品编号为201603003的产品名称是什么？",
+        "Answer_table": [
+            "./spreadsheet/生产制造 表格 (97).xlsx"
+        ]
+    },
+    {
+        "query": "在表格中，随着时间的推移，老公工资的收入金额是增加还是减少？",
+        "Answer_table": [
+            "./spreadsheet/职场通用 (32).xlsx"
+        ]
+    },
+    {
+        "query": "请绘制一个散点图，展示收入金额与支出金额的关系，每个点代表一个月份。",
+        "Answer_table": [
+            "./spreadsheet/职场通用 (32).xlsx"
+        ]
+    },
+    {
+        "query": "表格中收入金额大于5000的记录有多少条？",
+        "Answer_table": [
+            "./spreadsheet/职场通用 (32).xlsx"
+        ]
+    },
+    {
+        "query": "在表格中，老公工资和老婆工资的收入金额哪个更高？",
+        "Answer_table": [
+            "./spreadsheet/职场通用 (32).xlsx"
+        ]
+    },
+    {
+        "query": "序号为3的构件的翼板总重和腹板总重的和是多少？",
+        "Answer_table": [
+            "./spreadsheet/BH构件.xlsx"
+        ]
+    },
+    {
+        "query": "序号为3的BH构件的翼板总重是多少？",
+        "Answer_table": [
+            "./spreadsheet/BH构件.xlsx"
+        ]
+    },
+    {
+        "query": "表格中单件重量超过500的BH构件有多少种？",
+        "Answer_table": [
+            "./spreadsheet/BH构件.xlsx"
+        ]
+    },
+    {
+        "query": "将“BH构件重量统计表”这一列的列名改为“构件重量统计表”，并将其字体斜体。",
+        "Answer_table": [
+            "./spreadsheet/BH构件.xlsx"
+        ]
+    },
+    {
+        "query": "绘制一个条形图来比较不同规格BH构件的翼板总重与腹板总重。",
+        "Answer_table": [
+            "./spreadsheet/BH构件.xlsx"
+        ]
+    },
+    {
+        "query": "根据表格数据，翼板厚Tf为8的构件的平均总重量是多少？",
+        "Answer_table": [
+            "./spreadsheet/BH构件.xlsx"
+        ]
+    },
+    {
+        "query": "序号为1和序号为2的构件，哪个的单件重量更重？",
+        "Answer_table": [
+            "./spreadsheet/BH构件.xlsx"
+        ]
+    },
+    {
+        "query": "序号为5的构件的翼板宽B是多少？",
+        "Answer_table": [
+            "./spreadsheet/BH构件.xlsx"
+        ]
+    },
+    {
+        "query": "表格中共有多少个科目代码？",
+        "Answer_table": [
+            "./spreadsheet/电算化会 (2).xls.xlsx"
+        ]
+    },
+    {
+        "query": "总结这个表格",
+        "Answer_table": [
+            "./spreadsheet/职场通用 (18).xlsx"
+        ]
+    },
+    {
+        "query": "1月份的结余金额是多少？",
+        "Answer_table": [
+            "./spreadsheet/职场通用 (18).xlsx"
+        ]
+    },
+    {
+        "query": "哪个月份的结余金额比2月份的结余金额多？",
+        "Answer_table": [
+            "./spreadsheet/职场通用 (18).xlsx"
+        ]
+    },
+    {
+        "query": "根据原始表格生成一个透视表，统计每个月的总收入和总支出，并插入到一个名为“透视表”的新sheet中。",
+        "Answer_table": [
+            "./spreadsheet/职场通用 (18).xlsx"
+        ]
+    },
+    {
+        "query": "请绘制一个圆环图来展示各月份支出金额（支出金额）在总支出中的比例。",
+        "Answer_table": [
+            "./spreadsheet/职场通用 (18).xlsx"
+        ]
+    },
+    {
+        "query": "3月份的收入金额和支出金额之差是多少？",
+        "Answer_table": [
+            "./spreadsheet/职场通用 (18).xlsx"
+        ]
+    },
+    {
+        "query": "哪个客户单位的订单金额是负数且已付款的？",
+        "Answer_table": [
+            "./spreadsheet/职场通用 (20).xlsx"
+        ]
+    },
+    {
+        "query": "订单号为HTDW-10231的订单的商品名称是什么？",
+        "Answer_table": [
+            "./spreadsheet/职场通用 (20).xlsx"
+        ]
+    },
+    {
+        "query": "表格中订单金额最小的订单是多少钱？",
+        "Answer_table": [
+            "./spreadsheet/职场通用 (20).xlsx"
+        ]
+    },
+    {
+        "query": "订单号为HTDW-10240的订单，客户单位是哪家？",
+        "Answer_table": [
+            "./spreadsheet/职场通用 (20).xlsx"
+        ]
+    },
+    {
+        "query": "这个表格的数据告诉我们什么",
+        "Answer_table": [
+            "./spreadsheet/职场通用 (20).xlsx"
+        ]
+    },
+    {
+        "query": "所有已付款订单的订单金额总和是多少？",
+        "Answer_table": [
+            "./spreadsheet/职场通用 (20).xlsx"
+        ]
+    },
+    {
+        "query": "哪个资产的资产原值是4,000.00元？",
+        "Answer_table": [
+            "./spreadsheet/职场通用 (48).xlsx"
+        ]
+    },
+    {
+        "query": "请分析一下资产原值和月折旧金额之间的关系，是否资产原值越高，其月折旧金额也越高？",
+        "Answer_table": [
+            "./spreadsheet/职场通用 (48).xlsx"
+        ]
+    },
+    {
+        "query": "所有资产的平均月折旧金额是多少？",
+        "Answer_table": [
+            "./spreadsheet/职场通用 (48).xlsx"
+        ]
+    },
+    {
+        "query": "从2016年至2020年，每年新增的资产数量是多少？",
+        "Answer_table": [
+            "./spreadsheet/职场通用 (48).xlsx"
+        ]
+    },
+    {
+        "query": "帮我总结分析下这个表",
+        "Answer_table": [
+            "./spreadsheet/职场通用 (48).xlsx"
+        ]
+    },
+    {
+        "query": "使用箱形图来展示不同定额名称下的材料单价的分布情况。",
+        "Answer_table": [
+            "./spreadsheet/地下二层换热间.xlsx"
+        ]
+    },
+    {
+        "query": "表格中所有项的平均工程量是多少？",
+        "Answer_table": [
+            "./spreadsheet/地下二层换热间.xlsx"
+        ]
+    },
+    {
+        "query": "所有热水循环泵 G=4.2m3/h H=240MH2O N=1.5kw的基价合计是多少？",
+        "Answer_table": [
+            "./spreadsheet/地下二层换热间.xlsx"
+        ]
+    },
+    {
+        "query": "换热器（办公室）SFL-1.5-1.6 V=1.5m3的设备合计是多少？",
+        "Answer_table": [
+            "./spreadsheet/地下二层换热间.xlsx"
+        ]
+    },
+    {
+        "query": "换热器（公寓）SFL-4.0-1.6 V=4.0m3的设备单价是多少？",
+        "Answer_table": [
+            "./spreadsheet/地下二层换热间.xlsx"
+        ]
+    },
+    {
+        "query": "换热器（公寓）SFL-4.0-1.6 V=4.0m3的设备合计是多少？",
+        "Answer_table": [
+            "./spreadsheet/地下二层换热间.xlsx"
+        ]
+    },
+    {
+        "query": "如果我们需要减少总成本，我们应该关注哪些因素？是设备单价、主材单价、人工单价还是其他因素？",
+        "Answer_table": [
+            "./spreadsheet/地下二层换热间.xlsx"
+        ]
+    },
+    {
+        "query": "请绘制一个散点图，展示建筑物的楼高与建筑面积之间的关系。",
+        "Answer_table": [
+            "./spreadsheet/全国超高层建筑成本统计(1999-2010年).xlsx"
+        ]
+    },
+    {
+        "query": "在这些建筑物中，哪个城市的建筑物数量最多？",
+        "Answer_table": [
+            "./spreadsheet/全国超高层建筑成本统计(1999-2010年).xlsx"
+        ]
+    },
+    {
+        "query": "表格中建筑物的平均层数是多少？",
+        "Answer_table": [
+            "./spreadsheet/全国超高层建筑成本统计(1999-2010年).xlsx"
+        ]
+    },
+    {
+        "query": "货号为M983512062071的产品的市场价是多少？",
+        "Answer_table": [
+            "./spreadsheet/3333 (62).xlsx"
+        ]
+    },
+    {
+        "query": "货号为M983512062071和X983512000073的产品，哪个的建议价更高？",
+        "Answer_table": [
+            "./spreadsheet/3333 (62).xlsx"
+        ]
+    },
+    {
+        "query": "所有主推产品的平均成本是多少？",
+        "Answer_table": [
+            "./spreadsheet/3333 (62).xlsx"
+        ]
+    },
+    {
+        "query": "哪个三级分类的产品拥有最高的平均活动价，并且它的平均活动价是多少？",
+        "Answer_table": [
+            "./spreadsheet/3333 (62).xlsx"
+        ]
+    },
+    {
+        "query": "所有\"女士睡衣/家居服\"的平均市场价是多少？",
+        "Answer_table": [
+            "./spreadsheet/3333 (62).xlsx"
+        ]
+    },
+    {
+        "query": "表格中总共有多少种不同的款号？",
+        "Answer_table": [
+            "./spreadsheet/3333 (62).xlsx"
+        ]
+    },
+    {
+        "query": "哪个产品的剩余库总价超过了50万但历史库存数少于500？",
+        "Answer_table": [
+            "./spreadsheet/生产制造 表格 (155).xlsx"
+        ]
+    },
+    {
+        "query": "哪个产品的单价最高？",
+        "Answer_table": [
+            "./spreadsheet/生产制造 表格 (155).xlsx"
+        ]
+    },
+    {
+        "query": "哪个产品的当前库存效率最高，即年度出库数与当前库存效率的比值最大？",
+        "Answer_table": [
+            "./spreadsheet/生产制造 表格 (155).xlsx"
+        ]
+    },
+    {
+        "query": "产品2的年度入库效和年度出库效的差值是多少？",
+        "Answer_table": [
+            "./spreadsheet/生产制造 表格 (155).xlsx"
+        ]
+    },
+    {
+        "query": "产品3的当前库存效是多少？",
+        "Answer_table": [
+            "./spreadsheet/生产制造 表格 (155).xlsx"
+        ]
+    },
+    {
+        "query": "绘制一个气泡图来同时展示产品的历史库存数、年度入库效率和年度出库数的关系，其中气泡大小代表年度入库效率。",
+        "Answer_table": [
+            "./spreadsheet/生产制造 表格 (155).xlsx"
+        ]
+    },
+    {
+        "query": "哪个产品的年度入库效最高？",
+        "Answer_table": [
+            "./spreadsheet/生产制造 表格 (155).xlsx"
+        ]
+    },
+    {
+        "query": "根据设备的购进年月、原值、残值、使用年限、清理日期和存放地，能否推断出设备的使用效率和维护情况？",
+        "Answer_table": [
+            "./spreadsheet/固定资产折旧台账表1.xlsx"
+        ]
+    },
+    {
+        "query": "这个表格的主要信息是什么",
+        "Answer_table": [
+            "./spreadsheet/固定资产折旧台账表1.xlsx"
+        ]
+    },
+    {
+        "query": "将“清理日期”列的日期格式统一为“YYYY-MM-DD”。",
+        "Answer_table": [
+            "./spreadsheet/固定资产折旧台账表1.xlsx"
+        ]
+    },
+    {
+        "query": "所有设备的平均原值是多少？",
+        "Answer_table": [
+            "./spreadsheet/固定资产折旧台账表1.xlsx"
+        ]
+    },
+    {
+        "query": "设备-02和设备-03的残值哪个更高？",
+        "Answer_table": [
+            "./spreadsheet/固定资产折旧台账表1.xlsx"
+        ]
+    },
+    {
+        "query": "登记人为\"稻小壳\"的设备-01的原值是多少？",
+        "Answer_table": [
+            "./spreadsheet/固定资产折旧台账表1.xlsx"
+        ]
+    },
+    {
+        "query": "哪些设备的使用年限少于平均使用年限？",
+        "Answer_table": [
+            "./spreadsheet/固定资产折旧台账表1.xlsx"
+        ]
+    },
+    {
+        "query": "所有设备的原值总和是多少？",
+        "Answer_table": [
+            "./spreadsheet/固定资产折旧台账表1.xlsx"
+        ]
+    },
+    {
+        "query": "所有金额超过500000的记录的平均金额是多少？",
+        "Answer_table": [
+            "./spreadsheet/生产制造 表格 (521).xlsx"
+        ]
+    },
+    {
+        "query": "创建一个雷达图来比较不同供应离（供应离）在属属数量（属属数量）、深的单价（深的单价）和金额（金额）等多个维度的表现。",
+        "Answer_table": [
+            "./spreadsheet/生产制造 表格 (521).xlsx"
+        ]
+    },
+    {
+        "query": "2020年12月份，物料名账为\"物料1\"的所有记录中，金额最高的是多少？",
+        "Answer_table": [
+            "./spreadsheet/生产制造 表格 (521).xlsx"
+        ]
+    },
+    {
+        "query": "对这个表的信息进行解析",
+        "Answer_table": [
+            "./spreadsheet/生产制造 表格 (521).xlsx"
+        ]
+    },
+    {
+        "query": "供应商2和供应商3提供的物料中，哪个的平均单价更高？",
+        "Answer_table": [
+            "./spreadsheet/生产制造 表格 (521).xlsx"
+        ]
+    },
+    {
+        "query": "根据表格数据，2020年12月物料1的总金额是否有增加趋势？",
+        "Answer_table": [
+            "./spreadsheet/生产制造 表格 (521).xlsx"
+        ]
+    },
+    {
+        "query": "表格中\"供应离\"为\"供应商2\"的记录有多少条？",
+        "Answer_table": [
+            "./spreadsheet/生产制造 表格 (521).xlsx"
+        ]
+    },
+    {
+        "query": "第11行的物料名账是什么？",
+        "Answer_table": [
+            "./spreadsheet/生产制造 表格 (521).xlsx"
+        ]
+    },
+    {
+        "query": "哪个受让单位参与了超过一个地块的交易？",
+        "Answer_table": [
+            "./spreadsheet/1706798903536.xlsx"
+        ]
+    },
+    {
+        "query": "2015年10月28日成交的地块名称是什么？",
+        "Answer_table": [
+            "./spreadsheet/1706798903536.xlsx"
+        ]
+    },
+    {
+        "query": "在2015-10-14，哪些地块的成交楼面价超过8000元？",
+        "Answer_table": [
+            "./spreadsheet/1706798903536.xlsx"
+        ]
+    },
+    {
+        "query": "表格中所有地块的平均起始价是多少万元？",
+        "Answer_table": [
+            "./spreadsheet/1706798903536.xlsx"
+        ]
+    },
+    {
+        "query": "哪个地块的起始价比成交价高？",
+        "Answer_table": [
+            "./spreadsheet/1706798903536.xlsx"
+        ]
+    },
+    {
+        "query": "所有地块的平均溢价率是多少？",
+        "Answer_table": [
+            "./spreadsheet/1706798903536.xlsx"
+        ]
+    },
+    {
+        "query": "表格中报销金额最高的记录是多少？",
+        "Answer_table": [
+            "./spreadsheet/职场通用 (39).xlsx"
+        ]
+    },
+    {
+        "query": "第12号报销的支出金额是多少？",
+        "Answer_table": [
+            "./spreadsheet/职场通用 (39).xlsx"
+        ]
+    },
+    {
+        "query": "创建一个圆环图来展示不同支付状态（已审核、未审核、已支付、未支付）的报销金额分布。",
+        "Answer_table": [
+            "./spreadsheet/职场通用 (39).xlsx"
+        ]
+    },
+    {
+        "query": "报销人小小1的报销金额和附件金额是否一致，如果不一致，差额是多少？",
+        "Answer_table": [
+            "./spreadsheet/职场通用 (39).xlsx"
+        ]
+    },
+    {
+        "query": "报销日期为2020/1/3的报销金额是多少？",
+        "Answer_table": [
+            "./spreadsheet/职场通用 (39).xlsx"
+        ]
+    },
+    {
+        "query": "谁的数学成绩是94分？",
+        "Answer_table": [
+            "./spreadsheet/Sheet61.xlsx"
+        ]
+    },
+    {
+        "query": "在表格中，哪位同学的数学成绩是65分？",
+        "Answer_table": [
+            "./spreadsheet/Sheet61.xlsx"
+        ]
+    },
+    {
+        "query": "唐文燕的总分是多少？",
+        "Answer_table": [
+            "./spreadsheet/Sheet61.xlsx"
+        ]
+    },
+    {
+        "query": "所有学生的英语成绩平均分是多少？",
+        "Answer_table": [
+            "./spreadsheet/Sheet61.xlsx"
+        ]
+    },
+    {
+        "query": "数学成绩高于70分的学生有哪些？",
+        "Answer_table": [
+            "./spreadsheet/Sheet61.xlsx"
+        ]
+    },
+    {
+        "query": "绘制一个条形图来比较每个学生在数学科目中的得分。",
+        "Answer_table": [
+            "./spreadsheet/Sheet61.xlsx"
+        ]
+    },
+    {
+        "query": "根据原始表格生成一个透视表，统计每个学生在各科目的总分，并插入到一个名为“透视表”的新sheet中。",
+        "Answer_table": [
+            "./spreadsheet/Sheet61.xlsx"
+        ]
+    },
+    {
+        "query": "哪位学生在所有科目中至少有一门成绩低于50分？",
+        "Answer_table": [
+            "./spreadsheet/Sheet61.xlsx"
+        ]
+    },
+    {
+        "query": "考勤扣款超过200的员工中，哪位员工的税前工资最低？",
+        "Answer_table": [
+            "./spreadsheet/Sheet10(1).xlsx"
+        ]
+    },
+    {
+        "query": "哪位员工的考勤扣款最少？",
+        "Answer_table": [
+            "./spreadsheet/Sheet10(1).xlsx"
+        ]
+    },
+    {
+        "query": "稻壳8的应发工资是多少？",
+        "Answer_table": [
+            "./spreadsheet/Sheet10(1).xlsx"
+        ]
+    },
+    {
+        "query": "哪个部门的平均实发工资最高？",
+        "Answer_table": [
+            "./spreadsheet/Sheet10(1).xlsx"
+        ]
+    },
+    {
+        "query": "员工工号为1010101的员工的基本工资是多少？",
+        "Answer_table": [
+            "./spreadsheet/Sheet10(1).xlsx"
+        ]
+    },
+    {
+        "query": "哪个专业的报录比是最低的，但不为零？",
+        "Answer_table": [
+            "./spreadsheet/工作簿3.xlsx"
+        ]
+    },
+    {
+        "query": "表格中有多少个月份的本月销售收入超过5000？",
+        "Answer_table": [
+            "./spreadsheet/职场通用 (51).xlsx"
+        ]
+    },
+    {
+        "query": "第一季度（1月至3月）的平均本月销售收入是多少？",
+        "Answer_table": [
+            "./spreadsheet/职场通用 (51).xlsx"
+        ]
+    },
+    {
+        "query": "生成一个条形图来比较不同月份的本月销售税额。",
+        "Answer_table": [
+            "./spreadsheet/职场通用 (51).xlsx"
+        ]
+    },
+    {
+        "query": "1月份的本月销售税额与2月份的本月销售税额相比，哪个月份的数值更高？",
+        "Answer_table": [
+            "./spreadsheet/职场通用 (51).xlsx"
+        ]
+    },
+    {
+        "query": "6月份的本月销售收入是多少？",
+        "Answer_table": [
+            "./spreadsheet/职场通用 (51).xlsx"
+        ]
+    },
+    {
+        "query": "在原始表格的基础上生成一个透视表，展示每个月的“本月销售收入”和“本月销售税额”的总和，并插入到一个新的sheet中。",
+        "Answer_table": [
+            "./spreadsheet/职场通用 (51).xlsx"
+        ]
+    },
+    {
+        "query": "订单编码D10110的商品名称是什么？",
+        "Answer_table": [
+            "./spreadsheet/职场通用 (33).xlsx"
+        ]
+    },
+    {
+        "query": "这个表格的核心信息是什么？",
+        "Answer_table": [
+            "./spreadsheet/职场通用 (33).xlsx"
+        ]
+    },
+    {
+        "query": "在所有退货商品中，哪个商品的退货金额最高？",
+        "Answer_table": [
+            "./spreadsheet/职场通用 (33).xlsx"
+        ]
+    },
+    {
+        "query": "根据原始表格内容生成一个新的表格，包含“订单编码”、“商品名称”、“数量”、“金额”、“是否退货”五列。",
+        "Answer_table": [
+            "./spreadsheet/职场通用 (33).xlsx"
+        ]
+    },
+    {
+        "query": "订单编码D10107对应的商品名称是什么？",
+        "Answer_table": [
+            "./spreadsheet/职场通用 (33).xlsx"
+        ]
+    },
+    {
+        "query": "哪个商品的销售利润最高？",
+        "Answer_table": [
+            "./spreadsheet/职场通用 (33).xlsx"
+        ]
+    },
+    {
+        "query": "表格中有多少家公司的地址位于北京市？",
+        "Answer_table": [
+            "./spreadsheet/3333 (87).xlsx"
+        ]
+    },
+    {
+        "query": "天猫商城的联系电话是什么？",
+        "Answer_table": [
+            "./spreadsheet/3333 (87).xlsx"
+        ]
+    },
+    {
+        "query": "南京医药股份有限公司和上海医药的联系电话哪个包含区号021？",
+        "Answer_table": [
+            "./spreadsheet/3333 (87).xlsx"
+        ]
+    },
+    {
+        "query": "墩号50的实际梁底高程是多少？",
+        "Answer_table": [
+            "./spreadsheet/Sheet1(4).xlsx"
+        ]
+    },
+    {
+        "query": "墩号49的支架弹性变形和预留量的总和是多少？",
+        "Answer_table": [
+            "./spreadsheet/Sheet1(4).xlsx"
+        ]
+    },
+    {
+        "query": "这个表格的数据有什么意义",
+        "Answer_table": [
+            "./spreadsheet/Sheet1(4).xlsx"
+        ]
+    },
+    {
+        "query": "表格中总共有多少个墩号被记录？",
+        "Answer_table": [
+            "./spreadsheet/Sheet1(4).xlsx"
+        ]
+    },
+    {
+        "query": "请绘制一个箱形图，分析“预留量（mm)”的分布情况。",
+        "Answer_table": [
+            "./spreadsheet/Sheet1(4).xlsx"
+        ]
+    },
+    {
+        "query": "绘制一个面积图来表示不同颜色产品的销售数量随时间的累积变化（假设表格中的产品编号包含时间信息）。",
+        "Answer_table": [
+            "./spreadsheet/图片转文字-20240205221356_28.xlsx"
+        ]
+    },
+    {
+        "query": "产品编号201603003的产品名称是什么？",
+        "Answer_table": [
+            "./spreadsheet/图片转文字-20240205221356_28.xlsx"
+        ]
+    },
+    {
+        "query": "根据销售人员的发货状态，预测哪位销售人员可能会有最高的销售额？",
+        "Answer_table": [
+            "./spreadsheet/图片转文字-20240205221356_28.xlsx"
+        ]
+    },
+    {
+        "query": "有多少产品的订单状态是已支付或待支付？",
+        "Answer_table": [
+            "./spreadsheet/图片转文字-20240205221356_28.xlsx"
+        ]
+    },
+    {
+        "query": "产品编号为201603002的产品颜色是什么？",
+        "Answer_table": [
+            "./spreadsheet/图片转文字-20240205221356_28.xlsx"
+        ]
+    },
+    {
+        "query": "哪些产品的支付方式是网络或现金，并且发货状态是已签收或发货途中？",
+        "Answer_table": [
+            "./spreadsheet/图片转文字-20240205221356_28.xlsx"
+        ]
+    },
+    {
+        "query": "哪个产品的规格型号大于L？",
+        "Answer_table": [
+            "./spreadsheet/图片转文字-20240205221356_28.xlsx"
+        ]
+    },
+    {
+        "query": "哪个供货商在2012年12月14日提供的冷板数量最多？",
+        "Answer_table": [
+            "./spreadsheet/生产制造 表格 (627).xlsx"
+        ]
+    },
+    {
+        "query": "2012年12月1日共有多少张冷板被录入系统？",
+        "Answer_table": [
+            "./spreadsheet/生产制造 表格 (627).xlsx"
+        ]
+    },
+    {
+        "query": "2012年12月14日录入的，单价最高的物料代码是什么？",
+        "Answer_table": [
+            "./spreadsheet/生产制造 表格 (627).xlsx"
+        ]
+    },
+    {
+        "query": "表格中数量最少的物料的数量是多少？",
+        "Answer_table": [
+            "./spreadsheet/生产制造 表格 (627).xlsx"
+        ]
+    },
+    {
+        "query": "创建一个折线图来表示每个录入日期的总金额（¥）随时间的变化趋势。",
+        "Answer_table": [
+            "./spreadsheet/生产制造 表格 (627).xlsx"
+        ]
+    },
+    {
+        "query": "这个表格的主要特点是什么",
+        "Answer_table": [
+            "./spreadsheet/生产制造 表格 (627).xlsx"
+        ]
+    },
+    {
+        "query": "第9行的物料代码是什么？",
+        "Answer_table": [
+            "./spreadsheet/生产制造 表格 (627).xlsx"
+        ]
+    },
+    {
+        "query": "表格中余额方向为“借”的科目编码有多少个？",
+        "Answer_table": [
+            "./spreadsheet/7777 (10).xlsx"
+        ]
+    },
+    {
+        "query": "根据原始表格内容生成一个饼图，显示各“类型”所占的比例，并将该饼图插入到原始表格的sheet中。",
+        "Answer_table": [
+            "./spreadsheet/7777 (10).xlsx"
+        ]
+    },
+    {
+        "query": "科目编码为\"19102\"的科目名称是什么？",
+        "Answer_table": [
+            "./spreadsheet/7777 (10).xlsx"
+        ]
+    },
+    {
+        "query": "在第一次交易中，股票I的购买价格是多少？",
+        "Answer_table": [
+            "./spreadsheet/股票情况9.xlsx"
+        ]
+    },
+    {
+        "query": "股票I的每股成本（平均）是随着时间上升还是下降？",
+        "Answer_table": [
+            "./spreadsheet/股票情况9.xlsx"
+        ]
+    },
+    {
+        "query": "在第一次买入股票I时，股数是多少？",
+        "Answer_table": [
+            "./spreadsheet/股票情况9.xlsx"
+        ]
+    },
+    {
+        "query": "股票I的第一次买入和第二次买入的价格相比，哪一次更高？",
+        "Answer_table": [
+            "./spreadsheet/股票情况9.xlsx"
+        ]
+    },
+    {
+        "query": "请绘制一个雷达图，展示所有交易的价格、股数、手续费、总金额、账户成本和账户盈亏的多维度比较。",
+        "Answer_table": [
+            "./spreadsheet/股票情况9.xlsx"
+        ]
+    },
+    {
+        "query": "截至目前，股票I的总手续费是多少？",
+        "Answer_table": [
+            "./spreadsheet/股票情况9.xlsx"
+        ]
+    },
+    {
+        "query": "员工工号为1010103的员工姓名是什么？",
+        "Answer_table": [
+            "./spreadsheet/Sheet12(1).xlsx"
+        ]
+    },
+    {
+        "query": "哪些员工的绩效工资高于平均绩效工资且没有业务扣款？",
+        "Answer_table": [
+            "./spreadsheet/Sheet12(1).xlsx"
+        ]
+    },
+    {
+        "query": "所有员工的基本工资总和是多少？",
+        "Answer_table": [
+            "./spreadsheet/Sheet12(1).xlsx"
+        ]
+    },
+    {
+        "query": "销售部的员工中，哪位员工的应发工资最高？",
+        "Answer_table": [
+            "./spreadsheet/Sheet12(1).xlsx"
+        ]
+    },
+    {
+        "query": "哪个部门的平均税前工资最高？",
+        "Answer_table": [
+            "./spreadsheet/Sheet12(1).xlsx"
+        ]
+    },
+    {
+        "query": "第11行的员工姓名是什么？",
+        "Answer_table": [
+            "./spreadsheet/Sheet12(1).xlsx"
+        ]
+    },
+    {
+        "query": "哪位学生的年龄最大？",
+        "Answer_table": [
+            "./spreadsheet/工作簿1(4).xlsx"
+        ]
+    },
+    {
+        "query": "绘制一个柱状图来展示不同年级的学生数量。",
+        "Answer_table": [
+            "./spreadsheet/工作簿1(4).xlsx"
+        ]
+    },
+    {
+        "query": "学籍号为KJ25XXX5的学生是哪一年级的？",
+        "Answer_table": [
+            "./spreadsheet/工作簿1(4).xlsx"
+        ]
+    },
+    {
+        "query": "学生的学习状态是否与他们的年级有关联？",
+        "Answer_table": [
+            "./spreadsheet/工作簿1(4).xlsx"
+        ]
+    },
+    {
+        "query": "在这个表格中，学籍号为KJ25XXX3的学生是谁？",
+        "Answer_table": [
+            "./spreadsheet/工作簿1(4).xlsx"
+        ]
+    },
+    {
+        "query": "目前在籍学习且年龄最小的学生是谁？",
+        "Answer_table": [
+            "./spreadsheet/工作簿1(4).xlsx"
+        ]
+    },
+    {
+        "query": "2023年1月1日的收入金额是多少？",
+        "Answer_table": [
+            "./spreadsheet/职场通用 (22).xlsx"
+        ]
+    },
+    {
+        "query": "请阐述这个表的关键数据。",
+        "Answer_table": [
+            "./spreadsheet/职场通用 (22).xlsx"
+        ]
+    },
+    {
+        "query": "使用微信作为收入方式的记录有多少条？",
+        "Answer_table": [
+            "./spreadsheet/职场通用 (22).xlsx"
+        ]
+    },
+    {
+        "query": "序号为(四)的项目名称是什么？",
+        "Answer_table": [
+            "./spreadsheet/3标清单.xlsx"
+        ]
+    },
+    {
+        "query": "哪个项目的工程量是最小的？",
+        "Answer_table": [
+            "./spreadsheet/3标清单.xlsx"
+        ]
+    },
+    {
+        "query": "这个表格的主要特点是什么",
+        "Answer_table": [
+            "./spreadsheet/3标清单.xlsx"
+        ]
+    },
+    {
+        "query": "在所有包含“人工装自卸汽车运土”项目中，平均每个项目的工程量是多少？",
+        "Answer_table": [
+            "./spreadsheet/3标清单.xlsx"
+        ]
+    },
+    {
+        "query": "序号(三)中所有工程量的总和是多少？",
+        "Answer_table": [
+            "./spreadsheet/3标清单.xlsx"
+        ]
+    },
+    {
+        "query": "请综合分析科目代码为1601.0的固定资产和科目代码为1701.0的无形资产在期初余额(借方)、本期发生额(借方)、本年累计发生额(借方)和期末余额(借方)上的差异，并解释可能的原因。",
+        "Answer_table": [
+            "./spreadsheet/电算化会.xlsx"
+        ]
+    },
+    {
+        "query": "表格中所有科目的期末余额(贷方)的平均值是多少？",
+        "Answer_table": [
+            "./spreadsheet/电算化会.xlsx"
+        ]
+    },
+    {
+        "query": "科目代码为1601.0的科目名称是什么？",
+        "Answer_table": [
+            "./spreadsheet/电算化会.xlsx"
+        ]
+    },
+    {
+        "query": "10月3日的柴米油盐、请客花费和交通费/油曲的总和是多少？",
+        "Answer_table": [
+            "./spreadsheet/职场通用 (35).xlsx"
+        ]
+    },
+    {
+        "query": "请绘制一个雷达图，展示10月份“柴米油盐”、“请客花费”、“交通费/油曲”、“手机费”、“网络费”、“燃气费”、“电费”、“物业费”、“水费”、“保险费”、“税费”、“停车费”、“房贷”、“车贷”、“小孩学费”和“其他”费用的平均值的多维比较。",
+        "Answer_table": [
+            "./spreadsheet/职场通用 (35).xlsx"
+        ]
+    },
+    {
+        "query": "第18行的\"其他\"费用是多少？",
+        "Answer_table": [
+            "./spreadsheet/职场通用 (35).xlsx"
+        ]
+    },
+    {
+        "query": "10月1日的总花费是多少？",
+        "Answer_table": [
+            "./spreadsheet/职场通用 (35).xlsx"
+        ]
+    },
+    {
+        "query": "在这个表格中，哪一天的“请客花费”最高？",
+        "Answer_table": [
+            "./spreadsheet/职场通用 (35).xlsx"
+        ]
+    },
+    {
+        "query": "表格中房贷不为空的消费记录有多少条？",
+        "Answer_table": [
+            "./spreadsheet/职场通用 (35).xlsx"
+        ]
+    },
+    {
+        "query": "如果将所有库存的产品以活动价出售，总共能够获得多少利润？",
+        "Answer_table": [
+            "./spreadsheet/64.xlsx"
+        ]
+    },
+    {
+        "query": "所有主推产品的平均市场价是多少？",
+        "Answer_table": [
+            "./spreadsheet/64.xlsx"
+        ]
+    },
+    {
+        "query": "表格中所有库存数量最少的货号是什么？",
+        "Answer_table": [
+            "./spreadsheet/64.xlsx"
+        ]
+    },
+    {
+        "query": "请绘制一个散点图，展示男子和女子20米自由泳成绩的分布情况。",
+        "Answer_table": [
+            "./spreadsheet/64.xlsx"
+        ]
+    },
+    {
+        "query": "款号为X98351200的货号有哪些？",
+        "Answer_table": [
+            "./spreadsheet/64.xlsx"
+        ]
+    },
+    {
+        "query": "在2020年4月15日，收入金额是多少？",
+        "Answer_table": [
+            "./spreadsheet/职场通用 (28).xlsx"
+        ]
+    },
+    {
+        "query": "在2020年4月19日，员工奖金的支出金额与2020年4月20日请客吃饭的支出金额相比，哪一天的支出更高？",
+        "Answer_table": [
+            "./spreadsheet/职场通用 (28).xlsx"
+        ]
+    },
+    {
+        "query": "2020年4月22日的收入金额是多少？",
+        "Answer_table": [
+            "./spreadsheet/职场通用 (28).xlsx"
+        ]
+    },
+    {
+        "query": "表格中支出金额最低的项目是哪个？",
+        "Answer_table": [
+            "./spreadsheet/职场通用 (28).xlsx"
+        ]
+    },
+    {
+        "query": "在表格中，哪一天的剩余金额是最高的？",
+        "Answer_table": [
+            "./spreadsheet/职场通用 (28).xlsx"
+        ]
+    },
+    {
+        "query": "这个表格的主题是什么？",
+        "Answer_table": [
+            "./spreadsheet/职场通用 (28).xlsx"
+        ]
+    },
+    {
+        "query": "将“2020.4.15”这一天的所有记录单元格背景色标为黄色，以便突出显示。",
+        "Answer_table": [
+            "./spreadsheet/职场通用 (28).xlsx"
+        ]
+    },
+    {
+        "query": "从2020年4月15日到2020年4月24日，收入金额的总体趋势是上升还是下降？",
+        "Answer_table": [
+            "./spreadsheet/职场通用 (28).xlsx"
+        ]
+    },
+    {
+        "query": "小稻壳7的英语成绩是多少，等级是什么？",
+        "Answer_table": [
+            "./spreadsheet/Sheet59.xlsx"
+        ]
+    },
+    {
+        "query": "在数学科目中，获得A等级的学生人数是否多于获得B等级的学生人数？",
+        "Answer_table": [
+            "./spreadsheet/Sheet59.xlsx"
+        ]
+    },
+    {
+        "query": "表格中所有学生的化学成绩平均值是多少？",
+        "Answer_table": [
+            "./spreadsheet/Sheet59.xlsx"
+        ]
+    },
+    {
+        "query": "创建一个气泡图来展示学生的生物成绩、地理成绩和历史成绩的关系，其中气泡大小代表地理成绩。",
+        "Answer_table": [
+            "./spreadsheet/Sheet59.xlsx"
+        ]
+    },
+    {
+        "query": "哪位学生在英语科目获得了A等级？",
+        "Answer_table": [
+            "./spreadsheet/Sheet59.xlsx"
+        ]
+    },
+    {
+        "query": "在这个表格中，哪个学生在化学科目的等级是A？",
+        "Answer_table": [
+            "./spreadsheet/Sheet59.xlsx"
+        ]
+    },
+    {
+        "query": "请绘制一个圆环图，显示不同城市建筑物用地面积的分布比例。",
+        "Answer_table": [
+            "./spreadsheet/超高层建筑成本统计.xlsx"
+        ]
+    },
+    {
+        "query": "哪些建筑物的竣工时间在2008年，并且位于北京？",
+        "Answer_table": [
+            "./spreadsheet/超高层建筑成本统计.xlsx"
+        ]
+    },
+    {
+        "query": "表格中建筑物的平均楼高是多少？",
+        "Answer_table": [
+            "./spreadsheet/超高层建筑成本统计.xlsx"
+        ]
+    },
+    {
+        "query": "北京电视中心的楼高是多少米？",
+        "Answer_table": [
+            "./spreadsheet/超高层建筑成本统计.xlsx"
+        ]
+    },
+    {
+        "query": "解读这个表格",
+        "Answer_table": [
+            "./spreadsheet/超高层建筑成本统计.xlsx"
+        ]
+    },
+    {
+        "query": "店铺1在2022年4月26日的销量是否超过了2022年5月26日的销量？",
+        "Answer_table": [
+            "./spreadsheet/微信截图_20240207205143.xlsx"
+        ]
+    },
+    {
+        "query": "表格中单笔销售金额最高是多少？",
+        "Answer_table": [
+            "./spreadsheet/微信截图_20240207205143.xlsx"
+        ]
+    },
+    {
+        "query": "在2022年3月26日，店辅1的销售金额是多少？",
+        "Answer_table": [
+            "./spreadsheet/微信截图_20240207205143.xlsx"
+        ]
+    },
+    {
+        "query": "2022年第2季度中，店铺1的平均销售金额是多少？",
+        "Answer_table": [
+            "./spreadsheet/微信截图_20240207205143.xlsx"
+        ]
+    },
+    {
+        "query": "根据原始表格内容生成一个新的表格，包含“学校”、“学院”、“专业名称”、“报名人数”、“录取人数”和“报录比”六列，并将数据填入新表格中。",
+        "Answer_table": [
+            "./spreadsheet/工作簿50.xlsx"
+        ]
+    },
+    {
+        "query": "新疆农业大学农学院报名人数最多的专业是什么？",
+        "Answer_table": [
+            "./spreadsheet/工作簿50.xlsx"
+        ]
+    },
+    {
+        "query": "绘制一个饼图来展示不同学院的录取人数在总录取人数中的占比。",
+        "Answer_table": [
+            "./spreadsheet/工作簿50.xlsx"
+        ]
+    },
+    {
+        "query": "表格中报名人数超过50的专业有多少个？",
+        "Answer_table": [
+            "./spreadsheet/工作簿50.xlsx"
+        ]
+    },
+    {
+        "query": "新疆农业大学农学院有哪些专业的报录比超过0.35？",
+        "Answer_table": [
+            "./spreadsheet/工作簿50.xlsx"
+        ]
+    },
+    {
+        "query": "哪个专业的报录比最高，并且报名人数超过50人？",
+        "Answer_table": [
+            "./spreadsheet/工作簿50.xlsx"
+        ]
+    },
+    {
+        "query": "新疆师范大学共有多少个专业的报名人数为0？",
+        "Answer_table": [
+            "./spreadsheet/工作簿50.xlsx"
+        ]
+    },
+    {
+        "query": "表格中总共有多少个不同的项目名称？",
+        "Answer_table": [
+            "./spreadsheet/分部分项 清单.xlsx"
+        ]
+    },
+    {
+        "query": "序号为20的项目名称是什么？",
+        "Answer_table": [
+            "./spreadsheet/分部分项 清单.xlsx"
+        ]
+    },
+    {
+        "query": "这个表格的数据有什么意义",
+        "Answer_table": [
+            "./spreadsheet/分部分项 清单.xlsx"
+        ]
+    },
+    {
+        "query": "绘制一个箱形图来分析工程量数据的分布情况，包括中位数、四分位数以及异常值。",
+        "Answer_table": [
+            "./spreadsheet/分部分项 清单.xlsx"
+        ]
+    },
+    {
+        "query": "1301班的潘超在英语科目的成绩是多少？",
+        "Answer_table": [
+            "./spreadsheet/可以用20.xlsx"
+        ]
+    },
+    {
+        "query": "哪位学生的数学成绩是最低的？",
+        "Answer_table": [
+            "./spreadsheet/可以用20.xlsx"
+        ]
+    },
+    {
+        "query": "在所有学生中，谁的物理成绩是100分？",
+        "Answer_table": [
+            "./spreadsheet/可以用20.xlsx"
+        ]
+    },
+    {
+        "query": "根据原始表格内容生成一个新的表格，包含每个学生的姓名及其各科成绩的平均分。",
+        "Answer_table": [
+            "./spreadsheet/可以用20.xlsx"
+        ]
+    },
+    {
+        "query": "1301班的唐滨在所有科目的平均成绩是多少？",
+        "Answer_table": [
+            "./spreadsheet/可以用20.xlsx"
+        ]
+    },
+    {
+        "query": "在这个表格中，孙芳玲的英语成绩是多少？",
+        "Answer_table": [
+            "./spreadsheet/可以用20.xlsx"
+        ]
+    },
+    {
+        "query": "请绘制一个柱状图，显示每个学生的数学成绩。",
+        "Answer_table": [
+            "./spreadsheet/可以用20.xlsx"
+        ]
+    },
+    {
+        "query": "请绘制一个饼图，展示2010年各地区数据的比例分布。",
+        "Answer_table": [
+            "./spreadsheet/各省征用土地面积(平方公里).xls.xlsx"
+        ]
+    },
+    {
+        "query": "2004年数据超过50的地区有多少个？",
+        "Answer_table": [
+            "./spreadsheet/各省征用土地面积(平方公里).xls.xlsx"
+        ]
+    },
+    {
+        "query": "合同B的开票类型是什么？",
+        "Answer_table": [
+            "./spreadsheet/职场通用 (31).xlsx"
+        ]
+    },
+    {
+        "query": "表格中所有合同的平均开票金额是多少？",
+        "Answer_table": [
+            "./spreadsheet/职场通用 (31).xlsx"
+        ]
+    },
+    {
+        "query": "所有已开票合同的结算金额总和是多少？",
+        "Answer_table": [
+            "./spreadsheet/职场通用 (31).xlsx"
+        ]
+    },
+    {
+        "query": "表格中所有供货记录的平均未收款金额是多少？",
+        "Answer_table": [
+            "./spreadsheet/职场通用 (1).xlsx"
+        ]
+    },
+    {
+        "query": "请绘制一个条形图，显示每个对方单位的未收款金额。",
+        "Answer_table": [
+            "./spreadsheet/职场通用 (1).xlsx"
+        ]
+    },
+    {
+        "query": "2022年7月1日的供货单号是什么？",
+        "Answer_table": [
+            "./spreadsheet/职场通用 (1).xlsx"
+        ]
+    },
+    {
+        "query": "在2022年和2023年，哪个月份的供货金额最高？",
+        "Answer_table": [
+            "./spreadsheet/职场通用 (1).xlsx"
+        ]
+    },
+    {
+        "query": "在1单元考试中，稻壳1和稻壳7谁的成绩更高？",
+        "Answer_table": [
+            "./spreadsheet/Sheet57.xlsx"
+        ]
+    },
+    {
+        "query": "在6单元中，哪位学生的名次是第9名？",
+        "Answer_table": [
+            "./spreadsheet/Sheet57.xlsx"
+        ]
+    },
+    {
+        "query": "绘制一个雷达图来比较前三名学生在各个单元以及期中、期末考试中的表现。",
+        "Answer_table": [
+            "./spreadsheet/Sheet57.xlsx"
+        ]
+    },
+    {
+        "query": "在1单元中成绩排名第一的学生在2单元的成绩是多少？",
+        "Answer_table": [
+            "./spreadsheet/Sheet57.xlsx"
+        ]
+    },
+    {
+        "query": "总结分析下这个表格",
+        "Answer_table": [
+            "./spreadsheet/Sheet57.xlsx"
+        ]
+    },
+    {
+        "query": "学号为5123001的学生在期末考试中的成绩是多少？",
+        "Answer_table": [
+            "./spreadsheet/Sheet57.xlsx"
+        ]
+    },
+    {
+        "query": "在期末考试中，前三名的学生姓名是什么？",
+        "Answer_table": [
+            "./spreadsheet/Sheet57.xlsx"
+        ]
+    },
+    {
+        "query": "解析这个表格的数据",
+        "Answer_table": [
+            "./spreadsheet/Sheet0 (2).xlsx"
+        ]
+    },
+    {
+        "query": "哪个工程的完成进度最低？",
+        "Answer_table": [
+            "./spreadsheet/Sheet0 (2).xlsx"
+        ]
+    },
+    {
+        "query": "在原始表格中新增一列“未付款金额”，计算公式为“结算金额”减去“已付款金额”，并将结果填入新列中。",
+        "Answer_table": [
+            "./spreadsheet/Sheet0 (2).xlsx"
+        ]
+    },
+    {
+        "query": "序号为4的工程名称是什么？",
+        "Answer_table": [
+            "./spreadsheet/Sheet0 (2).xlsx"
+        ]
+    },
+    {
+        "query": "哪个工程的已付款金额是最低的？",
+        "Answer_table": [
+            "./spreadsheet/Sheet0 (2).xlsx"
+        ]
+    },
+    {
+        "query": "工程7的完成进度是多少？",
+        "Answer_table": [
+            "./spreadsheet/Sheet0 (2).xlsx"
+        ]
+    },
+    {
+        "query": "所有工程的合同金额总和是多少？",
+        "Answer_table": [
+            "./spreadsheet/Sheet0 (2).xlsx"
+        ]
+    },
+    {
+        "query": "哪些工程的确认付款金额低于其结算金额？",
+        "Answer_table": [
+            "./spreadsheet/Sheet0 (2).xlsx"
+        ]
+    },
+    {
+        "query": "哪个科目的期初余额(贷方)是最小的，且不为零？",
+        "Answer_table": [
+            "./spreadsheet/电算化会.xls.xlsx"
+        ]
+    },
+    {
+        "query": "你能解释一下这个表格的主要内容吗？",
+        "Answer_table": [
+            "./spreadsheet/章.xlsx"
+        ]
+    },
+    {
+        "query": "有多少个单位的业务范围包含“市政工程”？",
+        "Answer_table": [
+            "./spreadsheet/章.xlsx"
+        ]
+    },
+    {
+        "query": "序号为5.0的单位的业务范围是什么？",
+        "Answer_table": [
+            "./spreadsheet/章.xlsx"
+        ]
+    },
+    {
+        "query": "序号为5的单位名称是什么？",
+        "Answer_table": [
+            "./spreadsheet/章.xlsx"
+        ]
+    },
+    {
+        "query": "证书编号为039005-SⅠ的单位和证书编号为039006-SⅠ的单位，哪一个的序号更小？",
+        "Answer_table": [
+            "./spreadsheet/章.xlsx"
+        ]
+    },
+    {
+        "query": "表格中有多少家公司的业务范围包括市政工程？",
+        "Answer_table": [
+            "./spreadsheet/章.xlsx"
+        ]
+    },
+    {
+        "query": "一类证书的单位中，有多少个单位的业务范围仅限于“建筑工程”？",
+        "Answer_table": [
+            "./spreadsheet/章.xlsx"
+        ]
+    },
+    {
+        "query": "绘制一个雷达图来比较几个特定城市（如北京、上海、广州）的建筑物在楼高、层数、用地面积、建筑面积等多个维度的表现。",
+        "Answer_table": [
+            "./spreadsheet/1706959094525.xlsx"
+        ]
+    },
+    {
+        "query": "哪些建筑物的竣工时间在2000年之前，哪些在2000年之后？",
+        "Answer_table": [
+            "./spreadsheet/1706959094525.xlsx"
+        ]
+    },
+    {
+        "query": "上海国际航运大厦和上海中银大厦哪个建筑物的楼层数更多？",
+        "Answer_table": [
+            "./spreadsheet/1706959094525.xlsx"
+        ]
+    },
+    {
+        "query": "哪些建筑物的单方投资超过了15000元？",
+        "Answer_table": [
+            "./spreadsheet/1706959094525.xlsx"
+        ]
+    },
+    {
+        "query": "北京电视中心的楼高是多少？",
+        "Answer_table": [
+            "./spreadsheet/1706959094525.xlsx"
+        ]
+    },
+    {
+        "query": "上海国际航运大厦的楼高是多少？",
+        "Answer_table": [
+            "./spreadsheet/1706959094525.xlsx"
+        ]
+    },
+    {
+        "query": "广州所有建筑物的总投资是多少亿元？",
+        "Answer_table": [
+            "./spreadsheet/1706959094525.xlsx"
+        ]
+    },
+    {
+        "query": "2022年1月1日的支出金额是多少？",
+        "Answer_table": [
+            "./spreadsheet/职场通用 (47).xlsx"
+        ]
+    },
+    {
+        "query": "2023年1月1日的支出金额与2022年1月1日的支出金额相比，增加了多少？",
+        "Answer_table": [
+            "./spreadsheet/职场通用 (47).xlsx"
+        ]
+    },
+    {
+        "query": "根据2022年和2023年的数据，预测2024年各个费用类型的支出金额可能会有何变化？",
+        "Answer_table": [
+            "./spreadsheet/职场通用 (47).xlsx"
+        ]
+    },
+    {
+        "query": "2022年所有销售费用类型的支出金额总和是多少？",
+        "Answer_table": [
+            "./spreadsheet/职场通用 (47).xlsx"
+        ]
+    },
+    {
+        "query": "表格中总共有多少条支出记录？",
+        "Answer_table": [
+            "./spreadsheet/职场通用 (47).xlsx"
+        ]
+    },
+    {
+        "query": "哪个受让单位参与了超过一个地块的交易？",
+        "Answer_table": [
+            "./spreadsheet/1706798909611.xlsx"
+        ]
+    },
+    {
+        "query": "请综合分析2015年10月的地块交易情况，包括交易数量、成交价的平均水平、最高和最低价，以及主要的受让单位等关键信息。",
+        "Answer_table": [
+            "./spreadsheet/1706798909611.xlsx"
+        ]
+    },
+    {
+        "query": "2015-10-28这一天有哪些地块成交？",
+        "Answer_table": [
+            "./spreadsheet/1706798909611.xlsx"
+        ]
+    },
+    {
+        "query": "在2015-10-14，哪些地块的规划用途包含住宅？",
+        "Answer_table": [
+            "./spreadsheet/1706798909611.xlsx"
+        ]
+    },
+    {
+        "query": "根据原始表格内容生成一个柱状图，显示每个地块的“建设用地面积(m²)”和“成交价(万元)”，并将该图插入到原始表格的sheet中。",
+        "Answer_table": [
+            "./spreadsheet/1706798909611.xlsx"
+        ]
+    },
+    {
+        "query": "哪个地块的成交楼面价最高？",
+        "Answer_table": [
+            "./spreadsheet/1706798909611.xlsx"
+        ]
+    },
+    {
+        "query": "所有地块的平均起始价是多少万元？",
+        "Answer_table": [
+            "./spreadsheet/1706798909611.xlsx"
+        ]
+    },
+    {
+        "query": "表格中成交价(万元)最高的地块是哪个？",
+        "Answer_table": [
+            "./spreadsheet/1706798909611.xlsx"
+        ]
+    },
+    {
+        "query": "请综合分析表格中的所有信息，哪个投资方的项目最多，这些项目的平均建筑面积、平均建筑高度和平均造价是多少？",
+        "Answer_table": [
+            "./spreadsheet/国内超高层建筑列表.xlsx"
+        ]
+    },
+    {
+        "query": "表格中哪个项目的占地面积是最小的？",
+        "Answer_table": [
+            "./spreadsheet/国内超高层建筑列表.xlsx"
+        ]
+    },
+    {
+        "query": "分析这个表格，提炼关键信息",
+        "Answer_table": [
+            "./spreadsheet/国内超高层建筑列表.xlsx"
+        ]
+    },
+    {
+        "query": "请分析表格中的建筑面积和造价之间的关系，建筑面积越大的项目，其造价是否也越高？",
+        "Answer_table": [
+            "./spreadsheet/国内超高层建筑列表.xlsx"
+        ]
+    },
+    {
+        "query": "有多少个单位的本科进线数比率超过90%？",
+        "Answer_table": [
+            "./spreadsheet/可以用43.xlsx"
+        ]
+    },
+    {
+        "query": "漳州一中的物理考生数和历史考生数总共是多少？",
+        "Answer_table": [
+            "./spreadsheet/可以用43.xlsx"
+        ]
+    },
+    {
+        "query": "在表格中，本一进线数比率超过70%的学校有多少所？",
+        "Answer_table": [
+            "./spreadsheet/可以用43.xlsx"
+        ]
+    },
+    {
+        "query": "厦大附中的考生总数是多少？",
+        "Answer_table": [
+            "./spreadsheet/可以用43.xlsx"
+        ]
+    },
+    {
+        "query": "这个表格的主要内容是什么",
+        "Answer_table": [
+            "./spreadsheet/可以用43.xlsx"
+        ]
+    },
+    {
+        "query": "漳州立人学校和漳州实验中学哪个学校的本科进线数比率更高？",
+        "Answer_table": [
+            "./spreadsheet/可以用43.xlsx"
+        ]
+    },
+    {
+        "query": "创建一个气泡图来同时比较单位的考生总数、本一进线数和本科进线数，其中气泡大小代表考生总数。",
+        "Answer_table": [
+            "./spreadsheet/可以用43.xlsx"
+        ]
+    },
+    {
+        "query": "物理考生数和本科进线数之间有什么关系？",
+        "Answer_table": [
+            "./spreadsheet/可以用43.xlsx"
+        ]
+    },
+    {
+        "query": "根据原始表格内容生成一个柱状图，显示每个“单位”的“考生总数”、“本一进线数”和“本科进线数”，并将该图插入到原始表格的sheet中。",
+        "Answer_table": [
+            "./spreadsheet/可以用43.xlsx"
+        ]
+    },
+    {
+        "query": "在所有单位中，本科进线数的平均比率是多少？",
+        "Answer_table": [
+            "./spreadsheet/可以用43.xlsx"
+        ]
+    },
+    {
+        "query": "所有SKFA型水位阀DN70（公寓）的主材合计费用是多少？",
+        "Answer_table": [
+            "./spreadsheet/地下二层供水泵房.xlsx"
+        ]
+    },
+    {
+        "query": "请绘制一个雷达图，对比展示前五个定额名称的单位、工程量、设备单价、主材单价、基价单价、人工单价、材料单价和机械单价的数据。",
+        "Answer_table": [
+            "./spreadsheet/地下二层供水泵房.xlsx"
+        ]
+    },
+    {
+        "query": "高区给水设备（公寓）的设备单价是多少？",
+        "Answer_table": [
+            "./spreadsheet/地下二层供水泵房.xlsx"
+        ]
+    },
+    {
+        "query": "中区中水供水设备（公寓）的设备单价和低区中水供水设备（公寓）的设备单价哪个更高？",
+        "Answer_table": [
+            "./spreadsheet/地下二层供水泵房.xlsx"
+        ]
+    },
+    {
+        "query": "断流水箱7000*2000*2000（公寓）的基价单价是多少，它与断流中水箱4000*4000*2000（公寓）的基价单价相比如何？",
+        "Answer_table": [
+            "./spreadsheet/地下二层供水泵房.xlsx"
+        ]
+    },
+    {
+        "query": "表格中总共有多少种不同的定额名称？",
+        "Answer_table": [
+            "./spreadsheet/地下二层供水泵房.xlsx"
+        ]
+    },
+    {
+        "query": "中区中水供水设备（公寓）的设备单价是多少？",
+        "Answer_table": [
+            "./spreadsheet/地下二层供水泵房.xlsx"
+        ]
+    },
+    {
+        "query": "哪个月份的收入金额比支出金额多出最多？",
+        "Answer_table": [
+            "./spreadsheet/职场通用 (19).xlsx"
+        ]
+    },
+    {
+        "query": "请解读这个图表的重要信息。",
+        "Answer_table": [
+            "./spreadsheet/职场通用 (19).xlsx"
+        ]
+    },
+    {
+        "query": "2023年1月的收入金额是多少？",
+        "Answer_table": [
+            "./spreadsheet/职场通用 (19).xlsx"
+        ]
+    },
+    {
+        "query": "2023年9月1日的收入金额是多少？",
+        "Answer_table": [
+            "./spreadsheet/职场通用 (19).xlsx"
+        ]
+    },
+    {
+        "query": "在所有记录的日期中，哪一天的信用卡支出超过了1200元且住房支出超过了2100元？",
+        "Answer_table": [
+            "./spreadsheet/职场通用 (41).xlsx"
+        ]
+    },
+    {
+        "query": "表格中单日娱乐支出的最小值是多少？",
+        "Answer_table": [
+            "./spreadsheet/职场通用 (41).xlsx"
+        ]
+    },
+    {
+        "query": "在2018年1月3日，交通支出是多少？",
+        "Answer_table": [
+            "./spreadsheet/职场通用 (41).xlsx"
+        ]
+    },
+    {
+        "query": "第18行的娱乐支出是多少？",
+        "Answer_table": [
+            "./spreadsheet/职场通用 (41).xlsx"
+        ]
+    },
+    {
+        "query": "在有记录的日期中，娱乐支出的平均值是多少？",
+        "Answer_table": [
+            "./spreadsheet/职场通用 (41).xlsx"
+        ]
+    },
+    {
+        "query": "将“管基厚度C1”列的所有数值增加0.05，并将修改后的表格保存。",
+        "Answer_table": [
+            "./spreadsheet/基本数据.xlsx"
+        ]
+    },
+    {
+        "query": "请绘制一个圆环图，展示不同管径（Unnamed: 0）的管基模板高度（Unnamed: 16）所占的比例。",
+        "Answer_table": [
+            "./spreadsheet/基本数据.xlsx"
+        ]
+    },
+    {
+        "query": "管径为600mm的管基及垫层总厚度是多少？",
+        "Answer_table": [
+            "./spreadsheet/基本数据.xlsx"
+        ]
+    },
+    {
+        "query": "在表格中，数学分数比潘秋云高的学生有哪些？",
+        "Answer_table": [
+            "./spreadsheet/可以用6.xlsx"
+        ]
+    },
+    {
+        "query": "表格中所有学生的数学分数平均值是多少？",
+        "Answer_table": [
+            "./spreadsheet/可以用6.xlsx"
+        ]
+    },
+    {
+        "query": "在所有考生中，数学分数最高的是谁？",
+        "Answer_table": [
+            "./spreadsheet/可以用6.xlsx"
+        ]
+    },
+    {
+        "query": "表格中所有学生的数学标准分的平均值是多少？",
+        "Answer_table": [
+            "./spreadsheet/可以用6.xlsx"
+        ]
+    },
+    {
+        "query": "哪位学生在数学和语文两科的班名都在前5名之内？",
+        "Answer_table": [
+            "./spreadsheet/可以用6.xlsx"
+        ]
+    },
+    {
+        "query": "根据数学分数和语文分数的总和新增一列“总分”，并将总分大于240的单元格字体标红。",
+        "Answer_table": [
+            "./spreadsheet/可以用6.xlsx"
+        ]
+    },
+    {
+        "query": "绘制一个雷达图来比较前几名学生在数学分数、数学班名、数学级名、语文分数、语文班名和语文级名的表现。",
+        "Answer_table": [
+            "./spreadsheet/可以用6.xlsx"
+        ]
+    },
+    {
+        "query": "请问考号为2017010037的学生姓名是什么？",
+        "Answer_table": [
+            "./spreadsheet/可以用6.xlsx"
+        ]
+    },
+    {
+        "query": "分析并总结这个表格，给出关键信息",
+        "Answer_table": [
+            "./spreadsheet/图片转文字-20240205221356_60.xlsx"
+        ]
+    },
+    {
+        "query": "表格中所有订单的平均单价是多少？",
+        "Answer_table": [
+            "./spreadsheet/图片转文字-20240205221356_60.xlsx"
+        ]
+    },
+    {
+        "query": "订单号为BH19001的订单，客户名称是什么？",
+        "Answer_table": [
+            "./spreadsheet/图片转文字-20240205221356_60.xlsx"
+        ]
+    },
+    {
+        "query": "将“金额”列中所有的金额数值字体加粗，并将“订单软态”列中状态为“待处理”的单元格标红。",
+        "Answer_table": [
+            "./spreadsheet/图片转文字-20240205221356_60.xlsx"
+        ]
+    },
+    {
+        "query": "订单号为BH19001的订单的客户是谁？",
+        "Answer_table": [
+            "./spreadsheet/图片转文字-20240205221356_60.xlsx"
+        ]
+    },
+    {
+        "query": "生成一个新的表格，包含每个物料代码的总数量和总金额。",
+        "Answer_table": [
+            "./spreadsheet/生产制造 表格 (628).xlsx"
+        ]
+    },
+    {
+        "query": "单号为No-20120003的所有物料中，单价最高的是哪个物料代码？",
+        "Answer_table": [
+            "./spreadsheet/生产制造 表格 (628).xlsx"
+        ]
+    },
+    {
+        "query": "2012年12月14日录入的，单价为¥210.00的冷板的数量是多少？",
+        "Answer_table": [
+            "./spreadsheet/生产制造 表格 (628).xlsx"
+        ]
+    },
+    {
+        "query": "表格中总共有多少种不同的物料代码？",
+        "Answer_table": [
+            "./spreadsheet/生产制造 表格 (628).xlsx"
+        ]
+    },
+    {
+        "query": "2012年12月14日录入的，单价最高的物料代码是什么？",
+        "Answer_table": [
+            "./spreadsheet/生产制造 表格 (628).xlsx"
+        ]
+    },
+    {
+        "query": "哪个供货商提供的物料总数量最多？",
+        "Answer_table": [
+            "./spreadsheet/生产制造 表格 (628).xlsx"
+        ]
+    },
+    {
+        "query": "2012年12月1日共有多少条物料记录？",
+        "Answer_table": [
+            "./spreadsheet/生产制造 表格 (628).xlsx"
+        ]
+    },
+    {
+        "query": "哪个产品的价格走势相比于其代发价增长幅度最大？",
+        "Answer_table": [
+            "./spreadsheet/工厂商品报价表.xlsx"
+        ]
+    },
+    {
+        "query": "所有产品的平均代发价是多少？",
+        "Answer_table": [
+            "./spreadsheet/工厂商品报价表.xlsx"
+        ]
+    },
+    {
+        "query": "表格中总共有多少种不同的产品名称？",
+        "Answer_table": [
+            "./spreadsheet/工厂商品报价表.xlsx"
+        ]
+    },
+    {
+        "query": "第7号产品的会员价毛利是多少？",
+        "Answer_table": [
+            "./spreadsheet/工厂商品报价表.xlsx"
+        ]
+    },
+    {
+        "query": "电脑和洗衣机的市场价哪个更高？",
+        "Answer_table": [
+            "./spreadsheet/工厂商品报价表.xlsx"
+        ]
+    },
+    {
+        "query": "哪个工程的工程量完成率最高？",
+        "Answer_table": [
+            "./spreadsheet/职场通用 (56).xlsx"
+        ]
+    },
+    {
+        "query": "工程_10的工程量完成率是多少？",
+        "Answer_table": [
+            "./spreadsheet/职场通用 (56).xlsx"
+        ]
+    },
+    {
+        "query": "哪个工程的工程量完成率是最低的？",
+        "Answer_table": [
+            "./spreadsheet/职场通用 (56).xlsx"
+        ]
+    },
+    {
+        "query": "这个表格的主要数据是什么？",
+        "Answer_table": [
+            "./spreadsheet/职场通用 (56).xlsx"
+        ]
+    },
+    {
+        "query": "工程_3的工程金额与分包合同金额之和是多少？",
+        "Answer_table": [
+            "./spreadsheet/职场通用 (56).xlsx"
+        ]
+    },
+    {
+        "query": "序号为5的工程名称是什么？",
+        "Answer_table": [
+            "./spreadsheet/职场通用 (56).xlsx"
+        ]
+    },
+    {
+        "query": "所有商品的总数量是多少？",
+        "Answer_table": [
+            "./spreadsheet/Sheet13 (3).xlsx"
+        ]
+    },
+    {
+        "query": "请分析这个表格的主要发现",
+        "Answer_table": [
+            "./spreadsheet/Sheet13 (3).xlsx"
+        ]
+    },
+    {
+        "query": "在所有记录中，哪个业务员负责的商品数量最多？",
+        "Answer_table": [
+            "./spreadsheet/Sheet13 (3).xlsx"
+        ]
+    },
+    {
+        "query": "哪个业务员的销售金额最高？",
+        "Answer_table": [
+            "./spreadsheet/Sheet13 (3).xlsx"
+        ]
+    },
+    {
+        "query": "所有商品的平均数量是多少？",
+        "Answer_table": [
+            "./spreadsheet/Sheet13 (3).xlsx"
+        ]
+    },
+    {
+        "query": "2023年10月10日销售的商品名称有哪些？",
+        "Answer_table": [
+            "./spreadsheet/Sheet13 (3).xlsx"
+        ]
+    },
+    {
+        "query": "这个表格的主要目的是什么？",
+        "Answer_table": [
+            "./spreadsheet/工作簿1(1).xlsx"
+        ]
+    },
+    {
+        "query": "绘制一个散点图来分析学生的物理成绩与数学成绩之间的关系。",
+        "Answer_table": [
+            "./spreadsheet/工作簿1(1).xlsx"
+        ]
+    },
+    {
+        "query": "所有学生在外语科目的平均分是多少？",
+        "Answer_table": [
+            "./spreadsheet/工作簿1(1).xlsx"
+        ]
+    },
+    {
+        "query": "学号为S-0008的学生在地理科目的得分是多少？",
+        "Answer_table": [
+            "./spreadsheet/工作簿1(1).xlsx"
+        ]
+    },
+    {
+        "query": "哪门课程的最低分是多少？",
+        "Answer_table": [
+            "./spreadsheet/工作簿1(1).xlsx"
+        ]
+    },
+    {
+        "query": "学号为S-0001和S-0002的学生，谁在数学科目上的得分更高？",
+        "Answer_table": [
+            "./spreadsheet/工作簿1(1).xlsx"
+        ]
+    },
+    {
+        "query": "获得★★★★★评级的学生中，数学成绩最高的是多少分？",
+        "Answer_table": [
+            "./spreadsheet/工作簿1(1).xlsx"
+        ]
+    },
+    {
+        "query": "在所有学生中，哪个科目的平均分最高？",
+        "Answer_table": [
+            "./spreadsheet/工作簿1(1).xlsx"
+        ]
+    },
+    {
+        "query": "2016年北京市和天津市的燃料类商品零售价格指数哪个更高？",
+        "Answer_table": [
+            "./spreadsheet/3333 (78).xlsx"
+        ]
+    },
+    {
+        "query": "在第一次交易中，股票D的购买价格是多少？",
+        "Answer_table": [
+            "./spreadsheet/股票情况4.xlsx"
+        ]
+    },
+    {
+        "query": "在第一次买入股票D时，总金额是多少？",
+        "Answer_table": [
+            "./spreadsheet/股票情况4.xlsx"
+        ]
+    },
+    {
+        "query": "哪次交易的每股成本（平均）高于20元？",
+        "Answer_table": [
+            "./spreadsheet/股票情况4.xlsx"
+        ]
+    },
+    {
+        "query": "在第三次交易中，卖出的股票数量是多少？",
+        "Answer_table": [
+            "./spreadsheet/股票情况4.xlsx"
+        ]
+    },
+    {
+        "query": "表格中单笔交易的最高价格是多少？",
+        "Answer_table": [
+            "./spreadsheet/股票情况4.xlsx"
+        ]
+    },
+    {
+        "query": "股票D的账户股数是如何随着每次交易而变化的？",
+        "Answer_table": [
+            "./spreadsheet/股票情况4.xlsx"
+        ]
+    },
+    {
+        "query": "A_007项目的收入金额和支出金额分别是多少？",
+        "Answer_table": [
+            "./spreadsheet/职场通用 (45).xlsx"
+        ]
+    },
+    {
+        "query": "A_003项目的收入金额是多少？",
+        "Answer_table": [
+            "./spreadsheet/职场通用 (45).xlsx"
+        ]
+    },
+    {
+        "query": "表格中收入金额大于20000的项目有多少个？",
+        "Answer_table": [
+            "./spreadsheet/职场通用 (45).xlsx"
+        ]
+    },
+    {
+        "query": "A_004项目的毛利率是多少？（毛利率 = 毛利金额 / 收入金额 * 100%）",
+        "Answer_table": [
+            "./spreadsheet/职场通用 (45).xlsx"
+        ]
+    },
+    {
+        "query": "哪个项目的支出金额最高？",
+        "Answer_table": [
+            "./spreadsheet/职场通用 (45).xlsx"
+        ]
+    },
+    {
+        "query": "根据原始表格内容生成一个新的表格，只保留“学号”、“姓名”、“班级”和“总成绩”四列。",
+        "Answer_table": [
+            "./spreadsheet/2231.xlsx"
+        ]
+    },
+    {
+        "query": "在三年级2班中，谁的数学成绩是92分？",
+        "Answer_table": [
+            "./spreadsheet/2231.xlsx"
+        ]
+    },
+    {
+        "query": "请绘制一个柱状图来展示每个学生在数学成绩上的表现。",
+        "Answer_table": [
+            "./spreadsheet/2231.xlsx"
+        ]
+    },
+    {
+        "query": "所有学生的英语成绩平均分是多少？",
+        "Answer_table": [
+            "./spreadsheet/2231.xlsx"
+        ]
+    },
+    {
+        "query": "在三年级2班中，哪位学生的数学成绩是最高的？",
+        "Answer_table": [
+            "./spreadsheet/2231.xlsx"
+        ]
+    },
+    {
+        "query": "参加科学社的学生的科学成绩是多少？",
+        "Answer_table": [
+            "./spreadsheet/2231.xlsx"
+        ]
+    },
+    {
+        "query": "哪位学生在篮球社？",
+        "Answer_table": [
+            "./spreadsheet/2231.xlsx"
+        ]
+    },
+    {
+        "query": "数学成绩高于90分的学生有哪些？",
+        "Answer_table": [
+            "./spreadsheet/2231.xlsx"
+        ]
+    },
+    {
+        "query": "哪位学生的英语成绩是最高的？",
+        "Answer_table": [
+            "./spreadsheet/2231.xlsx"
+        ]
+    },
+    {
+        "query": "在原始表格中新增一列“折旧金额”，计算公式为“购入金额 / 可使用年限 * 已使用年限”，并将结果填入新列中。",
+        "Answer_table": [
+            "./spreadsheet/行政常用表-行政固定资产登记表1.xlsx"
+        ]
+    },
+    {
+        "query": "表格中单个商品的最低采购单价是多少？",
+        "Answer_table": [
+            "./spreadsheet/商品进货统计表.xlsx"
+        ]
+    },
+    {
+        "query": "根据原始表格生成一个透视表，统计每个供货商的总金额，并插入到一个名为“供货商统计”的新sheet中。",
+        "Answer_table": [
+            "./spreadsheet/商品进货统计表.xlsx"
+        ]
+    },
+    {
+        "query": "第15行的商品名称和规格型号是什么？",
+        "Answer_table": [
+            "./spreadsheet/商品进货统计表.xlsx"
+        ]
+    },
+    {
+        "query": "在表格中，哪个定额名称的工程量最大？",
+        "Answer_table": [
+            "./spreadsheet/气体灭火.xlsx"
+        ]
+    },
+    {
+        "query": "分析这个表格",
+        "Answer_table": [
+            "./spreadsheet/气体灭火.xlsx"
+        ]
+    },
+    {
+        "query": "镀锌无缝钢管DN50的工程量是多少？",
+        "Answer_table": [
+            "./spreadsheet/气体灭火.xlsx"
+        ]
+    },
+    {
+        "query": "选择阀螺纹连接DN65和气体驱动装置管道的人工单价哪个更高？",
+        "Answer_table": [
+            "./spreadsheet/气体灭火.xlsx"
+        ]
+    },
+    {
+        "query": "定额名称为\"安全阀DN80\"的设备单价是多少？",
+        "Answer_table": [
+            "./spreadsheet/气体灭火.xlsx"
+        ]
+    },
+    {
+        "query": "哪个定额名称的基价单价和人工单价之和最高？",
+        "Answer_table": [
+            "./spreadsheet/气体灭火.xlsx"
+        ]
+    },
+    {
+        "query": "镀锌无缝钢管DN80的总主材合计费用是多少？",
+        "Answer_table": [
+            "./spreadsheet/气体灭火.xlsx"
+        ]
+    },
+    {
+        "query": "表格中所有项目的平均工程量是多少？",
+        "Answer_table": [
+            "./spreadsheet/气体灭火.xlsx"
+        ]
+    },
+    {
+        "query": "总结这个表格",
+        "Answer_table": [
+            "./spreadsheet/职场通用 (17).xlsx"
+        ]
+    },
+    {
+        "query": "在表格中，哪个月份的“收入金额”比“支出金额”多出最多？",
+        "Answer_table": [
+            "./spreadsheet/职场通用 (17).xlsx"
+        ]
+    },
+    {
+        "query": "在表格中，哪个月份的“收入金额.1”是200.0？",
+        "Answer_table": [
+            "./spreadsheet/职场通用 (17).xlsx"
+        ]
+    },
+    {
+        "query": "稻壳2在2月份的数值是否高于稻壳3在同月的数值？",
+        "Answer_table": [
+            "./spreadsheet/职场通用 (30).xlsx"
+        ]
+    },
+    {
+        "query": "请绘制一个条形图，对比稻壳3和稻壳4在每个月的销售额。",
+        "Answer_table": [
+            "./spreadsheet/职场通用 (30).xlsx"
+        ]
+    },
+    {
+        "query": "稻壳1在哪个月份的收入最高？",
+        "Answer_table": [
+            "./spreadsheet/职场通用 (30).xlsx"
+        ]
+    },
+    {
+        "query": "稻壳1在1月份的数值是多少？",
+        "Answer_table": [
+            "./spreadsheet/职场通用 (30).xlsx"
+        ]
+    },
+    {
+        "query": "稻壳4在4月份到6月份的平均数值是多少？",
+        "Answer_table": [
+            "./spreadsheet/职场通用 (30).xlsx"
+        ]
+    },
+    {
+        "query": "稻壳5的数值在哪个月份达到了最高点？",
+        "Answer_table": [
+            "./spreadsheet/职场通用 (30).xlsx"
+        ]
+    },
+    {
+        "query": "哪个稻壳在任何一个月份中的收入最低，并且是哪个月份？",
+        "Answer_table": [
+            "./spreadsheet/职场通用 (30).xlsx"
+        ]
+    },
+    {
+        "query": "稻壳10在6月和7月的收入分别是多少？",
+        "Answer_table": [
+            "./spreadsheet/职场通用 (30).xlsx"
+        ]
+    },
+    {
+        "query": "序号为3和序号为4的构件的总重量之和是多少？",
+        "Answer_table": [
+            "./spreadsheet/BH构件 (2).xlsx"
+        ]
+    },
+    {
+        "query": "表格中翼板总重最轻的BH构件的翼板总重是多少？",
+        "Answer_table": [
+            "./spreadsheet/BH构件 (2).xlsx"
+        ]
+    },
+    {
+        "query": "请绘制一个折线图，展示各序号对应的单件重量随序号变化的趋势。",
+        "Answer_table": [
+            "./spreadsheet/BH构件 (2).xlsx"
+        ]
+    },
+    {
+        "query": "第7行的翼板总重和腹板总重分别是多少？",
+        "Answer_table": [
+            "./spreadsheet/BH构件 (2).xlsx"
+        ]
+    },
+    {
+        "query": "随着序号的增加，翼板厚Tf的平均值是增加还是减少？",
+        "Answer_table": [
+            "./spreadsheet/BH构件 (2).xlsx"
+        ]
+    },
+    {
+        "query": "序号为5的构件的翼板总重是多少？",
+        "Answer_table": [
+            "./spreadsheet/BH构件 (2).xlsx"
+        ]
+    },
+    {
+        "query": "学生1和学生3谁的数学成绩更高？",
+        "Answer_table": [
+            "./spreadsheet/Sheet56.xlsx"
+        ]
+    },
+    {
+        "query": "学生11的总分是多少？",
+        "Answer_table": [
+            "./spreadsheet/Sheet56.xlsx"
+        ]
+    },
+    {
+        "query": "在所有学生中，哪位学生的数学成绩是99分？",
+        "Answer_table": [
+            "./spreadsheet/Sheet56.xlsx"
+        ]
+    },
+    {
+        "query": "这个表格的关键点是什么",
+        "Answer_table": [
+            "./spreadsheet/Sheet56.xlsx"
+        ]
+    },
+    {
+        "query": "在所有学生中，哪个班级的平均总分最高？这是否意味着该班级的学生整体表现最好？",
+        "Answer_table": [
+            "./spreadsheet/Sheet56.xlsx"
+        ]
+    },
+    {
+        "query": "表格中总共有多少名学生？",
+        "Answer_table": [
+            "./spreadsheet/Sheet56.xlsx"
+        ]
+    },
+    {
+        "query": "根据原始表格内容生成一个新的表格，只保留“姓名”、“班级”和“总分”三列。",
+        "Answer_table": [
+            "./spreadsheet/Sheet56.xlsx"
+        ]
+    },
+    {
+        "query": "编号为10的学生在英语科目的得分是多少？",
+        "Answer_table": [
+            "./spreadsheet/Sheet56.xlsx"
+        ]
+    },
+    {
+        "query": "所有实验结果为“合格”的记录有多少条？",
+        "Answer_table": [
+            "./spreadsheet/2015焊件.xlsx"
+        ]
+    },
+    {
+        "query": "在所有记录中，第一个出现的实验报告编号及日期是什么？",
+        "Answer_table": [
+            "./spreadsheet/2015焊件.xlsx"
+        ]
+    },
+    {
+        "query": "表格中总共有多少组试件数量的记录？",
+        "Answer_table": [
+            "./spreadsheet/2015焊件.xlsx"
+        ]
+    },
+    {
+        "query": "2015年3月15日和2015年4月3日，哪一天的见证取样部位数量更多？",
+        "Answer_table": [
+            "./spreadsheet/2015焊件.xlsx"
+        ]
+    },
+    {
+        "query": "从委托日期来看，实验报告编号的日期是否总是与委托日期一致？",
+        "Answer_table": [
+            "./spreadsheet/2015焊件.xlsx"
+        ]
+    },
+    {
+        "query": "对这个表进行总结分析",
+        "Answer_table": [
+            "./spreadsheet/2015焊件.xlsx"
+        ]
+    },
+    {
+        "query": "绘制一个雷达图来展示不同见证人在各个见证取样部位的试件数量的分布情况。",
+        "Answer_table": [
+            "./spreadsheet/2015焊件.xlsx"
+        ]
+    },
+    {
+        "query": "在所有记录中，12mm钢筋规格的试件数量总和是多少？",
+        "Answer_table": [
+            "./spreadsheet/2015焊件.xlsx"
+        ]
+    },
+    {
+        "query": "哪个月份的物料生产数量最多，且该月份的单位成本低于3元？",
+        "Answer_table": [
+            "./spreadsheet/职场通用 (3).xlsx"
+        ]
+    },
+    {
+        "query": "2023年有多少条生产记录？",
+        "Answer_table": [
+            "./spreadsheet/职场通用 (3).xlsx"
+        ]
+    },
+    {
+        "query": "从2022年1月到2023年5月，管理费用的总增长率是多少？",
+        "Answer_table": [
+            "./spreadsheet/职场通用 (3).xlsx"
+        ]
+    },
+    {
+        "query": "请分析原材料成本、人工费、制造费用和管理费用与单位成本之间的关系。",
+        "Answer_table": [
+            "./spreadsheet/职场通用 (3).xlsx"
+        ]
+    },
+    {
+        "query": "2022年7月1日的物料7的单位成本是多少？",
+        "Answer_table": [
+            "./spreadsheet/职场通用 (3).xlsx"
+        ]
+    },
+    {
+        "query": "根据原始表格生成一个透视表，统计每个月的“生产数量”和“合计成本”总和，并插入到一个新的sheet中。",
+        "Answer_table": [
+            "./spreadsheet/职场通用 (3).xlsx"
+        ]
+    },
+    {
+        "query": "2004年山东的数据是多少？",
+        "Answer_table": [
+            "./spreadsheet/各省征用土地面积(平方公里).xlsx"
+        ]
+    },
+    {
+        "query": "2003年所有地区的数据平均值是多少？",
+        "Answer_table": [
+            "./spreadsheet/各省征用土地面积(平方公里).xlsx"
+        ]
+    },
+    {
+        "query": "2004年河北的数据是多少？",
+        "Answer_table": [
+            "./spreadsheet/各省征用土地面积(平方公里).xlsx"
+        ]
+    },
+    {
+        "query": "根据原始表格内容生成一个折线图，显示每个地区在1999年到2013年的数据变化趋势，并将图插入到原始表格sheet中。",
+        "Answer_table": [
+            "./spreadsheet/各省征用土地面积(平方公里).xlsx"
+        ]
+    },
+    {
+        "query": "请绘制一个条形图，展示2004年各地区的数据对比。",
+        "Answer_table": [
+            "./spreadsheet/各省征用土地面积(平方公里).xlsx"
+        ]
+    },
+    {
+        "query": "表格中成交总价最高的土地是多少万元？",
+        "Answer_table": [
+            "./spreadsheet/北京-土地出让明细.xlsx"
+        ]
+    },
+    {
+        "query": "2015年6月12日北京市房山区成交的宗地名称有哪些？",
+        "Answer_table": [
+            "./spreadsheet/北京-土地出让明细.xlsx"
+        ]
+    },
+    {
+        "query": "2015年08月05日北京市朝阳区的土地起拍总价是多少万元？",
+        "Answer_table": [
+            "./spreadsheet/北京-土地出让明细.xlsx"
+        ]
+    },
+    {
+        "query": "在2015年07月成交的地块中，成交总价最高的是哪个宗地名称？",
+        "Answer_table": [
+            "./spreadsheet/北京-土地出让明细.xlsx"
+        ]
+    },
+    {
+        "query": "2015年07月30日和2015年07月28日在北京市朝阳区和丰台区的土地面积哪个更大？",
+        "Answer_table": [
+            "./spreadsheet/北京-土地出让明细.xlsx"
+        ]
+    },
+    {
+        "query": "将原始表格中所有“本日售出”大于20的单元格字体标红。",
+        "Answer_table": [
+            "./spreadsheet/商品销售和库存数据统计表.xlsx"
+        ]
+    },
+    {
+        "query": "请问在所有数据中，销售数量最多的商品是哪一个？",
+        "Answer_table": [
+            "./spreadsheet/商品销售和库存数据统计表.xlsx"
+        ]
+    },
+    {
+        "query": "请问在所有数据中，所有商品的平均售价是多少？",
+        "Answer_table": [
+            "./spreadsheet/商品销售和库存数据统计表.xlsx"
+        ]
+    },
+    {
+        "query": "请问在所有数据中，哪位业务员的销售额最高？",
+        "Answer_table": [
+            "./spreadsheet/商品销售和库存数据统计表.xlsx"
+        ]
+    },
+    {
+        "query": "请计算\"销售与毛利\"表中，深圳和南宁两个区域在5月第一周的毛利率总和。",
+        "Answer_table": [
+            "./spreadsheet/3333 (77).xlsx"
+        ]
+    },
+    {
+        "query": "请描述\"期货跟进表\"中，\"内衣\"款型的订货SKU数量和订单数量。",
+        "Answer_table": [
+            "./spreadsheet/3333 (77).xlsx"
+        ]
+    },
+    {
+        "query": "\"销售与折扣\"表中，广州一区和广州二区在5月第一周的实销额和实折扣各是多少，哪个区的实销额更高？",
+        "Answer_table": [
+            "./spreadsheet/3333 (77).xlsx"
+        ]
+    },
+    {
+        "query": "请问在所有工作表中，10403采面的月计划总共是多少吨？",
+        "Answer_table": [
+            "./spreadsheet/煤矿生产日报表.xlsx"
+        ]
+    },
+    {
+        "query": "在所有工作表中，哪一天的10403采面的日完成量最高？",
+        "Answer_table": [
+            "./spreadsheet/煤矿生产日报表.xlsx"
+        ]
+    },
+    {
+        "query": "在所有工作表中，10403采面的月累计完成量总共是多少吨？",
+        "Answer_table": [
+            "./spreadsheet/煤矿生产日报表.xlsx"
+        ]
+    },
+    {
+        "query": "请在\"工资表\"中找出实发工资最高和最低的员工是谁？",
+        "Answer_table": [
+            "./spreadsheet/薪酬管理工资核算明细表1.xlsx"
+        ]
+    },
+    {
+        "query": "将“出勤天数”列中所有大于20的单元格背景色标为黄色。",
+        "Answer_table": [
+            "./spreadsheet/薪酬管理工资核算明细表1.xlsx"
+        ]
+    },
+    {
+        "query": "请问\"工资表\"中，小明的应发薪资和实发工资各是多少？",
+        "Answer_table": [
+            "./spreadsheet/薪酬管理工资核算明细表1.xlsx"
+        ]
+    },
+    {
+        "query": "在表格中新增一列“每平方米成交价（元/平方米）”，计算公式为“成交价(万元) * 10000 / 土地面积(平方米)”，并将结果插入到新列中。",
+        "Answer_table": [
+            "./spreadsheet/北京市07-12年土地出让数据.xlsx"
+        ]
+    },
+    {
+        "query": "2015年和2016年，理科分数段在400-396的人数哪一年更多？",
+        "Answer_table": [
+            "./spreadsheet/2015-2019江苏高考文理科逐分段统计表.xlsx"
+        ]
+    },
+    {
+        "query": "2020年5月1日和5月2日，哪一天的入库数量更多？",
+        "Answer_table": [
+            "./spreadsheet/商品物流管理 (60).xlsx"
+        ]
+    },
+    {
+        "query": "请问2020年5月1日至5月10日，产品3的总入库数量是多少？",
+        "Answer_table": [
+            "./spreadsheet/商品物流管理 (60).xlsx"
+        ]
+    },
+    {
+        "query": "请问在所有产品中，哪个产品的库存数量低于安全库存数量？",
+        "Answer_table": [
+            "./spreadsheet/商品物流管理 (60).xlsx"
+        ]
+    },
+    {
+        "query": "请问吕美芳在2020年4月21日和4月22日的收入金额哪一天更多？",
+        "Answer_table": [
+            "./spreadsheet/收支记账表（自动公式）1.xlsx"
+        ]
+    },
+    {
+        "query": "请问吕美芳在2020年4月21日至4月26日中，哪一天的余额最高？",
+        "Answer_table": [
+            "./spreadsheet/收支记账表（自动公式）1.xlsx"
+        ]
+    },
+    {
+        "query": "根据原始表格内容生成一个柱状图，显示每个“记账日期”的收入和支出情况，并将该图插入到原始表格的sheet中。",
+        "Answer_table": [
+            "./spreadsheet/收支记账表（自动公式）1.xlsx"
+        ]
+    },
+    {
+        "query": "哪个月的\"每日平均\"订单数最高？",
+        "Answer_table": [
+            "./spreadsheet/电商订单分析.xlsx"
+        ]
+    },
+    {
+        "query": "在所有工作表中，\"完成订单数/人\"的总和是多少？",
+        "Answer_table": [
+            "./spreadsheet/电商订单分析.xlsx"
+        ]
+    },
+    {
+        "query": "请找出所有\"产品总数\"超过1000的日期。",
+        "Answer_table": [
+            "./spreadsheet/电商订单分析.xlsx"
+        ]
+    },
+    {
+        "query": "请问在整个年度中，总的入库数量和出库数量各是多少？",
+        "Answer_table": [
+            "./spreadsheet/进销存出入库管理明细表.xlsx"
+        ]
+    },
+    {
+        "query": "在所有的工作表中，哪一天的店铺客流信息的用时最长？",
+        "Answer_table": [
+            "./spreadsheet/3333 (80).xlsx"
+        ]
+    },
+    {
+        "query": "将“店铺客流信息”列的所有单元格背景颜色设置为浅黄色。",
+        "Answer_table": [
+            "./spreadsheet/3333 (80).xlsx"
+        ]
+    },
+    {
+        "query": "在所有的工作表中，哪一天的成交率最高，并且这一天的天气是怎样的？",
+        "Answer_table": [
+            "./spreadsheet/3333 (80).xlsx"
+        ]
+    },
+    {
+        "query": "请计算所有药品的总库存数量和总库存金额。",
+        "Answer_table": [
+            "./spreadsheet/商品库存报表.xlsx"
+        ]
+    },
+    {
+        "query": "请问哪些药品的库存数量在100以上？",
+        "Answer_table": [
+            "./spreadsheet/商品库存报表.xlsx"
+        ]
+    },
+    {
+        "query": "请问课堂管理的功能有哪些？课堂管理又是如何影响学生的学习环境的？",
+        "Answer_table": [
+            "./spreadsheet/教师资格证之教育心理学.xlsx"
+        ]
+    },
+    {
+        "query": "教师的领导风格和班级规模是如何影响课堂管理的？他们之间有什么关系？",
+        "Answer_table": [
+            "./spreadsheet/教师资格证之教育心理学.xlsx"
+        ]
+    },
+    {
+        "query": "在所有工作表中，哪个工作表中的五年期人民币存款利率最高？",
+        "Answer_table": [
+            "./spreadsheet/银行存款利率.xlsx"
+        ]
+    },
+    {
+        "query": "在所有工作表中，三年期的人民币存款利率和五年期的人民币存款利率哪个更高？",
+        "Answer_table": [
+            "./spreadsheet/银行存款利率.xlsx"
+        ]
+    },
+    {
+        "query": "在2014-2016年全国高考新课标Ⅰ、Ⅱ卷物理科目考查明细表中，考试内容（知识点）中包含\"电磁感应\"的是哪一项？",
+        "Answer_table": [
+            "./spreadsheet/高考命题考点.xlsx"
+        ]
+    },
+    {
+        "query": "请列举一下知识学习的类型，并解释每种类型的特点是什么？",
+        "Answer_table": [
+            "./spreadsheet/教育心理学.xlsx"
+        ]
+    },
+    {
+        "query": "请解释一下什么是心智技能，并分析其形成的理论探讨？",
+        "Answer_table": [
+            "./spreadsheet/教育心理学.xlsx"
+        ]
+    },
+    {
+        "query": "请问广西佳迅管道工程有限公司和重庆秀山龙洋建筑有限公司在哪个月份进行了工程质量情况的记录？",
+        "Answer_table": [
+            "./spreadsheet/月统计质量报表.xlsx"
+        ]
+    },
+    {
+        "query": "请计算广西佳迅管道工程有限公司和重庆秀山龙洋建筑有限公司在所有检查项目上的平均一次合格率和最后合格率。",
+        "Answer_table": [
+            "./spreadsheet/月统计质量报表.xlsx"
+        ]
+    },
+    {
+        "query": "根据\"编制说明\"和\"各类产品建筑标准\"工作表，项目的销售总额是多少，且商业建筑的结构形式是什么？",
+        "Answer_table": [
+            "./spreadsheet/建筑成本预算表格.xlsx"
+        ]
+    },
+    {
+        "query": "根据\"规划指标\"和\"各类产品建筑标准\"工作表，项目的建筑面积中，小高层住宅的建筑面积是否大于高层住宅的建筑面积，且小高层住宅的结构形式是否为短肢剪力墙？",
+        "Answer_table": [
+            "./spreadsheet/建筑成本预算表格.xlsx"
+        ]
+    },
+    {
+        "query": "根据\"编制说明\"和\"规划指标\"工作表，项目的总投资是多少，且项目的总建筑面积是多少？",
+        "Answer_table": [
+            "./spreadsheet/建筑成本预算表格.xlsx"
+        ]
+    },
+    {
+        "query": "产品1的入库时间是什么？",
+        "Answer_table": [
+            "./spreadsheet/库存管理 (26).xlsx"
+        ]
+    },
+    {
+        "query": "产品2的生产厂家是哪家？",
+        "Answer_table": [
+            "./spreadsheet/库存管理 (26).xlsx"
+        ]
+    },
+    {
+        "query": "产品1的生产厂家是什么？",
+        "Answer_table": [
+            "./spreadsheet/库存管理 (26).xlsx"
+        ]
+    },
+    {
+        "query": "解读一下这个表的统计数据。",
+        "Answer_table": [
+            "./spreadsheet/库存管理 (26).xlsx"
+        ]
+    },
+    {
+        "query": "将表格中所有的“XXX集团有限公司”单元格字体加粗，并标红。",
+        "Answer_table": [
+            "./spreadsheet/建筑工程清单报价表（全套自动计算）1.xlsx"
+        ]
+    },
+    {
+        "query": "请列出所有需要使用到硫酸的化学实验及其对应的实验名称。",
+        "Answer_table": [
+            "./spreadsheet/高中化学实验目录表.xlsx"
+        ]
+    },
+    {
+        "query": "在所有的化学实验中，哪些实验涉及到化学反应速率和化学平衡的探究，并且需要使用到硫酸？",
+        "Answer_table": [
+            "./spreadsheet/高中化学实验目录表.xlsx"
+        ]
+    },
+    {
+        "query": "请列出所有涉及到有机化合物的组成与结构的实验，并说明所需的主要仪器及材料和所需试剂。",
+        "Answer_table": [
+            "./spreadsheet/高中化学实验目录表.xlsx"
+        ]
+    },
+    {
+        "query": "请问在所有工作表中，哪些记账人员使用了微信作为费用结算方式？",
+        "Answer_table": [
+            "./spreadsheet/财务收支记账表-自动计算1.xlsx"
+        ]
+    },
+    {
+        "query": "在所有工作表中，哪个记账人员的支出金额最多？",
+        "Answer_table": [
+            "./spreadsheet/财务收支记账表-自动计算1.xlsx"
+        ]
+    },
+    {
+        "query": "请问在所有工作表中，所有使用微信作为结算方式的总支出是多少？",
+        "Answer_table": [
+            "./spreadsheet/财务收支记账表-自动计算1.xlsx"
+        ]
+    },
+    {
+        "query": "在所有工作表中，哪个记账人员的收入和支出差额最大？",
+        "Answer_table": [
+            "./spreadsheet/财务收支记账表-自动计算1.xlsx"
+        ]
+    },
+    {
+        "query": "在所有工作表中，北京大学本部2008年各省（自治区、直辖市）专业录取分数线中，理科和文科中，哪个科类的最高分更高？",
+        "Answer_table": [
+            "./spreadsheet/北京大学各省各专业录取情况.xlsx"
+        ]
+    },
+    {
+        "query": "请问在所有工作表中，北京大学本部2008年各省（自治区、直辖市）专业录取分数线中，平均分最高的是哪个专业？",
+        "Answer_table": [
+            "./spreadsheet/北京大学各省各专业录取情况.xlsx"
+        ]
+    },
+    {
+        "query": "请描述一下星期一的店铺经营情况，包括浏览量、访客数、下单件数等信息。",
+        "Answer_table": [
+            "./spreadsheet/【店铺数据】旗舰店运营报表12月-.xlsx"
+        ]
+    },
+    {
+        "query": "请问代码为10003的商品是什么名称？",
+        "Answer_table": [
+            "./spreadsheet/连锁超市商品分类明细表.xlsx"
+        ]
+    },
+    {
+        "query": "请问代码为10004的商品的本月入库和调货数量总和是多少？",
+        "Answer_table": [
+            "./spreadsheet/连锁超市商品分类明细表.xlsx"
+        ]
+    },
+    {
+        "query": "请问代码为10001的商品和代码为10002的商品，哪个的上月库存更多？",
+        "Answer_table": [
+            "./spreadsheet/连锁超市商品分类明细表.xlsx"
+        ]
+    },
+    {
+        "query": "在所有工作表中，哪些题目的知识内容涉及到\"带电粒子在匀强磁场中的运动\"？",
+        "Answer_table": [
+            "./spreadsheet/全国高考理综物理.xlsx"
+        ]
+    },
+    {
+        "query": "在所有工作表中，哪些题目涉及到\"必修1\"和\"必修2\"的知识点？",
+        "Answer_table": [
+            "./spreadsheet/全国高考理综物理.xlsx"
+        ]
+    },
+    {
+        "query": "在所有工作表中，\"微宏PACK\"的产品规格是多少？这个规格的产品数量是多少？",
+        "Answer_table": [
+            "./spreadsheet/生产大计划.xlsx"
+        ]
+    },
+    {
+        "query": "在所有工作表中，\"微宏PACK\"的产品交期和\"X\"的产品交期哪个更早？",
+        "Answer_table": [
+            "./spreadsheet/生产大计划.xlsx"
+        ]
+    },
+    {
+        "query": "在所有工作表中，哪个客户的产品数量最多？这个客户的产品是什么？",
+        "Answer_table": [
+            "./spreadsheet/生产大计划.xlsx"
+        ]
+    },
+    {
+        "query": "在所有工作表中，如果我想找一个市净率和市盈率都相对较低的股票，我应该选择哪个？",
+        "Answer_table": [
+            "./spreadsheet/股票分析表.xlsx"
+        ]
+    },
+    {
+        "query": "在所有工作表中，格力电器的历史底部市盈率和历史底部市净率的和是多少？",
+        "Answer_table": [
+            "./spreadsheet/股票分析表.xlsx"
+        ]
+    },
+    {
+        "query": "请问在所有工作表中，格力电器的最高点是多少？",
+        "Answer_table": [
+            "./spreadsheet/股票分析表.xlsx"
+        ]
+    },
+    {
+        "query": "请问2012年7月6日后，南京银行和杭州银行的活期存款年利率哪个更高？",
+        "Answer_table": [
+            "./spreadsheet/各家银行个人存款利率对比表(2012年7月6日调整后).xlsx"
+        ]
+    },
+    {
+        "query": "请问2012年7月6日后，南京银行的一年期整存整取的年利率是多少？",
+        "Answer_table": [
+            "./spreadsheet/各家银行个人存款利率对比表(2012年7月6日调整后).xlsx"
+        ]
+    },
+    {
+        "query": "如果我在2012年7月6日后在南京银行存入10000元的三年期整存整取存款，到期后我将获得多少利息？",
+        "Answer_table": [
+            "./spreadsheet/各家银行个人存款利率对比表(2012年7月6日调整后).xlsx"
+        ]
+    },
+    {
+        "query": "如果我在2012年7月6日后在南京银行存入一笔定期一年的存款，一年后的利息会高于在杭州银行存入同样金额的定期一年的存款吗？",
+        "Answer_table": [
+            "./spreadsheet/各家银行个人存款利率对比表(2012年7月6日调整后).xlsx"
+        ]
+    },
+    {
+        "query": "2011年新课标Ⅰ卷和新课标Ⅱ卷中，哪些内容的题量是5题（选择4个、主观题1问）？",
+        "Answer_table": [
+            "./spreadsheet/近五年高考文综试卷分析.xlsx"
+        ]
+    },
+    {
+        "query": "请计算2014年新课标Ⅰ卷中，经济生活和政治生活两部分的总分值是多少？",
+        "Answer_table": [
+            "./spreadsheet/近五年高考文综试卷分析.xlsx"
+        ]
+    },
+    {
+        "query": "在新课标Ⅰ卷中，哪一年的哲学生活部分的题量最多，且该年份的这部分内容的总分值是多少？",
+        "Answer_table": [
+            "./spreadsheet/近五年高考文综试卷分析.xlsx"
+        ]
+    },
+    {
+        "query": "如果我们想要减少砼的使用量，我们应该优先考虑减少哪个工作表中的哪个构件？",
+        "Answer_table": [
+            "./spreadsheet/计算建筑工程量.xlsx"
+        ]
+    },
+    {
+        "query": "请问\"联营扣点\"表中，\"猪、牛、羊肉\"的联营扣点是多少？",
+        "Answer_table": [
+            "./spreadsheet/超市联营扣点及毛利率.xlsx"
+        ]
+    },
+    {
+        "query": "\"联营扣点\"表中，\"猪、牛、羊肉\"的销售保底额万/年和\"禽类\"的销售保底额万/年总和是多少？",
+        "Answer_table": [
+            "./spreadsheet/超市联营扣点及毛利率.xlsx"
+        ]
+    },
+    {
+        "query": "在所有工作表中，无锡公司和南通公司的预算总计哪个更高？",
+        "Answer_table": [
+            "./spreadsheet/1237 (2).xlsx"
+        ]
+    },
+    {
+        "query": "在所有工作表中，市场部门在各个公司的预算总和是多少？",
+        "Answer_table": [
+            "./spreadsheet/1237 (2).xlsx"
+        ]
+    },
+    {
+        "query": "请问在所有工作表中，预算最高的部门是哪个？",
+        "Answer_table": [
+            "./spreadsheet/1237 (2).xlsx"
+        ]
+    },
+    {
+        "query": "在所有工作表中，\"累计销售\"最高的系列的\"出清率\"是多少？",
+        "Answer_table": [
+            "./spreadsheet/服装零售周报.xlsx"
+        ]
+    },
+    {
+        "query": "在所有工作表中，每个工作表的月还款总额是多少？",
+        "Answer_table": [
+            "./spreadsheet/等额利息表.xlsx"
+        ]
+    },
+    {
+        "query": "在所有工作表中，首付款合计最高的是在哪个工作表？",
+        "Answer_table": [
+            "./spreadsheet/等额利息表.xlsx"
+        ]
+    },
+    {
+        "query": "在所有工作表中，哪个工作表的贷款期数最长，并且贷款金额最高？",
+        "Answer_table": [
+            "./spreadsheet/等额利息表.xlsx"
+        ]
+    },
+    {
+        "query": "请问在所有工作表中，车价最高的是多少元？",
+        "Answer_table": [
+            "./spreadsheet/等额利息表.xlsx"
+        ]
+    },
+    {
+        "query": "请问2017年广东省提前第一批本科文科和理科第一次投档中，所有学校的计划数总和是多少？",
+        "Answer_table": [
+            "./spreadsheet/2017年高考录取分数线.xlsx"
+        ]
+    },
+    {
+        "query": "请问2017年广东省提前第一批本科文科第一次投档中，北京大学的计划数是多少？",
+        "Answer_table": [
+            "./spreadsheet/2017年高考录取分数线.xlsx"
+        ]
+    },
+    {
+        "query": "请问2017年广东省提前第一批本科文科和理科第一次投档中，北京大学的投档人数哪个更多？",
+        "Answer_table": [
+            "./spreadsheet/2017年高考录取分数线.xlsx"
+        ]
+    },
+    {
+        "query": "请问2017年广东省提前第一批本科文科和理科第一次投档中，哪个学校的第一志愿投档最低分最高？",
+        "Answer_table": [
+            "./spreadsheet/2017年高考录取分数线.xlsx"
+        ]
+    },
+    {
+        "query": "在工作表\"生产计划表\"中，装配L002005 C60F和装配L002007 C61X的月度计划和计划调整的总和分别是多少？",
+        "Answer_table": [
+            "./spreadsheet/生产制造 表格 (19).xlsx"
+        ]
+    },
+    {
+        "query": "根据工作表\"MES导出数据\"，如果我们需要增加五档主齿的生产，但是受到硬加工在制的限制，我们能否立即增产？为什么？",
+        "Answer_table": [
+            "./spreadsheet/生产制造 表格 (19).xlsx"
+        ]
+    },
+    {
+        "query": "在工作表\"MES导出数据\"中，哪个自制件名称的软加工在制数量最多，与其相比，五档主齿的软加工在制数量如何？",
+        "Answer_table": [
+            "./spreadsheet/生产制造 表格 (19).xlsx"
+        ]
+    },
+    {
+        "query": "在\"本月会计凭证\"表中，\"借方\"金额总和与\"贷方\"金额总和哪个更大？",
+        "Answer_table": [
+            "./spreadsheet/7777 (23).xlsx"
+        ]
+    },
+    {
+        "query": "根据原始表格内容生成一个新的表格，仅包含“资产类”科目的编号和名称，并将其保存为一个新的Excel文件。",
+        "Answer_table": [
+            "./spreadsheet/7777 (23).xlsx"
+        ]
+    },
+    {
+        "query": "请查找在\"本月会计凭证\"表中，凭证种类为\"转\"的所有记录。",
+        "Answer_table": [
+            "./spreadsheet/7777 (23).xlsx"
+        ]
+    },
+    {
+        "query": "请问2022年1月1日是星期几？",
+        "Answer_table": [
+            "./spreadsheet/2022年营销日历日期可更新.xlsx"
+        ]
+    },
+    {
+        "query": "请问2022年1月份哪一天的活动热点是“满减”？",
+        "Answer_table": [
+            "./spreadsheet/2022年营销日历日期可更新.xlsx"
+        ]
+    },
+    {
+        "query": "2022年1月份的销售目标总和是多少？",
+        "Answer_table": [
+            "./spreadsheet/2022年营销日历日期可更新.xlsx"
+        ]
+    },
+    {
+        "query": "哪个业务员负责的项目数量最多？",
+        "Answer_table": [
+            "./spreadsheet/项目明细统计表1.xlsx"
+        ]
+    },
+    {
+        "query": "所有项目的总金额是多少？",
+        "Answer_table": [
+            "./spreadsheet/项目明细统计表1.xlsx"
+        ]
+    },
+    {
+        "query": "项目编号为003的项目名称是什么？",
+        "Answer_table": [
+            "./spreadsheet/项目明细统计表1.xlsx"
+        ]
+    },
+    {
+        "query": "业务员张国武负责了多少个项目？",
+        "Answer_table": [
+            "./spreadsheet/项目明细统计表1.xlsx"
+        ]
+    },
+    {
+        "query": "项目编号为003的业务员姓名是什么？",
+        "Answer_table": [
+            "./spreadsheet/项目明细统计表1.xlsx"
+        ]
+    },
+    {
+        "query": "项目编号为008的项目名称是什么？",
+        "Answer_table": [
+            "./spreadsheet/项目明细统计表1.xlsx"
+        ]
+    },
+    {
+        "query": "一1班的未收费人数占班级总人数的百分比是多少？",
+        "Answer_table": [
+            "./spreadsheet/83.xlsx"
+        ]
+    },
+    {
+        "query": "哪个班级的实收费总金额最低？",
+        "Answer_table": [
+            "./spreadsheet/83.xlsx"
+        ]
+    },
+    {
+        "query": "根据表格数据，已交齐和未交齐的班级各有多少？",
+        "Answer_table": [
+            "./spreadsheet/83.xlsx"
+        ]
+    },
+    {
+        "query": "哪个班级的实收费总金额是最低的？",
+        "Answer_table": [
+            "./spreadsheet/83.xlsx"
+        ]
+    },
+    {
+        "query": "请问2016年11月的月成果是多少？",
+        "Answer_table": [
+            "./spreadsheet/【店铺数据】销售数据表汇总运营部全网-.xlsx"
+        ]
+    },
+    {
+        "query": "2016年11月的销售收入部分A成交款是否高于12月？",
+        "Answer_table": [
+            "./spreadsheet/【店铺数据】销售数据表汇总运营部全网-.xlsx"
+        ]
+    },
+    {
+        "query": "2016年11月的月成果是否高于12月？",
+        "Answer_table": [
+            "./spreadsheet/【店铺数据】销售数据表汇总运营部全网-.xlsx"
+        ]
+    },
+    {
+        "query": "请问2016年11月和12月的销售收入部分A成交款的总和是多少？",
+        "Answer_table": [
+            "./spreadsheet/【店铺数据】销售数据表汇总运营部全网-.xlsx"
+        ]
+    },
+    {
+        "query": "请绘制一个散点图，用以展示少先队员的年龄与入队时长的关系。",
+        "Answer_table": [
+            "./spreadsheet/少先队员登记表1.xlsx"
+        ]
+    },
+    {
+        "query": "少先队员登记表中年龄最小的少先队员是多少岁？",
+        "Answer_table": [
+            "./spreadsheet/少先队员登记表1.xlsx"
+        ]
+    },
+    {
+        "query": "请绘制一个面积图来表示每个月份本年与上年主营成本的累计值。",
+        "Answer_table": [
+            "./spreadsheet/财务利润分析表.xlsx"
+        ]
+    },
+    {
+        "query": "第2月和第3月的主营收入总和是多少？",
+        "Answer_table": [
+            "./spreadsheet/财务利润分析表.xlsx"
+        ]
+    },
+    {
+        "query": "表格中本年主营成本的最大值是多少？",
+        "Answer_table": [
+            "./spreadsheet/财务利润分析表.xlsx"
+        ]
+    },
+    {
+        "query": "第4月的环比增长率在主营收入、主营成本、税金和期间费用中哪个最高？",
+        "Answer_table": [
+            "./spreadsheet/财务利润分析表.xlsx"
+        ]
+    },
+    {
+        "query": "表格中所有销售金额的平均值是多少？",
+        "Answer_table": [
+            "./spreadsheet/年度销售员业绩计算表1.xlsx"
+        ]
+    },
+    {
+        "query": "在2020年3月，业务员XM3的销售金额是多少？",
+        "Answer_table": [
+            "./spreadsheet/年度销售员业绩计算表1.xlsx"
+        ]
+    },
+    {
+        "query": "在2020年10月，XM10的销售数量和销售单价分别是多少？",
+        "Answer_table": [
+            "./spreadsheet/年度销售员业绩计算表1.xlsx"
+        ]
+    },
+    {
+        "query": "根据“年度销售员业绩计算表”中的数据生成一个柱状图，显示每个月的“总销售额”，并将该图插入到原始表格的sheet中。",
+        "Answer_table": [
+            "./spreadsheet/年度销售员业绩计算表1.xlsx"
+        ]
+    },
+    {
+        "query": "在2021年中，哪个月份的结余是最高的？",
+        "Answer_table": [
+            "./spreadsheet/财务收支记账明细表1 (2).xlsx"
+        ]
+    },
+    {
+        "query": "2021年6月的收入是否比2021年7月的收入更多？",
+        "Answer_table": [
+            "./spreadsheet/财务收支记账明细表1 (2).xlsx"
+        ]
+    },
+    {
+        "query": "在2021年7月的财务收支记账明细中，收入金额是多少？",
+        "Answer_table": [
+            "./spreadsheet/财务收支记账明细表1 (2).xlsx"
+        ]
+    },
+    {
+        "query": "解读一下这个表的统计数据。",
+        "Answer_table": [
+            "./spreadsheet/财务收支记账明细表1 (2).xlsx"
+        ]
+    },
+    {
+        "query": "一共有多少个月份的财务收支记录？",
+        "Answer_table": [
+            "./spreadsheet/财务收支记账明细表1 (2).xlsx"
+        ]
+    },
+    {
+        "query": "根据原始表格内容生成一个柱状图，显示每个产品的入库数量和出库数量，并将该图插入到原始表格的sheet中。",
+        "Answer_table": [
+            "./spreadsheet/出入库库存管理表.xlsx"
+        ]
+    },
+    {
+        "query": "2022年1月3日，产品名称4的入库单价和数量分别是多少？",
+        "Answer_table": [
+            "./spreadsheet/出入库库存管理表.xlsx"
+        ]
+    },
+    {
+        "query": "物料001在2022年1月的入库数量是多少？",
+        "Answer_table": [
+            "./spreadsheet/出入库 (4).xlsx"
+        ]
+    },
+    {
+        "query": "2022年7月的入库数量是多少？",
+        "Answer_table": [
+            "./spreadsheet/出入库 (4).xlsx"
+        ]
+    },
+    {
+        "query": "哪个月份的出库数量最少？",
+        "Answer_table": [
+            "./spreadsheet/出入库 (4).xlsx"
+        ]
+    },
+    {
+        "query": "2022年中，平均每月的出库金额是多少？",
+        "Answer_table": [
+            "./spreadsheet/出入库 (4).xlsx"
+        ]
+    },
+    {
+        "query": "2022年全年的总入库金额是多少？",
+        "Answer_table": [
+            "./spreadsheet/出入库 (4).xlsx"
+        ]
+    },
+    {
+        "query": "\"城市道路\"工作表中，\"1类 综合项目\"的所有图集的价格总和是多少？",
+        "Answer_table": [
+            "./spreadsheet/不同建筑专业图集表.xlsx"
+        ]
+    },
+    {
+        "query": "请问\"城市道路\"工作表中，价格最高的图集是哪一个？",
+        "Answer_table": [
+            "./spreadsheet/不同建筑专业图集表.xlsx"
+        ]
+    },
+    {
+        "query": "解析这个表格的数据",
+        "Answer_table": [
+            "./spreadsheet/1282.xlsx"
+        ]
+    },
+    {
+        "query": "表格中所有资产的平均价值是多少？",
+        "Answer_table": [
+            "./spreadsheet/1282.xlsx"
+        ]
+    },
+    {
+        "query": "价值最高的资产是什么？",
+        "Answer_table": [
+            "./spreadsheet/1282.xlsx"
+        ]
+    },
+    {
+        "query": "在表格中，哪种类型的资产（分类名称）数量最多，它们主要存放在哪个地点？",
+        "Answer_table": [
+            "./spreadsheet/1282.xlsx"
+        ]
+    },
+    {
+        "query": "资产编号为s00003的资产名称是什么？",
+        "Answer_table": [
+            "./spreadsheet/1282.xlsx"
+        ]
+    },
+    {
+        "query": "在表格中，第4层柱顶的SGK值是多少？",
+        "Answer_table": [
+            "./spreadsheet/柱B内力组合2.xlsx"
+        ]
+    },
+    {
+        "query": "根据表格中的注释，当轴压比小于0.15时，γRE取值是多少，并且这会影响哪些列的计算结果？",
+        "Answer_table": [
+            "./spreadsheet/柱B内力组合2.xlsx"
+        ]
+    },
+    {
+        "query": "第2层柱底的1.2SGK+1.4SQK的计算结果是多少？",
+        "Answer_table": [
+            "./spreadsheet/柱B内力组合2.xlsx"
+        ]
+    },
+    {
+        "query": "请问在所有工作表中，所有使用支付宝结算的支出项目的总金额是多少？",
+        "Answer_table": [
+            "./spreadsheet/收支记账表-日期查询、费用统计1.xlsx"
+        ]
+    },
+    {
+        "query": "根据原始表格内容生成一个柱状图，显示每种“费用结算方式”的使用频率，并将该图插入到原始表格的sheet中。",
+        "Answer_table": [
+            "./spreadsheet/收支记账表-日期查询、费用统计1.xlsx"
+        ]
+    },
+    {
+        "query": "在所有工作表中，哪个支出项目的金额最大？",
+        "Answer_table": [
+            "./spreadsheet/收支记账表-日期查询、费用统计1.xlsx"
+        ]
+    },
+    {
+        "query": "哪个寝室号的学生报到情况最不齐全？",
+        "Answer_table": [
+            "./spreadsheet/学生宿舍安排表1.xlsx"
+        ]
+    },
+    {
+        "query": "请绘制一个箱形图，展示所有学生床号的分布情况。",
+        "Answer_table": [
+            "./spreadsheet/学生宿舍安排表1.xlsx"
+        ]
+    },
+    {
+        "query": "哪个寝室号的床号是最小的？",
+        "Answer_table": [
+            "./spreadsheet/学生宿舍安排表1.xlsx"
+        ]
+    },
+    {
+        "query": "张志泽的学号是什么？",
+        "Answer_table": [
+            "./spreadsheet/学生宿舍安排表1.xlsx"
+        ]
+    },
+    {
+        "query": "阐述一下这个表格的主要内容。",
+        "Answer_table": [
+            "./spreadsheet/学生宿舍安排表1.xlsx"
+        ]
+    },
+    {
+        "query": "有多少学生已经领取了被褥？",
+        "Answer_table": [
+            "./spreadsheet/学生宿舍安排表1.xlsx"
+        ]
+    },
+    {
+        "query": "项目的完成进度是否与负责人有关？例如，老王负责的项目完成进度是否普遍高于其他人？",
+        "Answer_table": [
+            "./spreadsheet/进度表1.xlsx"
+        ]
+    },
+    {
+        "query": "分析一下这个表格的信息。",
+        "Answer_table": [
+            "./spreadsheet/进度表1.xlsx"
+        ]
+    },
+    {
+        "query": "项目2和项目3哪个的完成进度更高？",
+        "Answer_table": [
+            "./spreadsheet/进度表1.xlsx"
+        ]
+    },
+    {
+        "query": "所有项目的平均完成进度是多少？",
+        "Answer_table": [
+            "./spreadsheet/进度表1.xlsx"
+        ]
+    },
+    {
+        "query": "哪个项目的全部工期最短？",
+        "Answer_table": [
+            "./spreadsheet/进度表1.xlsx"
+        ]
+    },
+    {
+        "query": "请绘制一个柱状图，显示各个项目的总进度。",
+        "Answer_table": [
+            "./spreadsheet/进度表1.xlsx"
+        ]
+    },
+    {
+        "query": "根据原始表格内容生成一个新的表格，包含每个“经手人”的总收入和总支出。",
+        "Answer_table": [
+            "./spreadsheet/工程项目收支管理表1.xlsx"
+        ]
+    },
+    {
+        "query": "表格中所有收入记录的平均金额是多少？",
+        "Answer_table": [
+            "./spreadsheet/工程项目收支管理表1.xlsx"
+        ]
+    },
+    {
+        "query": "在表格中，2022年4月9日的支出金额是多少？",
+        "Answer_table": [
+            "./spreadsheet/工程项目收支管理表1.xlsx"
+        ]
+    },
+    {
+        "query": "根据表格，2022年5月的总收入金额是多少？",
+        "Answer_table": [
+            "./spreadsheet/工程项目收支管理表1.xlsx"
+        ]
+    },
+    {
+        "query": "在表格中，哪一天的结存金额是最高的？",
+        "Answer_table": [
+            "./spreadsheet/工程项目收支管理表1.xlsx"
+        ]
+    },
+    {
+        "query": "对这个表的信息进行阐述。",
+        "Answer_table": [
+            "./spreadsheet/工程项目收支管理表1.xlsx"
+        ]
+    },
+    {
+        "query": "请绘制一个饼图，表示不同分类（如期初、收入、支出、其他）的总金额占比。",
+        "Answer_table": [
+            "./spreadsheet/工程项目收支管理表1.xlsx"
+        ]
+    },
+    {
+        "query": "请绘制一个条形图，显示不同性别（男、女）学生参加兴趣班的人数对比。",
+        "Answer_table": [
+            "./spreadsheet/学生课外兴趣班统计表1.xlsx"
+        ]
+    },
+    {
+        "query": "所有学生的平均分是多少？",
+        "Answer_table": [
+            "./spreadsheet/学生考试成绩智能统计表1.xlsx"
+        ]
+    },
+    {
+        "query": "有多少学生的数学成绩低于语文成绩？",
+        "Answer_table": [
+            "./spreadsheet/学生考试成绩智能统计表1.xlsx"
+        ]
+    },
+    {
+        "query": "哪个学生的总分最高？",
+        "Answer_table": [
+            "./spreadsheet/学生考试成绩智能统计表1.xlsx"
+        ]
+    },
+    {
+        "query": "考试人数是多少？",
+        "Answer_table": [
+            "./spreadsheet/学生考试成绩智能统计表1.xlsx"
+        ]
+    },
+    {
+        "query": "有多少学生的数学成绩超过了80分？",
+        "Answer_table": [
+            "./spreadsheet/学生考试成绩智能统计表1.xlsx"
+        ]
+    },
+    {
+        "query": "请列出所有商品的人工成本从高到低的排序。",
+        "Answer_table": [
+            "./spreadsheet/订单成本计算表1.xlsx"
+        ]
+    },
+    {
+        "query": "请问商品1的材料成本和商品2的材料成本总和是多少？",
+        "Answer_table": [
+            "./spreadsheet/订单成本计算表1.xlsx"
+        ]
+    },
+    {
+        "query": "订单号A101-5对应的商品的成本总额是多少？",
+        "Answer_table": [
+            "./spreadsheet/订单成本计算表1.xlsx"
+        ]
+    },
+    {
+        "query": "商品3的加工成本和商品4的加工成本，哪个更高？",
+        "Answer_table": [
+            "./spreadsheet/订单成本计算表1.xlsx"
+        ]
+    },
+    {
+        "query": "请问\"Sheet1\"和\"Sheet3\"中，电子普票的总金额合计是多少？",
+        "Answer_table": [
+            "./spreadsheet/电子发票登记明细统计表.xlsx"
+        ]
+    },
+    {
+        "query": "请问\"Sheet1\"和\"Sheet3\"中，金山办公软件有限公司4的电子发票总金额合计分别是多少？",
+        "Answer_table": [
+            "./spreadsheet/电子发票登记明细统计表.xlsx"
+        ]
+    },
+    {
+        "query": "请问\"Sheet1\"和\"Sheet3\"中，金山办公软件有限公司4的电子发票中，哪些发票没有发送给客户？",
+        "Answer_table": [
+            "./spreadsheet/电子发票登记明细统计表.xlsx"
+        ]
+    },
+    {
+        "query": "表格中有多少个还款判断为\"可以还款\"的记录？",
+        "Answer_table": [
+            "./spreadsheet/长期贷款返还计划.xlsx"
+        ]
+    },
+    {
+        "query": "请绘制一个柱状图来展示不同还款期限（年）下的工资还款总额和工资外收入还款总额的对比。",
+        "Answer_table": [
+            "./spreadsheet/长期贷款返还计划.xlsx"
+        ]
+    },
+    {
+        "query": "如果选择35年的还款期限，每月工资还款额和每次工资外收入还款额的总和是多少？",
+        "Answer_table": [
+            "./spreadsheet/长期贷款返还计划.xlsx"
+        ]
+    },
+    {
+        "query": "购入的高档消费品的借入金额是多少？",
+        "Answer_table": [
+            "./spreadsheet/长期贷款返还计划.xlsx"
+        ]
+    },
+    {
+        "query": "随着还款期限的减少，总还款金额和本金的比率是如何变化的？",
+        "Answer_table": [
+            "./spreadsheet/长期贷款返还计划.xlsx"
+        ]
+    },
+    {
+        "query": "哪个项目的预计结束时间最晚？",
+        "Answer_table": [
+            "./spreadsheet/项目统计表1.xlsx"
+        ]
+    },
+    {
+        "query": "哪个项目的数量是最多的？",
+        "Answer_table": [
+            "./spreadsheet/项目统计表1.xlsx"
+        ]
+    },
+    {
+        "query": "进行中的项目中，哪个项目的数量最多？",
+        "Answer_table": [
+            "./spreadsheet/项目统计表1.xlsx"
+        ]
+    },
+    {
+        "query": "根据原始表格生成一个透视表，统计每个“客户单位”对应的“数量”总和，并插入到一个新的sheet中。",
+        "Answer_table": [
+            "./spreadsheet/项目统计表1.xlsx"
+        ]
+    },
+    {
+        "query": "合同编号DH1029331对应的客户单位是什么？",
+        "Answer_table": [
+            "./spreadsheet/项目统计表1.xlsx"
+        ]
+    },
+    {
+        "query": "这个表格的数据告诉我们什么",
+        "Answer_table": [
+            "./spreadsheet/项目统计表1.xlsx"
+        ]
+    },
+    {
+        "query": "所有已完成项目的拟需要时长总和是多少？",
+        "Answer_table": [
+            "./spreadsheet/项目统计表1.xlsx"
+        ]
+    },
+    {
+        "query": "\"水平角度弧度\"和\"天顶角弧度\"是如何从\"水平角度分秒\"和\"天顶角度分秒\"计算得出的？这两者之间有什么关系？这种关系对于整个测量过程有什么影响？",
+        "Answer_table": [
+            "./spreadsheet/32 (2).xlsx"
+        ]
+    },
+    {
+        "query": "哪个测点的斜距最长？",
+        "Answer_table": [
+            "./spreadsheet/32 (2).xlsx"
+        ]
+    },
+    {
+        "query": "点号32-3的测点X坐标和测点Y坐标是多少？",
+        "Answer_table": [
+            "./spreadsheet/32 (2).xlsx"
+        ]
+    },
+    {
+        "query": "根据原始表格内容生成一个新的表格，包含“点号”、“测点X坐标”、“测点Y坐标”、“测点Z坐标”和“特征”五列，并将其保存为一个新的Excel文件。",
+        "Answer_table": [
+            "./spreadsheet/32 (2).xlsx"
+        ]
+    },
+    {
+        "query": "这个表格的数据有什么意义",
+        "Answer_table": [
+            "./spreadsheet/32 (2).xlsx"
+        ]
+    },
+    {
+        "query": "哪个测点的基点Z坐标是最小的？",
+        "Answer_table": [
+            "./spreadsheet/32 (2).xlsx"
+        ]
+    },
+    {
+        "query": "测点32-1的测点Z坐标是多少？",
+        "Answer_table": [
+            "./spreadsheet/32 (2).xlsx"
+        ]
+    },
+    {
+        "query": "表格中记录的学生中，年龄最大的是多少岁？",
+        "Answer_table": [
+            "./spreadsheet/学生报名登记表1.xlsx"
+        ]
+    },
+    {
+        "query": "绘制一个折线图来表示学生年龄分布情况。",
+        "Answer_table": [
+            "./spreadsheet/学生报名登记表1.xlsx"
+        ]
+    },
+    {
+        "query": "需要乘坐校车但不需要住校的学生有哪些？",
+        "Answer_table": [
+            "./spreadsheet/学生报名登记表1.xlsx"
+        ]
+    },
+    {
+        "query": "班级总人数与已报名登记人数的差是多少？",
+        "Answer_table": [
+            "./spreadsheet/学生报名登记表1.xlsx"
+        ]
+    },
+    {
+        "query": "根据表格数据，2024年2月5日是否有项目完全结清了欠款？",
+        "Answer_table": [
+            "./spreadsheet/项目收入表欠款收款统计1.xlsx"
+        ]
+    },
+    {
+        "query": "项目编号为1909001的项目名称是什么？",
+        "Answer_table": [
+            "./spreadsheet/项目收入表欠款收款统计1.xlsx"
+        ]
+    },
+    {
+        "query": "哪个项目的欠款额最高？",
+        "Answer_table": [
+            "./spreadsheet/项目收入表欠款收款统计1.xlsx"
+        ]
+    },
+    {
+        "query": "所有项目的已收款金额总和是多少？",
+        "Answer_table": [
+            "./spreadsheet/项目收入表欠款收款统计1.xlsx"
+        ]
+    },
+    {
+        "query": "请绘制一个饼图来展示本月项目笔数中每个项目的占比情况。",
+        "Answer_table": [
+            "./spreadsheet/项目收入表欠款收款统计1.xlsx"
+        ]
+    },
+    {
+        "query": "项目1909003的收款总额是多少？",
+        "Answer_table": [
+            "./spreadsheet/项目收入表欠款收款统计1.xlsx"
+        ]
+    },
+    {
+        "query": "表格中收款进度超过50%的项目有多少个？",
+        "Answer_table": [
+            "./spreadsheet/项目收入表欠款收款统计1.xlsx"
+        ]
+    },
+    {
+        "query": "在2020年1月中，哪一天的收入金额最高？",
+        "Answer_table": [
+            "./spreadsheet/财务记账表（自动汇总可查询）1.xlsx"
+        ]
+    },
+    {
+        "query": "根据原始表格内容生成一个新的表格，包含“查询日期”、“收入金额”、“支出金额”、“收入明细”、“支出明细”这几列，并将其保存为一个新的Excel文件，命名为“财务记账表_简化版.xlsx”。",
+        "Answer_table": [
+            "./spreadsheet/财务记账表（自动汇总可查询）1.xlsx"
+        ]
+    },
+    {
+        "query": "根据表格，2020年1月的总收入是多少？",
+        "Answer_table": [
+            "./spreadsheet/财务记账表（自动汇总可查询）1.xlsx"
+        ]
+    },
+    {
+        "query": "表格中单笔支出金额的最小值是多少？",
+        "Answer_table": [
+            "./spreadsheet/财务记账表（自动汇总可查询）1.xlsx"
+        ]
+    },
+    {
+        "query": "将表格中“项目C”的所有收入数据字体标红，并加粗显示。",
+        "Answer_table": [
+            "./spreadsheet/项目收入汇总分析表1.xlsx"
+        ]
+    },
+    {
+        "query": "表格中有多少个项目在1月的收入超过了10？",
+        "Answer_table": [
+            "./spreadsheet/项目收入汇总分析表1.xlsx"
+        ]
+    },
+    {
+        "query": "请找出所有单位为\"kg/m\"的热轧槽钢的型号和数值。",
+        "Answer_table": [
+            "./spreadsheet/钢类材料容量表.xlsx"
+        ]
+    },
+    {
+        "query": "请计算所有热轧槽钢的平均数值是多少？",
+        "Answer_table": [
+            "./spreadsheet/钢类材料容量表.xlsx"
+        ]
+    },
+    {
+        "query": "哪些商品的门店做单价格高于10，且时代城验收量低于5？",
+        "Answer_table": [
+            "./spreadsheet/生鲜单品控表.xlsx"
+        ]
+    },
+    {
+        "query": "哪个商品的门店做单价格最高，是多少？",
+        "Answer_table": [
+            "./spreadsheet/生鲜单品控表.xlsx"
+        ]
+    },
+    {
+        "query": "所有商品的门店做单价格总和是多少？",
+        "Answer_table": [
+            "./spreadsheet/生鲜单品控表.xlsx"
+        ]
+    },
+    {
+        "query": "请问淘宝客昵称为\"taobaoss137\"的淘宝客在2013年3月14日的成交额和佣金金额是多少？",
+        "Answer_table": [
+            "./spreadsheet/淘宝客-数据分析工具表-(1).xlsx"
+        ]
+    },
+    {
+        "query": "请问2013年3月14日的淘宝客流量和店铺流量总和是多少？",
+        "Answer_table": [
+            "./spreadsheet/淘宝客-数据分析工具表-(1).xlsx"
+        ]
+    },
+    {
+        "query": "请问2013年3月14日的淘宝客成交额和淘宝客宝贝成交额哪个更高？",
+        "Answer_table": [
+            "./spreadsheet/淘宝客-数据分析工具表-(1).xlsx"
+        ]
+    },
+    {
+        "query": "请问2013年3月14日淘宝客成交占比超过0.05的商品有哪些？",
+        "Answer_table": [
+            "./spreadsheet/淘宝客-数据分析工具表-(1).xlsx"
+        ]
+    },
+    {
+        "query": "将“成交金额占比”列中大于0.01的单元格背景色标为黄色。",
+        "Answer_table": [
+            "./spreadsheet/2012年北京楼盘成交情况总表.xlsx"
+        ]
+    },
+    {
+        "query": "2014年的货币资金（万元）与同年的流动资产合计（万元）之间有什么关系？",
+        "Answer_table": [
+            "./spreadsheet/格力财务报表数据.xlsx"
+        ]
+    },
+    {
+        "query": "2014年和2013年的营业收入（万元）相比，增长了多少？",
+        "Answer_table": [
+            "./spreadsheet/格力财务报表数据.xlsx"
+        ]
+    },
+    {
+        "query": "请问所有型号为δ3.0的产品的平均数值是多少？",
+        "Answer_table": [
+            "./spreadsheet/部分材料容量汇总表.xlsx"
+        ]
+    },
+    {
+        "query": "请问菱形花纹钢板型号δ3.0的单位和数值是什么？",
+        "Answer_table": [
+            "./spreadsheet/部分材料容量汇总表.xlsx"
+        ]
+    },
+    {
+        "query": "如果我需要购买数值最大的产品，我应该选择哪种名称和型号的产品？",
+        "Answer_table": [
+            "./spreadsheet/部分材料容量汇总表.xlsx"
+        ]
+    },
+    {
+        "query": "在所有的工作表中，哪个型号的冷弯Z形钢的数值最大？",
+        "Answer_table": [
+            "./spreadsheet/钢建筑材料容量.xlsx"
+        ]
+    },
+    {
+        "query": "在所有的工作表中，方形空心型钢、冷弯Z形钢、热轧工字钢和冷弯不等边槽钢各有多少种型号？",
+        "Answer_table": [
+            "./spreadsheet/钢建筑材料容量.xlsx"
+        ]
+    },
+    {
+        "query": "请找出所有贴现利率为2.5，且贴现天数超过50天的记录，这些记录的平均实付贴现金额是多少？",
+        "Answer_table": [
+            "./spreadsheet/贴现利息表.xlsx"
+        ]
+    },
+    {
+        "query": "请计算所有贴现天数超过50天的记录中，贴现利息的平均值是多少？",
+        "Answer_table": [
+            "./spreadsheet/贴现利息表.xlsx"
+        ]
+    },
+    {
+        "query": "在Sheet2中，如果西南综合价格的矿山石灰石运输破碎至圆堆成本和生料配料成本相加，与海螺价格的这两项成本相加，哪个更高？",
+        "Answer_table": [
+            "./spreadsheet/各水泥厂重点生产数据监测分析.xlsx"
+        ]
+    },
+    {
+        "query": "根据Sheet2和Sheet4的数据，如果我们考虑煤炭价格和实物煤耗，哪个工厂的生产成本可能更低？",
+        "Answer_table": [
+            "./spreadsheet/各水泥厂重点生产数据监测分析.xlsx"
+        ]
+    },
+    {
+        "query": "请比较Sheet1中的\"本厂数据\"和Sheet4中的\"红狮水泥\"和\"海螺水泥\"的数据，哪个工厂的实物煤耗更低？",
+        "Answer_table": [
+            "./spreadsheet/各水泥厂重点生产数据监测分析.xlsx"
+        ]
+    },
+    {
+        "query": "请问哪款商品的市场价最高？",
+        "Answer_table": [
+            "./spreadsheet/双十二淘宝精选爆款.xlsx"
+        ]
+    },
+    {
+        "query": "请找出所有品类为“眼镜”的商品，并比较它们的市场价和双12价，哪款商品双12价最低？",
+        "Answer_table": [
+            "./spreadsheet/双十二淘宝精选爆款.xlsx"
+        ]
+    },
+    {
+        "query": "市场价在1000元以上的商品是否都有折扣？",
+        "Answer_table": [
+            "./spreadsheet/双十二淘宝精选爆款.xlsx"
+        ]
+    },
+    {
+        "query": "请问在所有工作表中，\"日海通讯\"这只股票的买入日期是什么？",
+        "Answer_table": [
+            "./spreadsheet/股票交易记事本-流水-每日统计.xlsx"
+        ]
+    },
+    {
+        "query": "在所有工作表中，\"日海通讯\"这只股票的总投资金额（买入数量*成本价）是多少？",
+        "Answer_table": [
+            "./spreadsheet/股票交易记事本-流水-每日统计.xlsx"
+        ]
+    },
+    {
+        "query": "在所有工作表中，哪一天的股票市值最高，且这一天的总盈亏是多少？",
+        "Answer_table": [
+            "./spreadsheet/股票交易记事本-流水-每日统计.xlsx"
+        ]
+    },
+    {
+        "query": "在所有工作表中，\"日海通讯\"和\"蒙发利\"这两只股票，哪一只的成本价更高？",
+        "Answer_table": [
+            "./spreadsheet/股票交易记事本-流水-每日统计.xlsx"
+        ]
+    },
+    {
+        "query": "请计算所有型号为\"0.01\"的铝青铜板、纯铜板和白铜板的数值总和。",
+        "Answer_table": [
+            "./spreadsheet/建筑容量.xlsx"
+        ]
+    },
+    {
+        "query": "请找出所有单位为\"kg/m2\"的铝青铜板的型号和数值。",
+        "Answer_table": [
+            "./spreadsheet/建筑容量.xlsx"
+        ]
+    },
+    {
+        "query": "请按照数值大小，对所有单位为\"kg/m\"的六角形棒和圆棒进行排序。",
+        "Answer_table": [
+            "./spreadsheet/建筑容量.xlsx"
+        ]
+    },
+    {
+        "query": "请绘制一个面积图，展示不同城市建筑物的用地面积随竣工时间的累积变化。",
+        "Answer_table": [
+            "./spreadsheet/全国超高层建筑成本统计(1999-2010年).xls.xlsx"
+        ]
+    },
+    {
+        "query": "请问一季度中，销售额最高的月份是哪个？",
+        "Answer_table": [
+            "./spreadsheet/一季度销售表.xlsx"
+        ]
+    },
+    {
+        "query": "请问二月份的计划销售额和一月份相比，增加了多少？",
+        "Answer_table": [
+            "./spreadsheet/一季度销售表.xlsx"
+        ]
+    },
+    {
+        "query": "在2017年4月1日至4月7日这段时间内，哪个商品的总浏览量最高？",
+        "Answer_table": [
+            "./spreadsheet/电商分析 (15).xlsx"
+        ]
+    },
+    {
+        "query": "2017年4月1日和4月2日，哪一天的商品2的浏览量更高？",
+        "Answer_table": [
+            "./spreadsheet/电商分析 (15).xlsx"
+        ]
+    },
+    {
+        "query": "请描述2017年4月1日的商品销售情况。",
+        "Answer_table": [
+            "./spreadsheet/电商分析 (15).xlsx"
+        ]
+    },
+    {
+        "query": "请计算2017年4月1日至4月7日，商品3的总下单量是多少？",
+        "Answer_table": [
+            "./spreadsheet/电商分析 (15).xlsx"
+        ]
+    },
+    {
+        "query": "在所有工作表中，付费流量和淘内免费的来源明细中，哪个的支付金额更高？",
+        "Answer_table": [
+            "./spreadsheet/9-零食店铺月核心数据处理.xlsx"
+        ]
+    },
+    {
+        "query": "在所有工作表中，所有来源明细的总支付金额是多少？",
+        "Answer_table": [
+            "./spreadsheet/9-零食店铺月核心数据处理.xlsx"
+        ]
+    },
+    {
+        "query": "在所有工作表中，哪个来源明细的访客数最多？",
+        "Answer_table": [
+            "./spreadsheet/9-零食店铺月核心数据处理.xlsx"
+        ]
+    },
+    {
+        "query": "在所有工作表中，哪个来源明细的UV价值最高，并且这是否意味着它的支付转化率也最高？",
+        "Answer_table": [
+            "./spreadsheet/9-零食店铺月核心数据处理.xlsx"
+        ]
+    },
+    {
+        "query": "请问\"季度销售报表\"中，\"蔬菜煎饼\"的第1季度总额是多少？",
+        "Answer_table": [
+            "./spreadsheet/季度销售报表.xlsx"
+        ]
+    },
+    {
+        "query": "\"季度销售报表\"中，\"蔬菜煎饼\"和\"法国卡门贝干酪\"的第1季度总额，哪个更高？",
+        "Answer_table": [
+            "./spreadsheet/季度销售报表.xlsx"
+        ]
+    },
+    {
+        "query": "\"季度销售报表\"和\"红星量贩店小家电柜6月上旬销售清单\"中，哪个客户购买的产品种类最多？",
+        "Answer_table": [
+            "./spreadsheet/季度销售报表.xlsx"
+        ]
+    },
+    {
+        "query": "\"季度销售报表\"和\"月度统计表\"中，哪个产品的第1季度总额和一月消费额总和最高？",
+        "Answer_table": [
+            "./spreadsheet/季度销售报表.xlsx"
+        ]
+    },
+    {
+        "query": "请计算所有工作表中，型号为\"0.055\"的数值总和是多少？",
+        "Answer_table": [
+            "./spreadsheet/钢材建筑容量汇总.xlsx"
+        ]
+    },
+    {
+        "query": "在所有工作表中，哪些名称的数值大于1？",
+        "Answer_table": [
+            "./spreadsheet/钢材建筑容量汇总.xlsx"
+        ]
+    },
+    {
+        "query": "在所有工作表中，哪个型号的数值最大？",
+        "Answer_table": [
+            "./spreadsheet/钢材建筑容量汇总.xlsx"
+        ]
+    },
+    {
+        "query": "请问商品编号为2001的商品在2021年9月1日的状态是什么？",
+        "Answer_table": [
+            "./spreadsheet/仓库进销存管理自动结存库存表.xlsx"
+        ]
+    },
+    {
+        "query": "根据原始表格内容生成一个透视表，透视表按“状态”分类汇总“数量”和“金额”，并插入到一个新的sheet中。",
+        "Answer_table": [
+            "./spreadsheet/仓库进销存管理自动结存库存表.xlsx"
+        ]
+    },
+    {
+        "query": "请问2021年9月份，所有出库的商品总共的金额是多少？",
+        "Answer_table": [
+            "./spreadsheet/仓库进销存管理自动结存库存表.xlsx"
+        ]
+    },
+    {
+        "query": "请问哪个学生在课文朗读比赛中获得了第一名？",
+        "Answer_table": [
+            "./spreadsheet/Sheet50.xlsx",
+            "./spreadsheet/暑假学习计划表1.xlsx",
+            "./spreadsheet/西南石油大学各单位实验室和设备主管领导及设备秘书名单-.xlsx",
+            "./spreadsheet/学生课文朗读比赛评分表1.xlsx"
+        ]
+    },
+    {
+        "query": "在所有表格中，哪个学生的课文朗读比赛得分最高，他/她是在哪一天的比赛中获得的这个分数？",
+        "Answer_table": [
+            "./spreadsheet/Sheet50.xlsx",
+            "./spreadsheet/暑假学习计划表1.xlsx",
+            "./spreadsheet/西南石油大学各单位实验室和设备主管领导及设备秘书名单-.xlsx",
+            "./spreadsheet/学生课文朗读比赛评分表1.xlsx"
+        ]
+    },
+    {
+        "query": "在暑假学习计划表中，学生在8:30-10:00这个时间段内，一共有多少天计划写暑假作业？",
+        "Answer_table": [
+            "./spreadsheet/Sheet50.xlsx",
+            "./spreadsheet/暑假学习计划表1.xlsx",
+            "./spreadsheet/西南石油大学各单位实验室和设备主管领导及设备秘书名单-.xlsx",
+            "./spreadsheet/学生课文朗读比赛评分表1.xlsx"
+        ]
+    },
+    {
+        "query": "请问哪个企业的土地面积（平方米）大于100000？",
+        "Answer_table": [
+            "./spreadsheet/1706800061649.xlsx",
+            "./spreadsheet/工程监理.xlsx"
+        ]
+    },
+    {
+        "query": "请问哪个企业在2007年1月23日成交了宗地？",
+        "Answer_table": [
+            "./spreadsheet/1706800061649.xlsx",
+            "./spreadsheet/工程监理.xlsx"
+        ]
+    },
+    {
+        "query": "请找出所有员工在所有日期中，次品数占总产量的比例最高的是哪一天？",
+        "Answer_table": [
+            "./spreadsheet/生产加工分析表1.xlsx",
+            "./spreadsheet/产品销售分析表1 (2).xlsx",
+            "./spreadsheet/年度经营分析表1.xlsx",
+            "./spreadsheet/长期贷款返还计划.xlsx",
+            "./spreadsheet/利润分析表1.xlsx"
+        ]
+    },
+    {
+        "query": "在所有记录中，天猫和京东的销售额哪个更高？",
+        "Answer_table": [
+            "./spreadsheet/商品销售数据记录统计分析表1.xlsx",
+            "./spreadsheet/运营数据分析报表1.xlsx"
+        ]
+    },
+    {
+        "query": "请问哪一天的日销售合计最高？",
+        "Answer_table": [
+            "./spreadsheet/商品销售数据记录统计分析表1.xlsx",
+            "./spreadsheet/运营数据分析报表1.xlsx"
+        ]
+    },
+    {
+        "query": "请问在所有表格中，有多少个项目的设计桩长大于7m？",
+        "Answer_table": [
+            "./spreadsheet/基础数据分析 (2).xlsx",
+            "./spreadsheet/水泥搅拌桩施工记录汇总表1.xlsx"
+        ]
+    },
+    {
+        "query": "在所有表格中，哪个项目的喷射量最大？",
+        "Answer_table": [
+            "./spreadsheet/基础数据分析 (2).xlsx",
+            "./spreadsheet/水泥搅拌桩施工记录汇总表1.xlsx"
+        ]
+    },
+    {
+        "query": "请比较所有表格中，哪个产品的采购金额最高？",
+        "Answer_table": [
+            "./spreadsheet/原材料入库台账表.xlsx",
+            "./spreadsheet/周生产计划表.xlsx",
+            "./spreadsheet/库存盘点表（自动计算采购计划）.xlsx",
+            "./spreadsheet/生产制造 表格 (591).xlsx"
+        ]
+    },
+    {
+        "query": "请根据所有表格，推断出哪个客户的生产计划最多？",
+        "Answer_table": [
+            "./spreadsheet/原材料入库台账表.xlsx",
+            "./spreadsheet/周生产计划表.xlsx",
+            "./spreadsheet/库存盘点表（自动计算采购计划）.xlsx",
+            "./spreadsheet/生产制造 表格 (591).xlsx"
+        ]
+    },
+    {
+        "query": "请问项目1的合同金额是多少？",
+        "Answer_table": [
+            "./spreadsheet/工程成本核算表1.xlsx",
+            "./spreadsheet/激光切割成本报价分析表模板1.xlsx"
+        ]
+    },
+    {
+        "query": "请找出项目毛利率最高的项目，并给出其所有的费用明细。",
+        "Answer_table": [
+            "./spreadsheet/工程成本核算表1.xlsx",
+            "./spreadsheet/激光切割成本报价分析表模板1.xlsx"
+        ]
+    },
+    {
+        "query": "请问在所有的驾校学员中，哪个学员的总练车时间最长，他参加了哪些科目的考试？",
+        "Answer_table": [
+            "./spreadsheet/学校文艺汇演节目评分表1.xlsx",
+            "./spreadsheet/驾校学员练车时间安排表1.xlsx"
+        ]
+    },
+    {
+        "query": "在所有的文艺汇演节目中，哪个节目的总分最高？",
+        "Answer_table": [
+            "./spreadsheet/学校文艺汇演节目评分表1.xlsx",
+            "./spreadsheet/驾校学员练车时间安排表1.xlsx"
+        ]
+    },
+    {
+        "query": "请问所有产品的本月销售总额是多少？",
+        "Answer_table": [
+            "./spreadsheet/财务报表-应收账款分析表1(3).xlsx",
+            "./spreadsheet/年终门店销售额分析表1.xlsx"
+        ]
+    },
+    {
+        "query": "请问在所有产品中，哪个产品的本月销售额最高，同时利润率也最高？",
+        "Answer_table": [
+            "./spreadsheet/财务报表-应收账款分析表1(3).xlsx",
+            "./spreadsheet/年终门店销售额分析表1.xlsx"
+        ]
+    },
+    {
+        "query": "在2008年和2009年，测量工的劳动力计划有何变化？",
+        "Answer_table": [
+            "./spreadsheet/表6-5劳动力计划表1.xlsx",
+            "./spreadsheet/阿勒泰.xlsx"
+        ]
+    },
+    {
+        "query": "请问2008年二季度有哪些工种的劳动力计划？",
+        "Answer_table": [
+            "./spreadsheet/表6-5劳动力计划表1.xlsx",
+            "./spreadsheet/阿勒泰.xlsx"
+        ]
+    },
+    {
+        "query": "如果按照2011年的劳动力计划，哪个季度的劳动力需求最大？",
+        "Answer_table": [
+            "./spreadsheet/表6-5劳动力计划表1.xlsx",
+            "./spreadsheet/阿勒泰.xlsx"
+        ]
+    },
+    {
+        "query": "请分析哪个经手人管理的产品库存变动最频繁，并给出可能的原因。",
+        "Answer_table": [
+            "./spreadsheet/库存管理 (16).xlsx",
+            "./spreadsheet/金 蝶EAS-最新模块清单及功能简述.xlsx",
+            "./spreadsheet/生产制造 表格 (609).xlsx",
+            "./spreadsheet/生产制造 表格 (33).xlsx"
+        ]
+    },
+    {
+        "query": "哪个产品的实时库存最多？",
+        "Answer_table": [
+            "./spreadsheet/库存管理 (16).xlsx",
+            "./spreadsheet/金 蝶EAS-最新模块清单及功能简述.xlsx",
+            "./spreadsheet/生产制造 表格 (609).xlsx",
+            "./spreadsheet/生产制造 表格 (33).xlsx"
+        ]
+    },
+    {
+        "query": "如果每件物品的销售价格是入库价格的150%，那么销售\"男士风衣\"可以获得多少收入？",
+        "Answer_table": [
+            "./spreadsheet/生产制造 表格 (580).xlsx",
+            "./spreadsheet/生产制造 表格 (245).xlsx"
+        ]
+    },
+    {
+        "query": "请分析并找出入库数量和入库金额之间是否存在相关性？如果存在，是正相关还是负相关？",
+        "Answer_table": [
+            "./spreadsheet/生产制造 表格 (580).xlsx",
+            "./spreadsheet/生产制造 表格 (245).xlsx"
+        ]
+    },
+    {
+        "query": "哪个日期的入库金额最高？",
+        "Answer_table": [
+            "./spreadsheet/生产制造 表格 (580).xlsx",
+            "./spreadsheet/生产制造 表格 (245).xlsx"
+        ]
+    },
+    {
+        "query": "请问产品编码为\"A0005\"的原材料是由哪个公司供货的？",
+        "Answer_table": [
+            "./spreadsheet/材料成本.xlsx",
+            "./spreadsheet/生产物料原材料入库明细表1.xlsx"
+        ]
+    },
+    {
+        "query": "请问哪个产品的直接材料成本（铝基板、玻纤板、自制板材）最高？",
+        "Answer_table": [
+            "./spreadsheet/材料成本.xlsx",
+            "./spreadsheet/生产物料原材料入库明细表1.xlsx"
+        ]
+    },
+    {
+        "query": "请找出所有生产日期在2010年4月10日之后的产品名称和对应的不合格指标。",
+        "Answer_table": [
+            "./spreadsheet/生产制造 表格 (13).xlsx",
+            "./spreadsheet/生产制造 表格 (277).xlsx",
+            "./spreadsheet/生产制造 表格 (522).xlsx",
+            "./spreadsheet/出入库 (3).xlsx",
+            "./spreadsheet/进销存日报表.xlsx"
+        ]
+    },
+    {
+        "query": "请计算所有表格中，每个产品的平均单价是多少？",
+        "Answer_table": [
+            "./spreadsheet/生产制造 表格 (13).xlsx",
+            "./spreadsheet/生产制造 表格 (277).xlsx",
+            "./spreadsheet/生产制造 表格 (522).xlsx",
+            "./spreadsheet/出入库 (3).xlsx",
+            "./spreadsheet/进销存日报表.xlsx"
+        ]
+    },
+    {
+        "query": "哪个学校的班数最多？",
+        "Answer_table": [
+            "./spreadsheet/5555 (1).xlsx",
+            "./spreadsheet/学生假期作业完成统计表1.xlsx"
+        ]
+    },
+    {
+        "query": "请问哪个产品的实盘数量最多？",
+        "Answer_table": [
+            "./spreadsheet/应收应付账款分析表1.xlsx",
+            "./spreadsheet/电商运营数据分析表1.xlsx",
+            "./spreadsheet/库存盘点统计分析表自动红字填充1.xlsx"
+        ]
+    },
+    {
+        "query": "请问哪个客户的未收款金额最多，且逾期天数超过180天？",
+        "Answer_table": [
+            "./spreadsheet/应收应付账款分析表1.xlsx",
+            "./spreadsheet/电商运营数据分析表1.xlsx",
+            "./spreadsheet/库存盘点统计分析表自动红字填充1.xlsx"
+        ]
+    },
+    {
+        "query": "请问哪个星期的实际销售额最高，且该星期的实际访问量超过预计访问量？",
+        "Answer_table": [
+            "./spreadsheet/应收应付账款分析表1.xlsx",
+            "./spreadsheet/电商运营数据分析表1.xlsx",
+            "./spreadsheet/库存盘点统计分析表自动红字填充1.xlsx"
+        ]
+    },
+    {
+        "query": "请找出所有表格中，参赛人数最多的班级名称是什么？",
+        "Answer_table": [
+            "./spreadsheet/田径运动会积分表1.xlsx",
+            "./spreadsheet/可以用31.xlsx",
+            "./spreadsheet/Sheet57.xlsx"
+        ]
+    },
+    {
+        "query": "在所有表格中，所有班级的总积分的平均值是多少？",
+        "Answer_table": [
+            "./spreadsheet/田径运动会积分表1.xlsx",
+            "./spreadsheet/可以用31.xlsx",
+            "./spreadsheet/Sheet57.xlsx"
+        ]
+    },
+    {
+        "query": "请问所有\"热轧带肋钢筋 HRB400E\"的平均综合信息价是多少？",
+        "Answer_table": [
+            "./spreadsheet/布尔津.xlsx",
+            "./spreadsheet/办公设施、用品配备标准(定).xlsx"
+        ]
+    },
+    {
+        "query": "请问\"热轧带肋钢筋 HRB400E Φ10\"和\"热轧带肋钢筋 HRB500E Φ10\"的综合信息价哪个更高？",
+        "Answer_table": [
+            "./spreadsheet/布尔津.xlsx",
+            "./spreadsheet/办公设施、用品配备标准(定).xlsx"
+        ]
+    },
+    {
+        "query": "请问\"小河村大桥项目部\"的预计费用是多少？",
+        "Answer_table": [
+            "./spreadsheet/项目费用预算清单-自动统计1.xlsx",
+            "./spreadsheet/仪器仪表(7).xlsx"
+        ]
+    },
+    {
+        "query": "请问\"小河村大桥项目部\"的\"挖沟渠\"工序中，所有费用的总和是多少？",
+        "Answer_table": [
+            "./spreadsheet/项目费用预算清单-自动统计1.xlsx",
+            "./spreadsheet/仪器仪表(7).xlsx"
+        ]
+    },
+    {
+        "query": "请问有哪些项目的拟授学员学分是10分？",
+        "Answer_table": [
+            "./spreadsheet/Sheet17.xlsx",
+            "./spreadsheet/2231.xlsx"
+        ]
+    },
+    {
+        "query": "请问所有项目的平均拟招生人数是多少？",
+        "Answer_table": [
+            "./spreadsheet/Sheet17.xlsx",
+            "./spreadsheet/2231.xlsx"
+        ]
+    },
+    {
+        "query": "请问在所有已修复的设备中，哪个设备的维修费用最高，并且这个设备是由哪个部门报修的？",
+        "Answer_table": [
+            "./spreadsheet/设备报修维修记录跟进表.xlsx",
+            "./spreadsheet/生产制造 表格 (248).xlsx"
+        ]
+    },
+    {
+        "query": "请问哪个设备的维修费用最高？",
+        "Answer_table": [
+            "./spreadsheet/设备报修维修记录跟进表.xlsx",
+            "./spreadsheet/生产制造 表格 (248).xlsx"
+        ]
+    },
+    {
+        "query": "如果我需要购买单价最高和最低的仪器仪表各一个，我需要支付多少费用？",
+        "Answer_table": [
+            "./spreadsheet/金属.xlsx",
+            "./spreadsheet/仪器仪表(15).xlsx"
+        ]
+    },
+    {
+        "query": "能否计算出所有项目的人工费用总和？",
+        "Answer_table": [
+            "./spreadsheet/金属.xlsx",
+            "./spreadsheet/仪器仪表(15).xlsx"
+        ]
+    },
+    {
+        "query": "请问订单号为1177595的订单是什么状态？",
+        "Answer_table": [
+            "./spreadsheet/生产制造 表格 (304).xlsx",
+            "./spreadsheet/物品采购登记明细表.xlsx"
+        ]
+    },
+    {
+        "query": "请问哪个负责人负责的订单数量最多？",
+        "Answer_table": [
+            "./spreadsheet/生产制造 表格 (304).xlsx",
+            "./spreadsheet/物品采购登记明细表.xlsx"
+        ]
+    },
+    {
+        "query": "哪个受让单位在2015年10月获得的地块建设用地面积(m²)总和最大？",
+        "Answer_table": [
+            "./spreadsheet/1706798903536.xlsx",
+            "./spreadsheet/建筑安装工程附件一(1).xlsx"
+        ]
+    },
+    {
+        "query": "哪个地块的建设用地面积(m²)最大，它的规划建筑面积(m²)是多少？",
+        "Answer_table": [
+            "./spreadsheet/1706798903536.xlsx",
+            "./spreadsheet/建筑安装工程附件一(1).xlsx"
+        ]
+    },
+    {
+        "query": "请问哪位员工的加班费用最高？",
+        "Answer_table": [
+            "./spreadsheet/生产制造 表格 (420).xlsx",
+            "./spreadsheet/年会物料清单表-费用预算表 (2).xlsx"
+        ]
+    },
+    {
+        "query": "请问在所有的加班类型中，哪种类型的加班费用总和最高，并且这种类型的加班主要集中在哪个部门？",
+        "Answer_table": [
+            "./spreadsheet/生产制造 表格 (420).xlsx",
+            "./spreadsheet/年会物料清单表-费用预算表 (2).xlsx"
+        ]
+    },
+    {
+        "query": "请问哪个部门的员工领用的物品总金额最高？",
+        "Answer_table": [
+            "./spreadsheet/物品领用登记表.xlsx",
+            "./spreadsheet/生产制造 表格 (421).xlsx"
+        ]
+    },
+    {
+        "query": "请问哪个员工的加班费用总额最高，他所在的部门是否也是领用物品总金额最高的部门？",
+        "Answer_table": [
+            "./spreadsheet/物品领用登记表.xlsx",
+            "./spreadsheet/生产制造 表格 (421).xlsx"
+        ]
+    },
+    {
+        "query": "请问物品1和物品2的单价哪个更高？",
+        "Answer_table": [
+            "./spreadsheet/物品领用登记表.xlsx",
+            "./spreadsheet/生产制造 表格 (421).xlsx"
+        ]
+    },
+    {
+        "query": "在所有表格中，哪个产品的\"本周销量合计\"最高？",
+        "Answer_table": [
+            "./spreadsheet/价格分析表1.xlsx",
+            "./spreadsheet/电商商品库存明细分析表1.xlsx",
+            "./spreadsheet/销售业绩分析表（带公式）1.xlsx"
+        ]
+    },
+    {
+        "query": "在价格分析表中，哪种材料的采购单价在一年中的涨跌幅最大？",
+        "Answer_table": [
+            "./spreadsheet/价格分析表1.xlsx",
+            "./spreadsheet/电商商品库存明细分析表1.xlsx",
+            "./spreadsheet/销售业绩分析表（带公式）1.xlsx"
+        ]
+    },
+    {
+        "query": "请问在所有表格中，物料编号为'SKY0101'的物料，出库的总数量是多少？",
+        "Answer_table": [
+            "./spreadsheet/生产制造 表格 (131).xlsx",
+            "./spreadsheet/生产制造 表格 (295).xlsx"
+        ]
+    },
+    {
+        "query": "在所有表格中，哪个客户购买的商品总数量最多，且该客户购买的商品种类有哪些？",
+        "Answer_table": [
+            "./spreadsheet/生产制造 表格 (131).xlsx",
+            "./spreadsheet/生产制造 表格 (295).xlsx"
+        ]
+    },
+    {
+        "query": "请推理并列出所有在订单交期后完成的订单名称和对应的延误天数。",
+        "Answer_table": [
+            "./spreadsheet/订单排产情况登记表.xlsx",
+            "./spreadsheet/生产制造 表格 (149).xlsx"
+        ]
+    },
+    {
+        "query": "请计算所有订单中，延误天数总和是多少？",
+        "Answer_table": [
+            "./spreadsheet/订单排产情况登记表.xlsx",
+            "./spreadsheet/生产制造 表格 (149).xlsx"
+        ]
+    },
+    {
+        "query": "请比较并列出所有订单中，哪些订单的本次排产数量大于订单数量。",
+        "Answer_table": [
+            "./spreadsheet/订单排产情况登记表.xlsx",
+            "./spreadsheet/生产制造 表格 (149).xlsx"
+        ]
+    },
+    {
+        "query": "每个表格中，所有商品的平均入库数量是多少？",
+        "Answer_table": [
+            "./spreadsheet/服饰入库登记表-多条件查询.xlsx",
+            "./spreadsheet/生产制造 表格 (401).xlsx",
+            "./spreadsheet/生产制造 表格 (129).xlsx"
+        ]
+    },
+    {
+        "query": "如果每个商品的销售价格是其入库单价的150%，那么每个表格中，总的销售收入是多少？",
+        "Answer_table": [
+            "./spreadsheet/服饰入库登记表-多条件查询.xlsx",
+            "./spreadsheet/生产制造 表格 (401).xlsx",
+            "./spreadsheet/生产制造 表格 (129).xlsx"
+        ]
+    },
+    {
+        "query": "请比较并列出所有设备重量在5t以内的车床和钻床的基价。",
+        "Answer_table": [
+            "./spreadsheet/项目人员变动表1.xlsx",
+            "./spreadsheet/Bok1.xlsx"
+        ]
+    },
+    {
+        "query": "请计算所有设备重量在10t以内的立式车床的平均基价。",
+        "Answer_table": [
+            "./spreadsheet/项目人员变动表1.xlsx",
+            "./spreadsheet/Bok1.xlsx"
+        ]
+    },
+    {
+        "query": "如果吐鲁番建设工程材料价格信息中的所有材料都按照2012年5月份信息价购买，且每种材料购买1吨，那么总共需要花费多少元？",
+        "Answer_table": [
+            "./spreadsheet/工作分配_表.xlsx",
+            "./spreadsheet/燮里某村庄改造项目招标文件含地勘资料1.xlsx",
+            "./spreadsheet/吐鲁番建设工程材料价格信息全套2012年5月1.xlsx"
+        ]
+    },
+    {
+        "query": "请找出所有工时完成百分比为0的任务名称。",
+        "Answer_table": [
+            "./spreadsheet/工作分配_表.xlsx",
+            "./spreadsheet/燮里某村庄改造项目招标文件含地勘资料1.xlsx",
+            "./spreadsheet/吐鲁番建设工程材料价格信息全套2012年5月1.xlsx"
+        ]
+    },
+    {
+        "query": "请比较吐鲁番地区建设工程价格信息中，热轧扁钢 Q235 50×4和热轧扁钢 Q235 50×5的2012年5月份信息价，哪个更高？",
+        "Answer_table": [
+            "./spreadsheet/工作分配_表.xlsx",
+            "./spreadsheet/燮里某村庄改造项目招标文件含地勘资料1.xlsx",
+            "./spreadsheet/吐鲁番建设工程材料价格信息全套2012年5月1.xlsx"
+        ]
+    },
+    {
+        "query": "请问在所有的学生中，哪个学生的所有科目成绩都超过了120分，并且总分也超过了800分？",
+        "Answer_table": [
+            "./spreadsheet/可以用3.xlsx",
+            "./spreadsheet/高二理 (2).xlsx",
+            "./spreadsheet/幼儿常见病记录表1.xlsx"
+        ]
+    },
+    {
+        "query": "在所有的学生中，哪个学生的总分最高？",
+        "Answer_table": [
+            "./spreadsheet/可以用3.xlsx",
+            "./spreadsheet/高二理 (2).xlsx",
+            "./spreadsheet/幼儿常见病记录表1.xlsx"
+        ]
+    },
+    {
+        "query": "哪个项目的完成进度最高，它的项目名称和完成进度是多少？",
+        "Answer_table": [
+            "./spreadsheet/月度财务报表1.xlsx",
+            "./spreadsheet/工程项目收入成本财务数据统计分析表1.xlsx",
+            "./spreadsheet/销售合同销售利润分析表1.xlsx"
+        ]
+    },
+    {
+        "query": "请问《活着》和《瓦尔登湖》这两本书，哪一本的阅读时长更长？",
+        "Answer_table": [
+            "./spreadsheet/阅读记录表1.xlsx",
+            "./spreadsheet/学生公寓住宿可视化分配表1.xlsx"
+        ]
+    },
+    {
+        "query": "请问在所有的阅读记录中，哪一本书的总阅读时长最长，并且这本书的作者是谁？",
+        "Answer_table": [
+            "./spreadsheet/阅读记录表1.xlsx",
+            "./spreadsheet/学生公寓住宿可视化分配表1.xlsx"
+        ]
+    },
+    {
+        "query": "请问在所有表格中，哪个月份的微博粉丝增加量最多？",
+        "Answer_table": [
+            "./spreadsheet/粉丝情况分析表1.xlsx",
+            "./spreadsheet/股票情况7.xlsx",
+            "./spreadsheet/保险公司财务费用动态分析表1(1).xlsx"
+        ]
+    },
+    {
+        "query": "请比较并列出所有年龄大于20岁的男性学生和女性学生的数量。",
+        "Answer_table": [
+            "./spreadsheet/学生基本信息统计表1.xlsx",
+            "./spreadsheet/Sheet67.xlsx"
+        ]
+    },
+    {
+        "query": "请计算所有学生的平均年龄，并列出年龄大于平均年龄的学生的姓名和年龄。",
+        "Answer_table": [
+            "./spreadsheet/学生基本信息统计表1.xlsx",
+            "./spreadsheet/Sheet67.xlsx"
+        ]
+    },
+    {
+        "query": "请比较C30和C40强度等级的混凝土在普通混凝土和普通泵送混凝土中的价格差异。",
+        "Answer_table": [
+            "./spreadsheet/混凝土、沥青砼 (2).xlsx",
+            "./spreadsheet/楼栋数据.xlsx"
+        ]
+    },
+    {
+        "query": "请找出所有C30强度等级的混凝土的综合价格。",
+        "Answer_table": [
+            "./spreadsheet/混凝土、沥青砼 (2).xlsx",
+            "./spreadsheet/楼栋数据.xlsx"
+        ]
+    },
+    {
+        "query": "请找出所有学生中，总分排名前5的学生的姓名和他们的平均分。",
+        "Answer_table": [
+            "./spreadsheet/工作簿1(2).xlsx",
+            "./spreadsheet/可以用55.xlsx"
+        ]
+    },
+    {
+        "query": "请计算所有学生的物理成绩的平均分是多少？",
+        "Answer_table": [
+            "./spreadsheet/工作簿1(2).xlsx",
+            "./spreadsheet/可以用55.xlsx"
+        ]
+    }
+]
