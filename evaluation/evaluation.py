@@ -48,19 +48,19 @@ def Recall_k(input_file, ans_tables, top_ks):
             retrieved_tables = set(rank_item['entity']['FileName'] for rank_idx, rank_item in enumerate(item['results']) if rank_idx < k)
             # print(retrieved_tables)
             
-            # 計算檢索到的正確表格數量
+            # Correct retrieved count
             correct_retrieved_count = len(correct_tables & retrieved_tables)
             # print(correct_retrieved_count)
             
-            # 計算 Recall 比例
+            # Calculate Recall@k
             if len(correct_tables) > 0:
                 recall = correct_retrieved_count / len(correct_tables)
             else:
-                recall = 0  # 如果沒有 Ground Truth，Recall 為 0
+                recall = 0  # divide by zero case
             
             total_recall += recall
         
-        # 計算平均 Recall@k
+        # Calculate average Recall@k
         average_recall = total_recall / len(test_results) if len(test_results) > 0 else 0
         Recall_at_ks.append(average_recall)
         
