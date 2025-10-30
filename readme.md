@@ -8,7 +8,20 @@ This repository contains the source code, corpora, and model prompts for the pap
 
 ---
 
-## 🆕 Updates (25/08/08)
+## 🆕 Updates
+
+### 2025/10/30
+
+We have released **Milvus-Lite implementation** for local vector database operations:
+
+- ✅ Complete Python scripts for embedding and indexing table corpora
+- ✅ Search and evaluation pipeline with Recall@k metrics
+- ✅ Jupyter notebooks with interactive examples
+- ✅ Conda environment configuration (`Milvus.yml`)
+
+This allows you to reproduce our experiments locally without requiring a Milvus server deployment.
+
+### 2025/08/08
 
 We have released a original Question to gold-table datasets that we used to test recall@k:
 
@@ -51,6 +64,26 @@ They are indexed using either:
 - **Milvus** → [https://milvus.io](https://milvus.io)  
 - **RAGatouille** → [https://github.com/AnswerDotAI/RAGatouille](https://github.com/AnswerDotAI/RAGatouille)
 
+### 🗄️ Milvus Implementation
+
+We provide Python scripts for working with **Milvus-Lite** (single-file vector database):
+
+- 📁 `embedding_db/pymilvus/`  
+  - `create_pymilvus_db.py` - Create Milvus collections from table corpora
+  - `pymilvus_embedding.py` - Embed and insert data using BAAI/bge-m3 model
+
+- 📁 `evaluation/`  
+  - `search_pymilvus.py` - Search queries in Milvus collections
+  - `evaluation.py` - Evaluate retrieval performance with Recall@k metrics
+
+- 📓 Jupyter Notebooks:
+  - `Milvus.ipynb` - Complete workflow for Milvus database creation and embedding
+  - `E2EWTQ_Milvus_search.ipynb` - E2E-WTQ dataset search example
+  - `export_milvus.py` - Export metadata from Milvus collections
+
+- ⚙️ Environment:
+  - `Milvus.yml` - Conda environment specification with all dependencies
+
 ---
 
 ## 🧪 Reproducibility
@@ -62,13 +95,36 @@ They are indexed using either:
 
 ---
 
+## 🚀 Quick Start
+
+### Setup Milvus Environment
+
+```bash
+# Create conda environment from yml file
+conda env create -f Milvus.yml
+conda activate Milvus
+```
+
+### Create Vector Database
+
+```bash
+cd embedding_db/pymilvus
+python create_pymilvus_db.py  # Create collections
+python pymilvus_embedding.py   # Embed and insert data
+```
+
+### Search and Evaluate
+
+```bash
+cd evaluation
+python search_pymilvus.py      # Perform vector search
+python evaluation.py           # Calculate Recall@k
+```
+
 ## 🚧 TODO
 
-- [ ] Add setup instructions for:
-  - Milvus
-  - RAGatouille
-- [ ] Provide a `requirements.txt` file for dependencies.
-- [ ] Include example retrieval script with sample query.
+- [ ] Add setup instructions for RAGatouille
+- [ ] Complete evaluation for all datasets
 
 ---
 ## 📄 Citation
