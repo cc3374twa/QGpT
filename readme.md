@@ -10,6 +10,13 @@ This repository contains the source code, corpora, and model prompts for the pap
 
 ## 🆕 Updates
 
+### 2026/02/03
+
+🎉 **Latest Research at The Web Conference 2026 (WWW 2026)!** Check out our two new papers on this topic:
+
+- 📄 [CGPT: Cluster-Guided Partial Tables with LLM-Generated Supervision for Table Retrieval](https://arxiv.org/abs/2601.15849)
+- 📄 [STAR: Semantic Table Representation with Header-Aware Clustering and Adaptive Weighted Fusion](https://arxiv.org/abs/2601.15860)
+
 ### 2025/10/30
 
 We have released **Milvus-Lite implementation** for local vector database operations:
