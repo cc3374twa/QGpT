@@ -14,8 +14,8 @@ This repository contains the source code, corpora, and model prompts for the pap
 
 🎉 **Latest Research at The Web Conference 2026 (WWW 2026)!** Check out our two new papers on this topic:
 
-- 📄 [CGPT: Cluster-Guided Partial Tables with LLM-Generated Supervision for Table Retrieval](https://arxiv.org/abs/2601.15849)
-- 📄 [STAR: Semantic Table Representation with Header-Aware Clustering and Adaptive Weighted Fusion](https://arxiv.org/abs/2601.15860)
+- 📄 [CGPT: Cluster-Guided Partial Tables with LLM-Generated Supervision for Table Retrieval](https://arxiv.org/abs/2601.15849) | [GitHub](https://github.com/yumeow0122/CGPT)
+- 📄 [STAR: Semantic Table Representation with Header-Aware Clustering and Adaptive Weighted Fusion](https://arxiv.org/abs/2601.15860) | [GitHub](https://github.com/adsl135789/STAR)
 
 ### 2025/10/30
 
